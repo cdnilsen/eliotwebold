@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Gentium';
+    src: url('./Gentium/GentiumPlus-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: Gentium, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+table th {
+    text-align:center;
+    font-size:40px;
+    width:25%;
+}
+
+table td + td { 
+    border-left:2px solid red; 
+}
+
+table td {
+    padding-bottom:25px;
+    padding-left:5px;
+    padding-right:5px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.tab {
+    padding-left: 40px;
+}
+
+li {
+    text-align: center;
+}
+
+input[type="text"] {
+    font-family: Gentium, serif;
+    font-style: italic;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+}
+
+button {
+    font-family: Gentium, serif;
+    font-style: bold;
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
