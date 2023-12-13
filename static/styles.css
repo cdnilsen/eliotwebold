@@ -67,13 +67,21 @@ button {
     padding: 10px;
 }
 
-header {
+th {
     position: sticky;
     top: 0;
-    z-index: 10;
+}
+
+td {
+    position: sticky;
+    top: 10;
+}
+
+header {
+    position: fixed;
+    top: 0;
   }
 
-content {
+#content {
     margin-top: 50px;
-    z-index: 1;
 }

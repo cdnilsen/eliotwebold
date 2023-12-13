@@ -517,6 +517,8 @@ def domasssearch():
                     else:
                         matchingZerothEdition.append("")
 
+
+    includeKJV = len(matchingKJV) > 0
     includeFirstEdition = includeFirstEdition and useFirstEdition and len(matchingFirstEdition) > 0
     includeSecondEdition = includeSecondEdition and useSecondEdition and len(matchingSecondEdition) > 0
     includeMayhew = includeMayhew and useMayhew and len(matchingMayhew) > 0
