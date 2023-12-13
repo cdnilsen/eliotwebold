@@ -60,3 +60,20 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+content {
+    margin-top: 50px;
+    z-index: 1;
+}

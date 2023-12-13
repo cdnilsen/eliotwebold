@@ -94,3 +94,26 @@ outputFileNames = ["./texts/Genesis.Zeroth Edition.txt", "./texts/Psalms (prose)
 
 for i in range(len(extraFileNames)):
     shutil.copyfile(extraFileNames[i], outputFileNames[i])
+
+
+allfilesWithLigature = 0
+for textFile in os.listdir(outputDirectory):
+    hasLigature = False
+    if textFile.endswith(".txt"):
+        with open(outputDirectory + textFile, "r", encoding='utf-8') as file:
+            lines = file.readlines()
+            for line in lines:
+                if 'ꝏ̄' in line:
+                    if hasLigature == False:
+                        allfilesWithLigature += 1
+                        hasLigature = True
+                    print(textFile +  " has a ꝏ̄")
+            else:
+                continue
+            
+    else:
+        continue
+    
+    
+
+print("There are " + str(allfilesWithLigature) + " files with <ꝏ̄> in them.")
