@@ -197,9 +197,6 @@ def doenglishsearch():
 
         verseIndexDictionary[index]['KJV'] = finalKJVVerses[index]
 
-
-        #random change
-        
         verseIndexDictionary[index]['FirstEdition'] = matchingFirstEdition[index]
 
         verseIndexDictionary[index]['SecondEdition'] = matchingSecondEdition[index]
