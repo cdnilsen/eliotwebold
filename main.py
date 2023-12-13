@@ -281,7 +281,7 @@ def domasssearch():
 
     strictDiacritics = request.form['diacritic_strictness'] == 'strict'
 
-    if strictDiacritics:
+    if not strictDiacritics:
         word = cleanLineOfDiacritics(word)
 
     matchingBooks = []
@@ -356,9 +356,28 @@ def domasssearch():
                     verseNum = line.split(" ")[0].strip()
                     verseText = " ".join(line.split(" ")[1:])
                     
+                    verseCheck = ""
+                    if strictDiacritics:
+                        verseCheck = verseText
+                    else:
+                        verseCheck = cleanLineOfDiacritics(verseText)
+
+
                     if verseNum in allVersesList:
-                        if word in verseText:
-                            newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
+                        if word in verseCheck:
+                            newVerseText = ""
+                            if strictDiacritics:
+                                newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
+
+                            else:
+                                i = len(word)
+                                for j in range(len(verseText)):
+                                    if cleanLineOfDiacritics(verseText[j:j+i]) == word:
+                                        newVerseText += "<span style='color:red'><b>" + verseText[j:j+i] + "</b></span>"
+                                        j += i
+                                    else:
+                                        newVerseText += verseText[j]
+
                             newVerseText = Markup(newVerseText.replace('8', 'ꝏ̄'))
                             firstEditionLineDict[verseNum] = newVerseText
 
@@ -374,10 +393,28 @@ def domasssearch():
                     verseNum = line.split(" ")[0].strip()
                     verseText = " ".join(line.split(" ")[1:])
 
-                    if verseNum in allVersesList:
-                        if word in verseText:
+                    verseCheck = ""
+                    if strictDiacritics:
+                        verseCheck = verseText
+                    else:
+                        verseCheck = cleanLineOfDiacritics(verseText)
 
-                            newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
+                    if verseNum in allVersesList:
+                        if word in verseCheck:
+                            newVerseText = ""
+                            if strictDiacritics:
+                                newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
+
+                            else:
+                                i = len(word)
+                                for j in range(len(verseText)):
+                                    if cleanLineOfDiacritics(verseText[j:j+i]) == word:
+                                        newVerseText += "<span style='color:red'><b>" + verseText[j:j+i] + "</b></span>"
+                                        j += i
+                                    else:
+                                        newVerseText += verseText[j]
+                                        
+
                             newVerseText = Markup(newVerseText.replace('8', 'ꝏ̄'))
                             
                             secondEditionLineDict[verseNum] = newVerseText
@@ -392,11 +429,29 @@ def domasssearch():
                 for line in MayhewF.readlines():
                     verseNum = line.split(" ")[0]
                     verseText = " ".join(line.split(" ")[1:])
+
+                    verseCheck = ""
+                    if strictDiacritics:
+                        verseCheck = verseText
+                    else:
+                        verseCheck = cleanLineOfDiacritics(verseText)
                     
                     if verseNum in allVersesList:
-                        if word in verseText:
+                        if word in verseCheck:
+                            newVerseText = ""
+                            if strictDiacritics:
+                                newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
 
-                            newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
+                            else:
+                                i = len(word)
+                                for j in range(len(verseText)):
+                                    if cleanLineOfDiacritics(verseText[j:j+i]) == word:
+                                        newVerseText += "<span style='color:red'><b>" + verseText[j:j+i] + "</b></span>"
+                                        j += i
+                                    else:
+                                        newVerseText += verseText[j]
+                                        
+
                             newVerseText = Markup(newVerseText.replace('8', 'ꝏ̄'))
                             mayhewLineDict[verseNum] = newVerseText
                             
@@ -412,14 +467,32 @@ def domasssearch():
                 for line in ZerothEditionF.readlines():
                     verseNum = line.split(" ")[0]
                     verseText = " ".join(line.split(" ")[1:])
+
+                    if strictDiacritics:
+                        verseCheck = verseText
+                    else:
+                        verseCheck = cleanLineOfDiacritics(verseText)
                     
                     if verseNum in allVersesList:
-                        if word in verseText:
+                        if word in verseCheck:
+                            newVerseText = ""
+                            if strictDiacritics:
+                                newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
 
-                            newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
+                            else:
+                                i = len(word)
+                                for j in range(len(verseText)):
+                                    if cleanLineOfDiacritics(verseText[j:j+i]) == word:
+                                        newVerseText += "<span style='color:red'><b>" + verseText[j:j+i] + "</b></span>"
+                                        j += i
+                                    else:
+                                        newVerseText += verseText[j]
+                                        
+
+                            
                             newVerseText = Markup(newVerseText.replace('8', 'ꝏ̄'))
                             zerothEditionLineDict[verseNum] = newVerseText
-                            
+
                             useZerothEdition = True
 
                             printWhichVersesDict[verseNum] = True
