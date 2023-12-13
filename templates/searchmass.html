@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div>
+        <form action="/domasssearch" method="POST">
+            <input type="text" name="search_query" placeholder="Search...">
+            <button type="submit">Search (use <b><i>8</i></b> for the double-o ligature)</button>
+            Choose which texts to include: 
+
+            <input type="checkbox" name="include_first_edition" id="include_first_edition" checked>
+            <label for="include_first_edition">First Edition (1661/1663)</label>
+
+            <input type="checkbox" name="include_second_edition" id="include_second_edition" checked>
+            <label for="include_second_edition">Second Edition (1685)</label>
+
+            <input type="checkbox" name="include_mayhew" id="include_mayhew" checked>
+            <label for="include_mayhew">Mayhew (1709)</label>
+
+            <input type="checkbox" name="include_zeroth_edition" id="include_zeroth_edition">
+            <label for="include_zeroth_edition">"Zeroth"  Edition Genesis (1655)</label>
+
+            <br>
+
+            <input type="radio" id="diacritics_strict" name="diacritic_strictness" value="strict" checked>
+            <label for="diacritics_strict">Strict Diacritics</label>
+
+            <input type="radio" id="diacritics_lax" name="diacritic_strictness" value="lax">
+            <label for="diacritics_lax">Lax Diacritics</label>
+
+        </form>
+    </div>
+    <table>
+        <header>
+            <tr>
+                {% if KJVIncluded %}
+                <th>KJV</th>
+                {% endif %}
+
+                {% if firstEditionIncluded %}
+                <th>First Edition</th>
+                {% endif %}
+
+                {% if secondEditionIncluded %}
+                <th>Second Edition</th>
+                {% endif %}
+
+                {% if mayhewIncluded %}
+                <th>Mayhew</th>
+                {% endif %}
+            </tr>
+        </header>
+        <content>
+        {% for verseIndex in verseIndices %}
+        <tr>
+            <td>
+                {{ printKJVLines[verseIndex] }}
+            </td>
+            {% if firstEditionIncluded %}
+            <td>
+                {{ printFirstEditionLines[verseIndex] }}
+            </td>
+            {% endif %}
+            {% if secondEditionIncluded %}
+            <td>
+                {{ printSecondEditionLines[verseIndex] }}
+            </td>
+            {% endif %}
+            {% if mayhewIncluded %}
+            <td>
+                {{ printMayhewLines[verseIndex] }}
+            </td>
+            {% endif %}
+        </tr>
+        {% endfor %}
+    </content>
+    </table>
+    </div>
+</body>
+
+<script src="./htmx.min.js"></script>
+</html>

@@ -4,10 +4,12 @@
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='styles.css') }}">
 <body>
     <ul class = "nav">
+
+        <li><a href = "{{ url_for('searchmass') }}">Search in Massachusett</a></li>
         
         <li><a href = "{{ url_for('morphsearch') }}">Morphological Search</a></li>
 
-        <li><a href = "{{ url_for('searchenglish') }}">English Search</a></li>
+        <li><a href = "{{ url_for('searchenglish') }}">Search in English</a></li>
 </body>
 </html>
 
