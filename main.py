@@ -4,7 +4,7 @@ import os
 from werkzeug.utils import secure_filename
 from jinja2 import Template, Environment, FileSystemLoader, select_autoescape
 
-from charreplacementdict import charReplacementDict
+from textdisplayfunctions import charReplacementDict, cleanLineOfDiacritics, displayLine
 
 allBookList = [
     "Genesis",
@@ -300,6 +300,11 @@ def domasssearch():
     useMayhew = False
     useZerothEdition = False
 
+    totalFirstEdition = 0
+    totalSecondEdition = 0
+    totalMayhew = 0
+    totalZerothEdition = 0
+
     finalMatches = []
     finalKJVVerses = []
     bookIndexDictionary = {}
@@ -331,6 +336,8 @@ def domasssearch():
             printZerothEditionLines = []
             
 
+            
+
             KJVF = open('./texts/' + book + '.KJV.txt', 'r', encoding="utf-8")
             for line in KJVF.readlines():
                 verseNum = line.split(" ")[0].strip()
@@ -353,152 +360,46 @@ def domasssearch():
             if includeFirstEdition and os.path.exists('./texts/' + book + '.First Edition.txt'):
                 FirstEditionF = open('./texts/' + book + '.First Edition.txt', 'r', encoding="utf-8")
                 for line in FirstEditionF.readlines():
-                    verseNum = line.split(" ")[0].strip()
-                    verseText = " ".join(line.split(" ")[1:])
-                    
-                    verseCheck = ""
-                    if strictDiacritics:
-                        verseCheck = verseText
-                    else:
-                        verseCheck = cleanLineOfDiacritics(verseText)
 
+                    wordInLineFirstEd = displayLine(line, strictDiacritics, allVersesList, word, firstEditionLineDict, printWhichVersesDict)
 
-                    if verseNum in allVersesList:
-                        if word in verseCheck:
-                            newVerseText = ""
-                            if strictDiacritics:
-                                newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
+                    if wordInLineFirstEd:
+                        useFirstEdition = True
+                        totalFirstEdition += 1
 
-                            else:
-                                i = len(word)
-                                for j in range(len(verseText)):
-                                    if cleanLineOfDiacritics(verseText[j:j+i]) == word:
-                                        newVerseText += "<span style='color:red'><b>" + verseText[j:j+i] + "</b></span>"
-                                        j += i
-                                    else:
-                                        newVerseText += verseText[j]
-
-                            newVerseText = Markup(newVerseText.replace('8', 'ꝏ̄'))
-                            firstEditionLineDict[verseNum] = newVerseText
-
-                            useFirstEdition = True
-                            printWhichVersesDict[verseNum] = True
-                        else:
-                            firstEditionLineDict[verseNum] = ""
                 FirstEditionF.close()
 
             if includeSecondEdition and os.path.exists('./texts/' + book + '.Second Edition.txt'):
                 SecondEditionF = open('./texts/' + book + '.Second Edition.txt', 'r', encoding="utf-8")
                 for line in SecondEditionF.readlines():
-                    verseNum = line.split(" ")[0].strip()
-                    verseText = " ".join(line.split(" ")[1:])
+                    wordInLineSecondEd = displayLine(line, strictDiacritics, allVersesList, word, secondEditionLineDict, printWhichVersesDict)
+                    
+                    if wordInLineSecondEd:
+                        useSecondEdition = True
+                        totalSecondEdition += 1
 
-                    verseCheck = ""
-                    if strictDiacritics:
-                        verseCheck = verseText
-                    else:
-                        verseCheck = cleanLineOfDiacritics(verseText)
-
-                    if verseNum in allVersesList:
-                        if word in verseCheck:
-                            newVerseText = ""
-                            if strictDiacritics:
-                                newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
-
-                            else:
-                                i = len(word)
-                                for j in range(len(verseText)):
-                                    if cleanLineOfDiacritics(verseText[j:j+i]) == word:
-                                        newVerseText += "<span style='color:red'><b>" + verseText[j:j+i] + "</b></span>"
-                                        j += i
-                                    else:
-                                        newVerseText += verseText[j]
-                                        
-
-                            newVerseText = Markup(newVerseText.replace('8', 'ꝏ̄'))
-                            
-                            secondEditionLineDict[verseNum] = newVerseText
-                            useSecondEdition = True
-                            printWhichVersesDict[verseNum] = True
-                        else:
-                            secondEditionLineDict[verseNum] = ""
                 SecondEditionF.close()
 
             if hasMayhew and os.path.exists('./texts/' + book + '.Mayhew.txt'):
                 MayhewF = open('./texts/' + book + '.Mayhew.txt', 'r', encoding="utf-8")
                 for line in MayhewF.readlines():
-                    verseNum = line.split(" ")[0]
-                    verseText = " ".join(line.split(" ")[1:])
+                    wordInLineMayhew = displayLine(line, strictDiacritics, allVersesList, word, mayhewLineDict, printWhichVersesDict)
 
-                    verseCheck = ""
-                    if strictDiacritics:
-                        verseCheck = verseText
-                    else:
-                        verseCheck = cleanLineOfDiacritics(verseText)
-                    
-                    if verseNum in allVersesList:
-                        if word in verseCheck:
-                            newVerseText = ""
-                            if strictDiacritics:
-                                newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
-
-                            else:
-                                i = len(word)
-                                for j in range(len(verseText)):
-                                    if cleanLineOfDiacritics(verseText[j:j+i]) == word:
-                                        newVerseText += "<span style='color:red'><b>" + verseText[j:j+i] + "</b></span>"
-                                        j += i
-                                    else:
-                                        newVerseText += verseText[j]
-                                        
-
-                            newVerseText = Markup(newVerseText.replace('8', 'ꝏ̄'))
-                            mayhewLineDict[verseNum] = newVerseText
-                            
-                            useMayhew = True
-                            printWhichVersesDict[verseNum] = True
-
-                        else:
-                            mayhewLineDict[verseNum] = ""
+                    if wordInLineMayhew:
+                        useMayhew = True
+                        totalMayhew += 1
+                        
                 MayhewF.close()
 
             if hasZerothEdition and os.path.exists('./texts/' + book + '.Zeroth Edition.txt'):
                 ZerothEditionF = open('./texts/' + book + '.Zeroth Edition.txt', 'r', encoding="utf-8")
                 for line in ZerothEditionF.readlines():
-                    verseNum = line.split(" ")[0]
-                    verseText = " ".join(line.split(" ")[1:])
+                    wordInLineZerothEd = displayLine(line, strictDiacritics, allVersesList, word, zerothEditionLineDict, printWhichVersesDict)
 
-                    if strictDiacritics:
-                        verseCheck = verseText
-                    else:
-                        verseCheck = cleanLineOfDiacritics(verseText)
-                    
-                    if verseNum in allVersesList:
-                        if word in verseCheck:
-                            newVerseText = ""
-                            if strictDiacritics:
-                                newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
+                    if wordInLineZerothEd:
+                        useZerothEdition = True
+                        totalZerothEdition += 1
 
-                            else:
-                                i = len(word)
-                                for j in range(len(verseText)):
-                                    if cleanLineOfDiacritics(verseText[j:j+i]) == word:
-                                        newVerseText += "<span style='color:red'><b>" + verseText[j:j+i] + "</b></span>"
-                                        j += i
-                                    else:
-                                        newVerseText += verseText[j]
-                                        
-
-                            
-                            newVerseText = Markup(newVerseText.replace('8', 'ꝏ̄'))
-                            zerothEditionLineDict[verseNum] = newVerseText
-
-                            useZerothEdition = True
-
-                            printWhichVersesDict[verseNum] = True
-
-                        else:
-                            zerothEditionLineDict[verseNum] = ""
                 ZerothEditionF.close()
 
             for verseNum in allVersesList:
@@ -525,6 +426,6 @@ def domasssearch():
     includeZerothEdition = includeZerothEdition and useZerothEdition and len(matchingZerothEdition) > 0
 
 
-    return render_template('searchmass.html', verseIndices = matchingIndices, verseDictionary = verseIndexDictionary, KJVIncluded = includeKJV, firstEditionIncluded = includeFirstEdition, secondEditionIncluded = includeSecondEdition, mayhewIncluded = includeMayhew, zerothEditionIncluded = includeZerothEdition, printKJVLines = matchingKJV, printFirstEditionLines = matchingFirstEdition, printSecondEditionLines = matchingSecondEdition, printMayhewLines = matchingMayhew, printZerothEditionLines = matchingZerothEdition)
+    return render_template('searchmass.html', verseIndices = matchingIndices, verseDictionary = verseIndexDictionary, KJVIncluded = includeKJV, firstEditionIncluded = includeFirstEdition, secondEditionIncluded = includeSecondEdition, mayhewIncluded = includeMayhew, zerothEditionIncluded = includeZerothEdition, printKJVLines = matchingKJV, printFirstEditionLines = matchingFirstEdition, printSecondEditionLines = matchingSecondEdition, printMayhewLines = matchingMayhew, printZerothEditionLines = matchingZerothEdition, firstEditionCount = totalFirstEdition, secondEditionCount = totalSecondEdition, mayhewCount = totalMayhew, zerothEditionCount = totalZerothEdition)
 
     

@@ -1,7 +1,7 @@
 #This program takes text files of transcripts from the Massachusett Bible directory and copies them here.
 
 import os
-
+import re
 import shutil
 
 allBookList = [
@@ -83,7 +83,7 @@ for bookName in allBookList:
     for editionName in ["First Edition.txt", "Second Edition.txt", "KJV.txt"]:
         inputPath = inputDirectory + "/" + bookName + "/" + editionName
         outputPath = outputDirectory + bookName + "." + editionName
-        if os.path.exists(inputPath):
+        if os.path.exists(inputPath):        
             shutil.copyfile(inputPath, outputPath)
         else:
             continue
@@ -96,24 +96,24 @@ for i in range(len(extraFileNames)):
     shutil.copyfile(extraFileNames[i], outputFileNames[i])
 
 
-allfilesWithLigature = 0
-for textFile in os.listdir(outputDirectory):
-    hasLigature = False
-    if textFile.endswith(".txt"):
-        with open(outputDirectory + textFile, "r", encoding='utf-8') as file:
-            lines = file.readlines()
-            for line in lines:
-                if 'ꝏ̄' in line:
-                    if hasLigature == False:
-                        allfilesWithLigature += 1
-                        hasLigature = True
-                    print(textFile +  " has a ꝏ̄")
-            else:
-                continue
+checkForLigatures = False
+if checkForLigatures:
+    allfilesWithLigature = 0
+    for textFile in os.listdir(outputDirectory):
+        hasLigature = False
+        if textFile.endswith(".txt"):
+            with open(outputDirectory + textFile, "r", encoding='utf-8') as file:
+                lines = file.readlines()
+                for line in lines:
+                    if 'ꝏ̄' in line:
+                        if hasLigature == False:
+                            allfilesWithLigature += 1
+                            hasLigature = True
+                        print(textFile +  " has a ꝏ̄")
+                else:
+                    continue
             
-    else:
-        continue
-    
-    
+        else:
+            continue
 
-print("There are " + str(allfilesWithLigature) + " files with <ꝏ̄> in them.")
+    print("There are " + str(allfilesWithLigature) + " files with <ꝏ̄> in them.")

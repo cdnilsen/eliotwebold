@@ -1,404 +1,404 @@
-1.1
-1.2
-1.3
-1.4
-1.5
-1.6
-1.7
-1.8
-1.9
-1.10
-1.11
-1.12
-1.13
-1.14
-1.15
-1.16
-1.17
-1.18
-1.19
-1.20
-2.1
-2.2
-2.3
-2.4
-2.5
-2.6
-2.7
-2.8
-2.9
-2.10
-2.11
-2.12
-2.13
-2.14
-2.15
-2.16
-2.17
-2.18
-2.19
-2.20
-2.21
-2.22
-2.23
-2.24
-2.25
-2.26
-2.27
-2.28
-2.29
-3.1
-3.2
-3.3
-3.4
-3.5
-3.6
-3.7
-3.8
-3.9
-3.10
-3.11
-3.12
-3.13
-3.14
-3.15
-3.16
-3.17
-3.18
-3.19
-3.20
-3.21
-3.22
-4.1
-4.2
-4.3
-4.4
-4.5
-4.6
-4.7
-4.8
-4.9
-4.10
-4.11
-5.1
-5.2
-5.3
-5.4
-5.5
-5.6
-5.7
-5.8
-5.9
-5.10
-5.11
-5.12
-5.13
-5.14
-6.1
-6.2
-6.3
-6.4
-6.5
-6.6
-6.7
-6.8
-6.9
-6.10
-6.11
-6.12
-6.13
-6.14
-6.15
-6.16
-6.17
-7.1
-7.2
-7.3
-7.4
-7.5
-7.6
-7.7
-7.8
-7.9
-7.10
-7.11
-7.12
-7.13
-7.14
-7.15
-7.16
-7.17
-8.1
-8.2
-8.3
-8.4
-8.5
-8.6
-8.7
-8.8
-8.9
-8.10
-8.11
-8.12
-8.13
-9.1
-9.2
-9.3
-9.4
-9.5
-9.6
-9.7
-9.8
-9.9
-9.10
-9.11
-9.12
-9.13
-9.14
-9.15
-9.16
-9.17
-9.18
-9.19
-9.20
-9.21
-10.1
-10.2
-10.3
-10.4
-10.5
-10.6
-10.7
-10.8
-10.9
-10.10
-10.11
-11.1
-11.2
-11.3
-11.4
-11.5
-11.6
-11.7
-11.8
-11.9
-11.10
-11.11
-11.12
-11.13
-11.14
-11.15
-11.16
-11.17
-11.18
-11.19
-12.1
-12.2
-12.3
-12.4
-12.5
-12.6
-12.7
-12.8
-12.9
-12.10
-12.11
-12.12
-12.13
-12.14
-12.15
-12.16
-12.17
-13.1
-13.2
-13.3
-13.4
-13.5
-13.6
-13.7
-13.8
-13.9
-13.10
-13.11
-13.12
-13.13
-13.14
-13.15
-13.16
-13.17
-13.18
-14.1
-14.2
-14.3
-14.4
-14.5
-14.6
-14.7
-14.8
-14.9
-14.10
-14.11
-14.12
-14.13
-14.14
-14.15
-14.16
-14.17
-14.18
-14.19
-14.20
-15.1
-15.2
-15.3
-15.4
-15.5
-15.6
-15.7
-15.8
-16.1
-16.2
-16.3
-16.4
-16.5
-16.6
-16.7
-16.8
-16.9
-16.10
-16.11
-16.12
-16.13
-16.14
-16.15
-16.16
-16.17
-16.18
-16.19
-16.20
-16.21
-17.1
-17.2
-17.3
-17.4
-17.5
-17.6
-17.7
-17.8
-17.9
-17.10
-17.11
-17.12
-17.13
-17.14
-17.15
-17.16
-17.17
-17.18
-18.1
-18.2
-18.3
-18.4
-18.5
-18.6
-18.7
-18.8
-18.9
-18.10
-18.11
-18.12
-18.13
-18.14
-18.15
-18.16
-18.17
-18.18
-18.19
-18.20
-18.21
-18.22
-18.23
-18.24
-19.1
-19.2
-19.3
-19.4
-19.5
-19.6
-19.7
-19.8
-19.9
-19.10
-19.11
-19.12
-19.13
-19.14
-19.15
-19.16
-19.17
-19.18
-19.19
-19.20
-19.21
-20.1
-20.2
-20.3
-20.4
-20.5
-20.6
-20.7
-20.8
-20.9
-20.10
-20.11
-20.12
-20.13
-20.14
-20.15
-21.1
-21.2
-21.3
-21.4
-21.5
-21.6
-21.7
-21.8
-21.9
-21.10
-21.11
-21.12
-21.13
-21.14
-21.15
-21.16
-21.17
-21.18
-21.19
-21.20
-21.21
-21.22
-21.23
-12.24
-21.25
-21.26
-21.27
-22.1
-22.2
-22.3
-22.4
-22.5
-22.6
-22.7
-22.8
-22.9
-22.10
-22.11
-22.12
-22.13
-22.14
-22.15
-22.16
-22.17
-22.18
-22.19
-22.20
-22.21
+1.1 OOwoshwunnumóonk Jesus Christ, ne God anumauump, nahtinont wuttinneumoh nish teanuk mos âunagish, kah an8teamo & ummishamun nashpe wut-Angelsumoh, ut wuttinneumoh John.
+1.2 Noh wauwadt wuttinnowaonk Gód, kah 8wauwaonk Jesus Christ, kah wame nish nagish.
+1.3 Wunnanumau noh agketog, kah nag n8togig, yeush quoshae missohhamóe kutt8wongash, kah nanauwéhteunkig nish$noh adt wussukwhosikish, newutche ahquompi pas8cheyeu8.
+1.4 John en nesausuk tahshinash moeuwehkomongash ut Asia, kitteamonteanitteaonk apehtunk8k, kah wunohteaonk, wutch noh noh koh, noh koh mô, noh páont, kah wutch nesausuk audtahs8itcheg nashauanitt8og, neg apitcheg anaquohtag wutappuonk.
+1.5 Kah wutch Jesus Christ, noh pabuhtanumwe wauwaen, kah mohtomegit ut napukeg, kah ukkehtass8timom8oh Sontimóog ut ohkeit, noh womonukqueog, kodchessumukqueog wutch kummatcheseonganunnónut ut nehenwonche 8squeheonk.
+1.6 Kah kussontimáhukqut, kussephausuaenuáhikqun en Godut, & 8shut, sohsumóonk kah nanaann8waonk ohtauutche micheme kah micheme Amen.
+1.7 Kusseh nashpe peyau mahtohqus, kah nish$noh muskesuk pish wunnauuh, kah nag wonk kônnukkéhtea wómpanneg: kah wame auwadtuongash ohkeit pish mauog newutche noh, ne naj Amen. 
+1.8 Nen Alpha kah Omega, waj kutchissik, kah adt wohkukquoshik, n8wau Lord, noh koh, noh koh mo, kah noh paont, noh wame menuhkesit.
+1.9 Nen John, nen wonk kemat, kah weechiyeumat ut wuttamehpunnaonganit, kah ut ass8tam8onganit, kah ut ummanunnissuonganit Jesus Christ, apeomp menahhannit uss8wetamun Patmos, wutche wuttinnowaonk God, káh wutch wauwáonk Jesus Christ.
+1.10 Nen mo ut nashauanitt8ut, ut ukkesukodtumut Lord, & n8tam ut nuppusquanit mishont8waonk, onatuh monopuhpeg.
+1.11 N8wau, nen Alpha kah Omega, negonne kah maumachish, kah ne nauman, wussukwhush ut wussukwhonganit, kah negonchhuash en nesausuk audtahshinn[u]8gish moeuwehkomongash nish ut Asia, en Ephesus, kah en Smyrna, kah en Pergamos, kah en Thyatira, kah en Sardis, kah en Philadelphia, kah en Laodicea. 
+1.12 Kah nutompamuhquait naumunat ne wadtauatonkqussuonk kôn8sit, kah ompamuhquaéan, nunnaum nesausuk tahshinash golde wequananteganuhtugquash.
+1.13 Kah nashaue nesausuk tahshinash wequananteganuhtugquash, pasuk ogqueneunkqussu wunnaumonuh wosketomp, hogk8 hogk8onk mussishin wusseetut, kah kehtipsqunápissu golde puttukquobu.
+1.14 Uppuhkuk, kah ummesunk wompiyeuash onatuh w8l, wompiyeuash onatuh k8nut, kah wusesukquash onatuh kussompenáe n8teau.
+1.15 Kah wusseetash onatuh ne wanegik wompuhshaog, onatuh chagohsumuk ut áhut sâbasahsumuk: kah 8wadtauatongqussuonk onatuh ne anont8wag m8cheke nippeash.
+1.16 Kah wuttinnuhkôunit nesausuk tahsuoh anogqsoh, kah wutche wutt8nut sohham8m8 aeetaskequok togkodteg: kah wuttinnussuonk onátuh nepâuz pahkôsuk.
+1.17 Kah nauog, nuppenusham ut wussetut onatuh napumuk: kah nupponumunk wuttinóhkou, nuttinnuk, ahque wabesish, nen negonne kah maumachish.
+1.18 Nen noh pamontog kah napukup, kah kusseh, nen nuppomantam micheme, Amen, kah nutahto chepiohkomukque, kah nupp8ongane pohquoshadtikquontunkash.
+1.19 Wussukwhush nish naumanish, kah nish yeuyeu âunagish, kah nish pish âunagish ompetak.
+1.20 Ne siogkok nesausuk tahsuog anogqsog neg nauadcheg nuttinohkôunit, kah nesausuk tahshinash golde wequananteganuhtugquash, nesausuk tahsuog anogqsog, neg wutangelsumoh nesausuk adtahshinnú8gish moeuwehkomongash: kah nesausuk tahshinash wequananteganuhtugquash nish naumanish, nish nesausuk tahshinash moeuwehkomongash.
+2.1 EN wut-angelumoh moeuwehkomonk ut Ephesus, wussukwhush, yeush wussinneash noh kónunont nesausuk tahsuoh anogqsoh ut wuttinohkôunit, noh papaumushádt nashauwe nesausuk adtahshinnú8gish golde wequananteganuhtugqgash.
+2.2 N8wahteoh kutanakausuongash, kah kummenuhkesuonk, kah kummanunnissuonk, kah matta nag kummukk8naôog matchetukeg, kah nag kukqutchheóog an8wacheg nenawun apostlesog, kah nag matta, kah kenamheòog pann8waenúog.
+2.3 Kah kutchequnehtam, kah kummánunnis, kah wutche n8wesuonk kutanakaus, kah matta kussauunum8.
+2.4 Qut neteag k8chumush, newutche kenukkodtam negonne k8womantamóonk.
+2.5 Newutche mehquoantash uttoh waj penusháan, kah aiuskoiantash, kah ussish negonanakausuongash; asuh teanuk pish kuppeyaônush, kah pish nutontahtóh k8wequananteganuhtug, wutch wutáyeuonganit, qut kuttumma aiuskoiantaman.
+2.6 Qut yeu kutahtauun, kussekeneam wutusseonganòoásh Nicolaitansog, nish nen wonk sekeneamonish.
+2.7 Noh wohtauogkut, n8taj toh án8adt Nashauanit en moeuwehkomonganehtu: noh sohkog, nuttinnunnumau meechinat wutch pomantamóe mehtugq ne ohtag nasháue up-Paradisumoh God.
+2.8 Kah en wut-angelumoh moeuwehkomonk ut Smyrna, wussukwhush: yeush wussinneash noh negonne kah maumachish, noh napukup kah pomantam,
+2.9 N8wahteoh kutanakausuongash, kah k8tamehpunáonk, kah matchetuonk, qut ken k8weenaieet, kah n8wahteoh upblasphemaongan8, neg án8wacheg neenawun Jewsog, kah nag matta, qut nag wussynagog8m Satan.
+2.10 Ahque yeush wabesuontash, nish pish ashpunnanumukish, kusseh, mattannit pish kuttinohkonukou nawhutche kuppishagkinnittuonganit, woh kukqutchehetteanaóut, kah pish k8tamehpunám8 piukkukquinne: ken pabuhtanumaush pomantamwae chetuhquab.
+2.11 Noh wohtauogkut n8tamunat n8taj uttoh aûdtog Nashauanit moeuwehkomongash, noh sohkohsit, matta pish woskehikk8 nahohtôeu nupp8onguh.
+2.12 Kah en wut-Angelumoh moeuwehkomonk ut Pergamos, wussukwhush, yeush wussinneash noh ahtunk kenag togkodteg aeetaskequok.
+2.13 N8wahteoh kutanakausuongash, kah uttoh áyean, uttoh wutappuonk mattanit ohtag, kah kummenuhkinnum n8wesuonk kah matta kukohkonn8oh n8namptam8onk, yeush ut kesukodtash uttoh adt Antipas nuppaubohtanumukque n8wauwaéneum, noh nashomukup kenugke kenaau, uttoh apit mattannit.
+2.14 Qut ne teaguashinish k8chimush, newutche naut náwhutche kogkôunumwog ukkuhk8tomuhteaonk Balaam, noh kohk8tomwehteop Balak upponamunat togkussittassunóonk, anaquabhettit wunnaumonuh Israel, meechinat nish sephamauutche nunneukontunkanog, kah ussenat mamussuonk.
+2.15 Neyane wonk neg nawhutche kogkóunukeg ukkuhk8tomuhteaongan8 Nicolaitansog, ne sekeneam.
+2.16 Aiuskoiántash, asuh teanuk kuppeyaaunsh, kah nag pish nutáyéuuhkonóog, nashpe nutt8ne togkodteg.
+2.17 noh wohtauogkut, n8taj, nashauanit uttoh ánont moeuwehkomongoh, noh sohkauont, noh nuttinnumau meechinat adtahtâusik manna, kah pish nuttinnumau wompiqussuk, kah ut qussukquanit wuske wesuonk adt wussukwhosik, ne wanne howan wahteau8k, webe noh adtumunuk.
+2.18 Kah en wutàngelumoh moeuwohkomonk ut Thyatira wussukwhush: yeush wussinneash wunnáumonuh God, noh wuskesukquash agqueneunkquok kesompenae n8taut kah wussetash ogqueneunkquodtash wanegik wompushshog.
+2.19 N8wahteoh kutanakausuongash, kah k8womoausuonk, kah k8tinninneumuhkausuonk, kah k8namptamóonk, kah kummanunnissuonk, kah kutanakausuongash, kah maumachish anue onk nish negonne. 
+2.20 Qut ogguhsenash k8chimush, newutche kummukk8nau noh mittumwossis Jesabel, noh as8wenont wuhhogkuh manittowompaen, kuhk8tomuhkonat, kah uppannes8unnónat nuttinneumoh, ussenat nanwun8dsquauonk kah meechinat sephamauûtche nunneukontunkonog.
+2.21 Kah nuttinnumauop ne woh adt aiuskoianatamuk, ummamussuonk, kah matta wutauskoianatam8un.
+2.22 Kusseh nuttinuhkon appinneat, kah neg weech mamussumoncheg, ut mishe wuttammepunnonat, kittumma aiuskoianatamohettit wutusseonganóash.
+2.23 Kah nunnush wunnechanoh nashpe nupp8onk, kah wame moeuwehkomunganog pish wahteauog, nen noh natinneohkontog wut8unussog, kah metahhash, kah nuttinnunumau nish$noh pasuk kenaau neyaunag kutanakausuongánóash.
+2.24 Qut kuttinnonnumw8, kah onkatogig apitcheg ut Thyatira, ne adtahséhettit, matta ahtauogig yeu kuhk8tomehteaonk, kah matta wahteauouog umm8n8iyeumash Satan nean8wahettit, wanne kupponamauon8mun8 onkatuk weanun.
+2.25 Qut ne mahche ahtauog, menuhkenum8k nô pajeh nuppeyonat.
+2.26 Kah noh sohkog, kah nanáuwehteunk nutanakausuongash nô pajeh wohkukquashinit noh nuttiñumau wutanue menuhkesuontamunat wutohtimoneash.
+2.27 Kah nah pish wunnánauunoh nashpe m8ohshogque souobpunk, neyane 8wishquoh ahkúhqutteaenin, pish nag s8kqshauog neyane attumunumauog n8sh.
+2.28 Kah pish nutinnunnumau mishanogqussoh.
+2.29 Noh wohtauogkut n8taj uttoh nashauanit ánont moeuwehkomungoh.
+3.1 KAh en wut-angelumoh moeuwehkomunk ut Sardis, wussukwhush: yeush wussinneash noh nesausuk adtashadchanon wun-Nashauanitt8moh God, kah nesausuk tahsuog anogqsog, n8wahteoh kutanakausuongash k8wesuongan kukketeam, qut kenup.
+3.2 Askuhwheteash kah menehketeaush n[ì]sh ahtauanish, nish nahen nupp8m8ash: newutche matta namteauoh kutanakausuongash pannuppeyeu8ash ut anaquabit God.
+3.3 Newutche mehquontash uttoh áne attumunuman, kah n8taman, kah menuhkenish, kah aiuskoiantàsh, newutche matta askuhwheteaan, pish kenúhkekoush onatuh komm8towaen, kah matta pish k8wahteo uttiyeu hour nóhkekauun.
+3.4 Nutogguhsuwesuonganam ut Sardis, neg matta nishketeau8gig wuthogk8unn8woash, kah nag pish n8weechógquog ut wompésinneat, newutche tapeneunkqussuog.
+3.5 Noh sohausit noh pish womphogk8unau, kah matta pish nutjiskham8 8wesuonk wutch pomantamwáe wussukwhonganit, qut pish nussamp8am 8wesuonk ut anaquabit n8sh, kah ut anaquabhettit wutanglsumoh.
+3.6 Noh wohtauogkut n8taj uttoh àdtog Nashauanit moeuwehkomongash.
+3.7 Kah en wut-angelumoh moeuwehkomonk ut Philadelphia, wussukwhush, yeush wutsinneash noh waneetupanatamweyeuit, noh wunnamuhkuteyeuit, noh wadchanuk uppohquoshadtikquontunk David, noh woshwunuk matta howan ukkupham8un, kah noh kóphog, kah matta howan 8woshwunum8un.
+3.8 N8wahteoh kutanakausuongash, kusseh, kupponumoush anaquabean woshwetashine squoant, kah matta howan woh ukkupham8un: newutche peyásin kummenuhkesuonk, kah kenanauwehteop nuttinnowaonk, kah matta kukquenauwaantam8 n8wesuonk.
+3.9 Kusseh, nag wussynagogumuh Satan, nág anawácheg nenawun Jewse, kah matta, qut pann8wáog, nag nuppeyaheóog kah waussummuwaog anaquohtag kusseetash kah n8wahteauwahéoog k8womonsh.
+3.10 Newutche kenanauwehteóh nummanunnishuwáe wuttinnowaonk, nen wonk kenanauwéhesh wutch qutchehuwáe hour$ut, ne pish nohkuhkam8m8uk wame muttaok, qutcheheoneat neg wadohkitcheg ohkeit.
+3.11 Kusseh, teanuk nuppeyam, menuhkenish ne ahtauan, matta howan wutamaunum8unat kutchetuhquab.
+3.12 Noh sohkog, nuppogkomuhquonkanuhkon ut wuttempleumut num-Manittom, kah matta pish wonk sohham8: kah pish n8sukuhhum ut wuhhogkat 8wesuonk num-Manitt8m, kah ne as8wésik ukkeihtótan num-Manitt8m wuske Jerusalem, ne n8kem8uk wutch kesukqut wutch num-Manitt8mut, kah n8skewesuonk.
+3.13 Noh wohtauogkut n8taj toh Nashauanit âudtag moeuwehkomongash.
+3.14 Kah en wut-angelumoh Laodiceane moeuwehkomonk, wussukwhush, yeush wussinneash noh Amen, noh pabuhtanumukque kah wunnamuhkutée wauwaénin, noh waj kutchissik ukkesteauonk God:
+3.15 N8wahteóh kutanakausuongash, ken matta kukquoshkodch8h, asuh matta kussopesu, nopehnont sonkquesean asuh kussopessean.
+3.16 Neit newutche kukkussinas, kah matta kussonkqueseuh asuh kukkussopésu, kummenadtamwonsh wutch nutt8nut.
+3.17 Newutche kussim n8weenauweet, kah nano monat nummaumachiash, kah mat teag nukquenahik8h, kah matta k8wahteóh kenishkeneunkqus, kah kukkitteamunkéyeu, kah kummatcheek, kah kuppogkenum, kah kupposkis.
+3.18 Kukkuhk8tomoush, atáameh gold quajteausik ut n8taut, onk woh k8wenauweet, kah womphogk8, onk woh k8togk8in, kah akodchue kupposkissuonk woh mo nogquodtinno, kah susséqunush kuskesukquash nashpe mushkesukque pummee, onk woh kenaum.
+3.19 Ne adtahshe womonog, nutaushkomóog & nussasamatahwhóog: newutche zealoussúish, kah aiuskoiantash.
+3.20 Kusseh, nunneepoh squont, kah nutchuhchunkquttahhám: howan n8tog n8wadtauatonkqussuonk, kah woshittan8k, pish nuppetutteaon, kah pish n8weepum, kah nagum n8wehpumuk.
+3.21 Noh sohkog, n8wet8wom n8wetappémukqunat ut nutappuonganit, neyane wonk nen sohkosséomp, kah n8weetappem n8sh ut wutappuonganit.
+3.22 Noh wohtauogkut n8taj Nashauanit uttoh âdtog moeuwehkomongash.
+4.1 MAhche yeu nag, nadtauwomp, kah kusseh, squont woshwemo kesukqut, kah negonne wadtauatonkqussuonk ne n8tam, onatuh monopuhpeg keket8hkiit, ne an8wóm8uk na wutch kuhkuhqush, kah kenahtinush nish pish aûnagish ompeták.
+4.2 Kah teanuk nen mo Náshauanit8ut, kah kusseh, appuonk ponausu kesukqut, kah pasuk appu appuonganit.
+4.3 Kah noh na apit monineauónat, ogqueneungqussu Japer & Sardine hassunnit, kah ukqunnogquonnu8p waéénu appuonk, mòneaumunat ogqunneungquodt Emerald.
+4.4 Kah waéénu appuonganit, neesneechagkodtash nabo yau appuongash; kah ut appuonganit, nunnau neesneechagkodtog kah yauog Eldersog appuog, hogk8og wompogk8ongash, kah uppuhkukk8óut ohteau golde chetuhquabeash.
+4.5 Kah wutch appuonganit sohham88 ukkutshaumunash, kah neempó8, kah wadtauatonkqussuongash, kah nesausuk tahshinash n8tae wequanantegash chikohtaash ut anaquohtag appuonk, neg nesausuk tahsuog wun-Nashauanitt8moh God.
+4.6 Kah anaquohtag appuonk na mo glasse kehtoh ogqueneunkquodt Crystal: kah nashaue appuonganit, kah waéénu appuonganit, yauog puppinashimwog posháneskesuk88og, negonneyeu8ut kah 8támiyeum8óu.
+4.7 Kah negonne puppinashim ogqueneungqussu qunn[ò]n8ut, kah nahohtôeu puppinashim ogqueneunkqussu Kalfut, kah nishwe puppinashim wuskesuk8 onatuh wosketompaut, kah yaue puppinashim ogqueneunkqussu pahpumúnont wompsukuk.
+4.8 Kah nish$noh pasuk neg yau8utcheg puppinashimwog, nequtta kuttahshin nuppóhwhunóog, kah anomut numwohteau wuskesuk88ash, kah matta anwôhsinóog kesukodtáe kah nukkonae, n8waog, Wunneetupanatam, wunneetupanatam, wunneetupa[u]atam, Lord God wame manuhkesit, noh koh mo, noh koh, kah noh paont.
+4.9 Kah yeug puppinashimwog, sohsum8onáhettit kah quohtianumáhettit, kah tabuttantamauáhettit, neh apinitcheh apuonganit, noh macheme pomontag.
+4.10 Neesneechagkodtog nabo yau Eldersog kepsháog ut anaquabenit neh ápinitcheh apuonganit, kah neh wowussumóuh, neh macheme pomantamunutcheh, kah unnohteaog wutchetuhquabeoash anaquohtag appuonk, n8waog,
+4.11 Kuttapenum woi Lord, attumunumunat sohsumóonk, kah quttianittuonk, kah menuhkesuonk, newutche kukkesteóh wame teanteaquassinish, kah nish ohtagish, kah kesteausikish wutch kuttenantam8onk.
+5.1 KAh nunnaum wuttinóhkounit noh ápit appuonganit, b8ke wussukwhósu ut anomut & woskeche, kuhkinneásue menuhketeausu nashpe nesausuk tahshinash, menuhketeáe kuhkinneasuongash.
+5.2 Kah nunnau menuhkesue angel, mashont8wáe keket8hkont, howan tapenuk woshwunnumunat ne b8k, kah ompenimunat wussealumash?
+5.3 Kah wanne howan wosketomp kesukqut, asuh ohkeit, asuh agwe ohkeit, wuttapenum8 woshwunnumunat b8k, asuh ummónunneaumunát.
+5.4 Kah numm8cheke móh, newutche wanne howan namehheóon woshwunnumunat kah wutogketamunat ne b8k, asuh ukkehkenaumunneat.
+5.5 Kah pasuk neg Eldersog nuttuk, ahque maush: kusseh, ukqunnonoumoh wutchippan8onk Judah 8wadchaubuk David, noh sohkom 8woshwunnumunat b8k, kah wutompinimunat nesausuk tahshinash wussealumash.
+5.6 Kah nukkehkeneaumun, kah kusseh, nashaue appuonganit, kah yauog puppinashimwog, kah nashauwe Eldersuut, lamb neepau, onatuh nashit, nesausuk tahsuoh wutaskonoh, kah nesausuk tahshishkesukquau, neh nesausuk tahsuoh wunnashauanitt8moh God, àn8nôog en wamme muttaohket.
+5.7 Kah peyau, kah nemunum b8k wutch wunnutcheganit noh na ápit appuonganit.
+5.8 Kah neemunuk b8ke, yauouutcheg puppinashimwog, kah neesnechagkodtog kah yau Eldersog, penusháog ut anaquabit lamb, nish$noh pasuk n$nag wutharpsummúog, kah golde wiskquash nanumwohtaush weetemungquokish, nish uppeantam8ongan8ash wunneetupanatogig.
+5.9 Kah an8hamóog wuske ann8hamaonk n8waog, kuttapenum nemunumunat b8k, kah woshwunnumunat wussealumash, newutche kenushteap, kah kummanouhimunnonup en Godut, nashpe k8sqheonk, wutch nish$noh auwadtinneau, kah unnont8waonk, kah missinninnúog, kah wutohtimóin.
+5.10 Kah kutayimaiimunónup ut num-Manitt8munnonut keihtass8timwog, kah sephausuenúog, kah pish nanauunumumun ohkeit.
+5.11  Kah natauwompip, kah n8tau 8wadtauatonkqussuongan8 monaog angelsog waéénu apuonganit, kah puppinashimwog, kah Eldersog, kah ne adtahséhettit piogqut muttannongash, kah muttannongash wonk nompe muttannongash.
+5.12 Mishont8wáe n8waog, tapenum noh Lambe, noh nashomukup, wutattumunumunat nanánuwaonk, kah weenauwetuonk, kah waantamóonk, kah menuhkesuonk, kah quttianittuonk, kah soshumóonk, kah wunnanittuonk.
+5.13 Kah n8taomp nish$noh oáas noh ápit kesukqut, kah ohkeit, kah agwe ohkit, kah neg apitcheg kehtahhanit, kah wame neg na apitcheg, n8waog, Wunnanittuonk, quttianittuonk, sohsumóonk kah nanánuwaonk ahtauaj noh ápit appuonganit, kah ahtauaj Lamb, micheme kah micheme.
+5.14 Kah yauog puppinashimwog n8waog, Amen. Kah neesneechagkodtog nabo yau Eldersog penusháog, kah waussumaog noh pomantog micheme kah micheme. 
+6.1 KAh nunnau Lamb woshinuk pasuk seale, kah n8tamup onatuh neempaog padtuhquohhamwéhettit, pasuk neg yauóuutcheg puppinashimwog, n8wau, peyaush kah naush. 
+6.2 Kah naumup, kah kusseh, wompesu horse, kah noh nuhquenapit wutahtompeyeu, kah chetuhquab aninnumauâu, kah sohham sohkósu kah sohkôsinneat.
+6.3 Kah woshinuk nahohtôeu seale, n8tauomp nahohtôeu puppinashim, n8wau, peyaush kah naush.
+6.4 Kah sohham onkatuk horse mushquesu, kah menuhkesuonk aninnumauau na noh apit wutamaunumunat wunohteaonk wutch ohkeit, kah woh nag wunnushittinneaóut, kah mishe togkodtog aninnumauau.
+6.5 Kah woshunuk nishwe seale, nunn8tau nishwe puppinashim n8wau, peyaush kah naish, kah natauwompip, kah kusseh, moesu horse, kah na noh quenapit, quttompagk8tongash ohteau wunnutcheganit.
+6.6 Kah n8tamup wuttauatonkqussuonk nashaue puppinashim$ut, n8wau, quttuhwheteames wheat wutche nequt ompskot, kah nishwe quttuhwheteamesash Barly wutch nequt ompskot, kah ahque matchehteash pumme kah wine.
+6.7 Kah woshwunuk yauunnu8uk seal, nunn8taomp yau8ut puppinashim, n8wáu peyaush kah naish.
+6.8 Kah natawompip, kah kusseh, wepequesu horse kah 8wesuonk na noh quenapit nupp8onk, kah chepiohkomuk weeche ásuhkohsútam: kah nag annumáuópanneg menuhkesuonk yauutchippag ohke, wunnehtauunnáout nashpe togkodteg, kah nashpe kodtupp8onk, kah nashpe nupp8onk kah nashpe puppinashimwog ohkeit.
+6.9 Kah woshwunuk napanna adtashinnuuk seal, nunnau, ut agwe Altarut, ukketeahogkoun8uh neg nashitcheg wutche wuttinnowáonk God, kah wutch wauwaonk ne manuhkenumwohetteup.
+6.10 Kah mishont8wae wuttauatonkqussuog, n8waog, Toh utt8che, woi Lord, wunnetupanatamwe kah wunnamuhkutée, matta k8sittum8, kah kutann8tóh n8squeheonganun, neg wodohkitcheg ohkeit?
+6.11 Kah natauwompip, woshwunuk nequtta adtahshinnú8uk seale, kah kusseh, mishe quequnanup, kah nepâuz moésu onatuh mesunkane man8táe monak, kah nanepôhshad ogqueneunkqussu wusqueheonganit.
+6.12 Kah natauwompip, woshwunuk nequtta adtahshinnú8uk seale, kah kusseh, mishe quequnanup, kah nepâuz moésu onatuh mesunkane man8táe monak, kah nanepôhshad ogqueneunkqussu wusqueheonganit.
+6.13 Kah kesukque anogqsog, pogkussinwog ohkeit, neyane figsúhtuk penuhteadt mas8muneú8gish figsash nanámanuhhukqut mehshehtahshinneuh.
+6.14 Kah kesukquash monchem8ash onatuh tatuppagshunk moáeu tatupagshunk, kah nish$noh wadchu, kah munnoh, ontohtaash wutch wutayeuonganit.
+6.15 Kah kehtass8tamwog muttaohket, kah matikkenukeg weenauwetuenuog, kah keichimmugquompaog, kah menuhkasketompaog, kah nish$noh missin, kah nish$noh chippinnin puttogqueog, ut asompamukquodtut, kah qussukquonadchuut.
+6.16 Kah unnáog wadchuoh, kah qussukquanash, nuhkuhkiinnean, kah puttogwhinnean, wutch wuskesukqut noh apit apuonganit, kah wutch ummusquanittuonganit lambe.
+6.17 Newutche ummishe musquanittamwe kesukodtum peyaum8, kah howan woh tapenuk neepauinneat.
+7.1 KAh mahche yeu nnag, nunnauomp, yauog Angelsog, nepóog yauut p8chag muttaok, kohkonôog yauoh wabanoh ut muttaohket, waban matta woh ukkusishóunat ut ohkeit, asuh ut kehtahhannit, asuh ut teagwe mehtugqut.
+7.2 Kah nâau onkatogeg angelsoh kuhkuhqueog wutch wutchepwáou, ahtâu wussealum pomantamwáe God, kah mishont8wáe wattauwatonkqussu yau8ut angels nag annumauutcheg matchehteauunat ohke kah keihtoh.
+7.3 N8waog, ahque woskehteau8k ohke, asuh keihtoh, asuh méhtugquash, nô pajeh sealheogkut wuttinneumoh num-Manitt8mun, ut wuskodtukk8óut.
+7.4 Kah n8tamup agkemut neg sealhetcheg, kah nequt pasuk88og, kah yauunchagkodtog, kah yauut muttannonganogkussuog sealhetcheg, wutch wame wutchippan8ongan8 wunnaumonuh Israel
+7.5 Wutch wutchippan8onganit Judah, nabo neese muttannongañogkussuog sealhetcheg. Wutch wutchippan8onganit Reuben nabo neese muttannonganogkussuog seahetcheg. Wutch wutchippan8onganit Gad, nabo neese muttannonganogkussuog sealhetcheg.
+7.6 Wutch wutchippan8onganit Ashur nabo neese muttannonganogkussuog sealhetcheg. Wutch wutchippan8onganit Naphthali nabo neese muttaunonganogkussuog sealhetcheg. Wutch wutchippan8onganit Manassses nabo neese muttannonganogkussuog sealhetcheg.
+7.7 Wutch wutchippan8onganit Simeon nabo neese muttannonganogkussuog sealhetcheg. Wutch wutchippán8onganit Levi nabo neese muttannonganogkussuog sealhétcheg. Wutch wutchippan8onganit Ishakar nabo neese muttannonganogkussuog sealhetcheg.
+7.8 Wutch wutchippan8onganit Zabulon nabo neese muttannonganogkussuog sealhetcheg. Wutch wutchippan8onganit Joseph nabo neese muttannonganogkussuog sealhetcheg. Wutch wutchippan8onganit Benjamin nabo neese muttannonganogkussuog sealhetcheg.
+7.9 Mahche ne nág*, kah kusseh matáanugeg, matta woh howan wâogkemunke, wutch wame wutohtimóneat, kah áuwadtuonganit, kah missinninnuog, kah unnont8waongash, [n]eepoog anaquohtag appuonk, kah anaquabit lambe, hogk8 wompuppetwoshkushaongash, kah palmash ut wunnutchegan8óut.
+7.10 Kah mishontoe wuttáuwatonkqussuog n8wáog, wadchanittuonk en ku Manitt8munnónut noh apit ut appuonganit, kah en lambut.
+7.11 Kah wame angelsog wéénekompauog appuonganit, kah wééne eldersut, kah yaouutcheg puppinashimwog, kah penushaog ut wuskesuk8óut, ut anaquohtag appuonk, kah waussumáog Goduh.
+7.12 N8wáog, Amen: wunnanittuonk, kah sohsumóonk, kah waantamóonk, kah tabattantamóonk, kâh quttianittuonk, kah nananuwaonk, kah menuhkesuonk ohtaj kumManitt8munónut micheme káh micheme. Amen.
+7.13 Kah pasuk elder namp8ham nuttinnuk, howanig yeug, agqutcheg wompuppetashqushaóngash? kah toh nag 8muneau?
+7.14 Kah nuttinop, Nussontimom, k8wahteoun, kah nuttinuk, Yeug na wagig mishe wuttammepunnaonganit, kah kutchissitauog 8wompuppetashqushaongan88ash, kah 8wompiteauunáoash ut 8squeheonganit lambe.
+7.15 Ne waj nag appéhettit anaquohtag wutappuonk God, kah 8wáwussumóuh kesukodáe & nukonáe ut wuttempleumut, kah noh apit appuonganit pish 8weetomuh.
+7.16 Nag pish matta wonk kodtupp8og asuh wonk kuhkutton8og, asuh matta pish nepauz wutchikosuh, asuh wanne kussopsuonk
+7.17 Newutche lambe noh apit nashaue âppuonganit pish nah wussóhkom8unuh, káh pish wuttiss8wunuh en pomantamwae tohkekomue nippeit, kah God pish chiskhom wame wussuppek8ash wutch wuskesuk8óut.
+8.1 KAh woshunuk nesausuk adtahshinnúuk seal, chequnappuonk kesukqut papaume paushe hour.
+8.2 Kah naau nesausuk tahsuoh angelsoh, neg neepautcheg anaquabit God, kah nag aninnumauóog nesausuk tahshinash monopuhpekquanash.
+8.3 Kah onkatog angel peyáu kah neepau ut Altarut, ohtau golde censer, kah m8che aninnumauop incense, woh wussephausinneat nashpe uppeantamóongan88ash wame wunnetupanátogig, ut golde altarut, ne ohtag ut anaquohtag throne.
+8.4 Káh pukuttae incense, ne weeche peyom8uk uppeantám8ongan8 wunnetupanatogig, ushpeem8 ut anaquabit God wutch wun[u]utcheganit Angel
+8.5 Kah angel nemunum censer, kah wunnumwohtauun n8táu ut altarut, kah wuttinuhkon ohkeit, kah na mo wodtauatonkqussuongash kah neempóou, kah ukkutshaumunash kah quequan.
+8.6 Kah nesausuk adtahs8utcheg angelsog neg ohtunkig nesausuk tahshinash monopuhpégquanash, nag quoshauwéhtamwog uppuhpequonáout.
+8.7 Negonne angel puhpéquau, nahohtôushaum8 mussegan, kah n8tau kenugkenausu wusqueheonganit, kah neg nuhkônunk ohkeit, kah nashwe chippag mahtugquash mohtuhttaash, kah wame ashkashquosh mohtuttáash.
+8.8 Kah nahohtôeu angel puhpéquau, kah onatuh mishadchu chogohtag nashpe n8tau mo unnuhkon kihtahhannet, kah nashwe chippag keihtoh musqueheonganú8.
+8.9 Kah nashwe chippissitcheg oaásineg neg apitcheg keihtahhannit, kah pamontogig, nupp8og, kah nashwe chippagish kuht8nogquash paguatauunásh.
+8.10 Kah nashuudt angel pepequau, kah na wutch, penushon mishanogqus wutch kesukqut, nashqunau onatuh lamput, kah pogkussumwontam nashwe chippagish sepuash, kah ut tohkekomue nippeit.
+8.11 Kah 8wesuónk anogqs ussowétamun ask8kaskeit, kah monaog wosketompaog wosketompaog nupp8og ut nippekontu, newutche nish weesoganteauunash.
+8.12 Kah yau8udt angel puhpequau, kah nashwe chippesit nepauz togkomau, kah nashwe chippesit nanepaushadt, kah nashwe chippissitcheg anogqsog, ne waj nashwe chippissitcheg pogkenumwahtóog, kah nashwe chippag kesukod matta wohsum8mun8, kah nukon netatuppe.
+8.13 Kah kehkeneam, kah nunn8tau angel t8weu pannuppe nashauwe kesukqut, mishont8wáe n8wau, wo, wo, wo, wadohkitcheg ohkeit, newutche onkatogish puhpequae wadtauatonkqussuongash, nishuog angelsog neg ash puhpequagig.
+9.1 KAh napanna adtahs8it angel puhpéquau, kah nunnau annogqs penushau wutch kesukqut en ohkeit, kah anninnumauau machemónogok pahsohthegane pohquosh adtikquontunk.
+9.2 Kah woshwunum machemónogok pahsohtheg, kah na wutch waápemo pukut pahsohtheganit onatuh pukkuttáe ahhut sabasasumuk, kah nepauz kah mamachekesuk pohkenni, wutch pukkutteau ut pahsohtheganit.
+9.3 Kah locustsog sohhamwog wutch pukuttaut, ut wosketohke, kah nag aninnumauoog nmenuhkesuonk, onatuh scorpionsog ut ohkeit neyan menuhkeshettit.
+9.4 Kah nag mo ann8naog matta 8wosketeauunnaóut moskehtuash ohkeit, asuh matta ashquosquan8g, asuh wanne teagwontug: qut webe yeug wosketompaog matta ohto8gig wussealum God ut wuskodtuk8óut.
+9.5 Kah nag aninnumauóog matta wunnushonaóut, kah woh wutonkapunnonaóut napanna tahsuoh nepauzoh; káh wutonkapunnaongan8 onatuh wutonkapunnateaongan8 scorpionsog, togkomáhettit wosketompuh.
+9.6 Kah yeush kesukodtash wosketompaog pish natinnehamwog nupp8wonk, kah matta pish ummishkom8uneau, kah pish kodtautamwog nuppun, kah nupp8onk wutámaeihtauoh.
+9.7 Kah wuttinnussuongan8 locustsog ogqunneunkqussuog horsesut quogquoshwéhtamwéhettit ayeuwuttuonk, kah uppuhkukk8óut, neyane chetuhquabeash onatuh gold, kah wuskesuk8ash onatuh wuskesuk8óut wosketompaog.
+9.8 Kah ummeesonkan8 ogqueneunkquodt ummeesunkan8óut mittumwussissog, kah weepittuoash onatuh wepitt8óut qunnón8og.
+9.9 Kah ahtóog mohpanáganit ahohtagish, onatuh m8óhshagque mohpanoganit ahohtagish, kah ne anont8wanit wunnuppuhwhunnóuh onatuh ne anont8wag tatuppequanumuk, monaog horsesog quagquehettit en ayeuwuttinneat.
+9.10 Kah wannanneyeuoash, ogqunneunkquodtash scorpionsut, kah wutchokh8waongan88ash ohtaash wannanéyeuóut, kah menuhkesúpanneg 8woskheonaóut wosketompuh napanna tahsuoh nepauzoh.
+9.11 Kah nag ukketass8tim8múog, noh machemónogok pahsohthegane angel noh 8wesuonk Hebrewont8waonganit Abaddon, qut Greekont8wonganit ussowesu Apolyon.
+9.12 Pasuk woe paumsheau, kah kusseh neesinash wonk woash nahohtôeu peyaum8ash.
+9.13 Kah nequtta adtahs8ut angel puhpequau, kah nunn8tam wadtauatonkqussuonk, wutch yaue wutuskonit golde Altar, ne ohtag anaquabit God.
+9.14 Unnau nequtta adtahs8unitche angeloh, noh wámonuhpuhpequoneup, ompin yau8utcheg angelsog neg kashpisitcheg ut mishe sepuut Euphrates.
+9.15 Kah yauog angelsog ompinneóog, neg quagquoshwéhtauutcheg, wutche hour, kah kesukod, kah nepauz, kah kodtumm8, wunnashónat nashwe chippissinitche wosketompuh.
+9.16 Kah neadtahs8hettit ukkésauwámeongan8 horsemansog neese muttannungane muttannungash, kah n8tam nag ogkemut.
+9.17 Kah yeu nuttussinnauóneau horsesog, ut monomansinneat, kah neg noh quenapitcheg, n8táe mohpannoganit ahhohtagish, kah jacinth, kah brinstone, kah uppuhkuk88ash horsesog, onatuh uppuhkuk8ash qunnon8og, kah wutch wutt8n8wóut sohham8m8 n8tau, kah pukit, kah brimstone.
+9.18 Nashpe yeug nishwe, nashwe chippissitcheg wosketompaog nushóog, nashpe n8tau, kah nashpe pukit, kah nashpe brimstone, nish wôm88gish wutch wutt8n8óut.
+9.19 Newutche ummenuhkesuongan8 wutt8n8wóut, kah wananeyeuwóut, kah newutche wananeyeuash ogqunneunkquodtash ask8kut, kah uppuhkukk8m8ash, kah nish nashpe 8woskhuwáhunwonaoash.
+9.20 Kah neg ashqueneanutcheg wosketompaog, neg matta nushoncheg wutche yeush enninneaongash, asquam aiuskoiánatam8og wutusseonganóash wunnutchegan8óut, matta wowussumauunnaóut máttannitt8h, kah golde kah silvere kah womuhshoge kah hassunne, kah mehtugque nunneukontunkanog, neg matta naum8gig, asuh n8tam8gig, asuh paumushagig.
+9.21 Kah matta aiuskoianatam8og wunnushteaongan88ash, asuh uppauwauongan88ash, asuh ummamussuongan88ash, asuh ukkomm8towongan8oash.
+10.1  KAh nunnau onkatuk masugkenuk angel n8keu wutch kesukqut, hogk8 mahtokqs, kah ukquanogquoanuh ut uppuhkukqut kah wuskesuk onatuh nepauz, kah wusseetash onatuh n8táe neepattunkquonkanash.
+10.2 Kah wunnutcheganit ohteau b8kemes woshwohteau; kah ponam wuttinnohkóe wusset keitahhannet, menadchée wusseet ohkeit.
+10.3 Kah mishont8wáe wuttauatunkqussu, onatuh qunónou wodtauatonkqusitche, kah wadtauatonkqussit, nesausuk tahshit mishont8wáe padtahquóhhan.
+10.4 Kah mahche nesausuk tahshit mishont8wáe padtuhquóhhog, nukkodwussukhumup, kah n8tam wadtauatonkqussuonk wutch kesukqut, nuttugqun sealeteash yeush nesausuk adtahshit mishont8wáe padtuhquohhogish, kah ahque wussukwhush.
+10.5 Kah angel noh nauog neepau kehtahhannit, kah ohkeit, tohshinum wunnutcheg en kesukqut.
+10.6 Kah nah wunnashpe chadchekeyeuónuh, neh micheme pamantamunutcheh, kah micheme, noh kesteunk kesuk, kah nish$noh ohtagish, kah ohke kah nish$noh ohtagish, kah keihtoh, kah nish$noh ohtagish, matta pish wonk utt8cheinn8. 
+10.7 Qut nish kesukkodtash nesausuk adtass8ut angel mishont8adt, n8che puhpequadt, wussiogkodt8m God pish kesteausu, neyane wahteauwáheont wuttinneumoh manittowompuh.
+10.8 Kah wuttauatonkqussuonk ne n8tamup wutch kesukqut, wonk nukken8nukqun, [kah/káh] n8wau monch, kah nemunush b8kemes, ne woshwunausik ut wunnutcheganit angel, noh nepauut kehtahhannit kah ohke.
+10.9 Kah nutomp angelut, kah nuttinop áninnumah b8kemes, kah nuttinuk, neemunush kah mahchipwush, kah pish kenogkus wesogkonehteauun, qut pish ut kutt8nut wekon onatuh hony.
+10.10  Kah neemunumup b8kemes wutch wunnutcheganit angel, kah nummahchipwunneáh, kah mo ut nutt8nut ogk8weekon honyut, kah quenau mahchipweon, nunnogkus wesogkon.
+10.11 Kah nuttinuk, wonk mos kuhk8tomuhteam ut anaquabhettit monaog missinninnuog, kah wutohtimóneash, kah unnont8waongash, kah kehtass8tamwog.
+11.1 KAh wekinask nuttinnunumóut ogqunneunkquodt souobpuhquomut, kah angel neepau, n8wau, omohkish, kah quttuhwhush wuttempleum God, kah Altar, kah neg noh adt wausummuácheg.
+11.2 Qut chippinneútunk ne ohtag poquadchit templeut, ushquéquttoush, kah ahque quttóush, newutche aninnumauóneau Gentilsog, kah wunneetupanatamwe keihtotan pish wuttattashkuhkomunneau ut wusset8óut yauunchagkodtog nepauzáog, kah neesuog.
+11.3 Kah nuttinnumau menuhkesuonk neesuog n8wauwaéneumog, kah nag pish quosháe missohhamwog, nequt muttannongane, kah neese pasuk8e, kah nequtta tahshinchage kesukodtash, hogquehhettit munn8taogk8unash.
+11.4 Yeug neesinash oliveuhtugquash kah nesinash wequananteguhtugquash, nepattaash anaquabit um-Manitt8moh ohke.
+11.5 Kah howan nah woskeheunt, n8teau sohhamm8 wutch wutt8n8wóut, kah paguanuog ummatwom8uh, kah howan nah woskeheunt, yeu ne pish nushon.
+11.6 Yeug menuhkesuog ukkuphamunnaóut kesuk matta sokonóununóut ut kesukkodtut quosháe missohhamóhettit, kah menuhkesuog ut nippekontu, ukquinnuppinnumunnaóut en wusqueheonganaóut wuttogkodtamuñaóut ohke nashpe wame enninneaongash noh att8che unnántamóhetticheh.
+11.7 Kah mahchussehettit 8wauwaongan8, puppinashim noh kohkukqueit wutch machemonogkok pahsohtheg noh pish nah wutáyeuhkonuh, kah pish nah wussohkouoh, kah pish wunnushuh.
+11.8 Kah wunnupp8e muhhogkauh pish sepsinwog toumaogquéhtu mishe otánat, ne nashauanittoe asowétamuk Sodom kah Egypt, uttoh adt nul-Lordumun wonk pummetonkapunadtup.
+11.9 Kah nag missinninnuog, kah auwadtuongásh, kah unnont8waongash, kah wutahtimóneash, pish nauáog wunnuppoe wuhhogkauh nishikkesukquáe kah pohque, kah matta pish unnanumau8og wunnupp8e wuhhogkauh ponónat wenohkeit.
+11.10 Kah nag wadohkitcheg ohkéit pish nah 8weekontam8wounóuh, kah pish ayimog wekontamóonk, kah pish mag8ongash hennumóadtúog, newutche yeug nesuog manittowompaog, auwakompanunáog noh wadohkinitcheh ohkeit.
+11.11 Kah mahche nishikquinogkok, kah ne pohqui pomantamwáe nashauanìt wutch Godut nah uppetutteaónuh, kah neepohtóog wusset8wóash, kah mishe wabesuonk wunnuhkukauoh nag nauoncheg.
+11.12 Kah n8tamwog mishont8waonk wutch kesukqut, nah wuttinuh, na wutch kuhkuhquegk, kah nag kuhkuhk8unóog en kesukqut nashpe mahtokqs, kah ummatwom8uh moninneunkquog.
+11.13 Kah nenan hour, na mo mishe quequan, kah piukque chippag keihtotan penushau, kah ut quequanit nushóog nesausuk tahshit muttannonganog kussuog wosketompaog, kah onkatogig chepshaog, sohsum8óunáog God ut kesukqut.
+11.14 Nâhohtóe woe pamshái, kah kusseh, nashwenu8g woe teanuk peyaum8.
+11.15 Kah nesausuk adtahs8ut angel pohpequau, kah na mô mishe wadtauatonkqussuongash kesukqut n8waog, ass8tam8ongash yeuut muttaohket 8tass8tam8onganiñeash nul-Lordumun kah uk-Christumoh, kah noh pish micheme kah micheme nanawunum.
+11.16 Kah neesneechagkodtog kah yauog eldersog, neg apitcheg anaquabit God, ut wutappuongan8óut, penushaog ut wuskesuk8óut, kah waussumáog Goduh.
+11.17 N8waog, kuttabattantámauunumun woi Lord God manuhkesean, ken nukoh, kah ken nukoh mô, kah ken paóan, newutche kenemunumom mohsag kummenuhkesuonk, kah kenanauinnuám.
+11.18 Kah wutohtimóneunk musquanittamwog, kah kum̃usquanittam8onk peyaum8, kah ne ahquômpak nupp8og woh adt wussumut, kah woh kutonkquatauónat kittinneumog manittowompaog, kah wunnetupanatogig, kah nag quohtogig k8wesuonk, papeississitcheg kah matukkenukeg, kah woh kuppaguanónaóut neg paguatunkeg ohke.
+11.19 Kah wuttempleum God woshwemo ut kesukqut, kah naut naumun wuttempleumut wutarkum wuttestamentum, kah na kutshaumunash, kah wadtauatonkqussuongash, kah padtuhquohhanash, kah quequan, kah mishe mussegan.
+12.1 KAh naut nógquod mish monchanatam8onk ut kesukqut, mittamwossis hogk8 nepauzoh, kah nanepaushadtoh agwe wusseetut, kah ut uppuhkukqut chetuhquab[eu/esu] nabo neesuoh anogqsoh.
+12.2 Kah wompequait, mauoup neechadt, kah onkquommamwit wunneechanat.
+12.3 Neit onkatog nógquot monchanatam8onk ut kesukqut, kah kusseh mussugken musquesu dragon, nesausuk tohshontupau, kah piogquoshkonau, kah nesausuk tahshinash chetuhquabeash ut uppuhkukquehtu.
+12.4 Kah wussugqun wutonchimau nishwe chippissinitcheh anogqsoh kesukqut, kah wuttinohkonuh ohkeit, kah dragon neepau anaquabit mittamwossis, noh nahen neechop, ummohchippónat ummukkiésoh quenau nekinit.
+12.5 Kah neechau mukkutchouksoh noh woh nanauwunuk wame wutohtimóneash, nashpe moóhshogque souobpunk. & ummukkachouxoh ushpunau en Godut, kah ut wutappuonganit.
+12.6 Kah mittamwossis spuhh8au touohkomuk, uttoh adt wutápeuonganit quaquoshwétamauont God, onk woh nag wuttit assâmóneau nequt muttannongane, kah nese pasuk kah nequtta tahshinchge kesukodash.
+12.7 Kah na mô ayeuwuttuonk ut kesukqut, Michael kah wutangelumoh, ayeuhkonáóg dragonoh, kah dragon ayeuhteau kah wut[-]angelsumoh.
+12.8 Kah matta sohkoseu, kah matta wonk namehteauouun wutayeuonk ut kesukqut.
+12.9 Kah masugkenuk dragon sohwhohkon, noh nukkone ask8k, uss8wesu mattannit & Satan: noh as8kekodtog wame muttaok, mô sohwhohkon en ohkeit, kah wutangelsumoh weeche sohwhohkonuh.
+12.10 Kah nunn8tam mishe wadtauatonkqussuonk, n8wadt kesukqut, eyeu peyaum8 wadchanittuonk kah menuhkesuonk, kah wuttass8tam8onk num-Manitt8un, kah ummenuhkesuonk uk-Christumoh: newutche noh ashpunnánont nemattinnónuh, penuhkon, noh agapunánont anaquabit num-Manitt8mun kesukodae kah nukonáe.
+12.11 Kah nag wussohkauóuh nashpe 8sqheonk lambe, kah nashpe wuttinn8waonk 8wauwaongan8, kah matta womantam8og uppomantamongan8 en nuppunat.
+12.12 Newutche wekontam8k kenaau kesukquog, kah kenaau na wadohkeógish; woe en nag wadohkitcheg óhkeit, kah keihtahhannet, newutche mattannit n8keu en kuhhogkaóut m8cheke musquantog, newutche wahteau wuttutt8chéeiyeum tiohqui.
+12.13 Kah dragon nag* unnohkon ohkeit, n8swetahwau mittamwussissoh, noh neechop mukkutchuxoh.
+12.14 Kah mittamwossis aninnumauau neesuoh wunnuppuhwhunuh m[í]she wompsikuk, onk woh wuttinnunnónat touohkomuk, en wutayeuonganit, uttoh adt sohkom8nut, utt8cheyeu, kah utt8cheyeu8ash, & pohshe utt8cheyeu8, wutch wuskesukqut ask8k.
+12.15 Kah ask8k menadtam wutch wutt8nut nippe onatuh tomogkon, wun8sukâuónat mittamwossissoh: onk woh ukquohchipwunónat wutch tomogkon.
+12.16 Kah ohke aninnumauau mittamwossissoh, kah ohke woshwunum wutt8n kah misheask8 tomogkon ne dragon manadtog wutch wutt8nut.
+12.17 Kah dragon musquanumau mittamwossissoh, kah mónchu ayeuhkonau, neg agguhsinitche 8skannemunneat, neg nanauwéhteunkeg wutann8hteám8onk God, kah ohtunkig 8wauwáonk Jesus Christ.
+13.1 
+13.2 
+13.3 
+13.4 
+13.5 
+13.6 
+13.7 
+13.8 
+13.9 
+13.10 
+13.11 
+13.12 
+13.13 
+13.14 
+13.15 
+13.16 
+13.17 
+13.18 
+14.1 
+14.2 
+14.3 
+14.4 
+14.5 
+14.6 
+14.7 
+14.8 
+14.9 
+14.10 
+14.11 
+14.12 
+14.13 
+14.14 
+14.15 
+14.16 
+14.17 
+14.18 
+14.19 
+14.20 
+15.1 
+15.2 
+15.3 
+15.4 
+15.5 
+15.6 
+15.7 
+15.8 
+16.1 
+16.2 
+16.3 
+16.4 
+16.5 
+16.6 
+16.7 
+16.8 
+16.9 
+16.10 
+16.11 
+16.12 
+16.13 
+16.14 
+16.15 
+16.16 
+16.17 
+16.18 
+16.19 
+16.20 
+16.21 
+17.1 
+17.2 
+17.3 
+17.4 
+17.5 
+17.6 
+17.7 
+17.8 
+17.9 
+17.10 
+17.11 
+17.12 
+17.13 
+17.14 
+17.15 
+17.16 
+17.17 
+17.18 
+18.1 
+18.2 
+18.3 
+18.4 
+18.5 
+18.6 
+18.7 
+18.8 
+18.9 
+18.10 
+18.11 
+18.12 
+18.13 
+18.14 
+18.15 
+18.16 
+18.17 
+18.18 
+18.19 
+18.20 
+18.21 
+18.22 
+18.23 
+18.24 
+19.1 
+19.2 
+19.3 
+19.4 
+19.5 
+19.6 
+19.7 
+19.8 
+19.9 
+19.10 
+19.11 
+19.12 
+19.13 
+19.14 
+19.15 
+19.16 
+19.17 
+19.18 
+19.19 
+19.20 
+19.21 
+20.1 
+20.2 
+20.3 
+20.4 
+20.5 
+20.6 
+20.7 
+20.8 
+20.9 
+20.10 
+20.11 
+20.12 
+20.13 
+20.14 
+20.15 
+21.1 
+21.2 
+21.3 
+21.4 
+21.5 
+21.6 
+21.7 
+21.8 
+21.9 
+21.10 
+21.11 
+21.12 
+21.13 
+21.14 
+21.15 
+21.16 
+21.17 
+21.18 
+21.19 
+21.20 
+21.21 
+21.22 
+21.23 
+21.24 
+21.25 
+21.26 
+21.27 
+22.1 
+22.2 
+22.3 
+22.4 
+22.5 
+22.6 
+22.7 
+22.8 
+22.9 
+22.10 
+22.11 
+22.12 
+22.13 
+22.14 
+22.15 
+22.16 
+22.17 
+22.18 Newutche n8wauwaontamau nish$noh wosketomp, noh n8tog quosháe missohhamwe kutt8wongash yeuut b8kut, howan yeush k8t[n]e n8wadt, God pish ukk8tnumauoh aninneaongash nish wasukuhwhósikish yeuut b8kut.
+22.19 Kah howan amaunuk wutch quosháe missohhamwe kutt8wóngash yeuut b8k, God pish amaunum wutchippiyeum, wutch pomantamóe b8kut, kah wutch wunnetupanatamwe otanat, kah wutch nish wasukuhwhosikish yeuut b8kut.
+22.20 Noh wauwadt yeush n8wau, wunnamuhkut teanuk nuppeyam Amen, ne naj, peyaush Lord Jesus.
+22.21 Ukkitteamonteanitteao[u]k nul-Lordumun Jesus Christ wetomuk8k wame. Amen.

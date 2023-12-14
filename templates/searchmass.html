@@ -32,51 +32,53 @@
 
         </form>
     </div>
-    <table>
-        <header>
-            <tr>
-                {% if KJVIncluded %}
-                <th>KJV</th>
-                {% endif %}
+    <br>
+    <div class="tableFixHead">
+        <table class="t">
+            <thead>
+                <tr>
+                    {% if firstEditionIncluded %}
+                    <th><div><u>First Edition</u> ({{ firstEditionCount }}) </div></th>
+                    {% endif %}
 
-                {% if firstEditionIncluded %}
-                <th>First Edition</th>
-                {% endif %}
+                    {% if secondEditionIncluded %}
+                    <th><div><u>Second Edition</u> ({{ secondEditionCount }})</div></th>
+                    {% endif %}
 
-                {% if secondEditionIncluded %}
-                <th>Second Edition</th>
-                {% endif %}
+                    {% if mayhewIncluded %}
+                    <th><div><u>Mayhew</u> ({{ mayhewCount }})</div></th>
+                    {% endif %}
 
-                {% if mayhewIncluded %}
-                <th>Mayhew</th>
-                {% endif %}
-            </tr>
-        </header>
-        <content>
-        {% for verseIndex in verseIndices %}
-        <tr>
-            <td>
-                {{ printKJVLines[verseIndex] }}
-            </td>
-            {% if firstEditionIncluded %}
-            <td>
-                {{ printFirstEditionLines[verseIndex] }}
-            </td>
-            {% endif %}
-            {% if secondEditionIncluded %}
-            <td>
-                {{ printSecondEditionLines[verseIndex] }}
-            </td>
-            {% endif %}
-            {% if mayhewIncluded %}
-            <td>
-                {{ printMayhewLines[verseIndex] }}
-            </td>
-            {% endif %}
-        </tr>
-        {% endfor %}
-    </content>
-    </table>
+                    {% if KJVIncluded %}
+                    <th><div><u>KJV</u></div></th>
+                    {% endif %}
+                </tr>
+            </thead>
+            {% for verseIndex in verseIndices %}
+            <tbody>
+                <tr>
+                    {% if firstEditionIncluded %}
+                    <td>
+                        {{ printFirstEditionLines[verseIndex] }}
+                    </td>
+                    {% endif %}
+                    {% if secondEditionIncluded %}
+                    <td>
+                        {{ printSecondEditionLines[verseIndex] }}
+                    </td>
+                    {% endif %}
+                    {% if mayhewIncluded %}
+                    <td>
+                        {{ printMayhewLines[verseIndex] }}
+                    </td>
+                    {% endif %}
+                    <td>
+                        {{ printKJVLines[verseIndex] }}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
     </div>
 </body>
 
