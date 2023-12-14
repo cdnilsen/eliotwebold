@@ -44,6 +44,8 @@ def cleanLineOfDiacritics(line):
 
 def displayLine(line, strictDiacritics, allVersesList, word, editionLineDict, versePrintDict):
     
+    howManyTokens = 0
+
     lineHasWord = False
     verseNum = line.split(" ")[0].strip()
     verseText = " ".join(line.split(" ")[1:])
@@ -56,6 +58,7 @@ def displayLine(line, strictDiacritics, allVersesList, word, editionLineDict, ve
 
     if verseNum in allVersesList:
         if word in verseCheck:
+            howManyTokens = verseCheck.count(word)
             newVerseText = ""
             if strictDiacritics:
                 newVerseText = verseText.replace(word, "<span style='color:red'><b>" + word + "</b></span>")
@@ -77,5 +80,10 @@ def displayLine(line, strictDiacritics, allVersesList, word, editionLineDict, ve
             versePrintDict[verseNum] = True
         else:
             editionLineDict[verseNum] = ""
-
-    return lineHasWord
+    
+    finalDict = {
+        "lineHasWord": lineHasWord,
+        "numTokens": howManyTokens,
+    }
+    
+    return finalDict

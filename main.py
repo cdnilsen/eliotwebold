@@ -304,6 +304,7 @@ def domasssearch():
     totalSecondEdition = 0
     totalMayhew = 0
     totalZerothEdition = 0
+    totalAll = 0
 
     finalMatches = []
     finalKJVVerses = []
@@ -328,21 +329,12 @@ def domasssearch():
 
             hasMayhew = (book == "Psalms (prose)" or book == "John") and includeMayhew
             hasZerothEdition = (book == "Genesis") and includeZerothEdition
-            
-            printKJVLines = []
-            printFirstEditionLines = []
-            printSecondEditionLines = []
-            printMayhewLines = []
-            printZerothEditionLines = []
-            
-
-            
 
             KJVF = open('./texts/' + book + '.KJV.txt', 'r', encoding="utf-8")
             for line in KJVF.readlines():
                 verseNum = line.split(" ")[0].strip()
                 verseText = " ".join(line.split(" ")[1:])
-                kjvLineDict[verseNum] = Markup("<b>" + book + " " + verseNum + "</b>: " + verseText)
+                kjvLineDict[verseNum] = verseText
                 
                 firstEditionLineDict[verseNum] = ""
                 secondEditionLineDict[verseNum] = ""
@@ -360,51 +352,82 @@ def domasssearch():
             if includeFirstEdition and os.path.exists('./texts/' + book + '.First Edition.txt'):
                 FirstEditionF = open('./texts/' + book + '.First Edition.txt', 'r', encoding="utf-8")
                 for line in FirstEditionF.readlines():
+                    
+                    verseNum = line.split(" ")[0].strip()
+                    verseAddress = "<b>" + book + " " + verseNum + "</b>: "
+                    if verseAddress not in matchingVerses:
+                        matchingVerses.append(Markup(verseAddress))
 
-                    wordInLineFirstEd = displayLine(line, strictDiacritics, allVersesList, word, firstEditionLineDict, printWhichVersesDict)
+                    lineDataDict = displayLine(line, strictDiacritics, allVersesList, word, firstEditionLineDict, printWhichVersesDict)
+                    
+                    wordInLineFirstEd = lineDataDict["lineHasWord"]
 
                     if wordInLineFirstEd:
                         useFirstEdition = True
-                        totalFirstEdition += 1
+                        totalFirstEdition += lineDataDict["numTokens"]
 
                 FirstEditionF.close()
 
             if includeSecondEdition and os.path.exists('./texts/' + book + '.Second Edition.txt'):
                 SecondEditionF = open('./texts/' + book + '.Second Edition.txt', 'r', encoding="utf-8")
                 for line in SecondEditionF.readlines():
-                    wordInLineSecondEd = displayLine(line, strictDiacritics, allVersesList, word, secondEditionLineDict, printWhichVersesDict)
+
+                    verseNum = line.split(" ")[0].strip()
+                    verseAddress = "<b>" + book + " " + verseNum + "</b>: "
+                    if verseAddress not in matchingVerses:
+                        matchingVerses.append(Markup(verseAddress))
+
+                    lineDataDict = displayLine(line, strictDiacritics, allVersesList, word, secondEditionLineDict, printWhichVersesDict)
+
+                    wordInLineSecondEd = lineDataDict["lineHasWord"]
                     
                     if wordInLineSecondEd:
                         useSecondEdition = True
-                        totalSecondEdition += 1
+                        totalSecondEdition += lineDataDict["numTokens"]
 
                 SecondEditionF.close()
 
             if hasMayhew and os.path.exists('./texts/' + book + '.Mayhew.txt'):
                 MayhewF = open('./texts/' + book + '.Mayhew.txt', 'r', encoding="utf-8")
                 for line in MayhewF.readlines():
-                    wordInLineMayhew = displayLine(line, strictDiacritics, allVersesList, word, mayhewLineDict, printWhichVersesDict)
+                    
+                    lineDataDict = displayLine(line, strictDiacritics, allVersesList, word, mayhewLineDict, printWhichVersesDict)
+
+                    verseNum = line.split(" ")[0].strip()
+                    verseAddress = "<b>" + book + " " + verseNum + "</b>: "
+                    if verseAddress not in matchingVerses:
+                        matchingVerses.append(Markup(verseAddress))
+
+                    wordInLineMayhew = lineDataDict["lineHasWord"]
 
                     if wordInLineMayhew:
                         useMayhew = True
-                        totalMayhew += 1
+                        totalMayhew += lineDataDict["numTokens"]
                         
                 MayhewF.close()
 
             if hasZerothEdition and os.path.exists('./texts/' + book + '.Zeroth Edition.txt'):
                 ZerothEditionF = open('./texts/' + book + '.Zeroth Edition.txt', 'r', encoding="utf-8")
                 for line in ZerothEditionF.readlines():
-                    wordInLineZerothEd = displayLine(line, strictDiacritics, allVersesList, word, zerothEditionLineDict, printWhichVersesDict)
+                    lineDataDict = displayLine(line, strictDiacritics, allVersesList, word, zerothEditionLineDict, printWhichVersesDict)
+
+                    verseNum = line.split(" ")[0].strip()
+                    verseAddress = "<b>" + book + " " + verseNum + "</b>: "
+                    if verseAddress not in matchingVerses:
+                        matchingVerses.append(Markup(verseAddress))
+
+                    wordInLineZerothEd = lineDataDict["lineHasWord"]
 
                     if wordInLineZerothEd:
                         useZerothEdition = True
-                        totalZerothEdition += 1
+                        totalZerothEdition += lineDataDict["numTokens"]
 
                 ZerothEditionF.close()
 
             for verseNum in allVersesList:
                 if printWhichVersesDict[verseNum]:
                     matchingIndices.append(numMatches)
+                    verseIndexDictionary[numMatches] = Markup("<b>" + book + "</b> " + verseNum)
                     numMatches += 1
                     matchingKJV.append(kjvLineDict[verseNum])
                     matchingFirstEdition.append(firstEditionLineDict[verseNum])
@@ -425,7 +448,46 @@ def domasssearch():
     includeMayhew = includeMayhew and useMayhew and len(matchingMayhew) > 0
     includeZerothEdition = includeZerothEdition and useZerothEdition and len(matchingZerothEdition) > 0
 
+    totalAll = str(totalFirstEdition + totalSecondEdition + totalMayhew + totalZerothEdition)
 
-    return render_template('searchmass.html', verseIndices = matchingIndices, verseDictionary = verseIndexDictionary, KJVIncluded = includeKJV, firstEditionIncluded = includeFirstEdition, secondEditionIncluded = includeSecondEdition, mayhewIncluded = includeMayhew, zerothEditionIncluded = includeZerothEdition, printKJVLines = matchingKJV, printFirstEditionLines = matchingFirstEdition, printSecondEditionLines = matchingSecondEdition, printMayhewLines = matchingMayhew, printZerothEditionLines = matchingZerothEdition, firstEditionCount = totalFirstEdition, secondEditionCount = totalSecondEdition, mayhewCount = totalMayhew, zerothEditionCount = totalZerothEdition)
+    totalVerseCount = len(matchingIndices)
+
+    rightColumns = []
+    if includeFirstEdition:
+        rightColumns.append(1)
+    if includeSecondEdition:
+        rightColumns.append(1)
+
+    if len(rightColumns) == 0:
+        if includeMayhew:
+            rightColumns.append(1)
+        if includeZerothEdition:
+            rightColumns.append(1)
+
+    leftColumns = []
+    if includeFirstEdition or includeSecondEdition:
+        if includeMayhew:
+            leftColumns.append(1)
+        if includeZerothEdition:
+            leftColumns.append(1)
+    if includeKJV:
+        leftColumns.append(1)
+
+    rightColumnMeasure = ""
+    if len(rightColumns) < 2:
+        rightColumnMeasure = "42%"
+    else:
+        rightColumnMeasure = "21%"
+
+    leftColumnMeasure = ""
+    if len(leftColumns) < 2:
+        leftColumnMeasure = "42%"
+    elif len(leftColumns) == 2:
+        leftColumnMeasure = "21%"
+    else:
+        leftColumnMeasure = "14%"
+
+
+    return render_template('searchmass.html', verseIndices = matchingIndices, verseDictionary = verseIndexDictionary, KJVIncluded = includeKJV, firstEditionIncluded = includeFirstEdition, secondEditionIncluded = includeSecondEdition, mayhewIncluded = includeMayhew, zerothEditionIncluded = includeZerothEdition, printKJVLines = matchingKJV, printFirstEditionLines = matchingFirstEdition, printSecondEditionLines = matchingSecondEdition, printMayhewLines = matchingMayhew, printZerothEditionLines = matchingZerothEdition, firstEditionCount = totalFirstEdition, secondEditionCount = totalSecondEdition, mayhewCount = totalMayhew, zerothEditionCount = totalZerothEdition, matchingVerses = matchingVerses, totalAll = totalAll, totalVerseCount = totalVerseCount, numRightColumns = rightColumns, numLeftColumns = leftColumns, rightColumnMeasure = rightColumnMeasure, leftColumnMeasure = leftColumnMeasure)
 
     

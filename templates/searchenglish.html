@@ -37,6 +37,10 @@
                 <th>First Edition</th>
                 {% endif %}
 
+                {% if KJVIncluded or firstEditionIncluded or secondEditionIncluded or mayhewIncluded %}
+                <th class="verseNum"><u>Verse</u></th>
+                {% endif %}
+
                 {% if secondEditionIncluded %}
                 <th>Second Edition</th>
                 {% endif %}
@@ -57,6 +61,11 @@
                 {{ verseDictionary[verseIndex]['FirstEdition'] }}
             </td>
             {% endif %}
+
+            {% if KJVIncluded or firstEditionIncluded or secondEditionIncluded or mayhewIncluded %}
+                <td class="verseNum">{{ verseDictionary[verseIndex]['Address'] }}</td>
+            {% endif %}
+
             {% if secondEditionIncluded %}
             <td>
                 {{ verseDictionary[verseIndex]['SecondEdition'] }}
