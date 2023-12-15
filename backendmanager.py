@@ -86,7 +86,7 @@ for bookName in allBookList:
         if os.path.exists(inputPath):        
             shutil.copyfile(inputPath, outputPath)
         else:
-            continue
+            print("Could not find " + editionName[:-4] + " of " + bookName)
 
 extraFileNames = ["../massachusett stuff/Genesis/Zeroth Edition.txt", "../massachusett stuff/Psalms (prose)/Mayhew.txt", "../massachusett stuff/John/Mayhew.txt"]
 

@@ -1,315 +1,105 @@
-
-α.Jo1.1.1:
-E.Jo1.1.1: That which was from the beginning, which we have heard, which we have seen with our eyes, which we have looked upon, and our hands have handled, of the Word of life;
-
-α.Jo1.1.2:
-E.Jo1.1.2: (For the life was manifested, and we have seen it, and bear witness, and shew unto you that eternal life, which was with the Father, and was manifested unto us;)
-
-α.Jo1.1.3:
-E.Jo1.1.3: That which we have seen and heard declare we unto you, that ye also may have fellowship with us: and truly our fellowship is with the Father, and with his Son Jesus Christ.
-
-α.Jo1.1.4:
-E.Jo1.1.4: And these things write we unto you, that your joy may be full.
-
-α.Jo1.1.5:
-E.Jo1.1.5: This then is the message which we have heard of him, and declare unto you, that God is light, and in him is no darkness at all.
-
-α.Jo1.1.6:
-E.Jo1.1.6: If we say that we have fellowship with him, and walk in darkness, we lie, and do not the truth:
-
-α.Jo1.1.7:
-E.Jo1.1.7: But if we walk in the light, as he is in the light, we have fellowship one with another, and the blood of Jesus Christ his Son cleanseth us from all sin.
-
-α.Jo1.1.ɸ:
-E.Jo1.1.ɸ: If we say that we have no sin, we deceive ourselves, and the truth is not in us.
-
-α.Jo1.1.9:
-E.Jo1.1.9: If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.
-
-α.Jo1.1.10:
-E.Jo1.1.10: If we say that we have not sinned, we make him a liar, and his word is not in us.
-
-α.Jo1.2.1:
-E.Jo1.2.1: My little children, these things write I unto you, that ye sin not. And if any man sin, we have an advocate with the Father, Jesus Christ the righteous:
-
-α.Jo1.2.2:
-E.Jo1.2.2: And he is the propitiation for our sins: and not for our's only, but also for the sins of the whole world.
-
-α.Jo1.2.3:
-E.Jo1.2.3: And hereby we do know that we know him, if we keep his commandments.
-
-α.Jo1.2.4:
-E.Jo1.2.4: He that saith, I know him, and keepeth not his commandments, is a liar, and the truth is not in him.
-
-α.Jo1.2.5:
-E.Jo1.2.5: But whoso keepeth his word, in him verily is the love of God perfected: hereby know we that we are in him.
-
-α.Jo1.2.6:
-E.Jo1.2.6: He that saith he abideth in him ought himself also so to walk, even as he walked.
-
-α.Jo1.2.7:
-E.Jo1.2.7: Brethren, I write no new commandment unto you, but an old commandment which ye had from the beginning. The old commandment is the word which ye have heard from the beginning.
-
-α.Jo1.2.ɸ:
-E.Jo1.2.ɸ: Again, a new commandment I write unto you, which thing is true in him and in you: because the darkness is past, and the true light now shineth.
-
-α.Jo1.2.9:
-E.Jo1.2.9: He that saith he is in the light, and hateth his brother, is in darkness even until now.
-
-α.Jo1.2.10:
-E.Jo1.2.10: He that loveth his brother abideth in the light, and there is none occasion of stumbling in him.
-
-α.Jo1.2.11:
-E.Jo1.2.11: But he that hateth his brother is in darkness, and walketh in darkness, and knoweth not whither he goeth, because that darkness hath blinded his eyes.
-
-α.Jo1.2.12:
-E.Jo1.2.12: I write unto you, little children, because your sins are forgiven you for his name's sake.
-
-α.Jo1.2.13:
-E.Jo1.2.13: I write unto you, fathers, because ye have known him that is from the beginning. I write unto you, young men, because ye have overcome the wicked one. I write unto you, little children, because ye have known the Father.
-
-α.Jo1.2.14:
-E.Jo1.2.14: I have written unto you, fathers, because ye have known him that is from the beginning. I have written unto you, young men, because ye are strong, and the word of God abideth in you, and ye have overcome the wicked one.
-
-α.Jo1.2.15:
-E.Jo1.2.15: Love not the world, neither the things that are in the world. If any man love the world, the love of the Father is not in him.
-
-α.Jo1.2.16:
-E.Jo1.2.16: For all that is in the world, the lust of the flesh, and the lust of the eyes, and the pride of life, is not of the Father, but is of the world.
-
-α.Jo1.2.17:
-E.Jo1.2.17: And the world passeth away, and the lust thereof: but he that doeth the will of God abideth for ever.
-
-α.Jo1.2.1ɸ:
-E.Jo1.2.1ɸ: Little children, it is the last time: and as ye have heard that antichrist shall come, even now are there many antichrists; whereby we know that it is the last time.
-
-α.Jo1.2.19:
-E.Jo1.2.19: They went out from us, but they were not of us; for if they had been of us, they would no doubt have continued with us: but they went out, that they might be made manifest that they were not all of us.
-
-α.Jo1.2.20:
-E.Jo1.2.20: But ye have an unction from the Holy One, and ye know all things.
-
-α.Jo1.2.21:
-E.Jo1.2.21: I have not written unto you because ye know not the truth, but because ye know it, and that no lie is of the truth.
-
-α.Jo1.2.22:
-E.Jo1.2.22: Who is a liar but he that denieth that Jesus is the Christ? He is antichrist, that denieth the Father and the Son.
-
-α.Jo1.2.23:
-E.Jo1.2.23: Whosoever denieth the Son, the same hath not the Father: he that acknowledgeth the Son hath the Father also.
-
-α.Jo1.2.24:
-E.Jo1.2.24: Let that therefore abide in you, which ye have heard from the beginning. If that which ye have heard from the beginning shall remain in you, ye also shall continue in the Son, and in the Father.
-
-α.Jo1.2.25:
-E.Jo1.2.25: And this is the promise that he hath promised us, even eternal life.
-
-α.Jo1.2.26:
-E.Jo1.2.26: These things have I written unto you concerning them that seduce you.
-
-α.Jo1.2.27:
-E.Jo1.2.27: But the anointing which ye have received of him abideth in you, and ye need not that any man teach you: but as the same anointing teacheth you of all things, and is truth, and is no lie, and even as it hath taught you, ye shall abide in him.
-
-α.Jo1.2.2ɸ:
-E.Jo1.2.2ɸ: And now, little children, abide in him; that, when he shall appear, we may have confidence, and not be ashamed before him at his coming.
-
-α.Jo1.2.29:
-E.Jo1.2.29: If ye know that he is righteous, ye know that every one that doeth righteousness is born of him.
-
-α.Jo1.3.1:
-E.Jo1.3.1: Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God: therefore the world knoweth us not, because it knew him not.
-
-α.Jo1.3.2:
-E.Jo1.3.2: Beloved, now are we the sons of God, and it doth not yet appear what we shall be: but we know that, when he shall appear, we shall be like him; for we shall see him as he is.
-
-α.Jo1.3.3:
-E.Jo1.3.3: And every man that hath this hope in him purifieth himself, even as he is pure.
-
-α.Jo1.3.4:
-E.Jo1.3.4: Whosoever committeth sin transgresseth also the law: for sin is the transgression of the law.
-
-α.Jo1.3.5:
-E.Jo1.3.5: And ye know that he was manifested to take away our sins; and in him is no sin.
-
-α.Jo1.3.6:
-E.Jo1.3.6: Whosoever abideth in him sinneth not: whosoever sinneth hath not seen him, neither known him.
-
-α.Jo1.3.7:
-E.Jo1.3.7: Little children, let no man deceive you: he that doeth righteousness is righteous, even as he is righteous.
-
-α.Jo1.3.ɸ:
-E.Jo1.3.ɸ: He that committeth sin is of the devil; for the devil sinneth from the beginning. For this purpose the Son of God was manifested, that he might destroy the works of the devil.
-
-α.Jo1.3.9:
-E.Jo1.3.9: Whosoever is born of God doth not commit sin; for his seed remaineth in him: and he cannot sin, because he is born of God.
-
-α.Jo1.3.10:
-E.Jo1.3.10: In this the children of God are manifest, and the children of the devil: whosoever doeth not righteousness is not of God, neither he that loveth not his brother.
-
-α.Jo1.3.11:
-E.Jo1.3.11: For this is the message that ye heard from the beginning, that we should love one another.
-
-α.Jo1.3.12:
-E.Jo1.3.12: Not as Cain, who was of that wicked one, and slew his brother. And wherefore slew he him? Because his own works were evil, and his brother's righteous.
-
-α.Jo1.3.13:
-E.Jo1.3.13: Marvel not, my brethren, if the world hate you.
-
-α.Jo1.3.14:
-E.Jo1.3.14: We know that we have passed from death unto life, because we love the brethren. He that loveth not his brother abideth in death.
-
-α.Jo1.3.15:
-E.Jo1.3.15: Whosoever hateth his brother is a murderer: and ye know that no murderer hath eternal life abiding in him.
-
-α.Jo1.3.16:
-E.Jo1.3.16: Hereby perceive we the love of God, because he laid down his life for us: and we ought to lay down our lives for the brethren.
-
-α.Jo1.3.17:
-E.Jo1.3.17: But whoso hath this world's good, and seeth his brother have need, and shutteth up his bowels of compassion from him, how dwelleth the love of God in him?
-
-α.Jo1.3.1ɸ:
-E.Jo1.3.1ɸ: My little children, let us not love in word, neither in tongue; but in deed and in truth.
-
-α.Jo1.3.19:
-E.Jo1.3.19: And hereby we know that we are of the truth, and shall assure our hearts before him.
-
-α.Jo1.3.20:
-E.Jo1.3.20: For if our heart condemn us, God is greater than our heart, and knoweth all things.
-
-α.Jo1.3.21:
-E.Jo1.3.21: Beloved, if our heart condemn us not, then have we confidence toward God.
-
-α.Jo1.3.22:
-E.Jo1.3.22: And whatsoever we ask, we receive of him, because we keep his commandments, and do those things that are pleasing in his sight.
-
-α.Jo1.3.23:
-E.Jo1.3.23: And this is his commandment, That we should believe on the name of his Son Jesus Christ, and love one another, as he gave us commandment.
-
-α.Jo1.3.24:
-E.Jo1.3.24: And he that keepeth his commandments dwelleth in him, and he in him. And hereby we know that he abideth in us, by the Spirit which he hath given us.
-
-α.Jo1.4.1:
-E.Jo1.4.1: Beloved, believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world.
-
-α.Jo1.4.2:
-E.Jo1.4.2: Hereby know ye the Spirit of God: Every spirit that confesseth that Jesus Christ is come in the flesh is of God:
-
-α.Jo1.4.3:
-E.Jo1.4.3: And every spirit that confesseth not that Jesus Christ is come in the flesh is not of God: and this is that spirit of antichrist, whereof ye have heard that it should come; and even now already is it in the world.
-
-α.Jo1.4.4:
-E.Jo1.4.4: Ye are of God, little children, and have overcome them: because greater is he that is in you, than he that is in the world.
-
-α.Jo1.4.5:
-E.Jo1.4.5: They are of the world: therefore speak they of the world, and the world heareth them.
-
-α.Jo1.4.6:
-E.Jo1.4.6: We are of God: he that knoweth God heareth us; he that is not of God heareth not us. Hereby know we the spirit of truth, and the spirit of error.
-
-α.Jo1.4.7:
-E.Jo1.4.7: Beloved, let us love one another: for love is of God; and every one that loveth is born of God, and knoweth God.
-
-α.Jo1.4.ɸ:
-E.Jo1.4.ɸ: He that loveth not knoweth not God; for God is love.
-
-α.Jo1.4.9:
-E.Jo1.4.9: In this was manifested the love of God toward us, because that God sent his only begotten Son into the world, that we might live through him.
-
-α.Jo1.4.10:
-E.Jo1.4.10: Herein is love, not that we loved God, but that he loved us, and sent his Son to be the propitiation for our sins.
-
-α.Jo1.4.11:
-E.Jo1.4.11: Beloved, if God so loved us, we ought also to love one another.
-
-α.Jo1.4.12:
-E.Jo1.4.12: No man hath seen God at any time. If we love one another, God dwelleth in us, and his love is perfected in us.
-
-α.Jo1.4.13:
-E.Jo1.4.13: Hereby know we that we dwell in him, and he in us, because he hath given us of his Spirit.
-
-α.Jo1.4.14:
-E.Jo1.4.14: And we have seen and do testify that the Father sent the Son to be the Saviour of the world.
-
-α.Jo1.4.15:
-E.Jo1.4.15: Whosoever shall confess that Jesus is the Son of God, God dwelleth in him, and he in God.
-
-α.Jo1.4.16:
-E.Jo1.4.16: And we have known and believed the love that God hath to us. God is love; and he that dwelleth in love dwelleth in God, and God in him.
-
-α.Jo1.4.17:
-E.Jo1.4.17: Herein is our love made perfect, that we may have boldness in the day of judgment: because as he is, so are we in this world.
-
-α.Jo1.4.1ɸ:
-E.Jo1.4.1ɸ: There is no fear in love; but perfect love casteth out fear: because fear hath torment. He that feareth is not made perfect in love.
-
-α.Jo1.4.19:
-E.Jo1.4.19: We love him, because he first loved us.
-
-α.Jo1.4.20:
-E.Jo1.4.20: If a man say, I love God, and hateth his brother, he is a liar: for he that loveth not his brother whom he hath seen, how can he love God whom he hath not seen?
-
-α.Jo1.4.21:
-E.Jo1.4.21: And this commandment have we from him, That he who loveth God love his brother also.
-
-α.Jo1.5.1:
-E.Jo1.5.1: Whosoever believeth that Jesus is the Christ is born of God: and every one that loveth him that begat loveth him also that is begotten of him.
-
-α.Jo1.5.2:
-E.Jo1.5.2: By this we know that we love the children of God, when we love God, and keep his commandments.
-
-α.Jo1.5.3:
-E.Jo1.5.3: For this is the love of God, that we keep his commandments: and his commandments are not grievous.
-
-α.Jo1.5.4:
-E.Jo1.5.4: For whatsoever is born of God overcometh the world: and this is the victory that overcometh the world, even our faith.
-
-α.Jo1.5.5:
-E.Jo1.5.5: Who is he that overcometh the world, but he that believeth that Jesus is the Son of God?
-
-α.Jo1.5.6:
-E.Jo1.5.6: This is he that came by water and blood, even Jesus Christ; not by water only, but by water and blood. And it is the Spirit that beareth witness, because the Spirit is truth.
-
-α.Jo1.5.7:
-E.Jo1.5.7: For there are three that bear record in heaven, the Father, the Word, and the Holy Ghost: and these three are one.
-
-α.Jo1.5.ɸ:
-E.Jo1.5.ɸ: And there are three that bear witness in earth, the Spirit, and the water, and the blood: and these three agree in one.
-
-α.Jo1.5.9:
-E.Jo1.5.9: If we receive the witness of men, the witness of God is greater: for this is the witness of God which he hath testified of his Son.
-
-α.Jo1.5.10:
-E.Jo1.5.10: He that believeth on the Son of God hath the witness in himself: he that believeth not God hath made him a liar; because he believeth not the record that God gave of his Son.
-
-α.Jo1.5.11:
-E.Jo1.5.11: And this is the record, that God hath given to us eternal life, and this life is in his Son.
-
-α.Jo1.5.12:
-E.Jo1.5.12: He that hath the Son hath life; and he that hath not the Son of God hath not life.
-
-α.Jo1.5.13:
-E.Jo1.5.13: These things have I written unto you that believe on the name of the Son of God; that ye may know that ye have eternal life, and that ye may believe on the name of the Son of God.
-
-α.Jo1.5.14:
-E.Jo1.5.14: And this is the confidence that we have in him, that, if we ask any thing according to his will, he heareth us:
-
-α.Jo1.5.15:
-E.Jo1.5.15: And if we know that he hear us, whatsoever we ask, we know that we have the petitions that we desired of him.
-
-α.Jo1.5.16:
-E.Jo1.5.16: If any man see his brother sin a sin which is not unto death, he shall ask, and he shall give him life for them that sin not unto death. There is a sin unto death: I do not say that he shall pray for it.
-
-α.Jo1.5.17: Wame mat sampweseonk ne matcheseonk, kah na matta nupp8e matcheseonk.
-E.Jo1.5.17: All unrighteousness is sin: and there is a sin not unto death.
-
-α.Jo1.5.1ɸ: N8wahteomun howan wachegit Godut, matta matcheseu, qut noh wunnaumóniimuk wutch Godut, nanauwéhheau wuhhogkuh, kah noh matchetuk matta ummussinuh.
-E.Jo1.5.1ɸ: We know that whosoever is born of God sinneth not; but he that is begotten of God keepeth himself, and that wicked one toucheth him not.
-
-α.Jo1.5.19: Kah n8wahteómun n8chiimun Godut, kah mámusse muttaok appu matcheseonganit.
-E.Jo1.5.19: And we know that we are of God, and the whole world lieth in wickedness.
-
-α.Jo1.5.20: Kah n8wahteomun, wunnaumonuh God peyau, kah kittinnumunkqun wohwôhtamóonk, woh k8waheonanónut noh wunnamuhkuteyeu8, kah neenawun nutapehtauóun noh wunnummuhkuteyeuut, ut wunnaumonat Jesus Christut, yeuoh wunnamuhkut God, kah micheme pomantamóonk.
-E.Jo1.5.20: And we know that the Son of God is come, and hath given us an understanding, that we may know him that is true, and we are in him that is true, even in his Son Jesus Christ. This is the true God, and eternal life.
-
-α.Jo1.5.21: Mukhiesog chippe nanauwehheuk kuhhogkaóog wutch nunneukontunkanit. Amen.
-E.Jo1.5.21: Little children, keep yourselves from idols. Amen.
+1.1 NE ohtagkup wutch weske kutchissik [n]e n8tamogkup, ne naumogkup, wutch kuskesukquonónut, ne moninea[in]ugkup, kah mamussinnumagkup ut kenutcheganunonut, papaume pomantamo[e] wuttinnowaonk.
+1.2 Newutche pomantamóonk mo wahteauwahuwon, kah nunnaumunnanonup, kah n8wauwomun, kah kenahtinunnunan, ne micheme pomantamóonk ne weetomukup wut8shimau, kah mo k8wahteauwahetteanan.
+1.3 Ne naumagkup kah n8tamagkuup k8wahteauwáhenunan, onk kenaau wonk woh k8weeche moappúmimun, kah wunnamuhkut n8weeche moappútuonganun weeche wut8shin, kah wunnaumonuh Jesus Christ.
+1.4 Kah yeush k8sukkuhhumauununánonash k8wekontam8ongan8 woh numwohtaut.
+1.5 Neit yeu nehtamóonk, ne n8tamauogkut, kah k8wahteauwahununan, noh God wequai, kah ut nagum wanne pohkenano.
+1.6 Tohneit n8waog noh n8weechemoayeumoun, kah pomushaog pohkenaiyeuut, nuppann8wonan, káh matta nutussúmun wunnamuhkuteyeu8uk.
+1.7 Qut pomusháog wequaiyeuut, neyane noh appit wequaiyeuut, n8weeche moaeyeutimun, kah 8sqheonk Jesus Christ wunnaumonuh, kuppahkhikqunan wutch wame matcheseonganit.
+1.8 N8waog matta n8matcheseonganéumun, nutas8kekom[ó]mun nuhhogkanónog, kah wunnamuhkuteyeu8uk matta nutappehtunk8mun. 
+1.9 Samp8aog nummatcheseonganunonash, noh pabuhtanumukqussu, kah sampweussu kutahquoantamunkqunnanónut kummatcheseonganunonash, kah kuppahkhukqunnanonut wutch wame panneseonganit.
+1.10 N8waog matta nummatcheseumun, kuppann8waenéuhéoun, kah wuttinn8waonk matta kutapehtunk8unan.
+2.1 NUmmukkiésumog, yeush k8sukkuhhumauununaóash; matta kûmmatche[seunn]aout, kah howan matcheseit, nukken8tamwanshitteamun weeche wut8shimau Jesus Christ sampweusseaen.
+2.2 Kah noh wunnohteayeuaenin wutch kummatcheseonganunonash, kah matta webe kuttaihénonash, qut wonk wutch ummatcheseongash m[á]musse mutt[a]ok.
+2.3 Kah ne$nashpe n8w[á]hteomun noh n8wáheon, n[á]nauwehteáu[o]gkut wuttinn8wáongash.
+2.4 Noh án8wadt, noh n8n8wáheh, kah matta nánauwehteáuunk wutann8te[á]m8ongash, noh pann8w[á]enin, kah wunnamuhkuteyéu8 mattá wutappehtauoh.
+2.5 Qut howán nánauwehteáuont wuttinn8waonk, ut wuhhogkát wunnámuhkut, womonáonk God pannuppeteáuun, ne$nashpe n8wáhteomun nut[a]ppehtauòun.
+2.6 Noh ân8wadt, nutápehtau, noh woh ne wuttin pomushon neyáne pomushánit.
+2.7 Neematog wanne n8sukkuhhum8h wuske naumátuonk, qut nukkóne naumátuonk, ne ahtunkup wutch kutchissik: nukkóne án8teám8onk, ne wuttinn8wàonk ne n8tamóg waj kutchissik.
+2.8 Wonk, wuske naumátuonk k8sukkuhhumáuonumw8, ne wunnumuhkutéyeuuk ut wuhhogkát kah ut kuhhogkáóut, newutche pohkenái paum[i]heau, kah wunnámuhkut wequái yeuyeu wóhsum8m8
+2.9 Noh án8wadt, nen nutap wequáiyeuut, kah sekeneauont wematoh, noh appu pohkenahtu nô pajeh yeuyeu
+2.10 Noh womonont weematoh, appu wequáiyeuut, kah mattá wunuhkomóonk togkussittassununat ut wuhhogkát.
+2.11 Qut noh sekeneáuont weematoh, appu pohkenahtu, kah pomushau pohkenahtu, & matta wáhteauou uttoh áont, newutche pohkenni pohkennumwehteom8 wuskesukquash.
+2.12 K8sukkuhhumauonumw8 mukkiesog, newutche nummatcheseongánoash kutahquoantamonteam8, newutche 8wesuonk.
+2.13 K8sukkuhhumauonumw8 wut8shinneunk, newutche k8waheau, wutch waj kutchissik, k8sukkuhhumauonumw8 wuskenuog, newutche kussohkauómw8 matchetuk, k8sukkuhhumauonumw8 mukkiesog, newutche k8waheomw8 wut8shimau.
+2.14 K8sukkuhhumauonumw8 wut8shinneunk, newutche k8waheau noh waj kutchissik, k8sukkuhhumauonumw8 wuskenuog, newutche kummenuhkesimw8, kah wuttinn8wáonk God kutapehtunkumw8, kah kussohkauómw8 matchetuk.
+2.15 Ahque womantam8k muttaok, asuh nish ohtagish muttaohkit, howan womantog muttaohke, 8womoausuonk wut8shimau matta appehtunk8.
+2.16 Newutche wame ne ohtag muttaohket, weyause matchekodtantamóonk, muskesukque matchekodtantamôonk, kah pittuanumóe pomantamóonk, matta wutchaiinn8h wut8shinneat, qut wutcháyeu muttaohket.
+2.17 Kah muttaok mahtsheau kah ummatchekodtantam8ongash, qut noh asit wuttenantam8onk God, michemappu.
+2.18 Mukkiesog, ne maumachish ahquompi, kah neyane n8tamóg, Antechrist pish peyau, yeuyeu monaóg Antechristog, ne$nashpe wahteauog nish naumachish ahquompiyeuash.
+2.19 Nag nussohwehtunkqunnonog, qut matta wutchieog nuhhogk[â]nonut, newutche wutchaihettit nuhhogkanonut; wunnamuhkut woh nagwutteae n8wetómukqunnónog: qut nag sohhamwog wahteauwahuwónat nag matta wame wutchieog nuhhogkanónut.
+2.20 Qut kuhtahtomw8 sussequnnittuonk wutch waneetupantamweyeuut, & k8wahteomw8 wame teanteaquasinish.
+2.21 Matta k8sukkuhhumauonumw8, newutche matta k8wahteo8unean wunnamuhkutéyeuuk, qut newutche kummahche wahteauunneau, kah wanne pann8waonganinn8 wutchayeum8ut wunnamuhkuteyeuuk.
+2.22 Howan pann8waen, qut noh pann8wohtog noh Jesus Christeu8? noh Antechrist pann8wohtauont wut8shinneuh kah wunnaumoniinneuh.
+2.23 Howan pann8wohtauont wunnaumoniinneuh, noh matta wut8sheinneuh.
+2.24 Newutche ne appehtunk8k ne n8tamog nô waj kutchissik, ne n8tamog nô waj kutchissik appehtunkqueóg, kenaau pish wonk kenágwutteapmw8 wunnaumoniinneát, kah wut8shinne[á]t.
+2.25 Kah yeu quoshauwaonk ne quoshómukqueog, micheme pomantamóonk.
+2.26 Yeush kummahche wussukhumanunáóash papaume nag pannes8unukqueógig.
+2.27 Qut sussequnnittuonk ne attumunumáuóg, kutappetunkquneau, kah matta kukquenauhikk8mw8 howan kukkuhk8tomunkqunaóut, qut neyane nenan susséqunittuonk kukkuhk8tomunkquneau wame, kâh ne wunnamuhkuteyeu8, kah matta pann8waonganunn8, kah neyane kuhk8tomonteaog, noh pish kutapehtauau.
+2.28 Kah yeuyeu mukkiesog apehtók, onk noh nogqussit, woh nummenuhkannoósimun, káh matta nutakodchumun ut anaquabit uppeyonat.
+2.29 Wahteauog noh sampweseaen, k8wahteomw8, nishnoh pasuk noh sampweasit neh wutchetuoh wuhhogkat.
+3.1 NAum8k chaugue womonittuonk ne wut8shimâu ponumunkqueog, kuttéhennitteánanonut wunnaumonuh God, newajeh muttaohke matta wahik8og, newutche matta 8wáheouh.
+3.2 Womonogig, yeuyeu neenawun wunnaumonuh God, kah asquam nogquodtinno, toh pish ániyeog, qut n8wahteomun, noh nogqussit, pish neyaneunkqussinnean, newutche pish nunnauóun neanussit.
+3.3 Kah nish$noh wosketomp yeu ohtunk annoósuonk ut wuhhogkat, pahkheau wuhhogkuh, neyane noh pahkésit.
+3.4 Howan matcheseit, noh wonk pannenehteau naumatuongash[:] newutche matcheseonk ne panneneheaonk naumatuonk.
+3.5 Kah k8wahteomw8, noh mo wahteauwahuau wutamaunumunat kummatcheseonganunonash, kah ut wuhhogkat matta matcheseonganunn8. 
+3.6 Howan neh apehtauont, matta matcheseu: howan matcheseit, matta wunnauuh, asuh 8waheuh.
+3.7 Nukkiesog, howan as8kekomuk8hteogk, noh sampweasit, noh sampweusseaenu8, neyane noh sampweusseaenuut.
+3.8 Noh matcheseit noh wutcháyeu mattannitt8ut, newutche mattannit matcheseu nô waj kutchissik, yeu wajeh wunnaumonuh wosketomp nogqusseup, onk woh uppagwatauunat wutanakausuongash mattannit.
+3.9 Howan wadchegit Godut, matta matcheseonk usseu, newutche 8skannem nagwappehtunk, kah matta woh matcheseu, newutche noh neetu ut Godut.
+3.10 Yeuut wunnaumonuh God wahteauwahèoneau, kah wunnaumonuh mattannit, howan matta asek sampweusseonk noh matta wutcháyeu Godut, asuh noh matta womonog weematoh.
+3.11 Newutche yeu an8team8onk ken8tamunnaop waj kutchissik, k8wawomonnittinnanonut.
+3.12 Matta netatuppe Cain, noh wutchiyeu noh matchetuk, kah nushau wematoh, kah woh wajeh nushont? newutche nehenwonche wutanakausuongash matchitás[h], kah wematoh sampweusseonganú8ash.
+3.13 Ashque monchanatam8k neematog, muttaohke sekeneunkqueog.
+3.14 N8wahteomun nupaumukomumun nupp8onk, en pomantam8onganit, newutche n8womonomun weemattinneunk: noh matta womonunk wematoh appu nupp8onganit.
+3.15 Howan sekenauont weematoh, noh nushehteaenin, kah k8wahteomw8, wanne nushehteaenin, ahtoou micheme pomantamoonk wutappetunkqunat.
+3.16 Yeu waj wahteauog 8womoausuonk God, newutche kupponumwanshikqun uppomantamóonk, kah woh kuppónamumun kuppomantam8onganun wutche wemattinneunk.
+3.17 Qut howan ahtunk yeu muttaohkée maumachiash, kah nauont wematoh quenauhikquoh, kah kuppohhamauont kitteamonteanitteae wunnogkus, uttoh wuttinne appehtunkqun 8womausuonk God?
+3.18 Nummikkiesumog ahque webe womonittitteuh ut kutt8wonganit, asuh meenannuut, qut usseonganit, kah adt wunnamuhkuteyeuuk.
+3.19 Kah ne nashpe wahteauog n8chiimun wunnumuhkuteyeuuk, kah pish nuppahko[n]tamumun ut nuttahhunonut anaquabit.
+3.20 Newutche nuttahhunnónash wussumukqueog, God ánue missugken onk nish nuttahhunnónash, kah wáhteau wame teanteagwassinish.
+3.21 Womonogig, kuttahhunnonash matta wussumuk8og, neit nuppahkontamumun nogque en Godut.
+3.22 Kah uttoh áne wehquetumog, nutattumunumauónan, newutche nanauwehteomun wutann8hteamowonk, kah yeush nutussenanonash wasukkitteahikqutche ut anaquabit.
+3.23 Kah yeu wutann8team8onk woh k8namptamunnanonut 8wesuonk wunnaumonuh Jesus Christoh, kah k8wôamonittinneanónut neyan ann8nukqueog.
+3.24 Kah noh nanawehteaúont wutann8teamowongash, 8weetomuh, kah nagum onk 8wetomuh: káh yeu waj wahteauog k8weetòmuk8wonganun, nashpe nashauanitto ne ánumungqueageh.
+4.1 Womonogig, ahque wunnamptok nishnoh nashauanit, qut qutcheheuk nashauanittowog, toh wuttinne wutchaiinneau Godut, newutche monaog pann8wae quoshodtumwaenuog sohhamwog en muttaohket.
+4.2 Yeu wtuch waheuk wunnashauanitt8moh God, nish$noh nashauanit samp8adt Jesus Christ peyau ut weyausut, noh wutcheiyeu Godut.
+4.3 Kah nish$noh nashauanit matta samp8oh Jesus Christ peyop ut weyausut noh matta wutchaiyeu Godut, kah yeuoh wunnashauanitt8moh AnteChrist, noh n8tamogkup, noh pish peyau, kah yeuyeu mahche appu muttaohket.
+4.4 Kenaau k8chiimw8 Godut, mukkiésog, kah nag kussohkauoôog, newutche noh apehtunkqueog ànue missugken, onk noh apit muttaohket.
+4.5 NAg wutchaiyeuog muttaohket, newajeh keket8hkontammohettit muttaok, kah muttaok wunn8tauouh.
+4.6 Nenawun n8chiyimun Godut, noh waheunt Goduh, n8tunkqun, noh matta wadchiigk Godut matta n8tunk8un, yeuwajeh wahteauog wunnamuhkut[e]e nashauanit, kah pann8wohtamóe nashauanit.
+4.7 Womonogig, womonittitteuh, newutche womonittuonk wutchayeumo Godut, kah nish$noh pasuk womoausit noh neetu ut Godut, kah waheau Goduh.
+4.8 Noh matta womoaus8og, matta waheau Goduh newutche God womoausuonganu8.
+4.9 Ne waj 8womoausuonk God nogque en kuhhogkanónut wahteauwahuwon, newutche God ann8nau wunnequttegheonuh en muttaohket, woh kenashpe pomantam8monanonut.
+4.10 Yeu$ut 8womoausuonk, matta k8womonaonganun God, qut k8womónuk8o[g]anun, kah an8nau wunnaumonuh 8nohteahuónat wutch kummatcheseonganunnónash.
+4.11 Womonogig, God ne an8womónukqueog, woh k8womónittimun.
+4.12 Wanne howan nauóou Goduh uttoh ahquompeu, womonitteog, God kutapehtunkqun, kah 8womoausuonk panuppeyeu8 ut kuhhogkanónut.
+4.13 Yeu waje wahteauog, nutapehtauónan, kah nutapehtunkqunan, newutche nuttinnumunkqun wunnashauanitt8moh.
+4.14 Kah nauunonup kah n8wauwónan, woh wut8shimau an8nau wunnaumonuh, 8wadchanumunat muttaok.
+4.15 Howan samp8adt Jesus wunnaumonuh God, God neh wutapehtauoh, kah noh apehtauau Goduh.
+4.16 Kah n8wahteomun kah n8namptamumun, n8womonuk8onganun God, God womoauwuonganu8, kah noh apehtag womonittuonk, appehtauau Goduh, kah God wutappehtauoh.
+4.17 Yeu$ut n8womitteaonganun pannuppeteauun, woh nummenuhkésénanonut ut wussittumoe kesukodtut, newutche neyaniit ne nuttinniinnean yeu muttaohket.
+4.18 Matta wabesuonganinn8 womoausuonganit, qut pannuppe womoausuonk sohwhóteau wabesuonk, newutche wabesuonk wutauwakompunnaonganeum8: noh wabesit matta pannupheau ut womonittinneat.
+4.19 Noh n8womonóun, newutche negonne n8womonukqun.
+4.20 Wosketomp n8wadt n8womun God, kah sekeneauont wematoh, noh pann8waenin, newutche noh amtta womonunk wematoh neh nauoncheh, toh woh wuttinne womónon Goduh, neh matta nanauunkéh?
+4.21 Kah ann8team8onk ahtauog wutche nagum noh womonont Goduh, womononch wematuh wonk.
+5.1 HOwan wanamptog JEsus noh Christ, noh neetu ut Godut, kah nish$noh pasuk womonont neh wanaumonatamunitcheh kah wonk womonau neh wanaumonimukeh nashpe nagum.
+5.2 Yeu wajeh wahteauog, n8womonaonganun wunneechanoh God, wumonogkut God, kah nanauwehteauogkut wutann8teamowongash.
+5.3 Newutche yeu k8womonaonganun God, nanauwehteauogkut wutann8teamowongash, kah wutann8team8ongash matta uhqunneunkquodtinn8wash.
+5.4 Newutche howan wadchegit Godut, sohkom muttaók, kah yeu sohkausuonk, ne sohkomuk muttaok, k8namptam8onganun.
+5.5 Howàn noh sohkauont muttaohke, qut noh wanamptog Jesus wunnaumonuh God?
+5.6 Yeuoh noh paont nashpe nippe kah wusqheonk, noh Jesus Christ, matta webe nashpe nippe, qut nashpe nippe kah wsqueheonk, kah noh Nashauanit wauwaenuit, newutche Nashauanit wunnamuhkuteyeu8.
+5.7 Newutche nag nishuog wauwacheg ut kesukqut, wut8shimau, wuttinn8waonk, kah wunneetupanatamwe Nashauanit, k[a]h yeug nishuog pasuk88og.
+5.8 Kah nag nishuog wauwacheg ut ohkeit, nashauanit, kah nippe, kah msqueheonk, kah yeug nishuog wunnauwadtuog pasuk8unneat.
+5.9 Attumunumog 8wauwaongan8 wosketompaog, -8wauwaonk God ánue missi, newutche yeu God 8wauwaonk ne wauwadt papaume wunnaumonuh.
+5.10 Noh wanamptauont wun[u]aumonuh God, wauwaonk ohteau ut wuhhogkat, noh matta wanamptauunk Goduh, uppannuwaeneúheuh, newutche matta wunnamptam8 8wauwaonk God, ne anummàuont papaume wunnaumonuh.
+5.11 Kah yeu ne wauwaonk, God kittinnumunkqun micheme pomantamóonk, kah yeu pomantamóonk ohteau ut wunnaumonaut.
+5.12 Noh wadchanont wunnaumoniinneuh, ohtau pomantamóonk, kah noh matta wadchanunk wunnaumoniinneuh matta ohtôou pomantamóonk.
+5.13 Yeush k8sukkuhhumauununáoash kenaau wanamptamógish 8wesuonk wunnaumonuh God, onk woh k8wahteomw8 kutahtómw8 micheme pomantamóonk, kah woh k8namptamumw8 8wesuonk wunnaumonuh God.
+5.14 Kah nummenuhkannoósuonganun papaume nagum, ne teaguas wehquetumog ut neyaunag wuttenantam8onk, ken8tunkqún.
+5.15 Kah wahteauog noh n8tunkqun uttoh wehquetumog, n8wahteomun, nutattumunumumun nish wehquetumauogkutche.
+5.16 Howan nauont weematoh usseoh matta nupp8e matcheseonk, noh pish wehquetumwanshau, kah noh pish wuttinnumauoh pomantamóonk wutche nah matta nupp8e matcheseageh: na nupp8ongane matcheseonk, matta nusséuh ne pish uppeantamwontamun. 
+5.17 Wame mat sampweseonk ne matcheseonk, kah na matta nupp8e matcheseonk.
+5.18 N8wahteomun howan wachegit Godut, matta matcheseu, qut noh wunnaumóniimuk wutch Godut, nanauwéhheau wuhhogkuh, kah noh matchetuk matta ummussinuh.
+5.19 Kah n8wahteómun n8chiimun Godut, kah mámusse muttaok appu matcheseonganit.
+5.20 Kah n8wahteomun, wunnaumonuh God peyau, kah kittinnumunkqun wohwôhtamóonk, woh k8waheonanónut noh wunnamuhkuteyeu8, kah neenawun nutapehtauóun noh wunnummuhkuteyeuut, ut wunnaumonat Jesus Christut, yeuoh wunnamuhkut God, kah micheme pomantamóonk.
+5.21 Mukhiesog chippe nanauwehheuk kuhhogkaóog wutch nunneukontunkanit. Amen.
