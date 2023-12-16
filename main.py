@@ -6,6 +6,8 @@ from jinja2 import Template, Environment, FileSystemLoader, select_autoescape
 
 from textdisplayfunctions import charReplacementDict, cleanLineOfDiacritics, displayLine
 
+
+
 allBookList = [
     "Genesis",
     "Exodus",
