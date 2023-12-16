@@ -6,6 +6,8 @@ from jinja2 import Template, Environment, FileSystemLoader, select_autoescape
 
 from textdisplayfunctions import charReplacementDict, cleanLineOfDiacritics, displayLine
 
+from proofreadingfunctions import doVerseComparison
+
 
 
 allBookList = [
@@ -135,7 +137,6 @@ def cleanLineOfDiacritics(line):
         line = line.replace(diacritic, charReplacementDict[diacritic])
     return line
 
-
 def getMatchingLines(indexDict, book, edition, editionVerseList):
 
     textPath = './texts/' + book + '.' + edition + '.txt'
@@ -152,8 +153,7 @@ def getMatchingLines(indexDict, book, edition, editionVerseList):
     else:
         for i in indexDict[book]:
             editionVerseList.append(" ")
-
-        
+     
 @app.route("/doenglishsearch", methods=['GET', 'POST'])
 def doenglishsearch():
     word = request.form['search_query']
@@ -492,4 +492,18 @@ def domasssearch():
 
     return render_template('searchmass.html', verseIndices = matchingIndices, verseDictionary = verseIndexDictionary, KJVIncluded = includeKJV, firstEditionIncluded = includeFirstEdition, secondEditionIncluded = includeSecondEdition, mayhewIncluded = includeMayhew, zerothEditionIncluded = includeZerothEdition, printKJVLines = matchingKJV, printFirstEditionLines = matchingFirstEdition, printSecondEditionLines = matchingSecondEdition, printMayhewLines = matchingMayhew, printZerothEditionLines = matchingZerothEdition, firstEditionCount = totalFirstEdition, secondEditionCount = totalSecondEdition, mayhewCount = totalMayhew, zerothEditionCount = totalZerothEdition, matchingVerses = matchingVerses, totalAll = totalAll, totalVerseCount = totalVerseCount, numRightColumns = rightColumns, numLeftColumns = leftColumns, rightColumnMeasure = rightColumnMeasure, leftColumnMeasure = leftColumnMeasure)
 
+@app.route('/proofreader', methods=['GET', 'POST'])
+def proofread():
+    if request.method == 'POST':
+        return render_template(url_for('proofreader.html'))
     
+    return render_template('proofreader.html')
+
+@app.route("/doproofreading", methods=['GET', 'POST'])
+def runAProofread():
+    allBooks = allBookList
+
+    whichBook = request.form['choosebook']
+
+
+    return render_template('proofreader.html', allBooks = allBooks, whichBook = whichBook)

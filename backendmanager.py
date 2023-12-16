@@ -74,7 +74,6 @@ allBookList = [
     "Revelation",
 ]
 
-
 outputDirectory = "./texts/"
 
 inputDirectory = "../massachusett stuff/"

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div>
+        <form action="/doproofreading" name="choosebook" method="POST">
+            {% for book in allBooks %}
+            <option value="{{ book }}">{{ book }}</option>
+            {% endfor %}
+        </form>
+    </div>
+</body>
+<script src="./htmx.min.js"></script>
+</html>

@@ -1,5 +1,7 @@
 import difflib
 
+# Various functions to help with proofreading by highlighting differences.
+
 def killHTMLTags(word):
     word = word.replace('<span style="color: red"><b>', '')
     word = word.replace('</b></span>', '')
@@ -28,7 +30,6 @@ def getLargestMatchingSubstring(word1, word2, isLastBlock = False):
             break
 
         word1Match = "«"
-
         word2Match = "«"
 
         for char in word1Copy[longestMatch.a:longestMatch.a + longestMatch.size]:
@@ -120,6 +121,7 @@ def doVerseComparison(word1, word2, markSpaces=True):
 
     newWord1 = newWord1.replace('<span style="color: red"><b>·</b></span>', '<span style="color: red"><b>˙</b></span>')
     newWord2 = newWord2.replace('<span style="color: red"><b>·</b></span>', '<span style="color: red"><b>˙</b></span>')
+
     newWord1 = newWord1.replace('·', ' ')
     newWord2 = newWord2.replace('·', ' ')
     newWord1 = newWord1.replace('$', '˙')

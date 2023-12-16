@@ -1,6 +1,5 @@
 from markupsafe import Markup
 
-
 charReplacementDict = {
         "á": "a",
         "é": "e",
@@ -24,8 +23,8 @@ charReplacementDict = {
         "ü": "u",
         "ã": "a",
         "õ": "o",
-        "ñ": "n",
-        "m̃": "m",
+        "ñ": "nn",
+        "m̃": "mm",
         "ũ": "u",
         "ẽ": "e",
         "ĩ": "i",
