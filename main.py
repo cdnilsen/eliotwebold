@@ -493,17 +493,16 @@ def domasssearch():
     return render_template('searchmass.html', verseIndices = matchingIndices, verseDictionary = verseIndexDictionary, KJVIncluded = includeKJV, firstEditionIncluded = includeFirstEdition, secondEditionIncluded = includeSecondEdition, mayhewIncluded = includeMayhew, zerothEditionIncluded = includeZerothEdition, printKJVLines = matchingKJV, printFirstEditionLines = matchingFirstEdition, printSecondEditionLines = matchingSecondEdition, printMayhewLines = matchingMayhew, printZerothEditionLines = matchingZerothEdition, firstEditionCount = totalFirstEdition, secondEditionCount = totalSecondEdition, mayhewCount = totalMayhew, zerothEditionCount = totalZerothEdition, matchingVerses = matchingVerses, totalAll = totalAll, totalVerseCount = totalVerseCount, numRightColumns = rightColumns, numLeftColumns = leftColumns, rightColumnMeasure = rightColumnMeasure, leftColumnMeasure = leftColumnMeasure)
 
 @app.route('/proofreader', methods=['GET', 'POST'])
-def proofread():
+def proofreader():
     if request.method == 'POST':
         return render_template(url_for('proofreader.html'))
     
     return render_template('proofreader.html')
 
 @app.route("/doproofreading", methods=['GET', 'POST'])
-def runAProofread():
+def doproofreading():
     allBooks = allBookList
 
-    whichBook = request.form['choosebook']
 
 
-    return render_template('proofreader.html', allBooks = allBooks, whichBook = whichBook)
+    return render_template('proofreader.html', allBooks = allBooks)
