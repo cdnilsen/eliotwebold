@@ -6,10 +6,20 @@
 <body>
     <div>
         <form action="/doenglishsearch" method="POST">
-            <input type="text" name="search_query" placeholder="Search...">
-            <button type="submit">Search</button>
-            Choose which texts to include
+            <div style="display: flex; flex-direction: row; justify-content: center; align-items: center">
+                <label for="searchWordDropdown">Word</label>
+                <select id="searchWordDropdown" name="searchWordDropdown">
+                    <option id="contains" value="contains">contains: </option>
+                    <option id="isExactly" value="exact">is exactly: </option> 
+                    <option id="beginsWith" value="starts">begins with: </option>
+                    <option id="endsWith" value="ends">ends with: </option>
+                </select>
 
+                <input type="text" name="search_query" placeholder="Search...">
+            </div>
+            <br>
+
+            Choose which texts to include:
             <input type="checkbox" name="include_first_edition" id="include_first_edition" checked>
             <label for="include_first_edition">First Edition (1661/1663)</label>
 
@@ -21,6 +31,8 @@
 
             <input type="checkbox" name="include_zeroth_edition" id="include_zeroth_edition">
             <label for="include_zeroth_edition">"Zeroth"  Edition Genesis (1655)</label>
+
+            <button type="submit">Search</button>
         </form>
     </div>
     <table>

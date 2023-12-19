@@ -6,8 +6,17 @@
 <body>
     <div>
         <form action="/domasssearch" method="POST">
-            <input type="text" name="search_query" placeholder="Search...">
-            <button type="submit">Search (use <b><i>8</i></b> for the double-o ligature)</button>
+            <div style="display: flex; flex-direction: row; justify-content: center; align-items: center">
+                <label for="searchWordDropdown" style="padding-right:5px">Word </label>
+                <select id="searchWordDropdown" name="searchWordDropdown" style="padding-right:5px">
+                    <option id="contains" value="contains">contains: </option>
+                    <option id="isExactly" value="exact">is exactly: </option> 
+                    <option id="beginsWith" value="starts">begins with: </option>
+                    <option id="endsWith" value="ends">ends with: </option>
+                </select>
+                <input type="text" name="search_query" placeholder="Search..." style="padding-left:5px">
+            </div>
+            
             Choose which texts to include: 
 
             <input type="checkbox" name="include_first_edition" id="include_first_edition" checked>
@@ -29,6 +38,8 @@
 
             <input type="radio" id="diacritics_lax" name="diacritic_strictness" value="lax">
             <label for="diacritics_lax">Lax Diacritics</label>
+            <br>
+            <button type="submit">Search (use <b><i>8</i></b> for the double-o ligature)</button>
 
         </form>
     </div>
@@ -71,7 +82,7 @@
                     {% if KJVIncluded or firstEditionIncluded or secondEditionIncluded or mayhewIncluded or zerothEditionIncluded %}
                         <th class="verseNumHeader">
                             <span style="font-size: 20px">
-                            <span style="color:red">{{ totalAll }}</span> <span style="font-weight: normal">tokens found </span>
+                                <span style="color:red">{{ totalAll }}</span> <span style="font-weight: normal">tokens {{ searchCondition }} <b><i>{{ searchedWord }}</i></b> found </span>
                             </span>
                             <br>
                             <u>Verses</u> ({{ totalVerseCount }})

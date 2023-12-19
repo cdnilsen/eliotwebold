@@ -69,6 +69,11 @@ def getHapaxes(strictDiacritics):
 
         for line in firstEditionLines:
             lineText = line.split(" ")[1:]
+            if len(lineText) > 0:
+                if len(lineText[0]) > 2:
+                    if lineText[0][0] == "O" and lineText[0][1] == "O" and lineText[0][2] == lineText[0][2]:
+                        newFirstWord = "8" + lineText[0][2:]
+                        lineText = [newFirstWord] + lineText[1:]
             for word in lineText:
                 if strictDiacritics:
                     word = stripIrrelevantChars(word).lower()
@@ -85,6 +90,11 @@ def getHapaxes(strictDiacritics):
 
         for line in secondEditionLines:
             lineText = line.split(" ")[1:]
+            if len(lineText) > 0:
+                if len(lineText[0]) > 2:
+                    if lineText[0][0] == "O" and lineText[0][1] == "O" and lineText[0][2] == lineText[0][2]:
+                        newFirstWord = "8" + lineText[0][2:]
+                        lineText = [newFirstWord] + lineText[1:]
             for word in lineText:
                 if strictDiacritics:
                     word = stripIrrelevantChars(word).lower()
@@ -101,6 +111,11 @@ def getHapaxes(strictDiacritics):
             mayhewLines = mayhewFile.readlines()
             for line in mayhewLines:
                 lineText = line.split(" ")[1:]
+                if len(lineText) > 0:
+                    if len(lineText[0]) > 2:
+                        if lineText[0][0] == "O" and lineText[0][1] == "O" and lineText[0][2] == lineText[0][2]:
+                            newFirstWord = "8" + lineText[0][2:]
+                            lineText = [newFirstWord] + lineText[1:]
                 for word in lineText:
                     if strictDiacritics:
                         word = stripIrrelevantChars(word).lower()
@@ -112,7 +127,6 @@ def getHapaxes(strictDiacritics):
                         allWordList.append(word)
                         allWordDictionary[word] = 1
 
-    print("unnunog: " + str(allWordDictionary["unnunog"]))
     allWordList.sort(key=myCollator.sort_key)
     for word in allWordList:
         if allWordDictionary[word] == 1:
@@ -151,8 +165,6 @@ def populateHapaxes():
         if laxHapaxCountDict[hapax] == 1:
             hapaxLaxFile.write(hapax + "\n")
 
-#populateHapaxes()
-
 def fetchHapaxes(normalizeDiacritics):
     if normalizeDiacritics:
         hapaxFile = open("hapaxLegomenaLax.txt", "r", encoding="utf-8")
@@ -167,7 +179,13 @@ def fetchHapaxes(normalizeDiacritics):
     return hapaxList
 
 def processWordForHapax(word, normalizeDiacritics=False):
-    word = stripIrrelevantChars((word.replace("<red><b>", "").replace("</b></span>", "").lower()))
+
+    deHighlightedWord = word.replace("<red><b>", "").replace("</b></span>", "")
+    if len(deHighlightedWord) > 2:
+        if deHighlightedWord[0] == "O" and deHighlightedWord[1] == "O":
+            deHighlightedWord = "8" + deHighlightedWord[2:]
+    
+    word = stripIrrelevantChars((deHighlightedWord.lower()))
 
     if normalizeDiacritics:
         word = cleanLineOfDiacritics(word)
