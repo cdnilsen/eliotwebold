@@ -6,9 +6,7 @@ from jinja2 import Template, Environment, FileSystemLoader, select_autoescape
 
 from textdisplayfunctions import charReplacementDict, cleanLineOfDiacritics, displayLine
 
-from proofreadingfunctions import doVerseComparison
-
-
+from proofreadingfunctions import doVerseComparison, compareWords
 
 allBookList = [
     "Genesis",
@@ -79,6 +77,76 @@ allBookList = [
     "Jude",
     "Revelation"
 ]
+
+bookToChapterDictionary = {
+    "Genesis": 50,
+    "Exodus": 40,
+    "Leviticus": 27,
+    "Numbers": 36,
+    "Deuteronomy": 34,
+    "Joshua": 24,
+    "Judges": 21,
+    "Ruth": 4,
+    "1 Samuel": 31,
+    "2 Samuel": 24,
+    "1 Kings": 22,
+    "2 Kings": 25,
+    "1 Chronicles": 29,
+    "2 Chronicles": 36,
+    "Ezra": 10,
+    "Nehemiah": 13,
+    "Esther": 10,
+    "Job": 42,
+    "Psalms (prose)": 150,
+    "Psalms (metrical)": 150,
+    "Proverbs": 31,
+    "Ecclesiastes": 12,
+    "Song of Songs": 8,
+    "Isaiah": 66,
+    "Jeremiah": 52,
+    "Lamentations": 5,
+    "Ezekiel": 48,
+    "Daniel": 12,
+    "Hosea": 14,
+    "Joel": 3,
+    "Amos": 9,
+    "Obadiah": 1,
+    "Jonah": 4,
+    "Micah": 7,
+    "Nahum": 3,
+    "Habakkuk": 3,
+    "Zephaniah": 3,
+    "Haggai": 2,
+    "Zechariah": 14,
+    "Malachi": 4,
+    "Matthew": 28,
+    "Mark": 16,
+    "Luke": 24,
+    "John": 21,
+    "Acts": 28,
+    "Romans": 16,
+    "1 Corinthians": 16,
+    "2 Corinthians": 13,
+    "Galatians": 6,
+    "Ephesians": 6,
+    "Philippians": 4,
+    "Colossians": 4,
+    "1 Thessalonians": 5,
+    "2 Thessalonians": 3,
+    "1 Timothy": 6,
+    "2 Timothy": 4,
+    "Titus": 3,
+    "Philemon": 1,
+    "Hebrews": 13,
+    "James": 5,
+    "1 Peter": 5,
+    "2 Peter": 3,
+    "1 John": 5,
+    "2 John": 1,
+    "3 John": 1,
+    "Jude": 1,
+    "Revelation": 22
+}
 
 
 UPLOAD_FOLDER = 'texts'
@@ -497,12 +565,155 @@ def proofreader():
     if request.method == 'POST':
         return render_template(url_for('proofreader.html'))
     
-    return render_template('proofreader.html')
+    allBooks = allBookList
+    
+    return render_template('proofreader.html', allBooks = allBooks)
 
 @app.route("/doproofreading", methods=['GET', 'POST'])
 def doproofreading():
-    allBooks = allBookList
+    selectBook = request.form['bookSelectionDropdown']
+    selectChapter = request.form['chapterSelectionDropdown']
+    defaultBook =""
+    defaultChapter = ""
 
+    selectedBook = request.form.get('bookSelectionDropdown')
+    selectedChapter = request.form.get('chapterSelectionDropdown')
+    defaultBook = selectedBook
+    defaultChapter = selectedChapter
 
+    firstEditionSelected = request.form.get('include_first_edition') == 'on'
+    secondEditionSelected = request.form.get('include_second_edition') == 'on'
+    mayhewSelected = request.form.get('include_mayhew') == 'on'
+    zerothEditionSelected = request.form.get('include_zeroth_edition') == 'on'
+    showKJV = request.form.get('include_KJV') == 'on'
 
-    return render_template('proofreader.html', allBooks = allBooks)
+    hasMayhew = selectedBook == "Psalms (prose)" or selectedBook == "John"
+    hasZerothEdition = selectedBook == "Genesis"
+
+    useKJV = showKJV
+    useFirstEdition = firstEditionSelected
+    useSecondEdition = secondEditionSelected
+    useMayhew = False #hasMayhew and mayhewSelected
+    useZerothEdition = False #hasZerothEdition and zerothEditionSelected
+
+    fileNamesList = []
+    fileLinesList = []
+
+    verseList = []
+    firstEditionVerseDict = {}
+    secondEditionVerseDict = {}
+    mayhewVerseDict = {}
+    zerothEditionVerseDict = {}
+    KJVVerseDict = {}
+
+    dictList = []
+
+    if useFirstEdition:
+        firstEditionPath = './texts/' + selectedBook + '.First Edition.txt'
+        if os.path.exists(firstEditionPath):
+            useFirstEdition = True
+            firstEditionLines = open(firstEditionPath, 'r', encoding="utf-8").readlines()
+            fileLinesList.append(firstEditionLines)
+            fileNamesList.append("First Edition")
+            dictList.append(firstEditionVerseDict)
+        else:
+            useFirstEdition = False
+
+    if useSecondEdition:
+        secondEditionPath = './texts/' + selectedBook + '.Second Edition.txt'
+        if os.path.exists(secondEditionPath):
+            useSecondEdition = True
+            secondEditionLines = open(secondEditionPath, 'r', encoding="utf-8").readlines()
+            fileLinesList.append(secondEditionLines)
+            fileNamesList.append("Second Edition")
+            dictList.append(secondEditionVerseDict)
+
+        else:
+            useSecondEdition = False
+
+    if useMayhew:
+        mayhewPath = './texts/' + selectedBook + '.Mayhew.txt'
+        if os.path.exists(mayhewPath):
+            useMayhew = True
+            mayhewLines = open(mayhewPath, 'r', encoding="utf-8").readlines()
+            fileLinesList.append(mayhewLines)
+            fileNamesList.append("Mayhew")
+            dictList.append(mayhewVerseDict)
+        else:
+            useMayhew = False
+
+    if useZerothEdition:
+        zerothEditionPath = './texts/' + selectedBook + '.Zeroth Edition.txt'
+        if os.path.exists(zerothEditionPath):
+            useZerothEdition = True
+            zerothEditionLines = open(zerothEditionPath, 'r', encoding="utf-8").readlines()
+            fileLinesList.append(zerothEditionLines)
+            fileNamesList.append("Zeroth Edition")
+            dictList.append(zerothEditionVerseDict)
+        else:
+            useZerothEdition = False
+
+    if useKJV:
+        KJVPath = './texts/' + selectedBook + '.KJV.txt'
+        if os.path.exists(KJVPath):
+            useKJV = True
+            KJVLines = open(KJVPath, 'r', encoding="utf-8").readlines()
+            fileLinesList.append(KJVLines)
+            fileNamesList.append("KJV")
+            dictList.append(KJVVerseDict)
+        else:
+            useKJV = False
+
+    
+    for line in fileLinesList[0]:
+        chapterVerse = line.split(" ")[0].strip()
+        if chapterVerse == "Epilogue":
+            verseList.append("Epilogue")
+        else:
+            try:
+                chapter = chapterVerse.split(".")[0]
+                verse = chapterVerse.split(".")[1]
+                if str(chapter) == str(selectedChapter):
+                    verseList.append(verse)
+            except:
+                continue
+                #print("Error in line: " + line)
+
+    for verse in verseList:
+        firstEditionVerseDict[verse] = ""
+        secondEditionVerseDict[verse] = ""
+        firstEditionLine = ""
+        secondEditionLine = ""
+        for line in fileLinesList[0]:
+            chapterVerse = line.split(" ")[0].strip()
+            verseText = " ".join(line.split(" ")[1:]).strip()
+            print(verseText)
+            if chapterVerse == selectedChapter + "." + verse:
+                firstEditionLine = verseText
+                break
+
+        for line in fileLinesList[1]:
+            chapterVerse = line.split(" ")[0].strip()
+            verseText = " ".join(line.split(" ")[1:])
+            if chapterVerse == selectedChapter + "." + verse:
+                secondEditionLine = verseText
+                break
+
+        for line in fileLinesList[-1]:
+            print(line)
+            chapterVerse = line.split(" ")[0].strip()
+            verseText = " ".join(line.split(" ")[1:])
+            if chapterVerse == selectedChapter + "." + verse:
+                KJVVerseDict[verse] = verseText
+                break
+
+        comparedLines = compareWords(firstEditionLine, secondEditionLine)
+        firstEditionVerseDict[verse] = Markup(comparedLines[0].replace('8', 'ꝏ̄'))
+        secondEditionVerseDict[verse] = Markup(comparedLines[1].replace('8', 'ꝏ̄'))
+
+    useVerseNumber = useFirstEdition or useSecondEdition or useMayhew or useKJV or useZerothEdition
+
+        
+    
+    
+    return render_template('proofreader.html', selectedBook = selectedBook, selectedChapter = selectedChapter, hasMayhew = hasMayhew, hasZerothEdition = hasZerothEdition, defaultBook = defaultBook, defaultChapter = defaultChapter, useVerseNumber = useVerseNumber, useKJV = useKJV, useFirstEdition = useFirstEdition, useSecondEdition = useSecondEdition, useMayhew = useMayhew, useZerothEdition = useZerothEdition, verseList = verseList, fileNamesList = fileNamesList, firstEditionVerseDict = firstEditionVerseDict, secondEditionVerseDict = secondEditionVerseDict, mayhewVerseDict = mayhewVerseDict, zerothEditionVerseDict = zerothEditionVerseDict, KJVVerseDict = KJVVerseDict)
