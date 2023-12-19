@@ -228,6 +228,18 @@ def getMatchingLines(indexDict, book, edition, editionVerseList):
 def doenglishsearch():
     word = request.form['search_query']
 
+    searchCondition = request.form['searchWordDropdown']
+
+    printedCondition = ""
+    if searchCondition == "starts":
+        printedCondition = "starting with"
+    elif searchCondition == "ends":
+        printedCondition = "ending with"
+    elif searchCondition == "contains":
+        printedCondition = "containing"
+    elif searchCondition == "exact":
+        printedCondition = "exactly matching"
+
     includeKJV = True
     includeFirstEdition = request.form.get('include_first_edition') == 'on'
     includeSecondEdition = request.form.get('include_second_edition') == 'on'
@@ -254,14 +266,21 @@ def doenglishsearch():
     verseIndexDictionary = {}
 
     numMatches = 0
+    print(searchCondition)
     for book in allBookList:
+        verseNumList = []
+        verseLineDict = {}
         if book not in bookIndexDictionary:
             bookIndexDictionary[book] = []
         with open('./texts/' + book + '.KJV.txt', 'r', encoding="utf-8") as f:
             KJVbookLines = f.readlines()
             for i in range(len(KJVbookLines)):
+                verseNum = KJVbookLines[i].split(" ")[0].strip()
+                verseLineDict[verseNum] = False
+                verseNumList.append(verseNum)
                 verse = KJVbookLines[i]
-                if word.lower() in verse.lower():
+                verseWordDict = displayLine(verse, False, verseNumList, word, {}, verseLineDict, searchCondition)
+                if verseWordDict["lineHasWord"]:
                     if book == "Genesis":
                         anyWordsInGenesis = True
                     if book == "Psalms (prose)" or book == "Psalms (metrical)":
@@ -274,16 +293,15 @@ def doenglishsearch():
                     bookIndexDictionary[book].append(i)
 
                     verseNum = "<b>" + book + " " + verse.split(" ")[0] + "</b>: "
-                    matchingVerses.append(Markup(verseNum))
+                    matchingVerses.append(verseNum)
 
-                    newVerse = " ".join(verse.split(" ")[1:])
-                    newVerse = replace_keep_case(word, "<span style='color:red'><b>" + word + "</b></span>", newVerse)
-                    newVerse = verseNum + newVerse
-                    MarkedVerse = Markup(newVerse)
-                    finalKJVVerses.append(MarkedVerse)
+                    newVerse = verseWordDict["verseText"]
+                    finalKJVVerses.append(newVerse)
 
                     numMatches += 1
         f.close()
+    for verse in finalKJVVerses:
+        print(verse)
 
     for book in bookIndexDictionary:
         getMatchingLines(bookIndexDictionary, book, 'First Edition', matchingFirstEdition)
@@ -294,7 +312,11 @@ def doenglishsearch():
     for index in matchingIndices:
 
         verseIndexDictionary[index] = {}
-        verseIndexDictionary[index]['Verse'] = matchingVerses[index]
+        #This isn't going to be an efficient way to do this, but fix it later
+        whichBook = " ".join(matchingVerses[index].strip().split(" ")[:-1]) + "</b>"
+        whichVerse = matchingVerses[index].strip().split(" ")[-1][0:-1].replace("</b>", "")
+
+        verseIndexDictionary[index]['Address'] = Markup(whichBook + " " + whichVerse)
 
         verseIndexDictionary[index]['KJV'] = finalKJVVerses[index]
 
@@ -552,7 +574,7 @@ def domasssearch():
     else:
         leftColumnMeasure = "14%"
 
-    return render_template('searchmass.html', verseIndices = matchingIndices, verseDictionary = verseIndexDictionary, KJVIncluded = includeKJV, firstEditionIncluded = includeFirstEdition, secondEditionIncluded = includeSecondEdition, mayhewIncluded = includeMayhew, zerothEditionIncluded = includeZerothEdition, printKJVLines = matchingKJV, printFirstEditionLines = matchingFirstEdition, printSecondEditionLines = matchingSecondEdition, printMayhewLines = matchingMayhew, printZerothEditionLines = matchingZerothEdition, firstEditionCount = totalFirstEdition, secondEditionCount = totalSecondEdition, mayhewCount = totalMayhew, zerothEditionCount = totalZerothEdition, matchingVerses = matchingVerses, totalAll = totalAll, totalVerseCount = totalVerseCount, numRightColumns = rightColumns, numLeftColumns = leftColumns, rightColumnMeasure = rightColumnMeasure, leftColumnMeasure = leftColumnMeasure, searchedWord = word, searchCondition = printedCondition)
+    return render_template('searchmass.html', verseIndices = matchingIndices, verseDictionary = verseIndexDictionary, KJVIncluded = includeKJV, firstEditionIncluded = includeFirstEdition, secondEditionIncluded = includeSecondEdition, mayhewIncluded = includeMayhew, zerothEditionIncluded = includeZerothEdition, printKJVLines = matchingKJV, printFirstEditionLines = matchingFirstEdition, printSecondEditionLines = matchingSecondEdition, printMayhewLines = matchingMayhew, printZerothEditionLines = matchingZerothEdition, firstEditionCount = totalFirstEdition, secondEditionCount = totalSecondEdition, mayhewCount = totalMayhew, zerothEditionCount = totalZerothEdition, matchingVerses = matchingVerses, totalAll = totalAll, totalVerseCount = totalVerseCount, numRightColumns = rightColumns, numLeftColumns = leftColumns, rightColumnMeasure = rightColumnMeasure, leftColumnMeasure = leftColumnMeasure, searchedWord = word, searchCondition = printedCondition, showHapaxes = showHapaxes, printedCondition = printedCondition)
 
 @app.route('/browsetexts', methods=['GET', 'POST'])
 def browsetexts():
