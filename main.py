@@ -6,7 +6,9 @@ from jinja2 import Template, Environment, FileSystemLoader, select_autoescape
 
 from textdisplayfunctions import charReplacementDict, cleanLineOfDiacritics, displayLine
 
-from proofreadingfunctions import doVerseComparison, compareWords
+from proofreadingfunctions import compareWords
+
+from wordfrequencymodule import getHapaxes, fetchHapaxes, processWordForHapax, hapaxUnderlining
 
 allBookList = [
     "Genesis",
@@ -206,7 +208,6 @@ def cleanLineOfDiacritics(line):
     return line
 
 def getMatchingLines(indexDict, book, edition, editionVerseList):
-
     textPath = './texts/' + book + '.' + edition + '.txt'
     if len(indexDict[book]) > 0 and os.path.exists(textPath):
                 with open(textPath, 'r', encoding="utf-8") as f:
@@ -214,7 +215,7 @@ def getMatchingLines(indexDict, book, edition, editionVerseList):
                     for i in indexDict[book]:
                         if i < len(bookLines):
                             verseText = " ".join(bookLines[i].split(" ")[1:])
-                            editionVerseList.append(verseText.replace('8', 'ꝏ̄'))
+                            editionVerseList.append(Markup(verseText.replace('8', 'ꝏ̄').replace('{', "<i>").replace('}', "</i>")))
                         else:
                             editionVerseList.append(" ")
                 f.close()
@@ -318,7 +319,6 @@ def searchmass():
     return render_template('searchmass.html')
 
 def getMatchingLinesMass(indexDict, book, edition, editionVerseList, useStrictDiacritics):
-
     textPath = './texts/' + book + '.' + edition + '.txt'
     if len(indexDict[book]) > 0 and os.path.exists(textPath):
                 with open(textPath, 'r', encoding="utf-8") as f:
@@ -329,7 +329,7 @@ def getMatchingLinesMass(indexDict, book, edition, editionVerseList, useStrictDi
                                 verseText = cleanLineOfDiacritics(bookLines[i])
                             else:
                                 verseText = bookLines[i]
-                            editionVerseList.append(verseText.replace('8', 'ꝏ̄'))
+                            editionVerseList.append(verseText.replace('8', 'ꝏ̄').replace('{', "<i>").replace('}', "</i>"))
                         else:
                             editionVerseList.append(" ")
                 f.close()
@@ -348,6 +348,8 @@ def domasssearch():
     includeSecondEdition = request.form.get('include_second_edition') == 'on'
     includeMayhew = request.form.get('include_mayhew') == 'on'
     includeZerothEdition = request.form.get('include_zeroth_edition') == 'on'
+    showHapaxes = request.form.get('show_hapaxes') == 'on'
+
 
     strictDiacritics = request.form['diacritic_strictness'] == 'strict'
 
@@ -557,17 +559,16 @@ def domasssearch():
     else:
         leftColumnMeasure = "14%"
 
-
     return render_template('searchmass.html', verseIndices = matchingIndices, verseDictionary = verseIndexDictionary, KJVIncluded = includeKJV, firstEditionIncluded = includeFirstEdition, secondEditionIncluded = includeSecondEdition, mayhewIncluded = includeMayhew, zerothEditionIncluded = includeZerothEdition, printKJVLines = matchingKJV, printFirstEditionLines = matchingFirstEdition, printSecondEditionLines = matchingSecondEdition, printMayhewLines = matchingMayhew, printZerothEditionLines = matchingZerothEdition, firstEditionCount = totalFirstEdition, secondEditionCount = totalSecondEdition, mayhewCount = totalMayhew, zerothEditionCount = totalZerothEdition, matchingVerses = matchingVerses, totalAll = totalAll, totalVerseCount = totalVerseCount, numRightColumns = rightColumns, numLeftColumns = leftColumns, rightColumnMeasure = rightColumnMeasure, leftColumnMeasure = leftColumnMeasure)
 
-@app.route('/proofreader', methods=['GET', 'POST'])
-def proofreader():
+@app.route('/browsetexts', methods=['GET', 'POST'])
+def browsetexts():
     if request.method == 'POST':
-        return render_template(url_for('proofreader.html'))
+        return render_template(url_for('browsetexts.html'))
     
     allBooks = allBookList
     
-    return render_template('proofreader.html', allBooks = allBooks)
+    return render_template('browsetexts.html', allBooks = allBooks)
 
 @app.route("/doproofreading", methods=['GET', 'POST'])
 def doproofreading():
@@ -575,6 +576,10 @@ def doproofreading():
     selectChapter = request.form['chapterSelectionDropdown']
     defaultBook =""
     defaultChapter = ""
+
+    showDifferences = request.form.get('show_differences')
+    
+    hapaxValue = request.form.get('show_hapaxes')
 
     selectedBook = request.form.get('bookSelectionDropdown')
     selectedChapter = request.form.get('chapterSelectionDropdown')
@@ -593,7 +598,7 @@ def doproofreading():
     useKJV = showKJV
     useFirstEdition = firstEditionSelected
     useSecondEdition = secondEditionSelected
-    useMayhew = False #hasMayhew and mayhewSelected
+    useMayhew = hasMayhew and mayhewSelected
     useZerothEdition = False #hasZerothEdition and zerothEditionSelected
 
     fileNamesList = []
@@ -607,6 +612,13 @@ def doproofreading():
     KJVVerseDict = {}
 
     dictList = []
+
+    hapaxList = []
+    if hapaxValue != "no":
+        if hapaxValue == "strict":
+            hapaxList = fetchHapaxes(False)
+        else:
+            hapaxList = fetchHapaxes(True)
 
     if useFirstEdition:
         firstEditionPath = './texts/' + selectedBook + '.First Edition.txt'
@@ -627,7 +639,6 @@ def doproofreading():
             fileLinesList.append(secondEditionLines)
             fileNamesList.append("Second Edition")
             dictList.append(secondEditionVerseDict)
-
         else:
             useSecondEdition = False
 
@@ -641,6 +652,7 @@ def doproofreading():
             dictList.append(mayhewVerseDict)
         else:
             useMayhew = False
+    print(useMayhew)
 
     if useZerothEdition:
         zerothEditionPath = './texts/' + selectedBook + '.Zeroth Edition.txt'
@@ -664,7 +676,6 @@ def doproofreading():
         else:
             useKJV = False
 
-    
     for line in fileLinesList[0]:
         chapterVerse = line.split(" ")[0].strip()
         if chapterVerse == "Epilogue":
@@ -677,7 +688,6 @@ def doproofreading():
                     verseList.append(verse)
             except:
                 continue
-                #print("Error in line: " + line)
 
     for verse in verseList:
         firstEditionVerseDict[verse] = ""
@@ -687,7 +697,6 @@ def doproofreading():
         for line in fileLinesList[0]:
             chapterVerse = line.split(" ")[0].strip()
             verseText = " ".join(line.split(" ")[1:]).strip()
-            print(verseText)
             if chapterVerse == selectedChapter + "." + verse:
                 firstEditionLine = verseText
                 break
@@ -699,21 +708,57 @@ def doproofreading():
                 secondEditionLine = verseText
                 break
 
+        if useMayhew:
+            mayhewVerseDict[verse] = ""
+            mayhewLine = ""
+            for line in fileLinesList[2]:
+                chapterVerse = line.split(" ")[0].strip()
+                verseText = " ".join(line.split(" ")[1:])
+                if chapterVerse == selectedChapter + "." + verse:
+                    mayhewLine = verseText
+                    break
+
         for line in fileLinesList[-1]:
-            print(line)
             chapterVerse = line.split(" ")[0].strip()
             verseText = " ".join(line.split(" ")[1:])
             if chapterVerse == selectedChapter + "." + verse:
                 KJVVerseDict[verse] = verseText
                 break
+        
+        if showDifferences == "no":
+            comparedLines = [firstEditionLine, secondEditionLine]
+        elif showDifferences == "include_casing":
+            comparedLines = compareWords(firstEditionLine, secondEditionLine, False)
+        else:
+            comparedLines = compareWords(firstEditionLine, secondEditionLine, True)
 
-        comparedLines = compareWords(firstEditionLine, secondEditionLine)
-        firstEditionVerseDict[verse] = Markup(comparedLines[0].replace('8', 'ꝏ̄'))
-        secondEditionVerseDict[verse] = Markup(comparedLines[1].replace('8', 'ꝏ̄'))
+        if useMayhew:
+            comparedLines.append(mayhewLine)
+        
+        comparedLinesSpanCompressed = []
+        for line in comparedLines:
+            if '<b>' in line:
+                comparedLinesSpanCompressed.append(line.replace('<span style="color: red">', '<red>'))
+            else:
+                comparedLinesSpanCompressed.append(line)
+
+        if hapaxValue != "no":
+            diacriticsLax = hapaxValue == "lax"
+            newLineList = []
+            for line in comparedLinesSpanCompressed:
+                lineFormatted = line.split(" ")
+                newString = ""
+                for word in lineFormatted:
+                    newString += hapaxUnderlining(word, hapaxList, diacriticsLax)
+                newLineList.append(newString.strip())
+            comparedLinesSpanCompressed = newLineList
+
+        firstEditionVerseDict[verse] = Markup(comparedLinesSpanCompressed[0].replace('8', 'ꝏ̄').replace("<red><b>", '<span style="color: red"><b>').replace("{", "<i>").replace("}", "</i>"))
+        secondEditionVerseDict[verse] = Markup(comparedLinesSpanCompressed[1].replace('8', 'ꝏ̄').replace('8', 'ꝏ̄').replace("<red><b>", '<span style="color: red"><b>').replace("<red><b>", '<span style="color: red"><b>').replace("{", "<i>").replace("}", "</i>"))
+
+        if useMayhew:
+            mayhewVerseDict[verse] = Markup(comparedLinesSpanCompressed[2].replace('8', 'ꝏ̄').replace("{", "<i>").replace("}", "</i>"))
 
     useVerseNumber = useFirstEdition or useSecondEdition or useMayhew or useKJV or useZerothEdition
-
-        
     
-    
-    return render_template('proofreader.html', selectedBook = selectedBook, selectedChapter = selectedChapter, hasMayhew = hasMayhew, hasZerothEdition = hasZerothEdition, defaultBook = defaultBook, defaultChapter = defaultChapter, useVerseNumber = useVerseNumber, useKJV = useKJV, useFirstEdition = useFirstEdition, useSecondEdition = useSecondEdition, useMayhew = useMayhew, useZerothEdition = useZerothEdition, verseList = verseList, fileNamesList = fileNamesList, firstEditionVerseDict = firstEditionVerseDict, secondEditionVerseDict = secondEditionVerseDict, mayhewVerseDict = mayhewVerseDict, zerothEditionVerseDict = zerothEditionVerseDict, KJVVerseDict = KJVVerseDict)
+    return render_template('browsetexts.html', selectedBook = selectedBook, selectedChapter = selectedChapter, hasMayhew = hasMayhew, hasZerothEdition = hasZerothEdition, defaultBook = defaultBook, defaultChapter = defaultChapter, useVerseNumber = useVerseNumber, useKJV = useKJV, useFirstEdition = useFirstEdition, useSecondEdition = useSecondEdition, useMayhew = useMayhew, useZerothEdition = useZerothEdition, verseList = verseList, fileNamesList = fileNamesList, firstEditionVerseDict = firstEditionVerseDict, secondEditionVerseDict = secondEditionVerseDict, mayhewVerseDict = mayhewVerseDict, zerothEditionVerseDict = zerothEditionVerseDict, KJVVerseDict = KJVVerseDict)

@@ -41,6 +41,33 @@
         <input type="checkbox" name="include_KJV" id="include_KJV" checked>
             <label for="include_KJV">Show KJV</label>
 
+        <input type="checkbox" name="include_grebrew" id="include_grebrew">
+            <label for="include_grebrew">Show Hebrew/Greek (does nothing yet)</label>
+        
+        <br>
+
+        <span style="color:red"><b>Highlight</b></span> Differences (only works for 1st vs. 2nd edition for now):
+        <input type="radio" name="show_differences" id="no_show" value = "no" checked>
+            <label for="show_differences">No</label>
+
+        <input type="radio" name="show_differences" id="include_casing" value="include_casing">
+            <label for="include_casing">Yes, including letter casing (<i><span style="color:red"><b>W</b></span>osketomp</i> ≠ <i><span style="color:red"><b>w</b></span>osketomp</i>) </label>
+
+        <input type="radio" name="show_differences" id="exclude_casing" value = "exclude_casing">
+            <label for="exclude_casing">Yes, ignoring letter casing (<i>Wosketomp</i> = <i>wosketomp</i>)</label>
+
+        <br>
+        <u>Underline</u> Hapaxes (only NT for now):
+        <input type="radio" name="show_hapaxes" id="dont_show" value = "no" checked>
+            <label for="dont_show">No</label>
+
+        <input type="radio" name="show_hapaxes" id="strict" value="strict">
+            <label for="strict">Yes, strict on diacritics (<i>mátta</i> ≠ <i>matta</i>)</label>
+
+        <input type="radio" name="show_hapaxes" id="lax" value="lax">
+            <label for="ignore_case">Yes, lax on diacritics (<i>mátta</i> = <i>matta</i>)</label>
+        <br>
+
         <button type="submit" >Submit</button>
     </form>
     </div>
@@ -89,7 +116,7 @@
                 <td class="verseNum">{{ selectedChapter }}.{{ verseIndex }}</td>
             {% endif %}
 
-            {% if mayhewIncluded %}
+            {% if useMayhew %}
             <td>
                 {{ mayhewVerseDict[verseIndex] }}
             </td>
