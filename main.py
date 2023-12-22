@@ -530,10 +530,15 @@ def domasssearch():
 
 
     includeKJV = len(matchingKJV) > 0
+
     includeFirstEdition = includeFirstEdition and useFirstEdition and len(matchingFirstEdition) > 0
+
     includeSecondEdition = includeSecondEdition and useSecondEdition and len(matchingSecondEdition) > 0
+
     includeMayhew = includeMayhew and useMayhew and len(matchingMayhew) > 0
     includeZerothEdition = includeZerothEdition and useZerothEdition and len(matchingZerothEdition) > 0
+
+    includeVerseNumber = includeFirstEdition or includeSecondEdition or includeMayhew or includeKJV or includeZerothEdition
 
     totalAll = str(totalFirstEdition + totalSecondEdition + totalMayhew + totalZerothEdition)
 
@@ -574,7 +579,7 @@ def domasssearch():
     else:
         leftColumnMeasure = "14%"
 
-    return render_template('searchmass.html', verseIndices = matchingIndices, verseDictionary = verseIndexDictionary, KJVIncluded = includeKJV, firstEditionIncluded = includeFirstEdition, secondEditionIncluded = includeSecondEdition, mayhewIncluded = includeMayhew, zerothEditionIncluded = includeZerothEdition, printKJVLines = matchingKJV, printFirstEditionLines = matchingFirstEdition, printSecondEditionLines = matchingSecondEdition, printMayhewLines = matchingMayhew, printZerothEditionLines = matchingZerothEdition, firstEditionCount = totalFirstEdition, secondEditionCount = totalSecondEdition, mayhewCount = totalMayhew, zerothEditionCount = totalZerothEdition, matchingVerses = matchingVerses, totalAll = totalAll, totalVerseCount = totalVerseCount, numRightColumns = rightColumns, numLeftColumns = leftColumns, rightColumnMeasure = rightColumnMeasure, leftColumnMeasure = leftColumnMeasure, searchedWord = word, searchCondition = printedCondition, showHapaxes = showHapaxes, printedCondition = printedCondition)
+    return render_template('searchmass.html', verseIndices = matchingIndices, verseDictionary = verseIndexDictionary, KJVIncluded = includeKJV, firstEditionIncluded = includeFirstEdition, secondEditionIncluded = includeSecondEdition, mayhewIncluded = includeMayhew, zerothEditionIncluded = includeZerothEdition, printKJVLines = matchingKJV, printFirstEditionLines = matchingFirstEdition, printSecondEditionLines = matchingSecondEdition, printMayhewLines = matchingMayhew, printZerothEditionLines = matchingZerothEdition, firstEditionCount = totalFirstEdition, secondEditionCount = totalSecondEdition, mayhewCount = totalMayhew, zerothEditionCount = totalZerothEdition, matchingVerses = matchingVerses, totalAll = totalAll, totalVerseCount = totalVerseCount, numRightColumns = rightColumns, numLeftColumns = leftColumns, rightColumnMeasure = rightColumnMeasure, leftColumnMeasure = leftColumnMeasure, searchedWord = word, searchCondition = printedCondition, showHapaxes = showHapaxes, printedCondition = printedCondition, includeVerseNumber = includeVerseNumber)
 
 @app.route('/browsetexts', methods=['GET', 'POST'])
 def browsetexts():
@@ -769,11 +774,57 @@ def doproofreading():
             comparedLinesSpanCompressed = newLineList
 
         firstEditionVerseDict[verse] = Markup(comparedLinesSpanCompressed[0].replace('8', 'ꝏ̄').replace("<red><b>", '<span style="color: red"><b>').replace("{", "<i>").replace("}", "</i>"))
-        secondEditionVerseDict[verse] = Markup(comparedLinesSpanCompressed[1].replace('8', 'ꝏ̄').replace('8', 'ꝏ̄').replace("<red><b>", '<span style="color: red"><b>').replace("<red><b>", '<span style="color: red"><b>').replace("{", "<i>").replace("}", "</i>"))
+
+        secondEditionVerseDict[verse] = Markup(comparedLinesSpanCompressed[1].replace('8', 'ꝏ̄').replace("<red><b>", '<span style="color: red"><b>').replace("{", "<i>").replace("}", "</i>"))
 
         if useMayhew:
             mayhewVerseDict[verse] = Markup(comparedLinesSpanCompressed[2].replace('8', 'ꝏ̄').replace("{", "<i>").replace("}", "</i>"))
 
     useVerseNumber = useFirstEdition or useSecondEdition or useMayhew or useKJV or useZerothEdition
+    print("!" + str(useFirstEdition))
+
+    rightColumns = []
+    if useFirstEdition:
+        rightColumns.append(1)
+    if useSecondEdition:
+        rightColumns.append(1)
+
+    if len(rightColumns) == 0:
+        if useMayhew:
+            rightColumns.append(1)
+        if useZerothEdition:
+            rightColumns.append(1)
+
+    leftColumns = []
+    if useFirstEdition or useSecondEdition:
+        if useMayhew:
+            leftColumns.append(1)
+        if useZerothEdition:
+            leftColumns.append(1)
+    if useKJV:
+        leftColumns.append(1)
+
+    rightColumnMeasure = ""
+    if len(rightColumns) < 2:
+        rightColumnMeasure = "42%"
+    else:
+        rightColumnMeasure = "21%"
+
+    leftColumnMeasure = ""
+    if len(leftColumns) < 2:
+        leftColumnMeasure = "42%"
+    elif len(leftColumns) == 2:
+        leftColumnMeasure = "21%"
+    else:
+        leftColumnMeasure = "14%"
+
+    print(rightColumns)
+    print(leftColumns)
+    print(rightColumnMeasure)
+    print(leftColumnMeasure)
+        
+    for verse in verseList:
+        print(verse)
+        print(secondEditionVerseDict[verse])
     
-    return render_template('browsetexts.html', selectedBook = selectedBook, selectedChapter = selectedChapter, hasMayhew = hasMayhew, hasZerothEdition = hasZerothEdition, defaultBook = defaultBook, defaultChapter = defaultChapter, useVerseNumber = useVerseNumber, useKJV = useKJV, useFirstEdition = useFirstEdition, useSecondEdition = useSecondEdition, useMayhew = useMayhew, useZerothEdition = useZerothEdition, verseList = verseList, fileNamesList = fileNamesList, firstEditionVerseDict = firstEditionVerseDict, secondEditionVerseDict = secondEditionVerseDict, mayhewVerseDict = mayhewVerseDict, zerothEditionVerseDict = zerothEditionVerseDict, KJVVerseDict = KJVVerseDict)
+    return render_template('browsetexts.html', selectedBook = selectedBook, selectedChapter = selectedChapter, hasMayhew = hasMayhew, hasZerothEdition = hasZerothEdition, defaultBook = defaultBook, defaultChapter = defaultChapter, useVerseNumber = useVerseNumber, useKJV = useKJV, useFirstEdition = useFirstEdition, useSecondEdition = useSecondEdition, useMayhew = useMayhew, useZerothEdition = useZerothEdition, verseList = verseList, fileNamesList = fileNamesList, firstEditionVerseDict = firstEditionVerseDict, secondEditionVerseDict = secondEditionVerseDict, mayhewVerseDict = mayhewVerseDict, zerothEditionVerseDict = zerothEditionVerseDict, KJVVerseDict = KJVVerseDict, numRightColumns = rightColumns, numLeftColumns = leftColumns, rightColumnMeasure = rightColumnMeasure, leftColumnMeasure = leftColumnMeasure)

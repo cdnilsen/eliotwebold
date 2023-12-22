@@ -2555,7 +2555,6 @@ flookse
 forlongs
 forum
 fuphrates
-g
 gabatha
 gabbatha
 gabbatha*
@@ -3200,7 +3199,7 @@ k8wetomunnumwóp
 k8wewuonk
 k8woâmonittuonganun
 k8woâmónittuonganun
-k8wohgkauununnaout
+k8wogkauununnaout
 k8wohskhetteaonganit
 k8wohtam8ongan8
 k8wohteomw8
@@ -4824,6 +4823,7 @@ kukquôsqushsósimw8
 kukquósqusswuttoh
 kukquôsquswômw8
 kukqush8ongan8óut
+kukqush8ongan8ôut
 kukqushshuwaongan8
 kukqussukquannehtohwhun8mun
 kukqussukquantahwhunnúmun
@@ -6365,7 +6365,6 @@ magunninnuonukquog
 magunoh
 magwutteae
 mah
-mahcche
 mahch8hquttamaoash
 mahch8hquttamunáoash
 mahchannáai
@@ -6693,7 +6692,6 @@ matchehteauunat
 matchek8og
 matcheke
 matchekeup
-matchekodtantamoonk
 matchékuog
 matchékuoh
 matchemapit
@@ -7253,7 +7251,6 @@ mishittaukkomukqut
 mishîttaukkomukqut
 mishittaukomukqut
 mishittáukomukqut
-mishkeneunkque
 mishkóaj
 mishkómin
 mishkômin
@@ -7329,6 +7326,7 @@ missiñinuog
 missinnaineat
 missinnàinneat
 missinneaunneat
+missinneàunneat
 missinninn—og
 missinninnaog
 missinninneúh
@@ -8040,7 +8038,6 @@ n8numimáog
 n8numimauog
 n8numwohettìt
 n8númwohettit
-n8ôut
 n8shitteoh
 n8shqueheonk
 n8shunnonog
@@ -8505,7 +8502,6 @@ náeu
 nàg
 nâg*
 nag$wutch
-nag$wutche
 nâgeau
 nághog
 nágkoch
@@ -8561,7 +8557,6 @@ nahnáúnneau
 nahnáunneu
 náhnaunneu
 náhnâunneu
-nahnâunnu
 nahnayag
 nahneeswe
 nahnepâshad
@@ -8636,8 +8631,6 @@ naig
 naihtaiinnean
 naiuskoianatamunap
 nak
-nakodtukeg
-nakogtukeg
 nakoneyeuwehp
 nakonuhkiehpaneg
 nakup
@@ -9293,7 +9286,6 @@ nat8tumauoh
 nat8tumauon
 nat8tumuhchaong
 nat8tumuhteaong
-natam8onk
 natapp8onk
 natappuog
 natauwahhenumuk
@@ -10168,6 +10160,7 @@ nishkeneungqué
 nìshkeneungque
 nishkeneungqueu
 nishkeneungqussuongash
+níshkeneungqussuongash
 nishkeneungwe
 nishkeneunhque
 nishkeneúnkque
@@ -12637,7 +12630,7 @@ panneonneat
 panneónneat
 pannes8hteaenúe
 pannes8htéaenúe
-panneusseongánit
+panneusseongànit
 panneusseongash
 pánneusseongash
 pannéusseonk
@@ -13324,7 +13317,6 @@ peyout
 peyuuk
 ph‘nice
 phænice
-phanatamunat
 pharðsesog
 pharesesog
 phárise
@@ -13513,7 +13505,6 @@ pohquóhham
 pohquohhamòog
 pohquohhamópanneg
 pohquohhamunat
-pohquohhamwehettit
 pohquohhamwehhettit
 pohquóhhamwehhettit
 pohquohhómunnan
@@ -13522,6 +13513,7 @@ pohquohhomup
 pohquohhumópanneg
 pohquohhunneh
 pohquóhkam
+pohquohsuaen
 pohquohsuaenin
 pohquohwhunneh
 pohquohwhunnittuonk
@@ -13746,7 +13738,6 @@ psuhquaeu
 puagunug
 publikanag
 publikanoǧ
-pûhanatamunat
 puhp8nussúnnun
 puhpequae
 puhpequáe
@@ -14556,7 +14547,7 @@ sasasogkinittum8ugish
 sasasogkinníttum8ugish
 sásassogkinnittum8ugish
 saseganamwe
-sasegenamwe
+sasêgenamwe
 sasegeneám8k
 sasékeneunkqueógkup
 sasekenunkqueógkup
@@ -14801,7 +14792,6 @@ sohhem8m8
 sohhomwog
 sohhowunont
 sôhkausuaenùog
-sohkauut
 sohkepwutteóg
 sohkôadtue
 sohkóhsuog
@@ -15459,7 +15449,6 @@ tohkô
 tohkoi8p
 tôhkônógque
 tohkuppiss8
-tohkupsehettit
 tohkussittassun
 tohmekommue
 tohn8che
@@ -16006,7 +15995,6 @@ ummanitt8omoh
 ummanitt8woh
 ummanitt8womp8m8oh
 ummanitt8wompom8oh
-ummanittoe
 ummannissuonganit
 ummánouhwhonat
 ummánouhwhónat
@@ -16028,6 +16016,7 @@ ummatchenôuh
 ummatcheseonganóash
 ummatcheseonganoóash
 ummatcheséonganoóash
+ummàtcheseonk
 ummatcheseonkan8
 ummatcheséonkanóash
 ummatcheseonkanoo
@@ -16744,7 +16733,6 @@ upputtukqunneg
 upquhkukk8óut
 upunehtunkquoh
 upweshassowaonk
-uqush8
 usecheh
 usek
 usét
@@ -17021,7 +17009,6 @@ wadchiogish
 wadchiogkish
 wádchiyeuut
 wâdchiyeúut
-wadchiyeuuugish
 wadchonadt
 wadchonau
 wadchonont
@@ -17144,7 +17131,6 @@ waetomunogq
 wahan
 wáheáhettit
 waheáhittit
-waheaonk
 waheáonk
 wáheau
 waheauóg
@@ -18572,7 +18558,6 @@ wok
 woksecheyeu8gish
 wom8ug
 wôm8ug
-wóm8uk
 wómach
 wômach
 woman
@@ -18825,7 +18810,6 @@ wotohtimóneash
 wóussumog
 woussumon
 wôússumon
-wów8uk
 wowawussumont
 woweenoonganit
 wówhótinnumauwáog
@@ -19546,7 +19530,6 @@ wunnetuhtaun
 wunnetúhtaun
 wunnetúhtuaénúh
 wunnetuonkanit
-wunnetup
 wunnetupanatam8wonganit
 wunnetupanatam8wonganìt
 wunnetupanatam8wongash
@@ -20293,7 +20276,7 @@ wutadtahtauun
 wutadtauompuog
 wutagwappehtamunnaóut
 wutahamongash
-wutahámongash
+wutahâmongash
 wutahamunk
 wutahanéhtauóuh
 wutahappanikinneau
@@ -20528,8 +20511,6 @@ wutauskoianatamunaóut
 wutáuskoianatamunaout
 wutauwaásunumoh
 wutauwaâsunumoh
-wutawakaompan8ongan8
-wutawakompan8ongan8
 wutawakompanâe
 wutawakompanónat
 wutawakompunónat
@@ -20682,7 +20663,6 @@ wutogk8ompamoh
 wutogk8ompumoh
 wutogk8onganash
 wutogketamunneau
-wutogkomaiyeum8
 wutogkqunneunkqussuonk
 wutogquánumóuh
 wutogquánumôuh
@@ -21229,7 +21209,6 @@ wuttinnunnúmaoh
 wuttinnunnumauoh
 wuttinnunnumauónat
 wuttinnunnumáuónat
-wuttinnunnumoh
 wuttinnussuongane
 wuttinnusuonk
 wuttinoh
@@ -21547,7 +21526,6 @@ yen
 yeoyatcheh
 yet
 yeu$it
-yeu$wutch
 yeu8gish
 yeu8og
 yéuhhog

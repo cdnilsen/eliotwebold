@@ -1403,7 +1403,6 @@ flookse
 forlongs
 forum
 fuphrates
-g
 gabatha
 gabbatha
 gabbatha*
@@ -1802,7 +1801,7 @@ k8wetomukk8
 k8wetomukkumw8
 k8wetomunnumwop
 k8wewuonk
-k8wohgkauununnaout
+k8wogkauununnaout
 k8wohskhetteaonganit
 k8wohtam8ongan8
 k8wohteomw8
@@ -2792,7 +2791,6 @@ kukquoshwoppeonaont
 kukquosqushsosimw8
 kukquosqusswuttoh
 kukquosquswomw8
-kukqush8ongan8out
 kukqushshuwaongan8
 kukqussukquannehtohwhun8mun
 kukqussukquantahwhunnumun
@@ -3790,7 +3788,6 @@ magunninnuonukquog
 magunoh
 magwutteae
 mah
-mahcche
 mahch8hquttamaoash
 mahch8hquttamunaoash
 mahchannaai
@@ -4345,7 +4342,6 @@ mishimmechummu8
 mishimmechummum8
 mishinnon
 mishippagkodtup
-mishkeneunkque
 mishkoaj
 mishkonontipe
 mishnoh
@@ -4823,7 +4819,6 @@ n8nomwamun
 n8ntamptamumun
 n8numimaog
 n8numimauog
-n8out
 n8shitteoh
 n8shqueheonk
 n8shunnnonog
@@ -5069,7 +5064,6 @@ naeitau
 naepaush
 naeu
 nag$wutch
-nag$wutche
 nageau
 nagkoch
 nagkodtumohettichish
@@ -5146,8 +5140,6 @@ naig
 naihtaiinnean
 naiuskoianatamunap
 nak
-nakodtukeg
-nakogtukeg
 nakoneyeuwehp
 nakonuhkiehpaneg
 nakup
@@ -5501,7 +5493,6 @@ nat8tumauoh
 nat8tumauon
 nat8tumuhchaong
 nat8tumuhteaong
-natam8onk
 natapp8onk
 natappuog
 natauwahhenumuk
@@ -6032,7 +6023,6 @@ nishikqunuhkonau
 nishkeneneunkqussuog
 nishkeneongqueu
 nishkeneungqueu
-nishkeneungqussuongash
 nishkeneungwe
 nishkeneunhque
 nishkeneunkqussuog
@@ -7918,7 +7908,6 @@ peyout
 peyuuk
 ph‘nice
 phænice
-phanatamunat
 pharðsesog
 pharesesog
 pharisesu8og
@@ -8028,11 +8017,11 @@ pohqunnuman
 pohquohham
 pohquohhamopanneg
 pohquohhamunat
-pohquohhamwehettit
 pohquohhomup
 pohquohhumopanneg
 pohquohhunneh
 pohquohkam
+pohquohsuaen
 pohquohsuaenin
 pohquohwhunneh
 pohquohwhunnittuonk
@@ -8173,7 +8162,6 @@ psuhquaeu
 puagunug
 publikanag
 publikanoǧ
-puhanatamunat
 puhp8nussunnun
 puhpuhs8tau
 puhpukshog
@@ -8817,7 +8805,6 @@ sohhem8m8
 sohhomwog
 sohhowunont
 sohkausuaenuog
-sohkauut
 sohkepwutteog
 sohkoadtue
 sohkohsuog
@@ -9259,7 +9246,6 @@ tohkequtteaheon
 tohkequtteahhon
 tohkoi8p
 tohkuppiss8
-tohkupsehettit
 tohkussittassun
 tohmekommue
 tohn8che
@@ -9628,7 +9614,6 @@ ummanitt8omoh
 ummanitt8woh
 ummanitt8womp8m8oh
 ummanitt8wompom8oh
-ummanittoe
 ummannissuonganit
 ummanunayeuonk
 ummanunissuongnan8
@@ -10089,7 +10074,6 @@ upputtukqunneg
 upquhkukk8out
 upunehtunkquoh
 upweshassowaonk
-uqush8
 usecheh
 usek
 uset
@@ -10243,7 +10227,6 @@ wadchenit
 wadchequtcheg
 wadchiogish
 wadchiogkish
-wadchiyeuuugish
 wadchonadt
 wadchonau
 wadchonont
@@ -11301,7 +11284,6 @@ wossum8e
 wosukkuhhumauun
 wotohtimoneash
 woussumog
-wow8uk
 wowawussumont
 woweenoonganit
 wowhotinnumauwaog
@@ -11703,7 +11685,6 @@ wunnetuhtaenumog
 wunnetuhtaouun
 wunnetuhtuaenuh
 wunnetuonkanit
-wunnetup
 wunnetupanatam8wongash
 wunnetupanatamme
 wunnetupanatamwae
@@ -12291,8 +12272,6 @@ wutaunesoh
 wutaunin
 wutauninneuh
 wutauonuh
-wutawakaompan8ongan8
-wutawakompan8ongan8
 wutawakompunonat
 wutayeuhwuhkononnaout
 wutayeuhwuhkonunnaout
@@ -12385,7 +12364,6 @@ wutogk8ompamoh
 wutogk8ompumoh
 wutogk8onganash
 wutogketamunneau
-wutogkomaiyeum8
 wutogkqunneunkqussuonk
 wutogqueneamoaonaash
 wutogqueneamunaoash
@@ -12718,7 +12696,6 @@ wuttinnu̇moh
 wuttinnumuneat
 wuttinnumuneuh
 wuttinnunnumauoh
-wuttinnunnumoh
 wuttinnussuongane
 wuttinnusuonk
 wuttinoh
@@ -12936,7 +12913,6 @@ yen
 yeoyatcheh
 yet
 yeu$it
-yeu$wutch
 yeu8gish
 yeu8og
 yeumukqutche

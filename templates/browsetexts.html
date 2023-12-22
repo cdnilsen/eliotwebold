@@ -68,67 +68,115 @@
 
         <button type="submit" >Submit</button>
     </form>
-    </div>
+    <br>
+    <br>
+    <div class="tableFixHead">
+        <table class="t">
+            {% for column in numRightColumns %}
+                <col width="{{ rightColumnMeasure }}">
+            {% endfor %}
+                <col width="16%">
+            {% for column in numLeftColumns %}
+                <col width="{{ leftColumnMeasure }}">
+            {% endfor %}
+            <thead>
+                <tr>
+                <div class="tableLeftSide">
+                    {% if useFirstEdition %}
+                        <th><div><u>First Edition</u> ({{ firstEditionCount }}) </div></th>
+                    {% endif %}
 
-    <table>
-        <header>
-            <tr>
-                {% if useFirstEdition %}
-                <th>First Edition</th>
-                {% endif %}
+                    {% if useSecondEdition %}
+                        <th><div><u>Second Edition</u> ({{ secondEditionCount }})</div></th>
+                    {% endif %}
 
-                {% if useSecondEdition %}
-                <th>Second Edition</th>
-                {% endif %}
+                    {% if not useFirstEdition and not useSecondEdition %}
+                        {% if useMayhew %}
+                            <th><div><u>Mayhew</u> ({{ mayhewCount }})</div></th>
+                        {% endif %}
+                        
+                        {% if useZerothEdition %}
+                            <th><div><u>Zeroth Edition</u> ({{ zerothEditionCount }})</div></th>
+                        {% endif %}
+                    {% endif %}
+                </div>
 
-                {% if useVerseNumber %}
-                <th class="verseNum"><u>Verse</u></th>
-                {% endif %}
+                <div class="centerVerses">
+                    {% if useVerseNumber %}
+                        <th class="verseNumHeader">
+                            <span style="font-size: 20px">
+                                <span style="color:red">{{ totalAll }}</span> <span style="font-weight: normal">tokens {{ searchCondition }} <b><i>{{ searchedWord }}</i></b> found </span>
+                            </span>
+                            <br>
+                            <u>Verses</u> ({{ totalVerseCount }})
+                        </th>
+                    {% endif %}
+                </div>
+
+                <div class="tableRightSide">
+                    {% if useFirstEdition or useSecondEdition %}
+                        {% if useMayhew %}
+                            <th><div><u>Mayhew</u> ({{ mayhewCount }})</div></th>
+                        {% endif %}
+
+                        {% if useZerothEdition %}
+                            <th><div><u>Zeroth Edition</u> ({{ zerothEditionCount }})</div></th>
+                        {% endif %}
+                    {% endif %}
+
+                    {% if useKJV %}
+                    <th><div><u>KJV</u></div></th>
+                    {% endif %}
+                </div>
+                </tr>
+            </thead>
+            {% for verseIndex in verseList %}
+            <tbody>
                 
-                {% if useMayhew %}
-                <th>Mayhew</th>
-                {% endif %}
+                <tr>
+                    <div class="tableLeftSide">
+                        {% if useFirstEdition %}
+                        <td>
+                            {{ firstEditionVerseDict[verseIndex] }}
+                        </td>
+                        {% endif %}
+                        {% if useSecondEdition %}
+                        <td>
+                            {{ secondEditionVerseDict[verseIndex] }}
+                        </td>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="centerVerses">
+                        {% if useVerseNumber %}
+                            <td class="verseNumCell">
+                                {{ verseIndex }}
+                            </td>
+                        {% endif %}
+                    </div>
 
-                {% if useKJV %}
-                <th>KJV</th>
-                {% endif %}
+                    <div class="tableRightSide">
+                        {% if useMayhew %}
+                        <td>
+                            {{ mayhewVerseDict[verseIndex] }}
+                        </td>
+                        {% endif %}
 
-            </tr>
-        </header>
-        <content>
-        {% for verseIndex in verseList %}
-        <tr>
-            {% if useFirstEdition %}
-            <td>
-                {{ firstEditionVerseDict[verseIndex] }}
-            </td>
-            {% endif %}
-            
-            {% if useSecondEdition %}
-            <td>
-                {{ secondEditionVerseDict[verseIndex] }}
-            </td>
-            {% endif %}
-            
-            {% if useVerseNumber %}
-                <td class="verseNum">{{ selectedChapter }}.{{ verseIndex }}</td>
-            {% endif %}
+                        {% if useZerothEdition %}
+                        <td>
+                            {{ zerothEditionVerseDict[verseIndex] }}
+                        </td>
+                        {% endif %}
 
-            {% if useMayhew %}
-            <td>
-                {{ mayhewVerseDict[verseIndex] }}
-            </td>
-            {% endif %}
+                        <td>
+                            <i>{{ KJVVerseDict[verseIndex] }}</i>
+                        </td>
+                    </div>
 
-            {% if useKJV %}
-            <td>
-                {{ KJVVerseDict[verseIndex] }}
-            </td>
-            {% endif %}
-        </tr>
-        {% endfor %}
-    </content>
-    </table>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
 </body>
 <script src="./htmx.min.js"></script>

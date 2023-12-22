@@ -51,7 +51,7 @@
             {% for column in numRightColumns%}
                 <col width="{{ rightColumnMeasure }}">
             {% endfor %}
-            <col width="16%">
+                <col width="16%">
             {% for column in numLeftColumns %}
                 <col width="{{ leftColumnMeasure }}">
             {% endfor %}
@@ -79,7 +79,7 @@
                 </div>
 
                 <div class="centerVerses">
-                    {% if KJVIncluded or firstEditionIncluded or secondEditionIncluded or mayhewIncluded or zerothEditionIncluded %}
+                    {% if includeVerseNumber %}
                         <th class="verseNumHeader">
                             <span style="font-size: 20px">
                                 <span style="color:red">{{ totalAll }}</span> <span style="font-weight: normal">tokens {{ searchCondition }} <b><i>{{ searchedWord }}</i></b> found </span>
