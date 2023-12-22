@@ -429,7 +429,6 @@ ahqae
 ahqheauoog
 ahqne
 ahqnoantamau
-ahqtauohetteg
 ahquanee
 ahquaneg
 ahqueauoog
@@ -458,7 +457,6 @@ ahtahto
 ahtaog
 ahtau8gig
 ahtau8ug
-ahtauohetteg
 ahtauouog
 ahteuhkonash
 ahthshahettit
@@ -812,7 +810,6 @@ anumauahettit
 anumauwunagkupash
 anumauwunogkupash
 anumieohp
-anumish
 anummaieuhpanneg
 anummaout
 anummaut
@@ -855,7 +852,6 @@ aohtauogq
 aohtouogq
 aom8uk
 aoninneonup
-aonk
 aonnomunnonus
 aonotuh
 aonunnagup
@@ -1343,7 +1339,6 @@ christ8ean
 christ8wean
 christe—8
 christi
-chrsit
 chrstut
 chuhchuquansun
 chuhchuquanusun
@@ -1353,13 +1348,11 @@ chuppukkomukk88
 chysophasus
 chysophrasus
 cilcia
-cnrisl
 coh
 colossiansog
 copere
 coppere
 corrinthiansut
-curist
 cyprusnuttinnohteahkomunnan
 cyremans
 cyreneus
@@ -1387,6 +1380,7 @@ enaumatuonk
 eninneaonganog
 eninnih
 eninnumoadtuonk
+enne
 enninneaonganog
 entuppayeog
 ephasus
@@ -1735,8 +1729,6 @@ k8wauwamw8
 k8wauwaok
 k8wauwaon
 k8wauwaosumw8
-k8wauwaunnnnaout
-k8wauwaunnunnaout
 k8wauwaussumw8
 k8wauwausumw8
 k8wawaheowou
@@ -1958,7 +1950,6 @@ kehtimuhp
 kehtimunop
 kehtipsquanapissu
 kehtipsqunapissu
-kehtjmomukup
 kehtohhanit
 kehtohs8t
 keiche
@@ -2185,7 +2176,6 @@ keskod
 keskukqut
 kestausik
 kestausuut
-kestauunash
 kestauunat
 kesteamuk
 kesteaomuk
@@ -2257,7 +2247,6 @@ ketimau
 ketohhanit
 ketompaun
 ketotan
-ketss8t
 kettinnonnumw8
 ketuss8t
 keuskodtush
@@ -2453,7 +2442,6 @@ kohk8tamauunogus
 kohk8tom8hkonah
 kohk8tomauoh
 kohk8tomauunogus
-kohk8tomonteaog
 kohk8tomonteaogkupash
 kohk8tomonteaokupash
 kohk8tomuhteanit
@@ -2468,7 +2456,6 @@ kohkon8waonogkut
 kohkon8wonogkut
 kohkonn8waogkup
 kohkonoog
-kohkotomonteaog
 kohkuhquenit
 kohkukqueit
 kohkutt8n
@@ -3766,7 +3753,6 @@ machem8
 machememonogohk
 machemonogohk
 machemungquok
-machenukqueog
 macheseanuegk
 machesein
 machesenutcheh
@@ -3862,8 +3848,6 @@ mamatche
 mamatcheetamwog
 mamatcheettamwog
 mamatchekesuk
-mamauchisheu8kup
-mamaumachisheu8kup
 mameechhettekup
 mameshannumitteaog
 mamishanantamwaennuog
@@ -3993,8 +3977,6 @@ matchehteauunat
 matchek8og
 matcheke
 matchekeup
-matchekodtanam8onganehtu
-matchekodtantam8onganehtu
 matchemapit
 matchemungquok
 matchen8waan
@@ -4024,7 +4006,6 @@ matchesekig
 matchesenegeh
 matcheseongsh
 matcheseseaenuog
-matcheseuutcheh
 matchesin
 matchesongash
 matchet8
@@ -4370,7 +4351,6 @@ mishkonontipe
 mishnoh
 mishoadtinn8
 mishoadttinn8
-mishodtu
 mishohkeen8k
 mishompaumukquad
 mishompaumukquat
@@ -4606,7 +4586,6 @@ mshontowau
 mshqutchohteau
 mskesukqash
 msseshin
-mstcheseaen
 mtata
 mtt
 mtttamwossis
@@ -5162,7 +5141,6 @@ nahunshonah
 nahunussek
 nahwhutchu
 nahwutcheu
-nahwuttinnumumw8
 naiehtogig
 naig
 naihtaiinnean
@@ -5420,7 +5398,6 @@ nanwunwudtsquauaen
 nanwunwudtsquaunnetuonk
 nanwunwudtsquauongan8
 nanwuttam8m8
-nanwuttinnumumw8
 nanwyinitcheg
 naohquadt
 naohquodt
@@ -6018,7 +5995,6 @@ neyanteauhettit
 neyaont
 neyauag
 neyaunagkup
-neyeaunag
 neyeu
 neyoakom
 neyoakum
@@ -6059,7 +6035,6 @@ nishkeneungqueu
 nishkeneungqussuongash
 nishkeneungwe
 nishkeneunhque
-nishkeneunkgque
 nishkeneunkqussuog
 nishkenitchaog
 nishkenukasuonganit
@@ -6146,7 +6121,7 @@ nohhumun
 nohkekunkqueog
 nohkohk
 nohkok
-nohkokkunkqueog
+nohkokkungqueog
 nohkonuumuk
 nohkuhkongquog
 nohkuhkonkquog
@@ -6259,7 +6234,6 @@ npp8i
 nsheu
 nshkheoncheg
 nshshkonunkquok
-nsih
 nsquetuog
 nu
 nuhhogkanout
@@ -6492,7 +6466,6 @@ nun
 nun$nashpe
 nun8tam
 nunashauonk
-nunaunchem8kaonk
 nunkishk
 nunkqsquau
 nunksqua
@@ -6689,7 +6662,6 @@ nuppomontam
 nuppomontam8onk
 nuppomush
 nuppomushaonnomunnonus
-nupponam
 nupponamun
 nupponitteon
 nupponuk8h
@@ -9169,7 +9141,6 @@ taumaogquohtu
 tauohpe
 tauohpet
 tawishonk
-teaagish
 teagas
 teagash
 teagkontam8ongash
@@ -9669,8 +9640,6 @@ ummashaadtik8m
 ummaskom8un
 ummasquanumaonk
 ummatauatam8ongash
-ummatchekodtantam8ngan8out
-ummatchekodtantam8ongan8out
 ummatchekuonganit
 ummatchenaongan8ash
 ummatcheseonkan8
@@ -10210,7 +10179,6 @@ waapeuh
 waappetu
 wabanehtu
 wabasue
-wabasuonganit
 wabaunk
 wabe
 wabebesuon8k
@@ -10895,11 +10863,9 @@ weetuomoh
 weetuomuh
 weewetuomehtu
 wehe
-wehhkomog
 wehkoma
 wehkomadt
 wehkomitteaan
-wehkomog
 wehkomomp
 wehkomonche
 wehkomoneat
@@ -11025,7 +10991,6 @@ wequanantog
 wequanantunkanontugqut
 wequanauteganash
 wequannantegash
-wequayeumut
 wequetumunkquit
 wequetush
 wequttum8k
@@ -11328,8 +11293,6 @@ wosketopaut
 woskheadt
 woskheahetteupoh
 woskheunkuppanneg
-woskhikque•g
-woskhikqueog
 woskhuk8un
 woskosketomp
 woskotompaog
@@ -11769,7 +11732,6 @@ wunnitchegan8woash
 wunnitchegan8wout
 wunnitchegash
 wunnitchgash
-wunnnomwausseonk
 wunnogkusse
 wunnogkusseut
 wunnogkussoh
@@ -12442,7 +12404,6 @@ wutohtemoeneunk
 wutohtemoneunk
 wutohtimmounat
 wutohtimmounit
-wutohtimoen
 wutohtimon
 wutohtimoneut
 wutohtimonit
@@ -12976,7 +12937,6 @@ yeoyatcheh
 yet
 yeu$it
 yeu$wutch
-yeu$wutche
 yeu8gish
 yeu8og
 yeumukqutche

@@ -213,4 +213,4 @@ def hapaxUnderlining(word, hapaxList, diacriticsLax):
 
     return finalString
 
-        
+
