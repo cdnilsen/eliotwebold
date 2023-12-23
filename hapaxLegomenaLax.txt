@@ -462,7 +462,6 @@ ahteuhkonash
 ahthshahettit
 ahtok
 ahtom8ugish
-ahtoon
 ahtoun
 ahtuhs8waog
 ahtuhsh
@@ -551,7 +550,6 @@ amohkauoncheh
 amon
 amonoh
 amsunnun8og
-amtta
 amuannumunat
 amuaunumauonauh
 amunash
@@ -773,8 +771,6 @@ anoonop
 anop
 ansukhumaug
 ansukhumauog
-antechristog
-antechristsog
 antichrist
 anu8sinoonk
 anugk8op
@@ -944,7 +940,6 @@ ashpunanit
 ashpunnadt
 ashpuwunit
 ashquam
-ashque
 ashquehteamukish
 ashquehteamukquish
 ashquenohtan8g
@@ -1677,9 +1672,7 @@ k8waetumw8
 k8wagkauununnaout
 k8waheaumw8
 k8waheoganun
-k8waheonanonut
 k8waheongan
-k8waheonxnonut
 k8wahimw8
 k8wahtaemw8
 k8wahtam8ongan8
@@ -1807,8 +1800,6 @@ k8womon8ongan8
 k8womonaoont
 k8womonittinneaoont
 k8womononaoont
-k8womonuk8oganun
-k8womonuk8onganun
 k8womonukquog
 k8womoseh
 k8womunn8mw8
@@ -2623,7 +2614,6 @@ kuht8nogquemesut
 kuht8nogqush
 kuht8tomuhkon
 kuht8tomuhteaongash
-kuhtahtomw8
 kuhtonogqut
 kuhtonokqui
 kuhwhosikish
@@ -2826,6 +2816,7 @@ kummatchenanumuk
 kummatcheneheaonganooash
 kummatchenehenumw8
 kummatchenehumw8
+kummatcheseonganoash
 kummatcheseu
 kummatcheseup
 kummatcheusseonkan8
@@ -3970,12 +3961,12 @@ matchenuk
 matchenuk8h
 matchesaheont
 matchese
+matcheseaegeh
 matcheseaeninnu8
 matcheseaeninnuin
 matcheseaenuegk
 matcheseaenueog
 matcheseaenuoganue
-matcheseageh
 matcheseaheont
 matcheseahheog
 matcheseahheoog
@@ -4430,7 +4421,6 @@ moeshaog
 moeunkanit
 moeuweehkomonk
 moeuweekomonganit
-moeuwehkomonganjt
 moeuwehkomongesh
 moeuwehkomonkoh
 moeuweknmongash
@@ -4578,7 +4568,6 @@ muhtauwoopah
 muhtupohtaash
 muk8kinnumwantamoog
 muk8kinnumwoantamuog
-mukhiesog
 mukiesog
 mukineog
 mukineonk
@@ -5014,6 +5003,7 @@ n8wup
 n8wwaeg
 na·u
 na$au
+na$neeswe
 na$wutche
 naag
 naama
@@ -5536,7 +5526,6 @@ naum8mugish
 naum8ouk
 naum8uh
 naumaauonganuuk
-naumachish
 naumagkup
 naumattuwae
 naumatuonganuuk
@@ -6233,7 +6222,6 @@ nukkesantam
 nukkesukkodtum
 nukkesukodtum
 nukketass8tum8
-nukkiesog
 nukkinn8mnn
 nukkinn8mun
 nukkinnequohhukumunnonup
@@ -6362,7 +6350,6 @@ nummatapeup
 nummatappeheuk
 nummatchenomun
 nummatchenumun
-nummatcheseonganoash
 nummatcheussemun
 nummatmeetsup
 nummatmetsem
@@ -6388,7 +6375,6 @@ nummenuhketeomun
 nummenuhksumun
 nummetahhaniutt8mun
 nummetahhannitt8mun
-nummikkiesumog
 nummishant8wamup
 nummishewehquetumauop
 nummishewekontamup
@@ -7911,6 +7897,7 @@ ploughut
 poarisesog
 pogkadcheu
 pogkennum
+pogkennumwehteom8
 pogkennumwog
 pogkennunmwog
 pogkent
@@ -7947,7 +7934,6 @@ pohkenayeuut
 pohkeniyeuut
 pohkennaouut
 pohkennum
-pohkennumwehteom8
 pohkennumwog
 pohkenuhkitch
 pohkenumog
@@ -7999,7 +7985,6 @@ pokkodche
 pokodche
 pokquohwhunukqueogkup
 pokushinneash
-pomantam8enganit
 pomantam8m8ash
 pomantam8muk
 pomantam8nk
@@ -8539,7 +8524,6 @@ sakinneog
 sameritan
 samogkinnuman
 samp8au
-samp8oh
 samp8wadt
 samp8waonogut
 samp8wutauutch
@@ -8662,7 +8646,6 @@ sekousquae
 sekousquaekomukquash
 sekousquaou
 sekousquomit
-sempweusseonk
 senoshkesitcheg
 senoskesitcheg
 senugquetahwhinnean
@@ -11097,7 +11080,6 @@ woman
 womausuau
 womausue
 womausuonk
-wome
 womissish
 womittamwossissitcheg
 womittumwossissitcheg
@@ -11105,13 +11087,10 @@ wommononcheh
 womoanittue
 womoaussuontouanumauwodt
 womoausuontouanumauwodt
-womoauwuonganu8
 womohshogque
 womon
-womoneonk
 womonittean
 womonitteau
-womonitttteuh
 womonittueae
 womonittueonk
 womonittuwae
@@ -11232,7 +11211,6 @@ wowushp8$asekesukokish
 wowussumoh
 wsqheheonk
 wsqheonksteven
-wtuch
 wuamuhkut
 wuddohkutcheg
 wudohtkutcheg
@@ -11263,7 +11241,6 @@ wukkana
 wul
 wum
 wum88
-wumonogkut
 wumup
 wun
 wun8chumwesuonk
@@ -11386,7 +11363,6 @@ wunnampasumouh
 wunnamphamauoh
 wunnampohhamauoh
 wunnampt8hamau
-wunnamptam88wauwaonk
 wunnamptam8g
 wunnamptamohetteg
 wunnamptamoong
@@ -11785,6 +11761,7 @@ wunompass8tamun
 wunonakouaonganit
 wunonkouaonganit
 wuntinouh
+wunuaumonuh
 wunuhkehtunkqunneau
 wunuhkom8onk
 wunuhkomunat
