@@ -2171,7 +2171,6 @@ kesehteosupash
 keshkeyeuup
 kesikquaagish
 keskesuk
-keskod
 keskukqut
 kestausik
 kestausuut
@@ -4114,7 +4113,6 @@ matwoog
 mauaehettit
 mauemoncheg
 maumachash
-maumachis
 maumaijsh
 maumaoont
 maumatchuhkish
@@ -5012,8 +5010,6 @@ n8wetomukqunnaout
 n8wetomukumun
 n8wnamptam
 n8woaunnanonup
-n8wogkonunum
-n8wogkouunum
 n8wogus
 n8wohtam
 n8wohteomun
@@ -5981,8 +5977,6 @@ neyaneyeuh
 neyanie
 neyaninneunkqussin
 neyannunnonat
-neyanteanhettit
-neyanteauhettit
 neyaont
 neyauag
 neyaunagkup
@@ -9142,7 +9136,6 @@ teagwashinish
 teagwontug
 teagwontugqut
 teanteagquahsinish
-teanteagquassinsh
 teanteagquassinut
 teanteaguashinit
 teanteaguashinsh
@@ -9474,7 +9467,6 @@ ukkomm8tunnauoh
 ukkouen
 ukkoueneau
 ukkouin
-ukksesukodtum
 ukkuhh8tomaoh
 ukkuhh8tomauoh
 ukkuhk8aamauun
@@ -9748,7 +9740,6 @@ un8wau
 unagk
 unanatamog
 unanonut
-unantam8ongan8
 unantam8onk
 unantamon
 unanumoou
@@ -9962,6 +9953,7 @@ uppakodtuttimunneau
 uppakontamwe
 uppann8wohtam8ongan
 uppann8wohtamoongan8
+uppanneunantam8ongan8
 uppanneunnantam8ongan8
 uppannuppe
 uppapattauosohhoh
