@@ -6,4 +6,6 @@
 β.1.18: <wów8uk> in text for emended <wóm8uk>
 α.2.13: circumflex in <wekontamwáheâog> may be hallucinated
 β.2.16: possible accent (grave?) over second <e> of <ummàtcheseonk>
-β.21: <a> of <watche> probably correct reading (even if typo) but check a second copy
+β.2.21: <a> of <watche> probably correct reading (even if typo) but check a second copy
+β.3.9: acute on final <o> <wutawakompunónat> may be something else
+α.3.16: diacritic on final <o> of <uppaguanuonganuòut> is very unclear; a grave is presumed but a circumflex is plausible. Similarly with the same vowel of the same word in β.3.16
