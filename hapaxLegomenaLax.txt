@@ -543,7 +543,6 @@ amen·
 aminanab
 amma8p
 amma8paneg
-ammay
 ammon
 ammonoh
 amohkauoncheh
@@ -817,7 +816,7 @@ anunn8nunog
 anunn8unnog
 anunnogq
 anunnuhp
-anuntuhqohwonche
+anuntuhquohwonche
 anuntukquohwonche
 anunumaieohp
 anunumaieohpaneg
@@ -2175,7 +2174,6 @@ kesukodtah
 kesukodtu8
 kesukohkup
 kesukokok
-kesukqe
 kesukquaagish
 kesukut
 kesuquiug
@@ -3313,7 +3311,6 @@ kutchessumumop
 kutchessumuwaeneuh
 kutchessumuwop
 kutchessumwaeneuh
-kutchesum8onganit
 kutcheteomokish
 kutchetimukqun
 kutchetinukqun
@@ -3529,6 +3526,7 @@ kuttinnanumunnumw8
 kuttinnaunchem8kaunnumun
 kuttinneanamamununneau
 kuttinneanumununneau
+kuttinnnonnumw8
 kuttinnonaumw8
 kuttinnonn8mw
 kuttinnonn8mw8
@@ -4087,8 +4085,6 @@ mauunitteunkqutche
 mauunnitteau
 mauunnitteauoh
 mauup
-may$nt
-may$ut
 mayaehettit
 mcheme
 meane
@@ -6010,6 +6006,7 @@ no8suhkom8paneg
 no8sukongqush
 noadut
 noappeyogish
+noaush
 noboneese
 nochumwehit
 nochumwesitcheg
@@ -6041,7 +6038,6 @@ noguhse
 nogwe
 nogwoh
 nogwut
-noh$ut
 noh$wutch
 nohappinnat
 nohappinneat
@@ -8706,7 +8702,6 @@ sogkompagunahettiche
 sogkompagunau
 sohamohettit
 sohausit
-sohbog
 sohh8wonont
 sohh8wu
 sohh8wunukqueog
@@ -9888,7 +9883,6 @@ uppaudtauunnau
 uppaumukauouh
 uppaumukomunat
 uppaumukumunat
-uppautauouh
 uppauuhquanumunaoash
 uppauukquanumunaoash
 uppeaonoopah
@@ -12286,9 +12280,9 @@ wutonkapunnateaonk
 wutonkohtaiyeuut
 wutonkohtauyeuut
 wutonkoohtamqushkeonk
-wutonkqnepaguanuh
 wutonkquatonkan8
 wutonkquatunkanit
+wutonkquepaguanuh
 wutonkquommo8onganoash
 wutonkquommom8onganooash
 wutontchekinneat

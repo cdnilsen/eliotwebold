@@ -24,3 +24,20 @@
 α.14.28: circumflex of <woskêche> faint, and may be a grave
 α.16.1: <a> of <kuhkinneasuonk> very faint and somewhat conjectural (find another scan?)
 α.17.1: text has <wnnneemunoh> for emended <wunneemunoh>. <ô> in <kussonkôauudt> is very faint, and diacritic is conjectured.
+α.18.15: <a> of <nôaush> extremely faint. Should this be considered one word?
+α.18.19: text has <kuttinnnónnumw8> with three <n>'s preceding <ó>; emended here.
+α.18.24: text has <anuntuhqohwonche> with a <u> missing after the <q> (restored in emendation)
+α.18.34: some sort of diacritic over the third <a> of <sasamâkuhhuwaenuog>, but I cannot tell which; shape of letter seems most consistent with a circumflex or perhaps a grave. Circumflex in <nô> may be an acute, but is probably not.
+α.20.1: text has <sohbog> for <sohhog>
+α.20.28: first/second-to-last <o> of <8tinneumunneaôont> has some sort of diacritic per its shape, but cannot be pinned down with certainty. A circumflex seems plausible
+α.21.2: first <a> of <otanamesit> extremely faint
+α.21.7: acute in <quenoshóneau> may be a circumflex
+α.21.8: text has <may nt> for first token of <may ut>. Possible diacritic (grave?) over <a> of <onkatogig>, but likely just heavy ink
+α.21.12: first <e> of <kepuhteau> is extremely faint/missing in text
+α.21.15: narrow space between <temple> and <ut> in <templeut>; difficult to tell whether this was intended as a word-space
+α.21.30: first word appears to be <Koh> in text
+α.21.38: faint diacritic (conjectured to be a grave, but perhaps a circumflex) probable over third/final <e> of <ohketeaèninnuog>
+α.21.41: <wutonkquepaguanuh> emended from <wutonkqnepaguanuh>
+α.22.6: possibly <kâh wuttunkquontamhéouh> with circumflex on <kâh> (check a third copy)
+α.22.16: text has <ammay> for emended <ummay>
+α.22.29: apparent <Panue> for <Panne> in text

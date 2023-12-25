@@ -932,7 +932,6 @@ amen·
 aminanab
 amma8p
 amma8paneg
-ammay
 ammon
 ammonoh
 amóhkauoncheh
@@ -1499,7 +1498,7 @@ anunógish
 ánunôgish
 anunogup
 ánunógup
-anuntuhqohwonche
+anuntuhquohwonche
 anuntukquohwonche
 anunumaieohp
 anunumaieohpaneg
@@ -3809,7 +3808,6 @@ kesukodtu8
 kesukohkup
 kesúkok
 kesukokok
-kesukqe
 kesukquaagish
 kesukqueayeu8og
 kesukquéayeu8og
@@ -5697,7 +5695,6 @@ kutchessumúwop
 kutchessumwaen
 kutchessumwáen
 kutchessúmwaeneuh
-kutchesum8onganit
 kutcheteomokish
 kutchétimukqun
 kutchétinukqun
@@ -6004,7 +6001,6 @@ kuttinnaunchem8kaunnumun
 kuttinneanámamúnunneau
 kuttinneánumununneau
 kuttinnnonnumw8
-kuttinnnónnumw8
 kuttinnohkoeu
 kuttinnohkóeu
 kuttinnonaumw8
@@ -6017,7 +6013,6 @@ kuttìnnonnaóash
 kuttinnonnum8
 kuttinnonnumm8
 kuttinnonnúmw8
-kuttinnónnumw8
 kuttìnnonnumw8
 kuttinnont8waônganun
 kuttinnont8waongnun
@@ -6906,8 +6901,6 @@ mauunnitteauoh
 máuup
 mauwe
 maúwe
-may$nt
-may$ut
 mayaéhettit
 mcheme
 meane
@@ -9435,6 +9428,8 @@ nauôu
 nauòut
 nauôut
 naushâógkutup
+náut
+náut*
 náuuhpanneg
 nâuuhpanneg
 nauwaénat
@@ -10031,7 +10026,7 @@ newanégik
 newatche
 newauwaonk
 neweane
-neweáne
+neweâne
 newejeh
 newhutch
 newhutche
@@ -10189,6 +10184,7 @@ noâdtit
 nóadtut
 nôadut
 nôappeyogish
+nôaush
 nobonéese
 nochumwéhit
 nóchumwesitcheg
@@ -10233,7 +10229,6 @@ noguhse
 nogwe
 nogwoh
 nôgwut
-noh$ut
 noh$wutch
 nohappinnat
 nohappinneat
@@ -11919,7 +11914,7 @@ ohketamwéhettit
 ohketeaan
 ohketeaenin
 ohketeaénin
-ohketeaeninnuog
+ohketeaèninnuog
 ohketeaenuh
 ohketeaénuh
 ohketeaénúh
@@ -13848,7 +13843,7 @@ quahtianimit
 quahtianumunk
 quajateausik
 quajhae
-quajheae
+quajheáe
 quajteausik
 quanawehhukquehhittit
 quanppinont
@@ -13969,7 +13964,7 @@ quenawehkukk8
 quenohtagih
 quenohtau
 quenohteau
-quenoshôneau
+quenoshóneau
 quenuttámwog
 quénuttámwog
 quequanup
@@ -14717,7 +14712,6 @@ sogkompagunahettiche
 sogkompagunau
 sohamóhettit
 sohausit
-sohbog
 sohh8wonont
 sohh8wu
 sohh8wunnônat
@@ -16487,7 +16481,6 @@ uppaúmukómunat
 uppaumukonk8wonkan8
 uppaúmukónk8wonkan8
 uppaúmukúmunat
-uppautauóuh
 uppauuhquanumunáoash
 uppauukquanumunáoash
 uppeantam8ongan8
@@ -20678,9 +20671,9 @@ wutonkapunnateaonk
 wutonkohtaiyeuut
 wutonkohtauyeuut
 wutonkoôhtamqushkeonk
-wutonkqnepaguanuh
 wutonkquatonkan8
 wutonkquatunkanit
+wutonkquepaguanuh
 wutonkquommo8onganoash
 wutonkquommom8onganóoash
 wutontashuh
