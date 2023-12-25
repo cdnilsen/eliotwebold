@@ -6,3 +6,19 @@
 α.9.18: text has <pyeau> for emended <peyau>
 α.9.21: text has <...n8wau ut wuttah,ut woh...>
 α.9.33: text has <mat-|kaket8g> over a line break
+α.10.1: text has <niskkeneungque> for emended <nishkeneungque>
+α.12.29: exact diacritic over first <a> of <kuttámma> unclear, but acute seems most likely
+α.12.39: text has <kukkinneasuouk> for second token of <kukkinneasuonk>
+α.12.50: text appears to have <kesukqnt> for <kesukqut>
+α.13.24: macron in <ogqueneūkqussu> looks more like an inverted breve, but <u> is unusually large; a macron seems very likely but not certain
+13.30: Note <yó/yô pajeh> in both editions for 'until'; <nô/nó pajeh> would be expected. A Moheganism?
+α.13.38: possibly spurious hyphen in text, as <wunnegen-wuskannem>, but difficult to say and may just be an ink splotch
+α.13.52: <u> of <wuskéaiash> very faint
+β.14.3: <ummittamwussen>...is <-en> a sign of an obviative possessor? (surely just 'he has her as a wife' as it appears to be in ɛ.14.4)
+β.14.6: <pomugkóoh> may be <pomugkôoh> (but unlikely)--but Higgins has <pomug[kô]oh>--check another edition. Circumflex in <8sekêteaheuh> also missing from Higgins. β.14.6 may also (but probably doesn't) end in a comma rather than a period
+α.14.7: possibly <kodtantámunit>
+α.14.15: text has <wutttinnóuh>, with three <t>'s, for emended <wuttinnóuh>. Similarly with <attóónat> (text: <atttóónat>)
+α.14.17: text has <wuntinouh> for emended <wuttinouh>
+α.14.19: spurious line-hyphen in text, as <napanna-|tahshinash>
+α.14.24: should <pannu wuttin> be one word or two? (currently one in backend, as <pannu$wuttin>)
+α.14.28: grave in <woskèche> rather faint, and resembles a circumflex (except that <ê> is vanishingly rare--if present at all--in α)
