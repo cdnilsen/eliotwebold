@@ -5421,7 +5421,7 @@ kussompenáe
 kussompshanuk8
 kussonkimom
 kussonkoauudt
-kussonkóauudt
+kussonkôauudt
 kussontimáhukqun
 kussontimáhukqut
 kussontimmom8
@@ -6453,7 +6453,6 @@ mamishannumitteáog
 mamishantamwáenu8
 mamishantamweinnúog
 mamittoe
-mamohs
 mamonchémunóh
 mámonchémunôh
 mamonehtimukquehp
@@ -8681,7 +8680,6 @@ nàmohetteg
 nâmohettit
 namohkaeihéog
 namohkáeiheog
-namohs
 námohsóg
 nâmohsog
 namp8gam
@@ -8707,7 +8705,6 @@ namp8humuppaneg
 namp8kuh
 namp8whósu
 nampakounnash
-namph8am
 nampohamunk
 nampooham
 namsheu8ash
@@ -18344,7 +18341,6 @@ wkin
 wmae
 wne
 wnnnamúhkuteyeu8
-wnnneemunoh
 wnnneetupanatamowonk
 wnnnéhtouun
 wntanakausuonganash
@@ -18659,7 +18655,7 @@ woskatompaog
 woske
 woskeadt
 woskech
-woskèche
+woskêche
 woskecheadt
 woskechekommukquehtu
 woskechekomuk

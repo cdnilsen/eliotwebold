@@ -672,7 +672,6 @@ def doproofreading():
             dictList.append(mayhewVerseDict)
         else:
             useMayhew = False
-    print(useMayhew)
 
     if useZerothEdition:
         zerothEditionPath = './texts/' + selectedBook + '.Zeroth Edition.txt'
@@ -781,7 +780,6 @@ def doproofreading():
             mayhewVerseDict[verse] = Markup(comparedLinesSpanCompressed[2].replace('8', 'ꝏ̄').replace("{", "<i>").replace("}", "</i>"))
 
     useVerseNumber = useFirstEdition or useSecondEdition or useMayhew or useKJV or useZerothEdition
-    print("!" + str(useFirstEdition))
 
     rightColumns = []
     if useFirstEdition:
@@ -817,14 +815,5 @@ def doproofreading():
         leftColumnMeasure = "21%"
     else:
         leftColumnMeasure = "14%"
-
-    print(rightColumns)
-    print(leftColumns)
-    print(rightColumnMeasure)
-    print(leftColumnMeasure)
         
-    for verse in verseList:
-        print(verse)
-        print(secondEditionVerseDict[verse])
-    
     return render_template('browsetexts.html', selectedBook = selectedBook, selectedChapter = selectedChapter, hasMayhew = hasMayhew, hasZerothEdition = hasZerothEdition, defaultBook = defaultBook, defaultChapter = defaultChapter, useVerseNumber = useVerseNumber, useKJV = useKJV, useFirstEdition = useFirstEdition, useSecondEdition = useSecondEdition, useMayhew = useMayhew, useZerothEdition = useZerothEdition, verseList = verseList, fileNamesList = fileNamesList, firstEditionVerseDict = firstEditionVerseDict, secondEditionVerseDict = secondEditionVerseDict, mayhewVerseDict = mayhewVerseDict, zerothEditionVerseDict = zerothEditionVerseDict, KJVVerseDict = KJVVerseDict, numRightColumns = rightColumns, numLeftColumns = leftColumns, rightColumnMeasure = rightColumnMeasure, leftColumnMeasure = leftColumnMeasure)

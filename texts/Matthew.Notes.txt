@@ -21,4 +21,6 @@
 α.14.17: text has <wuntinouh> for emended <wuttinouh>
 α.14.19: spurious line-hyphen in text, as <napanna-|tahshinash>
 α.14.24: should <pannu wuttin> be one word or two? (currently one in backend, as <pannu$wuttin>)
-α.14.28: grave in <woskèche> rather faint, and resembles a circumflex (except that <ê> is vanishingly rare--if present at all--in α)
+α.14.28: circumflex of <woskêche> faint, and may be a grave
+α.16.1: <a> of <kuhkinneasuonk> very faint and somewhat conjectural (find another scan?)
+α.17.1: text has <wnnneemunoh> for emended <wunneemunoh>. <ô> in <kussonkôauudt> is very faint, and diacritic is conjectured.
