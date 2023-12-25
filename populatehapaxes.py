@@ -4,10 +4,10 @@ showChars = input("Show all characters in hapaxes? (y/n) ")
 
 populateHapaxes()
 
+allHapaxes = open("hapaxLegomenaStrict.txt", "r", encoding="utf-8").readlines()
+allLaxHapaxes = open("hapaxLegomenaLax.txt", "r", encoding="utf-8").readlines()
+
 if showChars == "y":
-
-    allHapaxes = open("hapaxLegomenaStrict.txt", "r", encoding="utf-8").readlines()
-
     allChars = []
     allCharCountDict = {}
     for line in allHapaxes:
@@ -22,5 +22,7 @@ if showChars == "y":
     for char in allChars:
         print(char + ": " + str(allCharCountDict[char]))
 
-else:
-    quit()
+print("Number of strict hapaxes: " + str(len(allHapaxes)))
+print("Number of lax hapaxes: " + str(len(allLaxHapaxes)))
+
+quit()

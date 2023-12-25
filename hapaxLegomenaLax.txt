@@ -1022,7 +1022,6 @@ asukauahettit
 asukauohpanneg
 asukauont
 asukausu
-asukesukokish
 asukomogig
 asukonkqutche
 asukouoncheg
@@ -1043,9 +1042,7 @@ attashe
 attashohtok
 attoaj
 attoog
-attoonat
 attowonat
-atttoonat
 attumenumunat
 attuminit
 attummunum
@@ -1855,7 +1852,6 @@ kakenagsh
 kakeneumunneau
 kakeneumunneu
 kaket8e
-kaket8g
 kakewau
 kakitt8g
 kakussenitchahettegkup
@@ -2109,7 +2105,6 @@ kenohtinugqunneau
 kenompatammohettehkitch
 kenompatammohettekitch
 kenompoh
-kenomppasuk
 kenuge
 kenuhkukkonkomw8
 kenuke
@@ -2129,6 +2124,7 @@ kenutchegane
 kenutcheganunnonut
 kenutcheganunonut
 kepenumwahettinneat
+kepenumwoahettimuk
 kepenumwoahettinneat
 kepenusb
 kepenush
@@ -2143,7 +2139,6 @@ kepunum
 kepunumunat
 kepunumunnat
 kepunumwahittin
-kepunumwoahettimuk
 kesaantam
 kesanum8p
 kesehtauunat
@@ -2181,7 +2176,6 @@ kesukodtu8
 kesukohkup
 kesukokok
 kesukqe
-kesukqnt
 kesukquaagish
 kesukut
 kesuquiug
@@ -2673,7 +2667,6 @@ kukkinneasuonganit
 kukkinneasuonganshonanash
 kukkinneasuonkane
 kukkinneasuonkash
-kukkinneasuouk
 kukkinneatunkanit
 kukkinneau
 kukkinnumm8unaoash
@@ -3131,6 +3124,7 @@ kussepshitteah
 kussepshitteo
 kussepshitteoh
 kussepsumonaous
+kussequash
 kusset8wout
 kussimwoo
 kussissequnnum8
@@ -3177,7 +3171,6 @@ kussunnashaonk
 kussuppegquash
 kussuppeguosh
 kussuumw8
-kusxequash
 kut
 kut8k
 kut8nog
@@ -3739,7 +3732,6 @@ macidonia
 madtaanukeg
 madtanunkquok
 maecdonia
-maeitau
 mag8anish
 mag8muk
 mag8mukus
@@ -4016,7 +4008,6 @@ matikenukkeg
 matikken8wongash
 matikkenowongash
 matikkenukog
-matkaket8g
 matmaumaoont
 matmeetseog
 matmetseog
@@ -4548,7 +4539,6 @@ mshqutchohteau
 mskesukqash
 msseshin
 mtata
-mtt
 mtttamwossis
 mugquomp8og
 mugquompaog
@@ -5023,7 +5013,6 @@ naehtunkquog
 naeihtaau
 naeihtauoh
 naeihtunkquog
-naeitau
 naepaush
 naeu
 nag$wutch
@@ -5913,7 +5902,6 @@ neuantamweyeu8
 neuantamwohettit
 neuhhamugkish
 neumagkup
-neumunum
 neutunkanit
 newanegik
 newatche
@@ -6003,7 +5991,6 @@ nishwinchagompskot
 nishwodtamaugish
 nishwuffirkinsogkat
 nishwutpask8
-niskkeneungque
 nisse
 nisseup
 nissinninnut
@@ -6247,7 +6234,6 @@ nukkoneau
 nukkoneyeuuk
 nukkoneyeuut
 nukkonnau
-nukkonnehiash
 nukkonop
 nukkonuh
 nukkonukup
@@ -6284,7 +6270,6 @@ nukonash
 nukonau
 nukonishquadt
 nukonne
-nukonnehiash
 nukonuh
 nukquadtit
 nukquaque
@@ -6306,7 +6291,7 @@ nukquittinukqunnonog
 nukquoshadtumwaenunnean
 nukquoshodtumwaenunnean
 nukqushaon
-nukqushkeu
+nukqushken
 nukqushoun
 nukqussukquontahwhut
 nukqussukquontawhut
@@ -6899,6 +6884,7 @@ nuttappu
 nuttapuhkaminneunkqussu
 nuttass8tumm8onk
 nuttassuhkonkquog
+nuttattumunuk
 nuttattumunum8
 nuttattumunum8h
 nuttattumunumumunonup
@@ -7034,11 +7020,9 @@ ogqueneukqussuonk
 ogqueneungquodt
 ogqueneunkheu
 ogqueneunkqheau
-ogqueneunkquessuonganit
 ogqueneunkquesuongash
 ogqueneunkquotash
 ogqueneunkqussek
-ogqueneunkqussuonganit
 ogqueneunqussu
 ogquenunkquodt
 ogqueseu
@@ -7294,7 +7278,6 @@ oowaantamwanumwunneaout
 oowadtauatonkqussuonk
 oowauwaonk
 oowematin
-oowequa8m
 oowonkummuwaonk
 oowoweenotumunat
 oppinneat
@@ -7623,7 +7606,6 @@ paumukkom
 paumushamun8
 paumushaumun8
 paumwushaum8ug
-paupaume
 paushe
 paussuhkongqueog
 paussuhkuhkongqueog
@@ -8102,7 +8084,6 @@ presse
 psuhquaeu
 puagunug
 publikanag
-publikanoǧ
 puhp8nussunnun
 puhpuhs8tau
 puhpukshog
@@ -8200,7 +8181,6 @@ puttukquobpussu
 puttukquobu
 puttunqunneg
 putukqunneg
-pyeau
 qish
 qnenohtag
 qoshqusausuonk
@@ -8510,6 +8490,7 @@ s8kuhteop
 s8kunum
 s8qunnumunat
 s8skquohtowopanneg
+sabbath$day
 sabbathe
 sabbatto8p
 sabbattom8p
@@ -8778,8 +8759,6 @@ sohsunnumunat
 sohweem8
 sohweetonkqutchish
 sohweetunkqutchish
-sohwetaonk
-sohwetaont
 sohwhem8
 sohwhohteadt
 sohwhotaan
@@ -9054,7 +9033,6 @@ tatupuhteamukeh
 tau8maog
 taugua
 tauguash
-taumaogquohtu
 tauohpe
 tauohpet
 tawishonk
@@ -10547,7 +10525,6 @@ wauaghammohettit
 waunanitteadteog
 waunegukish
 waunnagigish
-waunnaum8naoash
 waunnegenutcheh
 waunnegigish
 waunnegukish
@@ -10799,7 +10776,7 @@ wehquetumauoh
 wehquetumauoneau
 wehquetumauop
 wehquetumauouh
-wehquetumukqnean
+wehquetumukquean
 wehquetumuoneau
 wehquetunauaog
 wehqutteam8wog
@@ -10843,6 +10820,7 @@ wekontamuppaneg
 wekontamwahhuk
 wekontamweheaog
 wekontamwu
+wekquetumunkquit
 wemat8uh
 wemattin
 wemattinneat
@@ -10897,7 +10875,6 @@ wequanantog
 wequanantunkanontugqut
 wequanauteganash
 wequannantegash
-wequetumunkquit
 wequetush
 wequttum8k
 wequttumauadt
@@ -11474,7 +11451,6 @@ wunnatt8tumuhkonat
 wunnattinneahwhoopah
 wunnattinnehamauouh
 wunnauchem8kaonk
-wunnaum8naoash
 wunnaumaniinneuh
 wunnaumatuhkomwog
 wunnaumenaiin
@@ -11703,8 +11679,6 @@ wunnumhkut
 wunnummatapheuh
 wunnummattapheuh
 wunnummeechum
-wunnummeechumunn8
-wunnummeechumunnu8
 wunnummuhkiteyeum8
 wunnummuhkitteyeue
 wunnummuhkut
@@ -11760,7 +11734,6 @@ wunomp8humauoopah
 wunompass8tamun
 wunonakouaonganit
 wunonkouaonganit
-wuntinouh
 wunuaumonuh
 wunuhkehtunkqunneau
 wunuhkom8onk
@@ -12715,7 +12688,6 @@ wuttotomukqut
 wuttsmmepunnaongash
 wutttin
 wutttinanumouh
-wutttinnouh
 wutttinuh
 wuttuhh8oash
 wuttuhhou
