@@ -41,3 +41,7 @@
 α.22.6: possibly <kâh wuttunkquontamhéouh> with circumflex on <kâh> (check a third copy)
 α.22.16: text has <ammay> for emended <ummay>
 α.22.29: apparent <Panue> for <Panne> in text
+α.23.2: text has <watappuonganit> for emended <wutappuonganit>
+α.23.4: acute in <wussauunukqunáoash> may be spurious
+23.18: In both α and β, <Altar ut> without hyphen over line-break, as <Altar|ut>. Treated as having a spurious word-space in both copies here
+α.23.29: <eiantukeiyeuog> emended from text's <eitantukeiyeuog>, with spurious <t>

@@ -2501,7 +2501,6 @@ eiantukkeiógish
 eiantukkiinn8
 eiantukkiun8g
 eishenippissegk
-eitantukeiyeuog
 eiyádtin
 eiyan8wam
 eiyáne
@@ -7160,7 +7159,7 @@ mishadtupp8onganú8
 mishadtupp8ongit
 mishadtuppoonk
 mishadtuppuonganehtu
-mishadtuppuongannéhtu
+mishadtuppuonganéhtu
 mishadtupwae
 mishadtupweán
 mishadtupwuñeat
@@ -8759,8 +8758,6 @@ nanaanuón
 nanaánuwàen
 nanaanuwaénuh
 nanaanuwaenúog
-nanaânuwamw8
-nanaânuwámw8
 nanaánuwaog
 nanaânuwaog
 nanaanuwodt
@@ -14512,7 +14509,6 @@ seáeiyeuog
 seáháuk
 seahetcheg
 séahshaog
-seáhumuk
 seáiyeuog
 sealhétcheg
 seampweogquoantamôonk
@@ -14704,7 +14700,6 @@ sòanishin
 sôanishin
 sóannaieu
 sóannaíeu
-sogkemas
 sogkepwutteôg
 sogkodtungane
 sogkodtungáne
@@ -14844,7 +14839,6 @@ sokenon8
 sokenon8ut
 sokenumauoneau
 sokenumungqueog
-sokgemas
 sokonóunóut
 sokonóununóut
 sokonumwanshut
@@ -16714,8 +16708,6 @@ usséôs
 ussetahtu
 ussishanahettit
 ussooweseup
-ussoweenonaóont
-ussoweenonaóonut
 ussowenáu
 ussowenàu
 ussowenâu
@@ -16829,12 +16821,10 @@ waapetu
 waápeuh
 waápit
 wàappetu
-wabanehtu
 wabasue
 wabaunk
 wabe
 wabebesuon8k
-wabenehtu
 wabesegk
 wabesehéttit
 wabesewontamóhettit
@@ -17553,7 +17543,6 @@ wásumutcheg
 wâsumutcheg
 wásuttuk
 wat8annumut
-watappuonganit
 watapumuhp
 watche
 watchônumun
@@ -18649,6 +18638,7 @@ woske
 woskeadt
 woskech
 woskêche
+woskeche$kommuk
 woskecheadt
 woskechekommukquehtu
 woskechekomuk
@@ -19889,6 +19879,8 @@ wussaumepuonk
 wussaumsippamwinneat
 wussaumsippámwinneat
 wussaut
+wussauunukqunaoash
+wussauunukqunáoash
 wussceva
 wusseahhámun
 wusseáhhamun
