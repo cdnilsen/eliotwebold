@@ -935,6 +935,7 @@ amma8paneg
 ammon
 ammonoh
 amóhkauoncheh
+âmomont
 amon
 amonoh
 amsunnun8og
@@ -2710,6 +2711,7 @@ jehovahut
 jehowah
 jerasalem
 jeruaalem
+jerusalam
 jerusale
 jeseph
 jesephuh
@@ -5637,8 +5639,8 @@ kutayeuwôhkônau
 kutayimaiimun
 kutáyimaunumw8
 kutáyimáunumw8
-kutayìmauonumw8
 kutáyimáuonumw8
+kutáyìmauonumw8
 kutáyimúmw8
 kutáyimuneau
 kutayimungqun
@@ -9465,6 +9467,7 @@ nayeutam
 nayeutam8weanun
 nâzareth
 nazereth
+ne$adt
 ne$an
 ne$kesukok
 ne$nashpé
@@ -9739,6 +9742,8 @@ negonohkom8m8ash
 negonsephausuanutu
 negonsháhettit
 negonsháhttit
+negonshauoh
+nêgonshauoh
 negonshheâog
 negonsukwhósu
 négonsukwhósu
@@ -10620,7 +10625,7 @@ nukquenauwahikqunat
 nukquenauwáhikqunat
 nukquenauwahúk
 nukquenauwehuk
-nukquenauwenúk
+nukquenauwehúk
 nukquequenauanum8onganunnónut
 nukquequénauanum8onganunónut
 nukquinnupinomun
@@ -11779,6 +11784,8 @@ oadtukkah
 ôahp
 ôapeup
 oapuog
+obedoh
+obeduh
 obpinneat
 óg
 oggúhse
@@ -14112,6 +14119,7 @@ quoshodtumwaaen
 quôshodtumwaeenuog
 quoshódtumwáen
 quoshódtumwâen
+quoshòdtumwaen
 quóshodtumwaen
 quoshodtumwaen8k
 quoshodtumwaén8k
@@ -14941,6 +14949,7 @@ synai
 synogogs
 syra
 syrià
+syrîa
 t8hkehettit
 t8hkehéttit
 t8hkish
@@ -16406,6 +16415,7 @@ uppabahtanumóuh
 uppabahtánumóuh
 uppache
 uppadtauónáoh
+uppadtauóuh
 uppaguanan
 uppaguanittuonk
 uppaguanituonk
@@ -16957,7 +16967,6 @@ wadtaméhetteaógish
 wadtaméhhinog
 wadtaméhukqutcheg
 wadtamèhukqutcheg
-wadtanatonkqussuonk
 wadtattam8k
 wadtáttam8k
 wadtauatongqussuog
@@ -17541,6 +17550,7 @@ wásumutcheg
 wâsumutcheg
 wásuttuk
 wat8annumut
+watappuonganit
 watapumuhp
 watche
 watchônumun
@@ -17595,8 +17605,8 @@ wáussumau
 wâussumau
 waussumauoog
 waussumauôog
-waussumean
 waussuméan
+waussumêan
 waùssumi··eh
 wáussumit
 waussummuácheg
@@ -18180,6 +18190,7 @@ wequaáhteamugk
 wequabunáhettit
 wequaé
 wequaéhteamuk
+wequaì
 wequài
 wequaiyeu8p
 wequaiyeu8up
@@ -19232,6 +19243,7 @@ wunnaumonaut
 wunnaumoneh
 wunnaumonie
 wunnaumónie
+wunnaumonîeu
 wunnáumoniin
 wunnáumóniin
 wunnaumóniiñeuh
@@ -20980,6 +20992,7 @@ wuttinann8teamunneau
 wuttinantamm8onk
 wuttinanuhkausuonk
 wuttinánumoh
+wuttinánumon
 wuttinanumouh
 wuttinánumuh
 wuttinaumatuonganaénin
@@ -21009,6 +21022,7 @@ wuttinn8wónat
 wuttinnáiin
 wuttinnain
 wuttinnaiyeùonk
+wuttinnànumon
 wuttinnánumonat
 wuttinnânumonat
 wuttinnanumôuh
@@ -21085,6 +21099,7 @@ wuttinnumáôh
 wuttinnumâôh
 wuttinnumaôuh
 wuttinnumaouoh
+wuttînnumauh
 wuttinnumáunash
 wuttinnumáunuh
 wuttinnumaúon
@@ -21163,7 +21178,7 @@ wuttiss8wunnóuh
 wuttissenah
 wuttissenipash
 wuttisseonkan8woash
-wuttissoweseu
+wuttissowesen
 wuttissowesu
 wuttissu
 wuttissukkuhwhosu
@@ -21457,7 +21472,5 @@ yunneat
 yush
 zealhuwanshhukkou
 zealshuwanshhukkou
-zebedeoh
-zebedeon
 zebide
 zebidee
