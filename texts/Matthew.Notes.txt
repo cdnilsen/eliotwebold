@@ -45,3 +45,9 @@
 α.23.4: acute in <wussauunukqunáoash> may be spurious
 23.18: In both α and β, <Altar ut> without hyphen over line-break, as <Altar|ut>. Treated as having a spurious word-space in both copies here
 α.23.29: <eiantukeiyeuog> emended from text's <eitantukeiyeuog>, with spurious <t>
+α.25.8: circumflex in <ôhtaash> possibly an acute
+α.25.15: apparent spurious macron over <i> of <aninnumauoh>, as <anīnnumauoh>
+α.26.27: possible grave over first <a> of <wuttattamwaitch>
+α.26.29: unclear whether there's a comma after  <n8tattamo>
+α.26.36: <ú> of <kodnetuhtaénúh> strongly resembles a tilde (this is probably nothing)
+α.26.49: possible grave over first <a> of <Kutaaquompsinun >

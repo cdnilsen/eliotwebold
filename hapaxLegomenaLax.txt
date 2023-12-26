@@ -2039,7 +2039,6 @@ kenanohkinukou
 kenanompassumunumw8
 kenanompessumunumun
 kenanompussumunumw8
-kenanumunonus
 kenanwun8dtsqaomw8
 kenanwun8dtsquaomw8
 kenaou
@@ -4371,7 +4370,6 @@ missunnumon
 missunumon
 mittamussinneuh
 mittamwossisit
-mittamwossisoh
 mittamwssis
 mittamwssissog
 mittamwussinneuh
@@ -10863,7 +10861,6 @@ wequttumungquean
 weskehuwaonk
 wesketompaog
 wesqueheonkanit
-wessantamwaen
 wesseentamoonk
 wesseentamwae
 wesseentamwaenin
@@ -11950,8 +11947,6 @@ wussuhkwhosuash
 wussuhkwhosun8
 wussuhkwhosupash
 wussuhkwhush
-wussuhquontamauoh
-wussuhquontamauouh
 wussuhwaonganit
 wussuhwhuhkonauh
 wussuhwhuhkonowoopah
