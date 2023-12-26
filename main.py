@@ -780,27 +780,29 @@ def doproofreading():
             mayhewVerseDict[verse] = Markup(comparedLinesSpanCompressed[2].replace('8', 'ꝏ̄').replace("{", "<i>").replace("}", "</i>"))
 
     useVerseNumber = useFirstEdition or useSecondEdition or useMayhew or useKJV or useZerothEdition
-
-    rightColumns = []
-    if useFirstEdition:
-        rightColumns.append(1)
-    if useSecondEdition:
-        rightColumns.append(1)
-
-    if len(rightColumns) == 0:
-        if useMayhew:
-            rightColumns.append(1)
-        if useZerothEdition:
-            rightColumns.append(1)
-
+    
     leftColumns = []
+    rightColumns = []
+
+    if useFirstEdition:
+        leftColumns.append(1)
+    if useSecondEdition:
+        leftColumns.append(1)
+
+    if len(leftColumns) == 0:
+        if useMayhew:
+            leftColumns.append(1)
+        if useZerothEdition:
+            leftColumns.append(1)
+
+    
     if useFirstEdition or useSecondEdition:
         if useMayhew:
-            leftColumns.append(1)
+            rightColumns.append(1)
         if useZerothEdition:
-            leftColumns.append(1)
+            rightColumns.append(1)
     if useKJV:
-        leftColumns.append(1)
+        rightColumns.append(1)
 
     rightColumnMeasure = ""
     if len(rightColumns) < 2:

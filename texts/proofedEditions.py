@@ -2,6 +2,7 @@
 
 proofedEditions = [
     "Matthew.First Edition.txt",
+    #"Matthew.Second Edition.txt",
     "1 Peter.First Edition.txt",
     "1 Peter.Second Edition.txt",
     "2 Peter.First Edition.txt",

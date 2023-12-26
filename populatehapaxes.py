@@ -10,6 +10,7 @@ allLaxHapaxes = open("hapaxLegomenaLax.txt", "r", encoding="utf-8").readlines()
 if showChars == "y":
     allChars = []
     allCharCountDict = {}
+    allCharVerseDict: {}
     for line in allHapaxes:
         for char in line.strip():
             if char not in allChars:
