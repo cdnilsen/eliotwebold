@@ -50,4 +50,8 @@
 α.26.27: possible grave over first <a> of <wuttattamwaitch>
 α.26.29: unclear whether there's a comma after  <n8tattamo>
 α.26.36: <ú> of <kodnetuhtaénúh> strongly resembles a tilde (this is probably nothing)
-α.26.49: possible grave over first <a> of <Kutaaquompsinun >
+α.26.49: possible grave over first <a> of <Kutaaquompsinun>
+α.27.27: <momoeutunk> may be <momoehtunk>
+α.27.60: apparent interpunct or raised dot instead of full stop at end of verse in text
+α.28.5: text has <Augel> for <Angel> and seems to have <abque> for emended <ahque>
+α.28.19: two full stops at end of verse, as <nashauanit..>
