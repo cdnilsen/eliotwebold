@@ -1,6 +1,7 @@
 #ONLY ADD TO THESE AS EDITIONS ARE FINISHED AND PROOFED
 
 proofedEditions = [
+    #"Matthew.First Edition.txt",
     "1 Peter.First Edition.txt",
     "1 Peter.Second Edition.txt",
     "2 Peter.First Edition.txt",
