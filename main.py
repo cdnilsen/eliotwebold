@@ -807,15 +807,15 @@ def doproofreading():
     rightColumnMeasure = ""
     if len(rightColumns) < 2:
         rightColumnMeasure = "42%"
-    else:
+    elif len(rightColumns) == 2:
         rightColumnMeasure = "21%"
+    else:
+        rightColumnMeasure = "14%"
 
     leftColumnMeasure = ""
     if len(leftColumns) < 2:
         leftColumnMeasure = "42%"
-    elif len(leftColumns) == 2:
-        leftColumnMeasure = "21%"
     else:
-        leftColumnMeasure = "14%"
+        leftColumnMeasure = "21%"
         
     return render_template('browsetexts.html', selectedBook = selectedBook, selectedChapter = selectedChapter, hasMayhew = hasMayhew, hasZerothEdition = hasZerothEdition, defaultBook = defaultBook, defaultChapter = defaultChapter, useVerseNumber = useVerseNumber, useKJV = useKJV, useFirstEdition = useFirstEdition, useSecondEdition = useSecondEdition, useMayhew = useMayhew, useZerothEdition = useZerothEdition, verseList = verseList, fileNamesList = fileNamesList, firstEditionVerseDict = firstEditionVerseDict, secondEditionVerseDict = secondEditionVerseDict, mayhewVerseDict = mayhewVerseDict, zerothEditionVerseDict = zerothEditionVerseDict, KJVVerseDict = KJVVerseDict, numRightColumns = rightColumns, numLeftColumns = leftColumns, rightColumnMeasure = rightColumnMeasure, leftColumnMeasure = leftColumnMeasure)
