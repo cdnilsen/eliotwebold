@@ -4713,7 +4713,7 @@ n8chumwesuenin
 n8chumwetahwhutche
 n8chumwetahwutche
 n8chuumwehtahwhaongash
-n8chuwesittcheg
+n8chuwesitcheg
 n8eu
 n8hki
 n8hn8keog
@@ -9517,8 +9517,6 @@ ummatchenaongan8ash
 ummatcheseonkan8
 ummatcheseonkanoash
 ummatcheseonkanoo
-ummatchetauun
-ummatcheteauun
 ummatcheusseonk
 ummatchhuk8un
 ummatchhukqun
@@ -12269,6 +12267,7 @@ wutonkquatunkanit
 wutonkquepaguanuh
 wutonkquommo8onganoash
 wutonkquommom8onganooash
+wutonquatunk
 wutontchekinneat
 wutonteauun
 wutoontomukomoh
@@ -12519,7 +12518,6 @@ wuttinninnumunat
 wuttinninnumuneat
 wuttinninnumunneat
 wuttinnneumoh
-wuttinnnumauoh
 wuttinnohhomunnaoont
 wuttinnohteanin
 wuttinnomaiyeumut

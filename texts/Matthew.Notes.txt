@@ -37,6 +37,14 @@
 β.9.36: accent on the <e> of <wunnanawunnuwomeog>? find another copy
 β.9.38: accent over second <i> of <ummissuminneaonganit>?
 α.10.1: text has <niskkeneungque> for emended <nishkeneungque>
+β.10.6: check penultimate letter of <wanhetcheg> in a second copy
+β.10.7: diacritic in <o> of <aauogk>?
+β.10.14: grave in second token of <matta>, as <mattà>?
+β.10.17: check period vs. comma after <moeonganutu>
+β.10.22: first <e> of <wesketompaog> may be a smudged <o>
+β.10.40: <attumunau> or <attumunàu>?
+β.11.27: diacritic over <o> (circumflex?) possible in second instance of <howan>
+β.12.25: Diacritic over <o> of <nahoh>?
 α.12.29: exact diacritic over first <a> of <kuttámma> unclear, but acute seems most likely
 α.12.39: text has <kukkinneasuouk> for second token of <kukkinneasuonk>
 α.12.50: text appears to have <kesukqnt> for <kesukqut>

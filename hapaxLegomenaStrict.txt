@@ -1536,6 +1536,7 @@ anwosinoog
 anwosinóog
 anwósinoonk
 anwôsinoonk
+anwôsinòonk
 anwosun8e
 anwôusinneat
 aohtauogq
@@ -7916,7 +7917,7 @@ n8chumwésuontog
 n8chumwetahwhutche
 n8chumwetahwutche
 n8chuumwéhtahwhaongash
-n8chuwesittcheg
+n8chuwesitcheg
 n8eu
 n8hki
 n8hn8keog
@@ -14373,6 +14374,8 @@ sameritan
 sámogkinnuman
 samp8ahettit
 samp8àhettit
+samp8aósit
+samp8aôsit
 samp8au
 samp8wadt
 samp8wáog
@@ -15952,8 +15955,6 @@ ummàtcheseonk
 ummatcheseonkan8
 ummatcheséonkanóash
 ummatcheseonkanoo
-ummatchetauun
-ummatcheteauun
 ummatcheusseonk
 ummatchhuk8un
 ummatchhukqun
@@ -20675,6 +20676,7 @@ wutonkquatunkanit
 wutonkquepaguanuh
 wutonkquommo8onganoash
 wutonkquommom8onganóoash
+wutonquatunk
 wutontashuh
 wutôntashuh
 wutontchekinneát
@@ -21057,7 +21059,6 @@ wuttinninnumunat
 wuttinninnúmuneat
 wuttinninnúmunneat
 wuttinnneumoh
-wuttinnnumauoh
 wuttinnohhómunnaóont
 wuttinnohteanin
 wuttinnomaiyeumut
