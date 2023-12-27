@@ -831,7 +831,6 @@ anuwodt
 anuwontamog
 anuwontamwog
 anwohh8unnash
-anwohkonche
 anwohsimmous
 anwohsiumous
 anwohsumaunnat
@@ -4654,7 +4653,6 @@ mutta
 mutta$ohket
 muttaan8wog
 muttaanhenaj
-muttaaok
 muttammag8unneau
 muttamwussis
 muttannongannogkussuog
@@ -7436,8 +7434,6 @@ pann8wohtamweinuuut
 pann8wohto8k
 pann8wohtogeg
 pannenuhquohkog
-pannu
-pannu$wuttin
 pannuhteadt
 pannupanakausek
 pannupe
@@ -7951,7 +7947,6 @@ pohtuanumahettiche
 pokkodche
 pokodche
 pokquohwhunukqueogkup
-pokushinneash
 pomantam8m8ash
 pomantam8muk
 pomantam8nk
@@ -10089,9 +10084,7 @@ wadchanon
 wadchanonah
 wadchansh
 wadchanu
-wadchanumikish
 wadchanumuk
-wadchanumukish
 wadchanumunaj
 wadchanumunasj
 wadchanumunneau

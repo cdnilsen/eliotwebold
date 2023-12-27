@@ -48,14 +48,23 @@
 α.12.29: exact diacritic over first <a> of <kuttámma> unclear, but acute seems most likely
 α.12.39: text has <kukkinneasuouk> for second token of <kukkinneasuonk>
 α.12.50: text appears to have <kesukqnt> for <kesukqut>
+β.13.15: <auwohkonche> probable, but <anwohkonche> seems apparent in at least the JCB copy
+β.13.21: <ahtôou> or <ahtòou>?
 α.13.24: macron in <ogqueneūkqussu> looks more like an inverted breve, but <u> is unusually large; a macron seems very likely but not certain
+β.13.25: check a third manuscript for acute of <kaéhettit>
 13.30: Note <yó/yô pajeh> in both editions for 'until'; <nô/nó pajeh> would be expected. A Moheganism?
+β.13.32: text has <merugk88> for emended <metugk88>
+α.13.33: possible acute over <a> of <tatupiñeonkqussuonk>
 α.13.38: possibly spurious hyphen in text, as <wunnegen-wuskannem>, but difficult to say and may just be an ink splotch
+β.13.42: Higgins has grave on first token of <pish>, as <pìsh>. Check a third copy?
+β.13.45: acute (or other diacritic) over <o> of <natinneohhug>?
 α.13.52: <u> of <wuskéaiash> very faint
 β.14.3: <ummittamwussen>...is <-en> a sign of an obviative possessor? (surely just 'he has her as a wife' as it appears to be in ɛ.14.4)
 β.14.6: <pomugkóoh> may be <pomugkôoh> (but unlikely)--but Higgins has <pomug[kô]oh>--check another edition. Circumflex in <8sekêteaheuh> also missing from Higgins. β.14.6 may also (but probably doesn't) end in a comma rather than a period
 α.14.7: possibly <kodtantámunit>
+β.14.11: possible diacritic over second <a> of <paudtauun>?
 α.14.15: text has <wutttinnóuh>, with three <t>'s, for emended <wuttinnóuh>. Similarly with <attóónat> (text: <atttóónat>)
+β.14.16: text has <monchehetttch> for emended <monchehettich>
 α.14.17: text has <wuntinouh> for emended <wuttinouh>
 α.14.19: spurious line-hyphen in text, as <napanna-|tahshinash>
 α.14.24: should <pannu wuttin> be one word or two? (currently one in backend, as <pannu$wuttin>)
