@@ -28,9 +28,14 @@
 β.8.20: spurious extra full stop at end of verse, as <uppuhkuk..>
 β.8.21: text has <outi> for emended <onti>
 α.9.14: text has <mtt metséog> for emended <mat metséog>
+β.9.15: verse has <amaun||amuaun> over a page break. First <u> of top-page version considered spurious
 α.9.18: text has <pyeau> for emended <peyau>
 α.9.21: text has <...n8wau ut wuttah,ut woh...>
+β.9.28: text has <wurtinóuh> for emended <wuttinóuh>
 α.9.33: text has <mat-|kaket8g> over a line break
+β.9.35: *find a second copy for this whole page*. acute in <8tanemesehtu> as in α?
+β.9.36: accent on the <e> of <wunnanawunnuwomeog>? find another copy
+β.9.38: accent over second <i> of <ummissuminneaonganit>?
 α.10.1: text has <niskkeneungque> for emended <nishkeneungque>
 α.12.29: exact diacritic over first <a> of <kuttámma> unclear, but acute seems most likely
 α.12.39: text has <kukkinneasuouk> for second token of <kukkinneasuonk>

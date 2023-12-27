@@ -1,4 +1,5 @@
 from wordfrequencymodule import populateHapaxes
+import datetime
 
 showChars = input("Show all characters in hapaxes? (y/n) ")
 
@@ -25,5 +26,12 @@ if showChars == "y":
 
 print("Number of strict hapaxes: " + str(len(allHapaxes)))
 print("Number of lax hapaxes: " + str(len(allLaxHapaxes)))
+
+
+#print(str(datetime.datetime.now()) + " Number of strict hapaxes: " + str(len(allHapaxes)))
+
+hapaxLog = open("hapaxLog.txt", "a", encoding="utf-8")
+hapaxLog.write("[" + str(datetime.datetime.now()) + "]\n"  + "\tStrict hapaxes: " + str(len(allHapaxes)) + "\n\t" + "Lax hapaxes: " + str(len(allLaxHapaxes)) + "\n\n")
+hapaxLog.close()
 
 quit()

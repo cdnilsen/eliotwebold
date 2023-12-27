@@ -534,7 +534,6 @@ amaunok
 amaunoog
 amaunȯog
 amaunukquoog
-amaunumauonauh
 amaunumauuun
 amaunumumw8
 amaupattaush
@@ -550,7 +549,6 @@ amon
 amonoh
 amsunnun8og
 amuannumunat
-amuaunumauonauh
 amunash
 an$kausuonk
 an$neu
@@ -1085,7 +1083,6 @@ audtuhkaongano
 auh
 auhkom8k
 aumatuonk
-aumeahettit
 aumug
 aunakish
 aunnanogkup
@@ -1388,7 +1385,6 @@ flokse
 flookse
 forlongs
 forum
-from
 fuphrates
 gabatha
 gabbatha
@@ -1429,8 +1425,8 @@ hebrewwont8waonk
 hebrwe
 hehrewe
 henniteagk
+hennumun
 herd
-here>
 heroduh
 hesukodaeu
 hettashinchagappuog
@@ -9136,6 +9132,8 @@ tohkequnash
 tohkequne
 tohkequtteaheon
 tohkequtteahhon
+tohkittin
+tohkittinhennumun
 tohkoi8p
 tohkuppiss8
 tohkussittassun
@@ -12464,7 +12462,6 @@ wuttenantam8onganoash
 wuttenantam8onganoout
 wuttenantam8onganout
 wuttenantaoonk
-wuttenatam8onganooash
 wuttennantamoonk
 wuttettamwaitch
 wutthhut
