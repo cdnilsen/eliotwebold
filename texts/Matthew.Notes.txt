@@ -76,9 +76,14 @@
 β.16.17: possible acute over <e> of <Jesus>?
 β.16.23: acute in <wadtaumáagish> may be a grave
 α.17.1: text has <wnnneemunoh> for emended <wunneemunoh>. <ô> in <kussonkôauudt> is very faint, and diacritic is conjectured.
-α.18.15: <a> of <nôaush> extremely faint. Should this be considered one word?
+β.17.25: does text have <Nnx>?
+17.27: which of <woshwunnuman> (α) or <woshwunnumau> (β) is correct?
+β.18.1: possible acute on <e> of <Jesusoh>; possible diacritic (circumflex?) over <a> of <n8waog>
+β.18.2: possible grave/circumflex over second <u> of <wunnashaumꝏ̄óont>
+α.18.15: <a> of <nôaush> extremely faint. Perhaps this is <nô ush>?
 α.18.19: text has <kuttinnnónnumw8> with three <n>'s preceding <ó>; emended here.
 α.18.24: text has <anuntuhqohwonche> with a <u> missing after the <q> (restored in emendation)
+β.18.31: second <n> of <wuttinnoneau> looks like an <ſi> ligature
 α.18.34: some sort of diacritic over the third <a> of <sasamâkuhhuwaenuog>, but I cannot tell which; shape of letter seems most consistent with a circumflex or perhaps a grave. Circumflex in <nô> may be an acute, but is probably not.
 α.20.1: text has <sohbog> for <sohhog>
 α.20.28: first/second-to-last <o> of <8tinneumunneaôont> has some sort of diacritic per its shape, but cannot be pinned down with certainty. A circumflex seems plausible
