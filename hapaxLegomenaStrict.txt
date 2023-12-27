@@ -2453,6 +2453,7 @@ choskkomouuhp
 chppissuog
 chrisl
 chrislal
+chrîst
 christ8ean
 christ8wean
 christi
@@ -9284,13 +9285,13 @@ natinnehámauwon
 natinnehamoog
 natinnehamóog
 natinnehámwog
+natìnnehamwog
 nátinnehamwog
 nàtinnehamwog
 natinnehok
 natinnehwhôog
 natinnehwhôóg
 natinnehwhou
-natìnnenamwog
 natinneohhog
 natinneohhug
 natinneôhukqutcheh
@@ -21041,6 +21042,7 @@ wuttinneukontunkuh
 wuttinneumoe
 wuttinneumuhkôadtegk
 wuttinneúmun
+wuttinnìin
 wuttìnniin
 wuttinninneum
 wuttinninneumut

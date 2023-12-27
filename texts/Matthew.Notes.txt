@@ -72,6 +72,9 @@
 β.15.26: <unnohkauonaont> may be <unnohkanonaont>
 β.15.31: spurious extra comma in text, as <pogkenuk naum,,>
 α.16.1: <a> of <kuhkinneasuonk> very faint and somewhat conjectural (find another scan?)
+β.16.2: spurious full stop at a line-end in <newutche>, as <ne.|wutche>
+β.16.17: possible acute over <e> of <Jesus>?
+β.16.23: acute in <wadtaumáagish> may be a grave
 α.17.1: text has <wnnneemunoh> for emended <wunneemunoh>. <ô> in <kussonkôauudt> is very faint, and diacritic is conjectured.
 α.18.15: <a> of <nôaush> extremely faint. Should this be considered one word?
 α.18.19: text has <kuttinnnónnumw8> with three <n>'s preceding <ó>; emended here.
