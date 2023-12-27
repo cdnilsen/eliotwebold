@@ -69,6 +69,8 @@
 α.14.19: spurious line-hyphen in text, as <napanna-|tahshinash>
 α.14.24: should <pannu wuttin> be one word or two? (currently one in backend, as <pannu$wuttin>)
 α.14.28: circumflex of <woskêche> faint, and may be a grave
+β.15.26: <unnohkauonaont> may be <unnohkanonaont>
+β.15.31: spurious extra comma in text, as <pogkenuk naum,,>
 α.16.1: <a> of <kuhkinneasuonk> very faint and somewhat conjectural (find another scan?)
 α.17.1: text has <wnnneemunoh> for emended <wunneemunoh>. <ô> in <kussonkôauudt> is very faint, and diacritic is conjectured.
 α.18.15: <a> of <nôaush> extremely faint. Should this be considered one word?

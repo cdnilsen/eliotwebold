@@ -8316,7 +8316,6 @@ n8weechekompounk
 n8weechekompóunk
 n8weechepomantam8móun
 n8weechogquog
-n8weeetomukquog
 n8weehkomóog
 n8weekomuk
 n8weekontam8unnómun
@@ -8334,7 +8333,6 @@ n8weetnutchomóunnonog
 n8weetnutchomóunnónog
 n8weetomukqunneau
 n8weetómukqunneau
-n8weetomukquog
 n8wehkomóog
 n8wehkomuk
 n8wehquetumauóôg
@@ -16292,7 +16290,7 @@ unnnanatam8k
 unnogquadchuaog
 unnogquadchuáog
 unnogque
-unnohkanonaont
+unnohkauonaont
 unnohkauonaout
 unnohkauoneau
 unnohkomuk
