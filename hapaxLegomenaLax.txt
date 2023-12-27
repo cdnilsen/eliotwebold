@@ -1388,6 +1388,7 @@ flokse
 flookse
 forlongs
 forum
+from
 fuphrates
 gabatha
 gabbatha
@@ -1429,6 +1430,7 @@ hebrwe
 hehrewe
 henniteagk
 herd
+here>
 heroduh
 hesukodaeu
 hettashinchagappuog
@@ -2668,7 +2670,6 @@ kukkinneatunkanit
 kukkinneau
 kukkinnumm8unaoash
 kukkiteahogkon8wout
-kukkiteamonteanitteaongash
 kukkitteamonteaneumoh
 kukkitteamonteanumoh
 kukkodnehtaenumog
@@ -4057,7 +4058,6 @@ mattaunitto
 mattawoh
 matteagwuninno
 matteaqunun8
-mattinnittoh
 mattohhentuppano
 mattohhentuppapano
 mattommagwut
@@ -4361,7 +4361,6 @@ missohhomaiinneau
 missohhugkup
 missohwhon
 missohwhou
-misssinninnuog
 missugkeneau
 missuhhuk8op
 missuken
@@ -4400,6 +4399,7 @@ moehitteuhp
 moehittit
 moeonkanehteopaneg
 moeshaog
+moeuenat
 moeunkanit
 moeuweehkomonk
 moeuweekomonganit
@@ -4514,6 +4514,7 @@ mosohquehtok
 mosus
 motammeginneut
 mouemoncheg
+mouenat
 moyeakommukqut
 moyeakomukqut
 moyeuonkamo
@@ -5864,7 +5865,6 @@ netimw8
 netskeheaog
 netskeheaonk
 netskeheittuppanneg
-netskeheoninneuh
 netskehettuppanneg
 netskehheaonk
 netskehheonk
@@ -5872,7 +5872,6 @@ netskehheop
 netskehhomp
 netskehhop
 netskehhuwae
-netskekeoninneuh
 netuhtaenin
 netuhtaon
 netuhtau8uneau
@@ -9467,7 +9466,6 @@ um88
 um8cheke
 um8sehtauun
 umayut
-umeechummuonganooash
 umeenuhke
 umeissugken8wononaoont
 umm88
@@ -12667,7 +12665,6 @@ wuttotomukqut
 wuttsmmepunnaongash
 wutttin
 wutttinanumouh
-wutttinuh
 wuttuhh8oash
 wuttuhhou
 wuttuhhuponat

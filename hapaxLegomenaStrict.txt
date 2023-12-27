@@ -2543,6 +2543,7 @@ flokse
 flookse
 forlongs
 forum
+from
 fuphrates
 gabatha
 gabbatha
@@ -2603,6 +2604,7 @@ hennoneau
 hennumóadtuog
 hennumóadtúog
 herd
+here>
 hérodias
 heroduh
 hesukodaeu
@@ -4394,6 +4396,7 @@ kuhchiyeuean
 kuhgogkuh
 kuhh8tomwehteaog
 kuhhinneásuonganehtu
+kuhhóg
 kuhhogaóont
 kuhhogat
 kuhhogkadt
@@ -4654,7 +4657,6 @@ kukkinnumm8unaóash
 kukkinnunnumunat
 kukkinnúnnumunat
 kukkiteahogkón8wôut
-kukkiteamonteanitteaongash
 kukkitteamonteaneumoh
 kukkitteamonteanumoh
 kukkitteamonteánutteáonk
@@ -6852,7 +6854,6 @@ matteanteash
 matteánteash
 matteaqunun8
 mátthew
-mattinnittoh
 mattôhhentuppano
 mattôhhentuppapáno
 mattommagwut
@@ -7353,7 +7354,6 @@ missohhomaiinneau
 missohhugkup
 missohwhon
 missohwhou
-misssinninnuog
 missugkén8wonk
 missugkeneau
 missúhhuk8op
@@ -7418,7 +7418,6 @@ moéóg
 môeonkanehteopaneg
 moeshâog
 moéu
-moeuenat
 moeuénat
 moeunkanit
 moeuweehkomonk
@@ -7641,6 +7640,7 @@ mósohquehtôk
 mosus
 mótammeginneut
 mouemoncheg
+mouenat
 mounaog
 móunâog
 móunnumauog
@@ -7775,8 +7775,8 @@ muskouanatamup
 muskouanatamuttuh
 muskoúanatámwé
 muskoúanatâmwe
-muskouantamwaheoog
 muskouantamwáheoog
+muskouantamwâheoog
 muskouatamup
 muskouónat
 muskouônat
@@ -9462,6 +9462,8 @@ nawun8dsquaáonk
 nàwutche
 nawuttinshonàont
 náwuttit
+náyag
+nâyag
 nayane
 nayeutam
 nayeutam8weanun
@@ -9977,7 +9979,6 @@ nétompaog
 netskeheáog
 netskeheáonk
 netskeheittuppanneg
-netskeheoninneuh
 netskehettuppanneg
 netskehheaonk
 netskehheonk
@@ -9991,7 +9992,6 @@ netskehteauunah
 netskehteauunáh
 netskehuwaongash
 nétskehuwaongash
-netskekeoninneuh
 netuhtaenin
 netuhtaon
 netuhtau8uneau
@@ -11773,6 +11773,8 @@ nuwhutche
 ôáas
 oaasinne
 oaásinne
+òadtehteaan
+ôadtehteaan
 óadtehteahetteg
 ôadtehteahetteg
 ôadtuhkah
@@ -15877,7 +15879,6 @@ um̃aumachiash
 umayut
 um̃echumumunneau
 um̃echum̃uonk
-umeechummuonganóoash
 uméenuhke
 uméissugken8wononaoont
 um̃etsuonk
@@ -15980,6 +15981,7 @@ ummeechineau
 ummeechummuongan8
 ummeechummuóngan8
 ummeechummuonganooash
+ummeechummuonganóoash
 ummeechummuonganôoash
 ummeechummúonk
 ummeechumuhkonouh
@@ -21289,7 +21291,6 @@ wuttôússenin
 wuttsmmepunnaongash
 wutttin
 wutttinanumóuh
-wutttinuh
 wuttugkeóut
 wuttugkeôut
 wuttuhh8óash

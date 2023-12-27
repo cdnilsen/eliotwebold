@@ -11,7 +11,22 @@
 α.5.34: text seems to have <ahqne>
 α.5.42: text has <wehquetumukqnean>
 β.5.46: text seems to have <mukk8kiunuaenuog>
+β.6.5: text has <wutronkquatonkan8> for emended <wuttonkquatonkan8>
+β.6.6: text has <keu> for emended <ken>
+β.6.16: there may be an acute over the <a> of <maenonkqussinneat> as in α
 α.6.17: second <s> of <kussequash> is conjectural.
+β.6.17: possible accent (acute? circumflex?) over first <e> of <meetseanish>
+β.6.18: Higgins has <kutonkquátunk> with an acute, which I do not see. Check a third copy?
+β.6.22: acute in <kuhhóg> quite faint; possibly spurious
+β.6.33: acute in <wutass8tamóonk> quite faint and perhaps spurious
+β.7.10: text has <wttinnumauoh> for emended <wuttinnumauoh>
+β.7.15: <ô> in <pâuhônukqueógig> may be <ó>
+α.7.28: emended <missinninnuog> has three <s> in text, as <misssinninnuog>
+β.8.6: Text has <Lotd> for <Lord>
+α.8.13: text has <netskekeoninneuh> for emended <netskeheoninneuh>
+β.8.19: text has <wutttinuh> with three <t>'s for emended <wuttinuh>
+β.8.20: spurious extra full stop at end of verse, as <uppuhkuk..>
+β.8.21: text has <outi> for emended <onti>
 α.9.14: text has <mtt metséog> for emended <mat metséog>
 α.9.18: text has <pyeau> for emended <peyau>
 α.9.21: text has <...n8wau ut wuttah,ut woh...>
