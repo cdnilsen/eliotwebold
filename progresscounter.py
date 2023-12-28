@@ -1,3 +1,4 @@
+import datetime
 bookAllVerseCount = { 
     "Genesis": 1533,
     "Exodus": 1213,
@@ -286,7 +287,7 @@ allOTBookList = [
 partialVerseCountListFirstEd = { 
     "Genesis": 0,
     "Exodus": 1072,
-    "Leviticus": 0,
+    "Leviticus": 64,
     "Numbers": 0,
     "Deuteronomy": 33,
     "Joshua": 0,
@@ -451,3 +452,6 @@ print(str(versesToGoCounterOT + versesToGoCounterNT) + "/" + str(allVersesOT + a
 print(" ")
 print(str(secondEditionOTCounter) + "/" + str(allVersesOT + 7957) + " verses to go in the second edition (" + str(round((secondEditionOTCounter) / (allVersesOT + 7957) * 100, 2)) + "%)")
 print(" ")
+
+
+open("CopyProgress.txt", "a", encoding="utf-8").write("[" + str(datetime.datetime.now()) + "]\n"  + "\tFirst edition: " + str(versesToGoCounterOT + versesToGoCounterNT) + "/" + str(allVersesOT + allVersesNT) + " (" + str(round((versesToGoCounterOT + versesToGoCounterNT) / (allVersesOT + allVersesNT) * 100, 2)) + "%)\n\t" + "Second edition: " + str(secondEditionOTCounter) + "/" + str(allVersesOT + 7957) + " (" + str(round((secondEditionOTCounter) / (allVersesOT + 7957) * 100, 2)) + "%)\n\n")
