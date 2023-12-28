@@ -1,114 +1,38 @@
-
-α.Hag.1.1:
-E.Hag.1.1: In the second year of Darius the king, in the sixth month, in the first day of the month, came the word of the LORD by Haggai the prophet unto Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Josedech, the high priest, saying,
-
-α.Hag.1.2:
-E.Hag.1.2: Thus speaketh the LORD of hosts, saying, This people say, The time is not come, the time that the LORD's house should be built.
-
-α.Hag.1.3:
-E.Hag.1.3: Then came the word of the LORD by Haggai the prophet, saying,
-
-α.Hag.1.4:
-E.Hag.1.4: Is it time for you, O ye, to dwell in your cieled houses, and this house lie waste?
-
-α.Hag.1.5:
-E.Hag.1.5: Now therefore thus saith the LORD of hosts; Consider your ways.
-
-α.Hag.1.6:
-E.Hag.1.6: Ye have sown much, and bring in little; ye eat, but ye have not enough; ye drink, but ye are not filled with drink; ye clothe you, but there is none warm; and he that earneth wages earneth wages to put it into a bag with holes.
-
-α.Hag.1.7:
-E.Hag.1.7: Thus saith the LORD of hosts; Consider your ways.
-
-α.Hag.1.ɸ:
-E.Hag.1.ɸ: Go up to the mountain, and bring wood, and build the house; and I will take pleasure in it, and I will be glorified, saith the LORD.
-
-α.Hag.1.9:
-E.Hag.1.9: Ye looked for much, and, lo it came to little; and when ye brought it home, I did blow upon it. Why? saith the LORD of hosts. Because of mine house that is waste, and ye run every man unto his own house.
-
-α.Hag.1.10:
-E.Hag.1.10: Therefore the heaven over you is stayed from dew, and the earth is stayed from her fruit.
-
-α.Hag.1.11:
-E.Hag.1.11: And I called for a drought upon the land, and upon the mountains, and upon the corn, and upon the new wine, and upon the oil, and upon that which the ground bringeth forth, and upon men, and upon cattle, and upon all the labour of the hands.
-
-α.Hag.1.12:
-E.Hag.1.12: Then Zerubbabel the son of Shealtiel, and Joshua the son of Josedech, the high priest, with all the remnant of the people, obeyed the voice of the LORD their God, and the words of Haggai the prophet, as the LORD their God had sent him, and the people did fear before the LORD.
-
-α.Hag.1.13:
-E.Hag.1.13: Then spake Haggai the LORD's messenger in the LORD's message unto the people, saying, I am with you, saith the LORD.
-
-α.Hag.1.14:
-E.Hag.1.14: And the LORD stirred up the spirit of Zerubbabel the son of Shealtiel, governor of Judah, and the spirit of Joshua the son of Josedech, the high priest, and the spirit of all the remnant of the people; and they came and did work in the house of the LORD of hosts, their God,
-
-α.Hag.1.15:
-E.Hag.1.15: In the four and twentieth day of the sixth month, in the second year of Darius the king.
-
-α.Hag.2.1:
-E.Hag.2.1: In the seventh month, in the one and twentieth day of the month, came the word of the LORD by the prophet Haggai, saying,
-
-α.Hag.2.2:
-E.Hag.2.2: Speak now to Zerubbabel the son of Shealtiel, governor of Judah, and to Joshua the son of Josedech, the high priest, and to the residue of the people, saying,
-
-α.Hag.2.3:
-E.Hag.2.3: Who is left among you that saw this house in her first glory? and how do ye see it now? is it not in your eyes in comparison of it as nothing?
-
-α.Hag.2.4:
-E.Hag.2.4: Yet now be strong, O Zerubbabel, saith the LORD; and be strong, O Joshua, son of Josedech, the high priest; and be strong, all ye people of the land, saith the LORD, and work: for I am with you, saith the LORD of hosts:
-
-α.Hag.2.5:
-E.Hag.2.5: According to the word that I covenanted with you when ye came out of Egypt, so my spirit remaineth among you: fear ye not.
-
-α.Hag.2.6:
-E.Hag.2.6: For thus saith the LORD of hosts; Yet once, it is a little while, and I will shake the heavens, and the earth, and the sea, and the dry land;
-
-α.Hag.2.7:
-E.Hag.2.7: And I will shake all nations, and the desire of all nations shall come: and I will fill this house with glory, saith the LORD of hosts.
-
-α.Hag.2.ɸ:
-E.Hag.2.ɸ: The silver is mine, and the gold is mine, saith the LORD of hosts.
-
-α.Hag.2.9:
-E.Hag.2.9: The glory of this latter house shall be greater than of the former, saith the LORD of hosts: and in this place will I give peace, saith the LORD of hosts.
-
-α.Hag.2.10:
-E.Hag.2.10: In the four and twentieth day of the ninth month, in the second year of Darius, came the word of the LORD by Haggai the prophet, saying,
-
-α.Hag.2.11:
-E.Hag.2.11: Thus saith the LORD of hosts; Ask now the priests concerning the law, saying,
-
-α.Hag.2.12:
-E.Hag.2.12: If one bear holy flesh in the skirt of his garment, and with his skirt do touch bread, or pottage, or wine, or oil, or any meat, shall it be holy? And the priests answered and said, No.
-
-α.Hag.2.13:
-E.Hag.2.13: Then said Haggai, If one that is unclean by a dead body touch any of these, shall it be unclean? And the priests answered and said, It shall be unclean.
-
-α.Hag.2.14:
-E.Hag.2.14: Then answered Haggai, and said, So is this people, and so is this nation before me, saith the LORD; and so is every work of their hands; and that which they offer there is unclean.
-
-α.Hag.2.15:
-E.Hag.2.15: And now, I pray you, consider from this day and upward, from before a stone was laid upon a stone in the temple of the LORD:
-
-α.Hag.2.16:
-E.Hag.2.16: Since those days were, when one came to an heap of twenty measures, there were but ten: when one came to the pressfat for to draw out fifty vessels out of the press, there were but twenty.
-
-α.Hag.2.17:
-E.Hag.2.17: I smote you with blasting and with mildew and with hail in all the labours of your hands; yet ye turned not to me, saith the LORD.
-
-α.Hag.2.1ɸ:
-E.Hag.2.1ɸ: Consider now from this day and upward, from the four and twentieth day of the ninth month, even from the day that the foundation of the LORD's temple was laid, consider it.
-
-α.Hag.2.19:
-E.Hag.2.19: Is the seed yet in the barn? yea, as yet the vine, and the fig tree, and the pomegranate, and the olive tree, hath not brought forth: from this day will I bless you.
-
-α.Hag.2.20:
-E.Hag.2.20: And again the word of the LORD came unto Haggai in the four and twentieth day of the month, saying,
-
-α.Hag.2.21:
-E.Hag.2.21: Speak to Zerubbabel, governor of Judah, saying, I will shake the heavens and the earth;
-
-α.Hag.2.22:
-E.Hag.2.22: And I will overthrow the throne of kingdoms, and I will destroy the strength of the kingdoms of the heathen; and I will overthrow the chariots, and those that ride in them; and the horses and their riders shall come down, every one by the sword of his brother.
-
-α.Hag.2.23:
-E.Hag.2.23: In that day, saith the LORD of hosts, will I take thee, O Zerubbabel, my servant, the son of Shealtiel, saith the LORD, and will make thee as a signet: for I have chosen thee, saith the LORD of hosts.
+1.1 NOh wutohtôeu kodtum8m Darius ketass8t, ut nequtta adtas8it nepauz nóquttukqunohhog nepauz, wuttinnowaonk Jehovah peyaum8 nashpe Haggai quoshosdtumwaen, en Zerubbabel wunnaumonuh Shealtiel, Judae nanawunnuáen, kah en Joshuaut wunnaumonuh Josedech kehchesephausuaen, n8wau,
+1.2 Yeu wussin Jehovah ayeuteaunit n8wau, yeug missinninnuog n8waog, ahquompi asquam peyomun8, ne ahquompag Jehovah wek woh ayimuk.
+1.3 Neit peyom8 wuttinn8waonk Jehovah nashpe Haggai quoshodtumwaenin n8wau,
+1.4 Sun yeuyeu ahqompi, woi kenaau, kutáyinneaont ut wunnehteausue keek8óut, kah yeu wutu touishin?
+1.5 Newutche yeuyeu yeu wussin Jehovah ayeuteaunit, natwontam8k kummayeuónash.
+1.6 Kummishohkehteomw8, kah kutogguhse pétukodtomw8: kummeetsimw8 qut matta k8wamep8mw8: k8tattamw8 qut matta k8wamsippam8mw8: kuthogqununumw8, qut matta kukkes8appúmw8: kah noh tamhouadt onkquatungash, tummuhhouau onkquatunk upponamunat pukqunnutáeu petunganit.
+1.7 Yeu wussin Jehovah ayeuhteaunit, natwontam8k kummayash,
+1.8 Kuhkuhquegk wadchu, paudto8k mehtugquash, wekit teagk, kah woh n8wekontamun, kah woh nussohsum8ónit wussin Jehovah.
+1.9 Kenatauwompattamw8 monat, qut kusseh peasin; kah paudtauog kekuóut, nupp8tantamunah: toh$wutch, n8wau Jehovah ayeuhteaunit, newutche nek ne tauuhshik, kah kutushishaumw8 nish$noh pasuk nehenwonche wekit.
+1.10 Newaj wa[à]bee kesuk kuppuhhausu wutch neechippog88ut kah ohke kuppuhhausu wutch meechuminneat.
+1.11 Kah n8wehquetumup konkohteadteau ut ohkeit, kah ut wadchuuhkontu, kah ut weatchiminéhtu, kah ut wusku wineut, kah ut pummeit, kah ut ne ohke paudtunk, kah ut wosketompahtu, kah ut neetahsútu, kah ut wame menutchegane anakausuonganit.
+1.12 Neit Zerubbabel wunnaumonuh Shealtiel, kah Joshuah wunnaumonuh Josedech kehche sephausuen, kah wame asqshoncheg missinninnúog, noswehtamwog 8wadtauatonkqussuonk Jehovah um$Manitt8m8uh, kah ukkutt8wongash Haggai quoshodtumwaenin, (neanann8nont Jehovah um-Manitt8moh) kah missinninnúog wabesuog ut anaquabit Jehovah.
+1.13 Neit Haggai wutann8naéneumoh Jehovah, unnau missinninnuh wutann8team8onk Jehovah, n8wau, nen k8weetomunumw8 n8wau Jehovah.
+1.14 Kah Jehovah wogkauunau wunnashauonguh Zerubbabel wunnaumonuh Shealtiel, Judae nanawunnuwaénin, kah wunnashauonguh Joshua wunnaumonuh Josedech keiche sephausuen, kah wunnashauongan8 wame sekqshoncheg missinninnuog, kah nag peyaog, kah anakausuog ut wekit Jehovah ayeuhteaunit um-Manitt8moh:
+1.15 Ut neesneechage nabo yauquinohhog, nequtta adtahs8it nepauz, nahohtôeu ukkodtum8m Darius ketass8t.
+2.1 UT nesausuk adtahs8it nepauz, neesnehchage kah noquttukqunuhhog, wuttinn8waonk Jehovah peyom8 nashpe quoshodtumwaenin Haggai, n8wau,
+2.2 Eyeu ken8s Zerubbabel wunnaumonuh Shealtiel, Judae nanawunnuaénin, kah Joshua wunnaumonuh Josedech kehche sephausuen, kah ashquoncheg missinninnuog, n8wash,
+2.3 Howan ash pâmontog ut kenugke kenaau, nag* yeu weetu ut negonne wussohsum8onganit, kah toh kittin naumuneau yeuyeu? sunnummatta ut kuskesuk8out tatuppeno mo teagwunit?
+2.4 Qut onch eyeu menuhkesish woi Zerubbabel, wussin Jehovah, kah menuhkesish woi Josedech kehche sephausuen, kah menuhkesek kenaau wame missinninnuog ut ohkeit, wussin Jehovah, kah anakausek, (newutche k8weetomunumw8 wussin Jehovah ayeuhteaunit.)
+2.5 Neaunak kutt8onk ne wân8waogkup wutch suhhamóg Egypt, nene nunnashauanitt8m k8weetomukumw8: wabesehteogk.
+2.6 Newutche yeu wussin Jehovah ayeuhteaunit, majish pasukqut, kah nunnukkushadtóh kesukquash, kah ohke kah keitoh, kah nobohteai.
+2.7 Kah nunnukkushadtóh wame wutohtimóneash, kah ukkodtantam8ongan8 wame wutohtimóneash pish peyaum8, kah yeu numwohtauun wetuómut sohsumóonk wussin Jehovah ayeuteaunit.
+2.8 Silver nuttaihe, kah gold nuttaihe, wussin Jehovah ayeuteaunit.
+2.9 Wussohsumoonk yeu nahohtôeu wetu pish anue missi onk ne negonneyeu8k wussin Jehovah ayeuhteaunit, kah yeu$ut ayeuonganit nummag wunohteaonk.
+2.10 Ut neesnehchadtikqunhog & yau pask8gun tahshe nepauz, ut nahohtôeu ukkodtum8mut Darius wuttiñ8wao[u]k Jehovah peyaum8 nashpe Haggai quoshodtumwaen, n8wau,
+2.11 Yeu wussin Jehovah ayeuteaunit, nat8tomau sephausuenuog papaume naumatuonk, n8wash,
+2.12 Howan ahtotinuk wunneetupanatamwe weyaus wussissippoeu hogk8unit, kah wussissippóhogk8 mussishit petukqunneg, asuh sabahheg, asuh wine, asuh ne teagwe meetsuonk, sun woh wunneetupanatamweyeu8? kah sephausuenuog namp8hamwog, kah n8waog, matta.
+2.13 Neit n8wau Haggai, noh nishkeneunkqussit nashpe nupp8e muhhogkunk, yeush mussuhkog, sun woh nishkeneunkquodt? kah sephausuenuog namp8hamwog, woh nishkeneunkquodt.
+2.14 Neit Haggai namp8ham kah n8wau, ne wuttinniinneau yeug missinninnuog, kah ne nnih yeu wutohtimoin ut anaquabeh, wussin Jehovah, kah nnih nish$noh wunnutchegane anakausuongan8, kah ne na adt sephaushettit nishkeneunkquodt.
+2.15 Kah yeuyeu, k8wehquetumonumw8 natwontam8k wutch yeu kesukok, kah onkoue en wutch negonne qussuk wanohtomuk qussukquanit ut wuttemplumut Jehovah.
+2.16 Nadteuh yeush kesukodtash howan payaontog numwonkquae neesneechage quttuhwhosikish, nish webe piogque: howan paont pressut, sokenumunat wutch pressut napanna tahshinchage wishquash, na webe neesneechag.
+2.17 Kuttogkomunumwop nashpe pisseogquodtinne, kah Mildew, kah nashpe mussegun ut wame kenutchegane anakausuongan8out: qut matta kukquinnuppew8 en nuhhogkat wussin Jehovah.
+2.18 Natwontam8k wutch yeu kesukok kah onkoueu, wutch neesneechadtikqunhog kah yau pask8gun tashe nepauz, wutch ne kesukok quenohtag wuttempleum Jehovah wànohtag, natwontam8k.
+2.19 Sun ash wuskanneumunnu8 barneut, nux weenomwussippog, kah figsuhtug, kah pomgrnatsehtug kah olivehtug asquam meechummu8k wutch yeu kesukok k8nanumunumw8.
+2.20 Kah wonk wuttinn8waonk Jehovah peyaonuk Haggai, ut neesnechadtikquinohhog kah yauquinne nepauz n8wau,
+2.21 Ken8n Zerubbabel Judae nanawunnuaenin, n8wash, pish nunnukkushadtoh kesukquash kah ohke.
+2.22 Kah nukkepuhteam tahs8tamoe appuongash, kah nuppagwadtoh ummenuhkesuonk penuwohteae tahs8tam8ongash, kah nukkepuhteam chariotsash, kah yeug nish nayeumukquehettich kah horsesog kah neg na8mitcheg pish penushaog nish$noh pasuk ut wuttogkodteganit weematoh.
+2.23 Ne kesukok n8wau Jehovah ayeuhteaunit keneemunush woi Zerubbabel nuttineum, wunnaumonuh Shealtiel, wussin Jehovah kah k8togqhesh pehtehhennitchabit: newutche kuppepenoush wussin Jehovah ayeuteaunit.
