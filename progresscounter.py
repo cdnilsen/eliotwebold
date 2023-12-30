@@ -287,7 +287,7 @@ allOTBookList = [
 partialVerseCountListFirstEd = { 
     "Genesis": 0,
     "Exodus": 1072,
-    "Leviticus": 108,
+    "Leviticus": (64+104),
     "Numbers": 0,
     "Deuteronomy": 33,
     "Joshua": 0,
