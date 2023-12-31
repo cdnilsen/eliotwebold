@@ -755,856 +755,856 @@ E.Lev.10.19: And Aaron said unto Moses, Behold, this day have they offered their
 α.Lev.10.20 Kah Moses n8tog, wunnegen ut wuskesukqut.
 E.Lev.10.20: And when Moses heard that, he was content.
 
-α.Lev.11.1
+α.Lev.11.1 KAh Jehovah ken8nau Mosesoh kah aaronoh, nah wuttinuh.
 E.Lev.11.1: And the LORD spake unto Moses and to Aaron, saying unto them,
 
-α.Lev.11.2
+α.Lev.11.2 Unnok wunnaumonuh Israel n8wagk, yeug puppinashimwog pish m8whogig, kenugke wame puppinashimwog neg ohkeit.
 E.Lev.11.2: Speak unto the children of Israel, saying, These are the beasts which ye shall eat among all the beasts that are on the earth.
 
-α.Lev.11.3
+α.Lev.11.3 Wame negwôhsh wuhkossaécheg, kah wohwoshwunoncheg uppahsikossóunoh, kah o[n]chittamont, kenugke puppinashimwut noh woh kumm8whau.
 E.Lev.11.3: Whatsoever parteth the hoof, and is clovenfooted, and cheweth the cud, among the beasts, that shall ye eat.
 
-α.Lev.11.4
+α.Lev.11.4 Qut yeuoh mat woh kumm8whou kenugke neg onchittamoncheg, asuh neg wohw[ó]shukossaecheg, Kámel, newutche onchittamau, qut matta passukossóou, noh pish nishkeneungqussu wutch kenaau.
 E.Lev.11.4: Nevertheless these shall ye not eat of them that chew the cud, or of them that divide the hoof: as the camel, because he cheweth the cud, but divideth not the hoof; he is unclean unto you.
 
-α.Lev.11.5
+α.Lev.11.5 Kah Cony, newutche onchittamau, qut matta passukossóou: noh pish nishkeneunkqussu wutche kenaau.
 E.Lev.11.5: And the coney, because he cheweth the cud, but divideth not the hoof; he is unclean unto you.
 
-α.Lev.11.6
+α.Lev.11.6 Kah Hare, newutche onchittamau, qut mat passúkossóou: noh pish nishkeneunkqussu wutche kenaau.
 E.Lev.11.6: And the hare, because he cheweth the cud, but divideth not the hoof; he is unclean unto you.
 
-α.Lev.11.7
+α.Lev.11.7 Kah pigs, newutche passúkossau, kah wohwoshwuhkossayeu, qut matta onchittamau8, noh pish nishkeneungqussu wutche kenau.
 E.Lev.11.7: And the swine, though he divide the hoof, and be clovenfooted, yet he cheweth not the cud; he is unclean to you.
 
-α.Lev.11.8
+α.Lev.11.8 Nag 8weyauwussum8 matta pish kummeech8unneau, kah wunnuppoe wuhhogkouh matta pish kummussunomw8, nag pish nishkeneungqussuog wutche kenaau.
 E.Lev.11.8 Of their flesh shall ye not eat, and their carcase shall ye not touch; they are unclean to you.
 
-α.Lev.11.9
+α.Lev.11.9 Yeug pish kumm8whóoóg wame neg apitcheg nippekontu: wame neg wapwekanitcheg, kah wuhhogkiitcheg ut nippekontu ut ketahha[n]it, kah ut sepuut, neg woh kumm8whoóog.
 E.Lev.11.9: These shall ye eat of all that are in the waters: whatsoever hath fins and scales in the waters, in the seas, and in the rivers, them shall ye eat.
 
-α.Lev.11.10
+α.Lev.11.10 Kah wame neg mat wapwékanegig, kah mat wuhhogkiegig ut kehtahhannit, kah ut sepuehtu, kenugke nish$noh owáas ummamonchin nippekontu kah nish$noh pomantamóe keteahogkou neg apitcheg nippekontu: nag pish kutuhquanum8og.
 E.Lev.11.10: And all that have not fins and scales in the seas, and in the rivers, of all that move in the waters, and of any living thing which is in the waters, they shall be an abomination unto you:
 
-α.Lev.11.11
+α.Lev.11.11 Nux pish kutúhquanumoóog, 8weyaus8 matta pish kummech8mw8, kah wunnupwe wuhhogkaóash, pish kutûhquontamunáoash.
 E.Lev.11.11: They shall be even an abomination unto you; ye shall not eat of their flesh, but ye shall have their carcases in abomination.
 
-α.Lev.11.12
+α.Lev.11.12 Wame neg matta wapwekanegig, kah mat wuhhogkiegig ut nippekontu, n[o]h pish kutûhquanumau.
 E.Lev.11.12: Whatsoever hath no fins nor scales in the waters, that shall be an abomination unto you.
 
-α.Lev.11.13
+α.Lev.11.13 Kah yeug pish uhquanumogig kenugke puppinshaut, neg matta pish môhwhóog, nag pish kutûhquanum8og; wompsikuk, kah ossisag, káh osprey.
 E.Lev.11.13: And these are they which ye shall have in abomination among the fowls; they shall not be eaten, they are an abomination: the eagle, and the ossifrage, and the ospray,
 
-α.Lev.11.14
+α.Lev.11.14 Kah Vulter kah qussukquanash, neyanussehettit.
 E.Lev.11.14: And the vulture, and the kite after his kind;
 
-α.Lev.11.15
+α.Lev.11.15 Nish$noh weenont neyanussehettit.
 E.Lev.11.15: Every raven after his kind;
 
-α.Lev.11.16
+α.Lev.11.16 Kah k8hk8khes, kah peeksq, kah kiyunk, kah quanu[n]on, neyôanussit.
 E.Lev.11.16: And the owl, and the night hawk, and the cuckow, and the hawk after his kind,
 
-α.Lev.11.17
+α.Lev.11.17 Kah kitchesweit, kah kuts: kah 8h8m8en.
 E.Lev.11.17: And the little owl, and the cormorant, and the great owl,
 
-α.Lev.11.18
+α.Lev.11.18 Kah Redshank, kah Pelicane, kah Gier-eagle.
 E.Lev.11.18 And the swan, and the pelican, and the gier eagle,
 
-α.Lev.11.19
+α.Lev.11.19 Kah Stork kah Hiron neyôanussit: kah Lapwing, kah matappasquas.
 E.Lev.11.19: And the stork, the heron after her kind, and the lapwing, and the bat.
 
-α.Lev.11.20
+α.Lev.11.20 Nish$noh [o]aas momonchin noh t8weet kah yauunash pomushahtunk, noh pish kutuhquanumau.
 E.Lev.11.20: All fowls that creep, going upon all four, shall be an abomination unto you.
 
-α.Lev.11.21
+α.Lev.11.21 Qut yeug pish m8whogig, nish$noh oaas momonchin noh t8weet, noh yauunash pomushahtunk, neg wohkontutcheg waabe wusseet8out, nish waj queshahettiche.
 E.Lev.11.21: Yet these may ye eat of every flying creeping thing that goeth upon all four, which have legs above their feet, to leap withal upon the earth;
 
-α.Lev.11.22
+α.Lev.11.22 Yeug kenugke nag m8whogig, locust neyoánussit, kah bald locust neyoánussit, kah locust chargol neyoánussit, kah quaquequeshont neyóanussit.
 E.Lev.11.22: Even these of them ye may eat; the locust after his kind, and the bald locust after his kind, and the beetle after his kind, and the grasshopper after his kind.
 
-α.Lev.11.23
+α.Lev.11.23 Kah nish$noh oâas uppomompágin noh t8weet ne yauuhkontont, noh pish kutuhquanumau.
 E.Lev.11.23: But all other flying creeping things, which have four feet, shall be an abomination unto you.
 
-α.Lev.11.24
+α.Lev.11.24 Kah nashpe yeug, pish kenishkeneunkqussimw8, howan masunont neh muhhogkuh, pish nishkeneunkqussu nô pajeh wunnonk88ut.
 E.Lev.11.24: And for these ye shall be unclean: whosoever toucheth the carcase of them shall be unclean until the even.
 
-α.Lev.11.25
+α.Lev.11.25 Kah howan kônunont, neh muhhogkuh, pish kutchessittau wuthogk8unash, kah pish nishkeneunkqussu nô pajeh wunnonk88ut.
 E.Lev.11.25: And whosoever beareth ought of the carcase of them shall wash his clothes, and be unclean until the even.
 
-α.Lev.11.26
+α.Lev.11.26 Nish$noh puppinashim matta pasúkahsunk, kah matta wôhshwuhkossáig, kah matta onchittamunk, nag pish nishkeneunkqussuog wutche kenaau: howan neh masunont pish nishk[e]n[e]unkqussu.
 E.Lev.11.26: The carcases of every beast which divideth the hoof, and is not clovenfooted, nor cheweth the cud, are unclean unto you: every one that toucheth them shall be unclean.
 
-α.Lev.11.27
+α.Lev.11.27 Kah nish$noh oâas paumushohkodtunk wunnutchegash, kenugke wame puppinashimwut, noh paumushohkodtunk wauunash, pish nishkeneunkqussuog wutche kenaau, howan masunont nupp8e wuhhogkauh, noh pish nishkeneunkqussu nô pajeh wunnonk88ut.
 E.Lev.11.27: And whatsoever goeth upon his paws, among all manner of beasts that go on all four, those are unclean unto you: whoso toucheth their carcase shall be unclean until the even.
 
-α.Lev.11.28
+α.Lev.11.28 Kah noh tashinont nag wuhhogkauh, noh pish kutchissittau wuthogk8unash, kah pish nishkeneongqussu nô pajeh wunnongk8uk, nag pish nishkeneunkqussuog wutche kenaau.
 E.Lev.11.28 And he that beareth the carcase of them shall wash his clothes, and be unclean until the even: they are unclean unto you.
 
-α.Lev.11.29
+α.Lev.11.29 Kah yeug pish nishkeneungqussitcheg wutche kenaau kenugke papomompakecheg, nag pamompakecheg ut ohkeit: wasel, kah mishabpuhquas, kah t8nuppasog neyanusséhettit.
 E.Lev.11.29: These also shall be unclean unto you among the creeping things that creep upon the earth; the weasel, and the mouse, and the tortoise after his kind,
 
-α.Lev.11.30
+α.Lev.11.30 Kah ferret, kah camelion, kah lizard, kah askequttum, kah mameechumit
 E.Lev.11.30: And the ferret, and the chameleon, and the lizard, and the snail, and the mole.
 
-α.Lev.11.31
+α.Lev.11.31 Yeug pish nishkeneungqussuog, wutche kenaau, kenugke wame neg pamompakecheg, howan ne masunont, nag nuppehettit, noh pish nishkeneunkqussu nô pajeh wunnonk8ut.
 E.Lev.11.31: These are unclean to you among all that creep: whosoever doth touch them, when they be dead, shall be unclean until the even.
 
-α.Lev.11.32
+α.Lev.11.32 Kah ne teag poggussam8ontamwehhettit, nuppéhettit nish nishkeneunkquodt, ne teagwe metugquéwisk, asuh ne teagquonag, asuh ne teague ohk8un, asuh ne teaguwe man8tiyónag: ne teag wisq ne nashpe anakausimum: pish ponamun nippeit, kah pish nishkeneunkquodt nô pajeh wunnonk8ut, kah pish pahketeauun.
 E.Lev.11.32: And upon whatsoever any of them, when they are dead, doth fall, it shall be unclean; whether it be any vessel of wood, or raiment, or skin, or sack, whatsoever vessel it be, wherein any work is done, it must be put into water, and it shall be unclean until the even; so it shall be cleansed.
 
-α.Lev.11.33
+α.Lev.11.33 Kah nish$noh ohkée wiskq, ne pagussummowontamwéhettit: ne teaguas ne anomut ohtag, pish nishkeneunkquodt, kah pish kussukquonkóneau.
 E.Lev.11.33: And every earthen vessel, whereinto any of them falleth, whatsoever is in it shall be unclean; and ye shall break it.
 
-α.Lev.11.34
+α.Lev.11.34 Wame meetsuonk ne woh meechumuk, ne nippe ne noh wâm8uk, pish nishkeneungquodt, kah wame wuttattamóonk, ne woh wadtattamuk, nish$noh$ut neyaunag wiskq, pish nishkeneungquodt.
 E.Lev.11.34: Of all meat which may be eaten, that on which such water cometh shall be unclean: and all drink that may be drunk in every such vessel shall be unclean.
 
-α.Lev.11.35
+α.Lev.11.35 Kah nish$noh teag ne wuhhogkauh pogsininit, ne pish nishkeneungquodt, ahut tahneishnimuk, kah wiskquonk, nag pish sukquohtahwhóog, nish nishkeneunkquodtash, kah pish nishkeneunkquodtash wutche kenaau.
 E.Lev.11.35: And every thing whereupon any part of their carcase falleth shall be unclean; whether it be oven, or ranges for pots, they shall be broken down: for they are unclean and shall be unclean unto you.
 
-α.Lev.11.36
+α.Lev.11.36 Qut tohkekom kah pussohteg, kah moém8uk nippe, pish pohki, qut ne masukom8m8uk wuhhogkauh, pish nishkeneunkquodt.
 E.Lev.11.36: Nevertheless a fountain or pit, wherein there is plenty of water, shall be clean: but that which toucheth their carcase shall be unclean.
 
-α.Lev.11.37
+α.Lev.11.37 Kah wuhhogkauh pogkussininit nosh$noh wuskannemunit, nish pish ahketeámukish, pish pohkiyeuash.
 E.Lev.11.37: And if any part of their carcase fall upon any sowing seed which is to be sown, it shall be clean.
 
-α.Lev.11.38
+α.Lev.11.38 Qut nippe sokanumuk wuskannemunit, kah ne muhhog ne pogkussuk, pish nishkeneunkquodt wutche kenaau.
 E.Lev.11.38 But if any water be put upon the seed, and any part of their carcase fall thereon, it shall be unclean unto you.
 
-α.Lev.11.39
+α.Lev.11.39 Kah howae puppinashim nuppuk, noh wameechumumeóg, noh masunont muhhogkuh, pish nishkeneunkqussu pajeh wunnonk8ut.
 E.Lev.11.39: And if any beast, of which ye may eat, die; he that toucheth the carcase thereof shall be unclean until the even.
 
-α.Lev.11.40
+α.Lev.11.40 Kah noh m8hwhont neh muhhogkuh, pish kutchissittau wuthogk8unash, kah pish nishkeneunkqussu nô pajeh wunnonk8ut: kah noh tashinont muhhogkuh, pish kutchessittau wuthogk8unash, kah pish nishkeneunkqussu nô pajeh wunnonk8ut.
 E.Lev.11.40: And he that eateth of the carcase of it shall wash his clothes, and be unclean until the even: he also that beareth the carcase of it shall wash his clothes, and be unclean until the even.
 
-α.Lev.11.41
+α.Lev.11.41 Kah nish$noh pamompagin owâas, noh pâmompagit ohkeit, noh pish ohquanumukqussu, matta pish m8hwhau.
 E.Lev.11.41: And every creeping thing that creepeth upon the earth shall be an abomination; it shall not be eaten.
 
-α.Lev.11.42
+α.Lev.11.42 Howaas paumushahtunk wunnogkus, kah howaas yauunash paumushahtunk, kah howaas m8chekussittont, kenugke pamompakecheg ohkeit: matta pish kumm8hwoóog, newutche nag uhquanumukqussuog.
 E.Lev.11.42: Whatsoever goeth upon the belly, and whatsoever goeth upon all four, or whatsoever hath more feet among all creeping things that creep upon the earth, them ye shall not eat; for they are an abomination.
 
-α.Lev.11.43
+α.Lev.11.43 Ahque ayeuk kukketeahogkon8wóog, wutuhquanumukqussinneaóut, nashpe pomompagée howaas noh pomompagit: kah ahque nishkheuk kuhhogkaóog nashpe nag, woh kenishkeneunkqussinneaóut nashpe nag.
 E.Lev.11.43: Ye shall not make yourselves abominable with any creeping thing that creepeth, neither shall ye make yourselves unclean with them, that ye should be defiled thereby.
 
-α.Lev.11.44
+α.Lev.11.44 Newutche nen Jehovah kum-Manitt8mw8, kah pish kenaau k8netupanat[a]mwaheonaóut, kah pish k8netupanatamweyeumw8, newutche nen n8neetupanatamweyeu, kah matta pish kenishkeneunkqueheaumw8 kukketeahogkon8wóog, nashpe pomompagée howaas, neh wogkouit ut ohkeit.
 E.Lev.11.44: For I am the LORD your God: ye shall therefore sanctify yourselves, and ye shall be holy; for I am holy: neither shall ye defile yourselves with any manner of creeping thing that creepeth upon the earth.
 
-α.Lev.11.45
+α.Lev.11.45 Newutche nen Jehovah, noh pas8queóg wutch ohket Egypt, k8-Manitt8munneaóut: kah pish k8neetupanatamweyeumw8, newutche n8netupanatamweyeu.
 E.Lev.11.45: For I am the LORD that bringeth you up out of the land of Egypt, to be your God: ye shall therefore be holy, for I am holy.
 
-α.Lev.11.46
+α.Lev.11.46 Yeu naumatuonk papaume puppinashimwog, kah puppinashasog, kah nish$noh pomantamwe keteahogkou ut nippekontu, kah nish$noh pomantamóe pomompagée howaa[s] noh pamompagit ohkeit.
 E.Lev.11.46: This is the law of the beasts, and of the fowl, and of every living creature that moveth in the waters, and of every creature that creepeth upon the earth:
 
-α.Lev.11.47
+α.Lev.11.47 Pen8wehteaunat nashaue ne pohki kah ne nishkeneungquok: kah nashauwe puppinashim ne woh m8whut, kah puppishim, noh woh m8hwhóut.
 E.Lev.11.47: To make a difference between the unclean and the clean, and between the beast that may be eaten and the beast that may not be eaten.
 
-α.Lev.12.1
+α.Lev.12.1 KAh Jehovah ken8nau Mosesoh, n8wau,
 E.Lev.12.1: And the LORD spake unto Moses, saying,
 
-α.Lev.12.2
+α.Lev.12.2 Ken8s wunnaumonuh Israel, n8wash, Mittamwssis wompequait, kah nekheont mukkachouxoh: neit pish noh nishkeneunkqussu nesausuk tahshikquinne, neyaunag ukkesukodtume sohh8taongash, wutche ukqussinausuonk, pish nishkeneunkqussu.
 E.Lev.12.2: Speak unto the children of Israel, saying, If a woman have conceived seed, and born a man child: then she shall be unclean seven days; according to the days of the separation for her infirmity shall she be unclean.
 
-α.Lev.12.3
+α.Lev.12.3 Kah shwosuk tahshikquinogkok, uhquaeu 8weyausum pish quoshqusausu
 E.Lev.12.3: And in the eighth day the flesh of his foreskin shall be circumcised.
 
-α.Lev.12.4
+α.Lev.12.4 Kah noh pish nagwutteohteau ut wusqueheongane pahkhettuonganit, nishwinchatikquinne, kah nishikquinogkod: matta pish missinnum8 tague wunnetupanatamweyeu8g, asuh matta pish petuttea8 wunnetupanatamwe komukqut, nô pajeh pahkheonáe kesukodtash pahsha[n]e n$nag.
 E.Lev.12.4: And she shall then continue in the blood of her purifying three and thirty days; she shall touch no hallowed thing, nor come into the sanctuary, until the days of her purifying be fulfilled.
 
-α.Lev.12.5
+α.Lev.12.5 Kah neechad nunksquaésoh, neit pish nishkeneunkqussu neese weeksae, kah ut wutchipp8taonganit, kah pish nagwutteahteau ut wusqueheongane pahkhettuonganit, nequtta tahshinchatikquinne, kah nequtta tashikquinne.
 E.Lev.12.5: But if she bear a maid child, then she shall be unclean two weeks, as in her separation: and she shall continue in the blood of her purifying threescore and six days.
 
-α.Lev.12.6
+α.Lev.12.6 Kah pahkhettuae kesuokdtash mahche nnag wutch wunnaumon[á]in asuh wuttaunin, noh pish pas8au ne kodtumóe lamboh, wutch chikohtáe sephausuonk, kah wuskuhwhunnunnaem, asuh turtle wuskuhwhunam wutch matcheseáe sephausuonk, ut mukkinnáe kommukque squontamut, en sephausuenuut.
 E.Lev.12.6: And when the days of her purifying are fulfilled, for a son, or for a daughter, she shall bring a lamb of the first year for a burnt offering, and a young pigeon, or a turtledove, for a sin offering, unto the door of the tabernacle of the congregation, unto the priest:
 
-α.Lev.12.7
+α.Lev.12.7 Kah nosh pish wussephausin ut anaquabit Jehovah, kah wunnauwadheoneat, neit noh pish pahkheau, wutch wuttohkekummue wusqueheongash: yeu wuttinnaumatuongan8 mittumwussissog neechacheg, wutche nompaas kah squaas,
 E.Lev.12.7: Who shall offer it before the LORD, and make an atonement for her; and she shall be cleansed from the issue of her blood. This is the law for her that hath born a male or a female.
 
-α.Lev.12.8
+α.Lev.12.8 Kah matta wamattinn8g wunnutcheganit wutche lambe, neit pish nemunau neesuoh turtleoh, asuh neesuoh wuskuhwhunnanémesoh, pasuk wutch chikohtae sephausuonk, kah pasuk wutch matcheseae sephausuonk, kah sephausuaen pish 8nauwadheuh, kah pish pahkesu.
 E.Lev.12.8 And if she be not able to bring a lamb, then she shall bring two turtles, or two young pigeons; the one for the burnt offering, and the other for a sin offering: and the priest shall make an atonement for her, and she shall be clean.
 
-α.Lev.13.1
+α.Lev.13.1 KAh Jehovah ken8nau Mosesoh kah Aaronoh, n8wau,
 E.Lev.13.1: And the LORD spake unto Moses and Aaron, saying,
 
-α.Lev.13.2
+α.Lev.13.2 Wosketomp ohtag wuttuhquabée weyausut, mogquesuonk asuh mukkee, asuh wompechohkag, kah ohtag wuttuhquabée weyausut, ogqueneunkquok wutchek8e an[ì]nneaonganit, neit pish paudtauónuh Aaron sephausuaen, asuh pasuk8 wunnaumonuh sephausuenúog.
 E.Lev.13.2: When a man shall have in the skin of his flesh a rising, a scab, or bright spot, and it be in the skin of his flesh like the plague of leprosy; then he shall be brought unto Aaron the priest, or unto one of his sons the priests:
 
-α.Lev.13.3
+α.Lev.13.3 Kah sephausuaen pish ukkehkiñeaumun, enninneaonk ut wuttuhquabèe weyausut, kah wishshuwussuongash ut aninneaonganit, wompag, kah moneaumunat aninneaonk, m8nâushik onk ne wadtúhquabée weyaus, ne wutchek8e aninneaonk: kah sephausuaen pish wunnáumun, kah ukken8tamun ne nishkeneunkquok.
 E.Lev.13.3: And the priest shall look on the plague in the skin of the flesh: and when the hair in the plague is turned white, and the plague in sight be deeper than the skin of his flesh, it is a plague of leprosy: and the priest shall look on him, and pronounce him unclean.
 
-α.Lev.13.4
+α.Lev.13.4 Kah wompichohkag, wompag, ut wadtuhquabée weyausut, kah monunneaumunat, matta m8n8an8g onk ne wadtuhquabée weyaus, kah ne wishshuwussuonk, matta wompan8g: neit sephausuaen pish kuppohwhau [á]ninneanutcheh, nesausuk tahshikquinne.
 E.Lev.13.4: If the bright spot be white in the skin of his flesh, and in sight be not deeper than the skin, and the hair thereof be not turned white; then the priest shall shut up him that hath the plague seven days:
 
-α.Lev.13.5
+α.Lev.13.5 Kah sephausuaen pish ukkehkinneauoh, nesausuk tahshikquinogkok, kah kusseh, enniñeaonk, anukuk8kup monunneog, eñinneaonk matta sepagig, ut wuttuhquabit, neit sephausuaen pish ukkuppahwhoh, nesausuk tahshikquinne nahohtôeu.
 E.Lev.13.5: And the priest shall look on him the seventh day: and, behold, if the plague in his sight be at a stay, and the plague spread not in the skin; then the priest shall shut him up seven days more:
 
-α.Lev.13.6
+α.Lev.13.6 Kah sephausuaen pish ukkehkinneaumun nesausuk tahshikquinogkok, nahohtôeu: kah kusseh, enninneaonk pohkenésit, kah enninneáonk matta sepagig ut wadtuhquabit, neit sephausuaen pish ukken8nuh pahkesu, ne mukke, & pish kutchessitta8 wuthogk8unash, kah pish pakesu.
 E.Lev.13.6: And the priest shall look on him again the seventh day: and, behold, if the plague be somewhat dark, and the plague spread not in the skin, the priest shall pronounce him clean: it is but a scab: and he shall wash his clothes, and be clean.
 
-α.Lev.13.7
+α.Lev.13.7 Qut mukkée nano sepakem8uk, ut wadtuhquabit, mahche nag* sephausuaen, wutche uppakesuonk, neit pish móneauâu nahohtôeu nashpe séphausuaenin.
 E.Lev.13.7: But if the scab spread much abroad in the skin, after that he hath been seen of the priest for his cleansing, he shall be seen of the priest again.
 
-α.Lev.13.8
+α.Lev.13.8 Sephausuaen nag*, kah kusseh, mukke nano sepakem8 ut wadtuhquabeit, neit pish sephausuaen ukken8nuh, noh nishkeneunkqussu: ne wutchek8onk.
 E.Lev.13.8 And if the priest see that, behold, the scab spreadeth in the skin, then the priest shall pronounce him unclean: it is a leprosy.
 
-α.Lev.13.9
+α.Lev.13.9 Wutchek8e enninne[à]onk, ohtak wosketompaut, neit pish pas8au sephausuaenuut.
 E.Lev.13.9: When the plague of leprosy is in a man, then he shall be brought unto the priest;
 
-α.Lev.13.10
+α.Lev.13.10 Kah sephausuaen pish ukkehkinneámun; kah kusseh, wompi mogquen ohtag wadtuhquabit, kah ne wompeteam8uk wushshuussuongash: kah keteae neetskesue weyaus ohtag mogqueseuonganit.
 E.Lev.13.10: And the priest shall see him: and, behold, if the rising be white in the skin, and it have turned the hair white, and there be quick raw flesh in the rising;
 
-α.Lev.13.11
+α.Lev.13.11 Ne nukkone wutchekq ut wadtuhquabée weyausut, kah sephausuaen pish ukken8t[â]mun, noh nishkeneunkqussu: matta pish ukkuppuhwhôh, newutche noh nishkeneunkqussu.
 E.Lev.13.11: It is an old leprosy in the skin of his flesh, and the priest shall pronounce him unclean, and shall not shut him up: for he is unclean.
 
-α.Lev.13.12
+α.Lev.13.12 Kah wutchek8onk nannón ut s8hqueit, ut mattuhquabit, kah wutchek8onk nuhkuhkog, wame wadtuhquabit noh ne áninneadt, wutch uppuhkukqut yean wusseet: nish$noh adt nagish:
 E.Lev.13.12: And if a leprosy break out abroad in the skin, and the leprosy cover all the skin of him that hath the plague from his head even to his foot, wheresoever the priest looketh;
 
-α.Lev.13.13
+α.Lev.13.13 Neit sephausuaen pish ukkeikeneauoh, kah kusseh, wutchek8onk nuhkuhkog wame weyaus, neit pish ken8nau noh ne aninneadt, pahkesu: ne wame wompéayeu8, noh pahkesu.
 E.Lev.13.13: Then the priest shall consider: and, behold, if the leprosy have covered all his flesh, he shall pronounce him clean that hath the plague: it is all turned white: he is clean.
 
-α.Lev.13.14
+α.Lev.13.14 Qut ne kesukok, keteae weyaus naumauut, noh pish nishkeneunkqussu.
 E.Lev.13.14: But when raw flesh appeareth in him, he shall be unclean.
 
-α.Lev.13.15
+α.Lev.13.15 Kah sephausuaen pish naum keteae weyaus, kah pish ukken8nuh, noh nishkeneunkqussu, keteáe weyaus, ne nishkeneunkqussúm8, ne wutchek8onk.
 E.Lev.13.15: And the priest shall see the raw flesh, and pronounce him to be unclean: for the raw flesh is unclean: it is a leprosy.
 
-α.Lev.13.16
+α.Lev.13.16 Asuh keteáe weyaus, quinnuppem8ug, kah ôs8wem8 en wompiyeuut, neit pish peyaóneau sephausuénu.
 E.Lev.13.16: Or if the raw flesh turn again, and be changed unto white, he shall come unto the priest;
 
-α.Lev.13.17
+α.Lev.13.17 Kah sephausuen pish wunnauuh; kah kusseh, enninneaonk quinnuppeit en 8wompésinneat: neit sephausuen pish ukken8nuh ne[h] áninneánitcheh pakhesu, noh pahkesu.
 E.Lev.13.17: And the priest shall see him: and, behold, if the plague be turned into white; then the priest shall pronounce him clean that hath the plague: he is clean.
 
-α.Lev.13.18
+α.Lev.13.18 Kah weyaus, noh ohtag, wadtuhquabit, pwohkusháe mogqueen: kah neetskon.
 E.Lev.13.18 The flesh also, in which, even in the skin thereof, was a boil, and is healed,
 
-α.Lev.13.19
+α.Lev.13.19 Kah ne mogquenit, ne wompi mogque[u], asuh wompichohkag, wompi mishquompammukquodt: neit pish nohtinon sephausuenin.
 E.Lev.13.19: And in the place of the boil there be a white rising, or a bright spot, white, and somewhat reddish, and it be shewed to the priest;
 
-α.Lev.13.20
+α.Lev.13.20 Kah sephausuen nág*, kah kusseh naumunat m8nóshin onk ne wadtuhquab, kah wishshuussuonk wompag: neit sephausuen pish ukken8nuh nishkeneunkqussu, ne wutchek8e aninneáonk, ne pôkqusheau ut mogquenit.
 E.Lev.13.20: And if, when the priest seeth it, behold, it be in sight lower than the skin, and the hair thereof be turned white; the priest shall pronounce him unclean: it is a plague of leprosy broken out of the boil.
 
-α.Lev.13.21
+α.Lev.13.21 Qut sephausuen nag*, kah kusseh, ne wanne wompano wushshuwissuonk, kah matta m8noshininno onk ne wadtuhquab, kah pohkenompamukquodt, neit sephausuen pish ukkuppohwhoh, nesausuk tahshikquinne.
 E.Lev.13.21: But if the priest look on it, and, behold, there be no white hairs therein, and if it be not lower than the skin, but be somewhat dark; then the priest shall shut him up seven days:
 
-α.Lev.13.22
+α.Lev.13.22 Kah sepakemoe sepakem8ug, ut matuhquabit: neit pish sephausuen ukken8nuh nishkeneunkqussu, noh enninneaonk.
 E.Lev.13.22: And if it spread much abroad in the skin, then the priest shall pronounce him unclean: it is a plague.
 
-α.Lev.13.23
+α.Lev.13.23 Qut womp[i]chohkag ne waéhquohtágkup kah matta sepakemun8, ne kussopitae mogquesuonk, kah sephausuen pish ukken8nuh pahkesu.
 E.Lev.13.23: But if the bright spot stay in his place, and spread not, it is a burning boil; and the priest shall pronounce him clean.
 
-α.Lev.13.24
+α.Lev.13.24 Asuh weyaus, ohtag wadtuhquabit, n8tae chikohsuonk, kah keteaum8ug ne chôgohtag, ne wompéchohkag, wompi musquompamukquodt, asuh wompi.
 E.Lev.13.24: Or if there be any flesh, in the skin whereof there is a hot burning, and the quick flesh that burneth have a white bright spot, somewhat reddish, or white;
 
-α.Lev.13.25
+α.Lev.13.25 Neit sephausuen pish ukkehkeneaumun, kah kusseh, wishshuwussuonk wompag, ut ne wompi chohkag, kah naumunat m8nohshik onk ne wadtuhquab, ne wutchek8onk, ne p[ó]hkusheau ut chikohsuonganit, kah sephausuen pish ukken8nuh nishkeneunkqussu, ne wutchek8e eninneáonk.
 E.Lev.13.25: Then the priest shall look upon it: and, behold, if the hair in the bright spot be turned white, and it be in sight deeper than the skin; it is a leprosy broken out of the burning: wherefore the priest shall pronounce him unclean: it is the plague of leprosy.
 
-α.Lev.13.26
+α.Lev.13.26 Qut sephausuen nag*, kah kusseh, na wanne wompano wishshuwissuonk, ut wompi chohkiyeuut, kah wanne m8nóshinunn8 onk ne wadtuhquab, kah pohkenompamukquodt, neit pish sephausuen ukkuppohwhoh nesausuk tahshikquinne.
 E.Lev.13.26: But if the priest look on it, and, behold, there be no white hair in the bright spot, and it be no lower than the other skin, but be somewhat dark; then the priest shall shut him up seven days:
 
-α.Lev.13.27
+α.Lev.13.27 Kah sephausuen pish ukkehkinneauoh, nesausuk tahshikquinogkok: sepakemoe sepakem8uk ut wadtuhquabit, neit sephausuen pish ukken8nuh nishkeneunkqussu, ne wutchek8e eninneaonk.
 E.Lev.13.27: And the priest shall look upon him the seventh day: and if it be spread much abroad in the skin, then the priest shall pronounce him unclean: it is the plague of leprosy.
 
-α.Lev.13.28
+α.Lev.13.28 Kah wompe chohkag, ne waehquodtagkup, matta sepakemun8g ut wadtuhquabit, kah pohkenompamukquok;ne chikkohsue mogquesuonk: kah sephausuen pish ukken8nuh pahkesu, newutche, ne kussopitae chikkohsuonk.
 E.Lev.13.28 And if the bright spot stay in his place, and spread not in the skin, but it be somewhat dark; it is a rising of the burning, and the priest shall pronounce him clean: for it is an inflammation of the burning.
 
-α.Lev.13.29
+α.Lev.13.29 Kah wosketomp asuh mittamwossis, apehtunkqut eninneaonguh, ut muhpuhkukqut, asuh weeshitt8nit.
 E.Lev.13.29: If a man or woman have a plague upon the head or the beard;
 
-α.Lev.13.30
+α.Lev.13.30 Neit sephausuen pish kuhkinneauau eninneaonguh, kah kusseh moneaumunat, m8naushik onk ne wadtuhquab, kah ne ohtag weesôe meesunk, néit sephausuen pish ukken8nuh nishkeneunkqussu, ne mukkeontuppaonk, ne wutchek8onk ut uppuhkukqut, asuh ut weeshitt8unut.
 E.Lev.13.30: Then the priest shall see the plague: and, behold, if it be in sight deeper than the skin; and there be in it a yellow thin hair; then the priest shall pronounce him unclean: it is a dry scall, even a leprosy upon the head or beard.
 
-α.Lev.13.31
+α.Lev.13.31 Kah sephausuen nag*, mukkeontuppàe eninneáonk, kah kusseh, moneaumunneat, matta m8noshininn8 onk ne wadtuhquab; kah na matta n8ano meesunk: neit pish sepausuen kuppohwháu mukkeontupae en[i]nneánutcheh nesausuk tahshikquinne.
 E.Lev.13.31: And if the priest look on the plague of the scall, and, behold, it be not in sight deeper than the skin, and that there is no black hair in it; then the priest shall shut up him that hath the plague of the scall seven days:
 
-α.Lev.13.32
+α.Lev.13.32 Kah sephausuen pish kukkinnauau enninneaonguh[-], nesausuk tahshikquinogkok, kah kusseh mukkeontupáonk matta sepageg, kah matta ohtano weesôe mesunk, kah monunneaumunat mukkeontuppaonk, matta m8noshininno onk ne wadtuhquab.
 E.Lev.13.32: And in the seventh day the priest shall look on the plague: and, behold, if the scall spread not, and there be in it no yellow hair, and the scall be not in sight deeper than the skin;
 
-α.Lev.13.33
+α.Lev.13.33 Neit pish m8swau wuhhogkuh, qut mukkeontuppaonk matta pish umm8sum8un, kah sephausuen pish kuppohwau neh mákeontuponitcheh nesausuk tashikquinne, nahohtôeu.
 E.Lev.13.33: He shall be shaven, but the scall shall he not shave; and the priest shall shut up him that hath the scall seven days more:
 
-α.Lev.13.34
+α.Lev.13.34 Kah sephausuen pish kuhkinneam mukkeontuppaonk, nesausuk tahshikquinogkok, kah kusseh, mukkeontuppaonk matta sepakemun8g ut mattuhquabit, kah monneaumunat, mátta m8nashinin8g onk ne wadtuhquab: neit pish sephausuen ukken8nuh pahkesu, kah pish kutchissitto wuthogk8unash, kah pish pakesu.
 E.Lev.13.34: And in the seventh day the priest shall look on the scall: and, behold, if the scall be not spread in the skin, nor be in sight deeper than the skin; then the priest shall pronounce him clean: and he shall wash his clothes, and be clean.
 
-α.Lev.13.35
+α.Lev.13.35 Qut mukkeontupaonk sepakemoe sepakem8uk ut mattuhquabit, mahche pahkesit.
 E.Lev.13.35: But if the scall spread much in the skin after his cleansing;
 
-α.Lev.13.36
+α.Lev.13.36 Neit sephausuen pish wunnauuh, kah kusseh, mukkeontupaonk sepakem8uk ut mattuhquabit, sephausuen matta pish natinneham8 weesôónukquôu, noh nishkeneunkqussu. 
 E.Lev.13.36: Then the priest shall look on him: and, behold, if the scall be spread in the skin, the priest shall not seek for yellow hair; he is unclean.
 
-α.Lev.13.37
+α.Lev.13.37 Qut mukkeontupaonk waeekqusshikup moneaumuneat, kah m8onukq[n]ôu noh tanneguk, mukkeontupáonk neetskon, noh pahkesu, kah sephausuen pish u[kkk]en8nuh pahkesu.
 E.Lev.13.37: But if the scall be in his sight at a stay, and that there is black hair grown up therein; the scall is healed, he is clean: and the priest shall pronounce him clean.
 
-α.Lev.13.38
+α.Lev.13.38 Kah wosketomp asuh mittamwossis, ohtag ut weyause mattuhquabit, wequai chohkag, wompi wequai chohkag.
 E.Lev.13.38 If a man also or a woman have in the skin of their flesh bright spots, even white bright spots;
 
-α.Lev.13.39
+α.Lev.13.39 Neit sephausuen pish ukkehkeneaumun, kah kusseh, ut weyause wadtuhquabit ne ohtag wequáe chokagish, pohkinne wompi, ne momóne chohki, ne adtannegig wadtuhquabit, noh pakesu.
 E.Lev.13.39: Then the priest shall look: and, behold, if the bright spots in the skin of their flesh be darkish white; it is a freckled spot that groweth in the skin; he is clean.
 
-α.Lev.13.40
+α.Lev.13.40 Kah wosketomp ummeesunk penushunk: noh mukukkontupau, noh pahkesu.
 E.Lev.13.40: And the man whose hair is fallen off his head, he is bald; yet is he clean.
 
-α.Lev.13.41
+α.Lev.13.41 Kah uppuhkuk ummesunk n8shunk wuskodtukquieu, noh m8sontupau, noh pahkesu.
 E.Lev.13.41: And he that hath his hair fallen off from the part of his head toward his face, he is forehead bald: yet is he clean.
 
-α.Lev.13.42
+α.Lev.13.42 Kah mukukkontupòunit, asuh mukukkontupáe muskodtukqut, ne ohtag enninneáonk, wompi mushquompamukquodt, ne wutchek8onk m8skem8 ut ummukukkontupóunit asuh ummukukishkodtukqut.
 E.Lev.13.42: And if there be in the bald head, or bald forehead, a white reddish sore; it is a leprosy sprung up in his bald head, or his bald forehead.
 
-α.Lev.13.43
+α.Lev.13.43 Kah sephausuen pish ukkeihkeneaumun kàh kusseh, mogquesue enninneaonk, wompag, mishquampamukquok, ut ummukukkontupòonit asuh ummukukishkodtukqut: neyá[h]unag wutchek8onk ut wadtuhq[n]abée weyausut.
 E.Lev.13.43: Then the priest shall look upon it: and, behold, if the rising of the sore be white reddish in his bald head, or in his bald forehead, as the leprosy appeareth in the skin of the flesh;
 
-α.Lev.13.44
+α.Lev.13.44 Noh wutchek8e wosketomp, noh nishkeneunkqussu, sephausuen pish ukken8nuh pannuppe nishkeneunkqussu, wuttinninneáonk ut uppuhkukqut ohteau.
 E.Lev.13.44: He is a leprous man, he is unclean: the priest shall pronounce him utterly unclean; his plague is in his head.
 
-α.Lev.13.45
+α.Lev.13.45 Kah noh wutchekq, noh apehtunkquit enninneaonk, wuthogk8unash pish nehnekukkomunash, kah uppuhkuk pish woshwutteau, kah pish ponam onkwheg, waábe wussissitt8nit:  kah pish mau, nunnishkeneunkqus,nunnishkeneunkqus.
 E.Lev.13.45: And the leper in whom the plague is, his clothes shall be rent, and his head bare, and he shall put a covering upon his upper lip, and shall cry, Unclean, unclean.
 
-α.Lev.13.46
+α.Lev.13.46 Wame kesukodtash noh enninneaonk pish apehtauoncheh, pish nishkeneunkqussu, noh nishkeneunkqussu, pish nonsiyeu, poquodche tuppuksinn8wonganit, ne pish wutayeuonk.
 E.Lev.13.46: All the days wherein the plague shall be in him he shall be defiled; he is unclean: he shall dwell alone; without the camp shall his habitation be.
 
-α.Lev.13.47
+α.Lev.13.47 Kah hogk8onk wutchek8e enninneáonk ne ohtag, ut w8lle m8nakinut, asuh hashabponakinit,
 E.Lev.13.47: The garment also that the plague of leprosy is in, whether it be a woollen garment, or a linen garment;
 
-α.Lev.13.48
+α.Lev.13.48 Asuh ut warput asuh ut w8fut, asuh hashabpe asuh w8lle, asuh ut ohk8nat, asuh ne teag$quodtag.
 E.Lev.13.48 Whether it be in the warp, or woof; of linen, or of woollen; whether in a skin, or in any thing made of skin;
 
-α.Lev.13.49
+α.Lev.13.49 Kah enninneáonk ashkosquesit, asuh mushquompamukqussit, ut hogk8onganit, asuh ohk8nat, asuh ut warput, asuh ut w8fut, asuh mattagunne wiskq ne wutchek8e enninneáonk, kah pish ukkehkeneaumun s[é]phausuen.
 E.Lev.13.49: And if the plague be greenish or reddish in the garment, or in the skin, either in the warp, or in the woof, or in any thing of skin; it is a plague of leprosy, and shall be shewed unto the priest:
 
-α.Lev.13.50
+α.Lev.13.50 Kah sephausuen pish naum enninneáonk, kah pish kuppohham ne enninneáonk nesausuk tahshikquinne. 
 E.Lev.13.50: And the priest shall look upon the plague, and shut up it that hath the plague seven days:
 
-α.Lev.13.51
+α.Lev.13.51 Kah pish kukkinneam enninneáonk nesausuk tahshikquinogkok enninneaonk sepagkit ut hogk8onganit, asuh warput asuh w8fut, asuh ut ohk8nat, wame ne ohk8nayeu8k, wutche auwohteaonk: ne enninneaonk, annusteóe wutchek8onk, ne nishkeneunkquodt.
 E.Lev.13.51: And he shall look on the plague on the seventh day: if the plague be spread in the garment, either in the warp, or in the woof, or in a skin, or in any work that is made of skin; the plague is a fretting leprosy; it is unclean.
 
-α.Lev.13.52
+α.Lev.13.52 Kah pish chikkossum hogk8onk, asuh warp asuh w8f, w8lle asuh hashabpe, asuh ne teagwe wiskq uttoh apit enninneáonk, newutche popóquodtamwe wutchek8onk, pish chikkohtau ut n8taut. 
 E.Lev.13.52: He shall therefore burn that garment, whether warp or woof, in woollen or in linen, or any thing of skin, wherein the plague is: for it is a fretting leprosy; it shall be burnt in the fire.
 
-α.Lev.13.53
+α.Lev.13.53 Kah sephausuen nag*, kah kusseh, enninneáonk wanne sepageu ut hogk8onganit, asuh warput asuh w8fut, asuh ne teague ohk8nie wiskq.
 E.Lev.13.53: And if the priest shall look, and, behold, the plague be not spread in the garment, either in the warp, or in the woof, or in any thing of skin;
 
-α.Lev.13.54
+α.Lev.13.54 Neit sephausuaen pish ann8team8, kutchissittauunat ne apit enninneáonk, kah pish ukkuphamun nesausuk tahshikquinne, nahohtôeu.
 E.Lev.13.54: Then the priest shall command that they wash the thing wherein the plague is, and he shall shut it up seven days more:
 
-α.Lev.13.55
+α.Lev.13.55 Kah sephausuen pish kuhkinneam, mahche enninneaonk kutchessumit, kah kusseh enninneáonk matta pen8e unnussegk, kah enninneáonk matta sepagig, ne nishkeneungquodt, pish kutchikkossumun ut n8taut: ne anóme popóqui, asuh webe anomut asuh webe woskeche.
 E.Lev.13.55: And the priest shall look on the plague, after that it is washed: and, behold, if the plague have not changed his colour, and the plague be not spread; it is unclean; thou shalt burn it in the fire; it is fret inward, whether it be bare within or without.
 
-α.Lev.13.56
+α.Lev.13.56 Kah sephausuen nag*, kah kusseh, enninneáonk pohkenompamukqussit, mahche kutchessumit, neit pish wunnehnekukkomun wutch ne hogk8onganit, asuh wutch ne ohk8nat, asuh wutch warput, asuh wutch w8fut.
 E.Lev.13.56: And if the priest look, and, behold, the plague be somewhat dark after the washing of it; then he shall rend it out of the garment, or out of the skin, or out of the warp, or out of the woof:
 
-α.Lev.13.57
+α.Lev.13.57 Kah ash naut** ut hogk8onganit, asuh warput, asuh w8fut, asuh ohk8nie wiskq, ne póhkusháe woskeche enninneáonk, n8taut pish kutut chikohsumun, ne ápit enninneáonk.
 E.Lev.13.57: And if it appear still in the garment, either in the warp, or in the woof, or in any thing of skin; it is a spreading plague: thou shalt burn that wherein the plague is with fire.
 
-α.Lev.13.58
+α.Lev.13.58 Kah hogk8onk asuh warp asuh w8f, kah teague hohk8nie wiskq, ne pish kodshittauon, kah enninneáonk amaéhtag, neit pish kutchissittauun nahohtôeu, kah pish pohki.
 E.Lev.13.58 And the garment, either warp, or woof, or whatsoever thing of skin it be, which thou shalt wash, if the plague be departed from them, then it shall be washed the second time, and shall be clean.
 
-α.Lev.13.59
+α.Lev.13.59 Yeu unnaumatuonk papaume wutchek8e enninneáonk, ut w8lle asuh hashabpe hogk8onganit, asuh warput asuh w8fut, asuh ne teague mattagunne wiskq, wuttittamunat pohki, asuh wuttittamunat nishkeneunkquodt.
 E.Lev.13.59: This is the law of the plague of leprosy in a garment of woollen or linen, either in the warp, or woof, or any thing of skins, to pronounce it clean, or to pronounce it unclean.
 
-α.Lev.14.1
+α.Lev.14.1 KAh Jehovah ken8nau Mosesoh, n8wau,
 E.Lev.14.1: And the LORD spake unto Moses, saying,
 
-α.Lev.14.2
+α.Lev.14.2 Yeu pish naumatuonk wutche wachequt, ne kesukok pish pahkhit, pish pas8au sephausuenuut.
 E.Lev.14.2: This shall be the law of the leper in the day of his cleansing: He shall be brought unto the priest:
 
-α.Lev.14.3
+α.Lev.14.3 Kah sephausuen pish sohham wutch tuppuksinn8wonganit, kah sephausuen pish ummoninneauoh, kah kusseh, wutchek8e enninneáonk neetskog, ut noh wachequt.
 E.Lev.14.3: And the priest shall go forth out of the camp; and the priest shall look, and, behold, if the plague of leprosy be healed in the leper;
 
-α.Lev.14.4
+α.Lev.14.4 Neit sephausuen pish an8team8, kah pish neemunnumwanshau noh pahkhet neesuog psuksesog keteaog kah pahkesitcheg, kah etchikkuppemesontug, kah mask8kag, kah hysop.
 E.Lev.14.4: Then shall the priest command to take for him that is to be cleansed two birds alive and clean, and cedar wood, and scarlet, and hyssop:
 
-α.Lev.14.5
+α.Lev.14.5 Kah sephausuen pish ann8team8, kah pish nushau pasuk8 psuksesoh: ut ohkee wisquadt, waabese pomantamoe nippeit.
 E.Lev.14.5: And the priest shall command that one of the birds be killed in an earthen vessel over running water:
 
-α.Lev.14.6
+α.Lev.14.6 Kah pomantamwae psuksem, pish wunnemunoh, kah utchikkuppemesontug, kah mask8kag kah hysop, kah pish upwogkinnumun, ut 8sqheonganit psuksem noh nashomukup, waabese pomantamwae nippeit.
 E.Lev.14.6: As for the living bird, he shall take it, and the cedar wood, and the scarlet, and the hyssop, and shall dip them and the living bird in the blood of the bird that was killed over the running water:
 
-α.Lev.14.7
+α.Lev.14.7 Kah pish wusseauhkôuh, noh pahkhit wutch 8chequnneat, nesausuk tahshit nompe; kah pish uppakheuh, kah pish ponunau, pomantamóe psuksesoh, ut woskeche ohteakonit.
 E.Lev.14.7: And he shall sprinkle upon him that is to be cleansed from the leprosy seven times, and shall pronounce him clean, and shall let the living bird loose into the open field.
 
-α.Lev.14.8
+α.Lev.14.8 Kah noh pahkhit, pish kutchissittau wuthogk8unash, kah pish m8sum wame ummesunk, kah pish kutchissum8h ut nippeit, onk woh pahkesu, kah ne mahche n$nag pish petutteau tuppuksinn8wonganit, kah pish appu poquadchikkomuk nesausuk tahshikquinne.
 E.Lev.14.8 And he that is to be cleansed shall wash his clothes, and shave off all his hair, and wash himself in water, that he may be clean: and after that he shall come into the camp, and shall tarry abroad out of his tent seven days.
 
-α.Lev.14.9
+α.Lev.14.9 Kah pish n$nih nesausuk tahshikquinogok, pish m8sum wame ummeesunk, uppuhkukqut, kah 8weeshitt8nóunut, kah ummomóunoh, wame ummeesunk pish wuttummussumunash, kah pish kutchissittau wuthogk8unash, kah pish kutchissittau 8weyaus ut nippekontu, kah pish pahkesu.
 E.Lev.14.9: But it shall be on the seventh day, that he shall shave all his hair off his head and his beard and his eyebrows, even all his hair he shall shave off: and he shall wash his clothes, also he shall wash his flesh in water, and he shall be clean.
 
-α.Lev.14.10
+α.Lev.14.10 Kah uh shwosuk tahshikquinogkodtut, pish neemunau neesuoh nomposhimwe lamboh, pannuppeyeuutcheg, kah pasuk squoshimwe lambe, ne negonne kodtum8k, pannuppeyeuit, kah nishwinash Gomersash pasquag n8khik, wutche meetsue sephausúonk, kenukkenausu pummee, kah pasuk wunnonteamése pummee.
 E.Lev.14.10: And on the eighth day he shall take two he lambs without blemish, and one ewe lamb of the first year without blemish, and three tenth deals of fine flour for a meat offering, mingled with oil, and one log of oil.
 
-α.Lev.14.11
+α.Lev.14.11 Kah sephausuen noh pahkheont, pish neepauweheau wosketompuh neh pahkhetche, kah yeush, ut anaquabit Jehovah, ut mukkinnáe kommukque squontamut.
 E.Lev.14.11: And the priest that maketh him clean shall present the man that is to be made clean, and those things, before the LORD, at the door of the tabernacle of the congregation:
 
-α.Lev.14.12
+α.Lev.14.12 Kah sephausuen pish nemunau pasuk8 nomposhimwe lamboh, kah pish sephausinneuh wutch panneseáe sephausuonk, kah wunnonteamése pummee, kah pish papaumenumun wutch papaumenumwe sephausuonk, ut anaquabit Jehovah.
 E.Lev.14.12: And the priest shall take one he lamb, and offer him for a trespass offering, and the log of oil, and wave them for a wave offering before the LORD:
 
-α.Lev.14.13
+α.Lev.14.13 Kah pish nushau nomposhimwe lamboh, ut ayeuonganit ne adt nushont matcheseongane sephausuongoh, kah chikkohtae sephausuongoh, ut wunneetupanatamwe ayeuonganit.
 E.Lev.14.13: And he shall slay the lamb in the place where he shall kill the sin offering and the burnt offering, in the holy place: for as the sin offering is the priest's, so is the trespass offering: it is most holy:
 
-α.Lev.14.14
+α.Lev.14.14 Kah sephausuen pish nemunum panneseáe sephausue wusqueheonk, kah sephausuen pish upponamauon wuttinohkôunne wosketuttauogut, neh pahketcheh, kah ut wuttinohkôunne kehtuhquáunitch, kah ut wuttinohkôunne keihtuhquasetit.
 E.Lev.14.14: And the priest shall take some of the blood of the trespass offering, and the priest shall put it upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot:
 
-α.Lev.14.15
+α.Lev.14.15 Kah sephausuen pish noh wuttinum ne wunnonteamése pummee, kah pish wussokanumun sephausuen ummenadcheane anomanutcheg.
 E.Lev.14.15: And the priest shall take some of the log of oil, and pour it into the palm of his own left hand:
 
-α.Lev.14.16
+α.Lev.14.16 Kah sephausuen pish pwogkinnum wuttinohkôunne wuttinnuhwhunitch, ut pummeit, ne ummenadcheane anómanutcheit, kah pish seaóhteau pumme nesausuk tahshit nompe, ut anaquabit Jehovah.
 E.Lev.14.16: And the priest shall dip his right finger in the oil that is in his left hand, and shall sprinkle of the oil with his finger seven times before the LORD:
 
-α.Lev.14.17
+α.Lev.14.17 Kah ne ashqshunk pumme, ne ummenadcheane anomanutcheit, sephausuen pish upponamun wuttinohkôunne wosketuttauogut, noh pahkhet, kah ut wuttinnohkôunne ukkaituhquanutchit, kah wuttinohkôunne keihtuhquasetit, woskeche panneseae sephausuongane wusqueheonganit.
 E.Lev.14.17: And of the rest of the oil that is in his hand shall the priest put upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot, upon the blood of the trespass offering:
 
-α.Lev.14.18
+α.Lev.14.18 Kah ne ashqshunk pumme, ne wutti[ũ]omanutchet sephausuen, pish upponámun uppuhkukqut noh pahkhit, kah sephausuen pish 8nauwadtuwáheuh ut anaquabit Jehovah.
 E.Lev.14.18 And the remnant of the oil that is in the priest's hand he shall pour upon the head of him that is to be cleansed: and the priest shall make an atonement for him before the LORD.
 
-α.Lev.14.19
+α.Lev.14.19 Kah sephausuen pish sephausu, matcheseongane sephausuonk, kah pish wunnauwadtuwaheau, noh pahkhit, wutch wunnishkeneunkqussinneat, kah ne mahche, pish nushau chikohtae sephausuonk.
 E.Lev.14.19: And the priest shall offer the sin offering, and make an atonement for him that is to be cleansed from his uncleanness; and afterward he shall kill the burnt offering:
 
-α.Lev.14.20
+α.Lev.14.20 Kah sephausuen pish sephausu chikohtae sephausuonk kah meetsue sephausuonk, ut Altarut: kah sephausuen pish 8nauwadtuwaheuh, kah pish pahkesu.
 E.Lev.14.20: And the priest shall offer the burnt offering and the meat offering upon the altar: and the priest shall make an atonement for him, and he shall be clean.
 
-α.Lev.14.21
+α.Lev.14.21 Kah noh machekit, kah wunnutcheg n8nunnumunit: neit pish neemunau pasuk8 nomposhimwe lamboh wutch panneseáe sephausuonk, wutche paupaumenamwe, 8nauwadtuwahéonat: kah nequtchippi piukque chippag pasquag n8khik kenukkenôsu pummee, wutche metsue sephausuonk, kah wunnonteamese pummee.
 E.Lev.14.21: And if he be poor, and cannot get so much; then he shall take one lamb for a trespass offering to be waved, to make an atonement for him, and one tenth deal of fine flour mingled with oil for a meat offering, and a log of oil;
 
-α.Lev.14.22
+α.Lev.14.22 Kah neesuog turtle wuskuhwhunnanaog, asuh nesuog wuskuhwhunnanamésog, neh wunnutcheg tapenumunit: kah pasuk pish matcheseongane sephausuonk, kah onkatuk chikohtae sephausuonk.
 E.Lev.14.22: And two turtledoves, or two young pigeons, such as he is able to get; and the one shall be a sin offering, and the other a burnt offering.
 
-α.Lev.14.23
+α.Lev.14.23 Kah néh pish uppas8oh, shwosuk tahshikquinogkodtut, wutche uppahkheaonk wuhhogkuh, en sephausuenuut, ut mukinneae kommukque squontamut, ut anaquabit Jéhovah.
 E.Lev.14.23: And he shall bring them on the eighth day for his cleansing unto the priest, unto the door of the tabernacle of the congregation, before the LORD.
 
-α.Lev.14.24
+α.Lev.14.24 Kah sephausuen pish nemunau nomposhimwe lamboh, wutche pánneseae sephausuonk, kah ne wunnonteamese pummee, kah sephausuaen pish paupaumenumun, wutche paupaumenumwe [X]sephausuonk ut anaquabit Jehovah.
 E.Lev.14.24: And the priest shall take the lamb of the trespass offering, and the log of oil, and the priest shall wave them for a wave offering before the LORD:
 
-α.Lev.14.25
+α.Lev.14.25 Kah pish nushau nomposhimwe lamboh wutch panneseae sephausuonk, kah sephausuen pish neemunum, ne panneseae sephausuongane wusqueheonk: kah pish upponamun wuttinohkôune woskètuttauogkut neh pahkhetcheh: kah ut wuttinohkôun[ñ]e kehtuhquanitchit kah ut wuttinohkôunne kuhtuhquasetit.
 E.Lev.14.25: And he shall kill the lamb of the trespass offering, and the priest shall take some of the blood of the trespass offering, and put it upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot:
 
-α.Lev.14.26
+α.Lev.14.26 Kah na$whutch pummee, sephuasuaen pish wussokanumun, ut sephuasuen ummenadcheane anomunutchit.
 E.Lev.14.26: And the priest shall pour of the oil into the palm of his own left hand:
 
-α.Lev.14.27
+α.Lev.14.27 Kah sephuasuen pish seauhteau, nashpe wuttinohkôunne wuttinuuhwhunitch, nawhutch pumme ne ummenadcheanutchit, nesausuk tahshit nompe, ut anaquabit Jehovah.
 E.Lev.14.27: And the priest shall sprinkle with his right finger some of the oil that is in his left hand seven times before the LORD:
 
-α.Lev.14.28
+α.Lev.14.28 Kah sephausuen pish ponan nawhutch ne pummee, ne wuttinnomuunutchit: ut wuttinohkôunne wosketuttauogkut, noh pahkhit, kah ut wuttinohkôunne ukkeihtuhquanutchit & ut wuttinohkôuñe ukkeihtuhquasettit: ut ayeuonganit pameseae sephausuongane wusqueheonganit.
 E.Lev.14.28 And the priest shall put of the oil that is in his hand upon the tip of the right ear of him that is to be cleansed, and upon the thumb of his right hand, and upon the great toe of his right foot, upon the place of the blood of the trespass offering:
 
-α.Lev.14.29
+α.Lev.14.29 Kah ne ashqshunk pumme, ne sephausuen wuttinnomunutchit, pish upponamun, uppuhkukqut noh pahkhit: 8nauwadteauwaheóneat ut anaquabit Jehovah.
 E.Lev.14.29: And the rest of the oil that is in the priest's hand he shall put upon the head of him that is to be cleansed, to make an atonement for him before the LORD.
 
-α.Lev.14.30
+α.Lev.14.30 Kah pish mag8 pasuk8, turtle wuskuhwhunnanamesoh neh wunnutcheg tapenuk.
 E.Lev.14.30: And he shall offer the one of the turtledoves, or of the young pigeons, such as he can get;
 
-α.Lev.14.31
+α.Lev.14.31 Ne wunnutcheg tapenuk, pasuk wutch matcheseongane sephausuonk, kah onkatuk wutch chikohtàe sephausuonk, weeche metsue sephausuonk, kah sephausuen pish 8nauwadtuwáheuh neh pahkhetche, ut anaquabit Jehovah.
 E.Lev.14.31: Even such as he is able to get, the one for a sin offering, and the other for a burnt offering, with the meat offering: and the priest shall make an atonement for him that is to be cleansed before the LORD.
 
-α.Lev.14.32
+α.Lev.14.32 Yeu naumatuonk papaume nagum noh wachek8e aninneadt, noh wunnutcheg, matta tapenum8g ne woh waj pahkhit.
 E.Lev.14.32: This is the law of him in whom is the plague of leprosy, whose hand is not able to get that which pertaineth to his cleansing.
 
-α.Lev.14.33
+α.Lev.14.33 Kah Jehovah ken8nau Moses kah Aaron, n8wau,
 E.Lev.14.33: And the LORD spake unto Moses and unto Aaron, saying,
 
-α.Lev.14.34
+α.Lev.14.34 Peyâóg ohkeit Kanaan, ne anumauunóg wutch ahtóonk: kah nuppon wutchek8e enninneáonk wetuómut, ut ohkeit, ne kutohtoonganóut. 
 E.Lev.14.34: When ye be come into the land of Canaan, which I give to you for a possession, and I put the plague of leprosy in a house of the land of your possession;
 
-α.Lev.14.35
+α.Lev.14.35 Neit noh pish peyau, waékittog, kah pish wuttinnon sephuasuenúh, n8wadt, onatuh enninneáonk naeihtait ut wetuómut.
 E.Lev.14.35: And he that owneth the house shall come and tell the priest, saying, It seemeth to me there is as it were a plague in the house:
 
-α.Lev.14.36
+α.Lev.14.36 Kah sephausuen pish an8team8, kah pish mahche komukquehteáog wetu asquam papetutteagkup sephausuen, ukkehkinneaónat enninneaonguh, ishkont wame ne ohtag wetuómut, woh nishketeauun, kah ompetak sephausuen pish petutteau ukkehkeneaumunat wetu.
 E.Lev.14.36: Then the priest shall command that they empty the house, before the priest go into it to see the plague, that all that is in the house be not made unclean: and afterward the priest shall go in to see the house:
 
-α.Lev.14.37
+α.Lev.14.37 Kah pish kuhkinneauau enninneáonguh, kah kusseh, enninnáonk ohtag sussuppongkomuk, puppuhke hunnompâsik, ashkoshquompamukqussit, asuh mushquompamukqussit: kah monunneauónat m8nôshik onk ne sussupponkkommuk.
 E.Lev.14.37: And he shall look on the plague, and, behold, if the plague be in the walls of the house with hollow strakes, greenish or reddish, which in sight are lower than the wall;
 
-α.Lev.14.38
+α.Lev.14.38 Neit sephausuen pish sohham ne wutch wetuómut, en squontamut wetuómut: kah pish kuppohham wetu nesausuk tahshikquinne.
 E.Lev.14.38 Then the priest shall go out of the house to the door of the house, and shut up the house seven days:
 
-α.Lev.14.39
+α.Lev.14.39 Kah sephuasuaen pish qushkeu nesausuk tahshikquinogkok: kah pish wunnaumun, kah kusseh, enninneáonk sepagit, ut sussipponkkomuk.
 E.Lev.14.39: And the priest shall come again the seventh day, and shall look: and, behold, if the plague be spread in the walls of the house;
 
-α.Lev.14.40
+α.Lev.14.40 Neit sephuasuen pish ann8team8, kah nag pish amaunumwog qussukquanash, ne ápit enninneáonk: kah pish wussohwhôkonáoash en poquadchotanat: en nishkeneungque ayeuonganit.
 E.Lev.14.40: Then the priest shall command that they take away the stones in which the plague is, and they shall cast them into an unclean place without the city:
 
-α.Lev.14.41
+α.Lev.14.41 Kah pish wutchekhomwaheun ne wetu, anomuk kommuk, waéénu: kah pish wussokanumunneau, ne puppissi chekhammohettit, en poquadch8tanat, en nishkeneungque ayeuonganit.
 E.Lev.14.41: And he shall cause the house to be scraped within round about, and they shall pour out the dust that they scrape off without the city into an unclean place:
 
-α.Lev.14.42
+α.Lev.14.42 Kah nag pish nemunnumwog onkatogish qussukquanash, kah pish ne wunnompatauuneau, yeush qussukquanash: kah pish nemunum onkatuk puppissi, kah pish wussiss8numun weetuómut.
 E.Lev.14.42: And they shall take other stones, and put them in the place of those stones; and he shall take other morter, and shall plaister the house.
 
-α.Lev.14.43
+α.Lev.14.43 Kah enninnáonk wonk quskeit, kah ut pokishont weetuomut, mahche amaunuk qussukquanash, kah mahche chekhog weetu, kah mahche suss8unuk.
 E.Lev.14.43: And if the plague come again, and break out in the house, after that he hath taken away the stones, and after he hath scraped the house, and after it is plaistered;
 
-α.Lev.14.44
+α.Lev.14.44 Neit sephausuen pish peyau, kah pish ukkehkinneaumun, kah kusseh, enninneáonk sepagit wetuómut: ne pohpóquttamwe wutchek8onk ut wetuómut, ne nishkeneunkquodt.
 E.Lev.14.44: Then the priest shall come and look, and, behold, if the plague be spread in the house, it is a fretting leprosy in the house; it is unclean.
 
-α.Lev.14.45
+α.Lev.14.45 Kah pish s8hqunum wetu nish qussukquanash, kah ne timbernash, kah wame puppissi ne wetuómut, kah nish pish wuss8h8wuttauunash en poquodch8tani, en nishkeneungque ayeuonganit.
 E.Lev.14.45: And he shall break down the house, the stones of it, and the timber thereof, and all the morter of the house; and he shall carry them forth out of the city into an unclean place.
 
-α.Lev.14.46
+α.Lev.14.46 Kah noh petutteadt wetuómut, wame kesukodtash ne kophog, noh pish nishkeneunkqussu nô pajeh wunnonk88k.
 E.Lev.14.46: Moreover he that goeth into the house all the while that it is shut up shall be unclean until the even.
 
-α.Lev.14.47
+α.Lev.14.47 Kah noh káit ne wetuómut, pish kutchissittauwuthogk8unash, kah noh meetsit ne ut wetuómut, pish kutchissittau wuthogk8unash.
 E.Lev.14.47: And he that lieth in the house shall wash his clothes; and he that eateth in the house shall wash his clothes.
 
-α.Lev.14.48
+α.Lev.14.48 Kah sephausuen peyont, petutteadt, kah kuhkinneog, kah kusseh, enninneáonk matta sepakeu ut wetuómut, mahche wetu suss8nôsik, neit pish sephausuen ken8tam wetu pohki, newutche enninneáonk neetskehteauun.
 E.Lev.14.48 And if the priest shall come in, and look upon it, and, behold, the plague hath not spread in the house, after the house was plaistered: then the priest shall pronounce the house clean, because the plague is healed.
 
-α.Lev.14.49
+α.Lev.14.49 Kah pish nemunau, pahketeauunat wetu, neesuog psuksesoh: kah ut chikkuppemusontugk kah mask8kag, kah hysop.
 E.Lev.14.49: And he shall take to cleanse the house two birds, and cedar wood, and scarlet, and hyssop:
 
-α.Lev.14.50
+α.Lev.14.50 Kah pish nushau pasuk8h psuksesoh, ut ohkée wisquadt, waabese pomantamwáe nippeit.
 E.Lev.14.50: And he shall kill the one of the birds in an earthen vessel over running water:
 
-α.Lev.14.51
+α.Lev.14.51 Kah pish nemunum utchikuppesontugk, kah hysop, kah mask8kag, kah keteáe psuksem, kah pish upwogkinnumunash, ut 8sqheonganit noh noshit psuksem, kah ut pomantamwae nippeit, kah pish wusseaúhkon wetuómut, nesausuk tahshit nompe.
 E.Lev.14.51: And he shall take the cedar wood, and the hyssop, and the scarlet, and the living bird, and dip them in the blood of the slain bird, and in the running water, and sprinkle the house seven times:
 
-α.Lev.14.52
+α.Lev.14.52 Kah pish pahketeau wetu, nashpe 8sqheonk psuksem, kah nashpe pomantamwáe nippe, kah nashpe keteáe psuksem, kah nashpe utchikkuppemusontugk, kah nashpe hysop, kah nashpe mask8kag.
 E.Lev.14.52: And he shall cleanse the house with the blood of the bird, and with the running water, and with the living bird, and with the cedar wood, and with the hyssop, and with the scarlet:
 
-α.Lev.14.53
+α.Lev.14.53 Kah pish ponunau keteáe psuksesoh, ut poquodch8tanat, ut woskeche ohteakonit: kah pish wunnauwadtuwáhtau wetu, kah pish pohki.
 E.Lev.14.53: But he shall let go the living bird out of the city into the open fields, and make an atonement for the house: and it shall be clean.
 
-α.Lev.14.54
+α.Lev.14.54 Ne unnaumatuonk nishnoh wutchek8e enninneáonk, kah mukkeontuppáonk,
 E.Lev.14.54: This is the law for all manner of plague of leprosy, and scall,
 
-α.Lev.14.55
+α.Lev.14.55 Kah papaume wutchek8e hogk8onk, kah ut wetuómut.
 E.Lev.14.55: And for the leprosy of a garment, and of a house,
 
-α.Lev.14.56
+α.Lev.14.56 Kah wutch mogquesuonk, kah wutch mukkée, kah wutch wompi chohkag.
 E.Lev.14.56: And for a rising, and for a scab, and for a bright spot:
 
-α.Lev.14.57
+α.Lev.14.57 Kuhk8tomuhkonat, ut ukkesukkodtume nishkeneunkqussit, kah ut ukkeskodtume pahkesit: ne wunnaumatuonk wutch wutchek8onk.
 E.Lev.14.57: To teach when it is unclean, and when it is clean: this is the law of leprosy.
 
-α.Lev.15.1
+α.Lev.15.1 KAH Jehovah ken8nau Mosesoh kah Aaronoh n8wau.
 E.Lev.15.1: And the LORD spake unto Moses and to Aaron, saying,
 
-α.Lev.15.2
+α.Lev.15.2 Ken8nók wunnaumonuh Israel, kah nag unnòk, howan wosketomp sohwuhchûog wutch weyausut, ne wussohwutchúwanéunk, ne nishkeneunkquodt.
 E.Lev.15.2: Speak unto the children of Israel, and say unto them, When any man hath a running issue out of his flesh, because of his issue he is unclean.
 
-α.Lev.15.3
+α.Lev.15.3 Kah yeu pish wunnishkeneunkqussuonk, ut wussohwutchuw[á]nénat, 8weyaus sohwutchúog, asuh kuppohhôsik 8weyaus, wutch wussohwutchuwannénat: ne wunnishkeneunkqussuonk.
 E.Lev.15.3: And this shall be his uncleanness in his issue: whether his flesh run with his issue, or his flesh be stopped from his issue, it is his uncleanness.
 
-α.Lev.15.4
+α.Lev.15.4 Nish$noh appin uttoh kait, noh sohwutchuwanneit, pish nishkeneunkquodt: & nish$noh auwohteaonk, [:]ne quenapit, pish nishkeneunkquodt.
 E.Lev.15.4: Every bed, whereon he lieth that hath the issue, is unclean: and every thing, whereon he sitteth, shall be unclean.
 
-α.Lev.15.5
+α.Lev.15.5 Kah wosketomp noh masinuk wutappin, pish kutchissitt8 wuthogk8unash, kah pish kutchessum8 ut nippeit, kah pish nishkeneunkqussu nô pajeh wunno[n]k8ut.
 E.Lev.15.5: And whosoever toucheth his bed shall wash his clothes, and bathe himself in water, and be unclean until the even.
 
-α.Lev.15.6
+α.Lev.15.6 Kah noh apit, ne auwohteaonk, ne quenapit noh sohwutchúanit, pish kutchissitt8 wuthogk8unash, kah pish kutchessum8 ut nippeit, kah pish nishkeneunkqussu nô pajeh wunonk8ut.
 E.Lev.15.6: And he that sitteth on any thing whereon he sat that hath the issue shall wash his clothes, and bathe himself in water, and be unclean until the even.
 
-α.Lev.15.7
+α.Lev.15.7 Kah noh masunnuk 8weyaus, noh sohwutchúanit, pish kutchissitt8 wuthogk8unash, kah pish kutchessum8 ut nippeit, kah pish nishkeneunkqussu nô pajeh wunnonkk8ut.
 E.Lev.15.7: And he that toucheth the flesh of him that hath the issue shall wash his clothes, and bathe himself in water, and be unclean until the even.
 
-α.Lev.15.8
+α.Lev.15.8 Kah noh sohwutchuanit suhquont neh pahkesinitcheh, neit pish kutchissittau wuthogk8unash, kah pish kutchessum8 ut nippeit, káh pish nishkeneunkqussu nô pajeh wunno[ń]k8ut.
 E.Lev.15.8 And if he that hath the issue spit upon him that is clean; then he shall wash his clothes, and bathe himself in water, and be unclean until the even.
 
-α.Lev.15.9
+α.Lev.15.9 Kah nish$noh sadle ne noh quenapit, noh sohwutchuanit, pish nishqueneunkquot.
 E.Lev.15.9: And what saddle soever he rideth upon that hath the issue shall be unclean.
 
-α.Lev.15.10
+α.Lev.15.10 Kah nish$noh [¡]howan ummussunnumun ne teag ne agwe ohtag, pish nishkeneunkqussu nô pajeh wunnonk8ut, kah noh nish kônunukish, pish kutchissumau wuthogk8unash, kah pish kutchessum8 ut nippeit, kah pish nishkeneunkqussu nô pajeh wunnonk8ut.
 E.Lev.15.10: And whosoever toucheth any thing that was under him shall be unclean until the even: and he that beareth any of those things shall wash his clothes, and bathe himself in water, and be unclean until the even.
 
-α.Lev.15.11
+α.Lev.15.11 Kah nish$noh howan noh masunont, noh sohwutchuanit, kah matta kussenitchag ut nippekontu, pish kutchissittau wuthogk8unash, kah pish kutchessum8 ut nippeit kah pish nishkeneunkqussu nô pajeh wunnonk88ut.
 E.Lev.15.11: And whomsoever he toucheth that hath the issue, and hath not rinsed his hands in water, he shall wash his clothes, and bathe himself in water, and be unclean until the even.
 
-α.Lev.15.12
+α.Lev.15.12 Kah ohkéé wishq, ne masunuk, noh sohwutchuanit, pish sukquôhkon, kah nish$noh mehtugque wishq pish kutchissittauun ut nippeut.
 E.Lev.15.12: And the vessel of earth, that he toucheth which hath the issue, shall be broken: and every vessel of wood shall be rinsed in water.
 
-α.Lev.15.13
+α.Lev.15.13 Kah noh sohwutchuanit, pahkhit wutch wussohwutchúwanénat; neit ogkeetamwansh[á]u hogkuh nesausuk tahshikquinne, wutche pahkheaonk, kah pish kutchissittau wuthogk8unash, kah pish kutchissittau 8weyaus ut pomantamwáe nippeut, kah pish pahkesu
 E.Lev.15.13: And when he that hath an issue is cleansed of his issue; then he shall number to himself seven days for his cleansing, and wash his clothes, and bathe his flesh in running water, and shall be clean.
 
-α.Lev.15.14
+α.Lev.15.14 Kah shwosuk tahshikquinukok, pish nemunumwanshau wuhhogkuh, neesuoh turtlesoh, asuh neesuoh wuskuhwunnanámesoh: kah pish peyau anaquabit Jehovah, ut mukkinneáe kommukque squontamut, kah pish wuttinnumauóneau sephausuéneuh.
 E.Lev.15.14: And on the eighth day he shall take to him two turtledoves, or two young pigeons, and come before the LORD unto the door of the tabernacle of the congregation, and give them unto the priest:
 
-α.Lev.15.15
+α.Lev.15.15 Kah sephausuen pish nah ummagunoh, pasuk matcheseáe sephausuonk, kah onkatuk chikohtáe sephausuonk; kah sephausuen pish 8nauwadtuwáheuh, anaquabit Jehovah, wutche wussohwhonchuwanéonk.
 E.Lev.15.15: And the priest shall offer them, the one for a sin offering, and the other for a burnt offering; and the priest shall make an atonement for him before the LORD for his issue.
 
-α.Lev.15.16
+α.Lev.15.16 Kah wosketomp, weepam8e wuskannem sohwetunkqut, neit pish kutchissittau wame wuhhog nippekontu, kah pish nishkeneunkqussu nô pajeh wunnonk8ut.
 E.Lev.15.16: And if any man's seed of copulation go out from him, then he shall wash all his flesh in water, and be unclean until the even.
 
-α.Lev.15.17
+α.Lev.15.17 Kah nish$noh hogk8onk, kah nish$noh ohk8[n], pogkushik ne weepamue wuskannem: pish kutchissittauun ut nippekontu, kah pish nishkeneunkquodt nô pajeh wunonk8ut.
 E.Lev.15.17: And every garment, and every skin, whereon is the seed of copulation, shall be washed with water, and be unclean until the even.
 
-α.Lev.15.18
+α.Lev.15.18 Kah mittamwossis neh wosketomp neesukeh, nashpe weepam8e wuskannem: nag pish wonk kutchissumáog wuhhogkauh ut nippekontu, kah pish nishkeneunkqussuog nô pajeh wunnonk8ut.
 E.Lev.15.18 The woman also with whom man shall lie with seed of copulation, they shall both bathe themselves in water, and be unclean until the even.
 
-α.Lev.15.19
+α.Lev.15.19 Kah mittamwossis, qushinausit, kah ne sohwhutchuog ut weyaus$ut, wusqueheonganú8k: noh pish chippitteau nesausuk tahshikquinne, kah nish$noh howan [u]oh masunont, pish nishkeneunkqussu nô pajeh wunnonk8ut.
 E.Lev.15.19: And if a woman have an issue, and her issue in her flesh be blood, she shall be put apart seven days: and whosoever toucheth her shall be unclean until the even.
 
-α.Lev.15.20
+α.Lev.15.20 Kah nishnoh teag ne apsuk chippitteadt, pish nishkeneunkquodt, kah nish$noh teag wutahpapin, pish nishkeneunkquodt.
 E.Lev.15.20: And every thing that she lieth upon in her separation shall be unclean: every thing also that she sitteth upon shall be unclean.
 
-α.Lev.15.21
+α.Lev.15.21 Kah nishnoh howan masunuk n$noh wutappin, pish kutchissittau wuhhogkuh ut nippekontu, kah pish nishkeneunkqussu nô pajeh wunnonk8ut.
 E.Lev.15.21: And whosoever toucheth her bed shall wash his clothes, and bathe himself in water, and be unclean until the even.
 
-α.Lev.15.22
+α.Lev.15.22 Kah nishnoh howan ummissunumun wiskq ne appapit, pish kutchissittau wuthogk8unash, kah pish kutchessumau wuhhogkuh ut nippekontu, kah pish nishkeneunkqussu nô pajeh wunnonk8ut.
 E.Lev.15.22: And whosoever toucheth any thing that she sat upon shall wash his clothes, and bathe himself in water, and be unclean until the even.
 
-α.Lev.15.23
+α.Lev.15.23 Kah ohtag wutapinneat, asuh auwohteaonk ne ahpapit mussunuk, pish nishkeneunkqussu nô pajeh wunnonk8ut.
 E.Lev.15.23: And if it be on her bed, or on any thing whereon she sitteth, when he toucheth it, he shall be unclean until the even.
 
-α.Lev.15.24
+α.Lev.15.24 Kah wosketomp wunnamuhkut wehpamont, kah qushinausit, neit pish nishkeneunkqussu nesausuk tahshikquinne: kah nish$noh appin ne sepsuk pish nishkeneunkquot.
 E.Lev.15.24: And if any man lie with her at all, and her flowers be upon him, he shall be unclean seven days; and all the bed whereon he lieth shall be unclean.
 
-α.Lev.15.25
+α.Lev.15.25 Kah mittamwossis qushinausit m8chetikquinne mahche aquompae chippitteadt, ásuh qushinausit mahche chippeteadt, wame kesukodtash nishkeneunkque quashinnusitchish neyane ukkesukodtume chippekónat, pish nishkeneunkqussu.
 E.Lev.15.25: And if a woman have an issue of her blood many days out of the time of her separation, or if it run beyond the time of her separation; all the days of the issue of her uncleanness shall be as the days of her separation: she shall be unclean.
 
-α.Lev.15.26
+α.Lev.15.26 Nish$noh appin, ne sepsik, wame ukqushinausue kesukodtash, pish wutogqhikqun, chipp8tae appinneat: kah nish$noh wiskq ne a[h]papit, pish nishkeneunkquodt, neyane wutchipp8tae nishkeneunkquot8m.
 E.Lev.15.26: Every bed whereon she lieth all the days of her issue shall be unto her as the bed of her separation: and whatsoever she sitteth upon shall be unclean, as the uncleanness of her separation.
 
-α.Lev.15.27
+α.Lev.15.27 Kah nishnoh pasuk nish masunuk, pish nishkeneunkqussu, kah pish kutchissittau wuthogk8unash, kah pish kutchissumau wuhhogkuh ut nippekontu, kah pish nishkeneunkqussu nô pajeh wunnonk8ut.
 E.Lev.15.27: And whosoever toucheth those things shall be unclean, and shall wash his clothes, and bathe himself in water, and be unclean until the even.
 
-α.Lev.15.28
+α.Lev.15.28 Kah pahkhit wutch ukqushinausinneat, neit pish ogketamwanshau wuhhogkuh nesausuk tahshikquinukod, kah ne mahche n$nag pish pahkesu.
 E.Lev.15.28 But if she be cleansed of her issue, then she shall number to herself seven days, and after that she shall be clean.
 
-α.Lev.15.29
+α.Lev.15.29 Kah shwosuk tahshikquinogok, pish nemunau nesuoh turtlesoh, asuh nesuoh wuskuhwhuñanémesoh, kah pish uppaudtauónuh sephausuénunnuut mukkinnae kommukque squontamut.
 E.Lev.15.29: And on the eighth day she shall take unto her two turtles, or two young pigeons, and bring them unto the priest, to the door of the tabernacle of the congregation.
 
-α.Lev.15.30
+α.Lev.15.30 Kah sephausuen pish mag8 pasuk8 matcheseáe sephausuonk, kah onkatuk chikohtáe sephausuonk: kah sephausuen pish wunnauwadtuwáheuh ut anaquabit Jehovah, wutch ukquishinausue nishkeneunkqussuonk
 E.Lev.15.30: And the priest shall offer the one for a sin offering, and the other for a burnt offering; and the priest shall make an atonement for her before the LORD for the issue of her uncleanness.
 
-α.Lev.15.31
+α.Lev.15.31 Kah ne pish kutchippin wunnaumonuh Israel wutch wunnishkeneunkqussuongan8óut, matta wunnupp8unnaóut, ut wunnishkeneunkqussuongan8óut, nishketeauwuhhettit nut-tabernakleum, ne kenugke wuhhogkaóut.
 E.Lev.15.31: Thus shall ye separate the children of Israel from their uncleanness; that they die not in their uncleanness, when they defile my tabernacle that is among them.
 
-α.Lev.15.32
+α.Lev.15.32 Yeu unnaumatuonk wutch noh sohwutchuwanit, kah wutch noh weepamuwáe wuskannem sohweetunkquit, wunnishkhikqunat.
 E.Lev.15.32: This is the law of him that hath an issue, and of him whose seed goeth from him, and is defiled therewith;
 
-α.Lev.15.33
+α.Lev.15.33 Kah wutch noh quoshinausue mahchinadt, kah wutch noh sohwutchuanit, wutch wosketomp, kah wutch mittamwossis: kah wutch wosketomp, noh neesuk neh nishkeneunkqussinutcheh.
 E.Lev.15.33: And of her that is sick of her flowers, and of him that hath an issue, of the man, and of the woman, and of him that lieth with her that is unclean.
 
-α.Lev.16.1
+α.Lev.16.1 KAh Jehovah ken8nau Moses, mahche nuppinit nesuoh wunnaumonuh Aaron, sephaushettit ut anaquabit Jehovah kah napohettit.
 E.Lev.16.1: And the LORD spake unto Moses after the death of the two sons of Aaron, when they offered before the LORD, and died;
 
-α.Lev.16.2
+α.Lev.16.2 Kah Jehovah unnau Mosesoh, Ken8s Aaron kemat, matta wunnagwutteáe peyónat, ut wunnetupanatamwe ayeuonganit, unnóme adtnikheganit: anaquohtag petwohtag monaneteáe appuonganit, ne waabese Arkut, onk woh mat nupp8, newutche ut matokqsut, nen pish nunnogqus, ut ne petwohtag monaneteáe appuonganit.
 E.Lev.16.2: And the LORD said unto Moses, Speak unto Aaron thy brother, that he come not at all times into the holy place within the vail before the mercy seat, which is upon the ark; that he die not: for I will appear in the cloud upon the mercy seat.
 
-α.Lev.16.3
+α.Lev.16.3 Yeu pish wunnashpe peyon Aaron, ut wunnepanatamwe ayeuonganit, oxenemes woshkoshimo wutch herdut, wutch matcheseongane sephausuonk, kah ram wutch chikohtáe sephausuonk.
 E.Lev.16.3: Thus shall Aaron come into the holy place: with a young bullock for a sin offering, and a ram for a burnt offering.
 
-α.Lev.16.4
+α.Lev.16.4 Noh pish hogk8 wunnetupanatamwe hashabponag, kah hashabponagane breeches, pish upponamun 8weyausut: kah hashabponagane puttukquobus pish puttukquobussu, kah nashpe hashabponagane uppuhkukqut ahhohtag, pish wunnéheun, nish wunnetupanatamwe hogk8ongash, kah pish kutchissittau wuhhog ut nippekontu, kah pish wuthogquin.
 E.Lev.16.4: He shall put on the holy linen coat, and he shall have the linen breeches upon his flesh, and shall be girded with a linen girdle, and with the linen mitre shall he be attired: these are holy garments; therefore shall he wash his flesh in water, and so put them on.
 
-α.Lev.16.5
+α.Lev.16.5 Kah pish nemunau wutch ummukkinneonganit Israel, nesuoh nomposhimwe goatsoh, wutch goatsut, wutche matcheseongane sephuausuonk, kah pasuk ram wutch chikohtae sephausuonk.
 E.Lev.16.5: And he shall take of the congregation of the children of Israel two kids of the goats for a sin offering, and one ram for a burnt offering.
 
-α.Lev.16.6
+α.Lev.16.6 Kah Aaron pish sephausue oxenesoh wutch matcheseongane sephausuonk, neh wutche wuhhogkuh, kah pish wunnauwadtuwáheau wuhhogkuh, kah wutch week.
 E.Lev.16.6: And Aaron shall offer his bullock of the sin offering, which is for himself, and make an atonement for himself, and for his house.
 
-α.Lev.16.7
+α.Lev.16.7 Kah pish nemunau nesuoh nomposhimwe goatsoh, kah pish wunnepauweheuh ut anaquabit Jehovah, ut mukkinneáe kommukque squontamut.
 E.Lev.16.7: And he shall take the two goats, and present them before the LORD at the door of the tabernacle of the congregation.
 
-α.Lev.16.8
+α.Lev.16.8 Kah Aaron pish tanohtôadtu neesuoh nomposhimwe goatsoh, pasuk tanohtóadtuonk wutch Jehovah, kah pasuk tanohtôodtuonk wutch pohquohhamóe goat.
 E.Lev.16.8 And Aaron shall cast lots upon the two goats; one lot for the LORD, and the other lot for the scapegoat.
 
-α.Lev.16.9
+α.Lev.16.9 Kah Aaron pish pas8tshanau, noh goat, neh wuttittanohtôadtuonk Jehovah pagshik; kah pish ummagunuh matcheseongane sephausuonk.
 E.Lev.16.9: And Aaron shall bring the goat upon which the LORD's lot fell, and offer him for a sin offering.
 
-α.Lev.16.10
+α.Lev.16.10 Qut nomposhimwe goat, noh wuttittanohtôadtuonk pohquahhamóe goat pagshik, pish keteáe nepauweheau anaquabit Jehovah, neh wunnashpe wunnauwadtuwahuónat: ummoncheaheónat, wutche pohquohhamóe goat, en touohkomuk.
 E.Lev.16.10: But the goat, on which the lot fell to be the scapegoat, shall be presented alive before the LORD, to make an atonement with him, and to let him go for a scapegoat into the wilderness.
 
-α.Lev.16.11
+α.Lev.16.11 Kah Aaron pish pas8tshanau oxenoh wutch matcheseáe sephausuonk, neh wutche nagum, kah pish wunnauwadtuwáheau wuhhogkuh, & wutche week, & pish nushau oxenoh, matcheseáe sephausuonk, ne wutch nagũ.
 E.Lev.16.11: And Aaron shall bring the bullock of the sin offering, which is for himself, and shall make an atonement for himself, and for his house, and shall kill the bullock of the sin offering which is for himself:
 
-α.Lev.16.12
+α.Lev.16.12 Kah noh pish nemunum censer numwohteau n8tae mokkossaash, wutch Altarut, ut anaquabit Jehovah: kah wunnutcheganit numwohteau incense, ne weetemungquok spices, pishquéhthausuash: kah pish uppaudtauun anóme onkwhonganit.
 E.Lev.16.12: And he shall take a censer full of burning coals of fire from off the altar before the LORD, and his hands full of sweet incense beaten small, and bring it within the vail:
 
-α.Lev.16.13
+α.Lev.16.13 Kah pish ponam incense, ut n8taut, ut anaquabit Jehovah: onk incensée matokqs woh nuhkuhkom pehtwohtáe monaneteáe appuonk, ne waabese ohtag wauwáonk, onk woh mat nupp8.
 E.Lev.16.13: And he shall put the incense upon the fire before the LORD, that the cloud of the incense may cover the mercy seat that is upon the testimony, that he die not:
 
-α.Lev.16.14
+α.Lev.16.14 Kah pish nemunum nawhutch 8sqheonk ox, kah pish wusseáuhkon nashpe wuttinnuhwhunitch, ut pehtwohtáe monaneteáe appuonganit, wutchepwôou: & anaquohtag pehtwohtáe monaneteáe appuonganit, pish seauhkon nawhutche wusqueheonk, nashpe wuttinnuhwhunitch nesausuk tahshit nompe.
 E.Lev.16.14: And he shall take of the blood of the bullock, and sprinkle it with his finger upon the mercy seat eastward; and before the mercy seat shall he sprinkle of the blood with his finger seven times.
 
-α.Lev.16.15
+α.Lev.16.15 Kah pish nushau nomposhimwe goatsoh, wutch matcheseáe sephausuonk, noh wutche missinninnuog, kah pish paudtou wusqueheonk, anóme onkwhonganit: kah pish wuttinteauun noh wusqueheonk neanteunkup 8sqheonk oxen, kah pish wusseauhkon ut pehtwohtáe monaneteáe appuonganit, & an[a]quohtag monaneteáe appuonganit
 E.Lev.16.15: Then shall he kill the goat of the sin offering, that is for the people, and bring his blood within the vail, and do with that blood as he did with the blood of the bullock, and sprinkle it upon the mercy seat, and before the mercy seat:
 
-α.Lev.16.16
+α.Lev.16.16 Kah pish wunnauwadtuwatóu wunnetupanatámwe ayeuonk, newutche wunnishkeneuongqussuongan8 wunnaumonuh Israel, kah newutche uppanneseuonganóash, kah wame ummatcheseonganóash, kah ne pish wuttinteanun mukkinneae kommuk, ne wetomukquehettit, ut nanashauwe wunnishkeneunkqussuóut.
 E.Lev.16.16: And he shall make an atonement for the holy place, because of the uncleanness of the children of Israel, and because of their transgressions in all their sins: and so shall he do for the tabernacle of the congregation, that remaineth among them in the midst of their uncleanness.
 
-α.Lev.16.17
+α.Lev.16.17 Kah na pish matta howan, ut mukkináe komukqut, petutteadt, 8nauwadtuwahuónat ut wunnetupanatamwe ayeuonganit, nô pajeh, wussohhamunat: kah nô pajeh, 8nauwadthéonat wuhhogkuh, kah wutche weetu, kah wutche wame moeuwéhkomongane Israel.
 E.Lev.16.17: And there shall be no man in the tabernacle of the congregation when he goeth in to make an atonement in the holy place, until he come out, and have made an atonement for himself, and for his household, and for all the congregation of Israel.
 
-α.Lev.16.18
+α.Lev.16.18 Kah pish sohham en Altarut, ne ohtag anaquabit Jehovah, kah pish nauwadtitteauun: kah pish nemunum nawutche 8sqh[e]onk oxen, kah nawhutch 8sqheonk nomposhimwe goat, kah pish upponamun wutaskonit Altar, waéenu.
 E.Lev.16.18 And he shall go out unto the altar that is before the LORD, and make an atonement for it; and shall take of the blood of the bullock, and of the blood of the goat, and put it upon the horns of the altar round about.
 
-α.Lev.16.19
+α.Lev.16.19 Kah pish ne$ut wusseauhkon wusqueheonk, nashpe wuttinnuhwhunitch, nesausuk táhshit nompe: kah pish uppahketeaun, kah 8netupánatamwahtin; wutch wuñishkeneunkqussuongan8óut wunnaumonuh Israel.
 E.Lev.16.19: And he shall sprinkle of the blood upon it with his finger seven times, and cleanse it, and hallow it from the uncleanness of the children of Israel.
 
-α.Lev.16.20
+α.Lev.16.20 Kah pish kesteau 8nauwadtitteáuunat wunneetupanatamwe ayeuonk, kah mukkinneae kommuk, kah Altar; kah pish pas8tshanau nomposhimwe goat noh keteadt.
 E.Lev.16.20: And when he hath made an end of reconciling the holy place, and the tabernacle of the congregation, and the altar, he shall bring the live goat:
 
-α.Lev.16.21
+α.Lev.16.21 Kah Aaron pish ponam, naneeswe wunnutchegash, uppahkukqut keteae nomposhimwe goat, kah pish samp8au ut waabésu, wame ummatcheseongash wunnaumonuh Israel, kah wame uppanneseongash, kah wame ummatcheseongash, kah pish upponumunash uppuhkukqut nomposhimwe goat, & pish ummóncheáheuh, nashpe wunnutcheg tapenumwe wosketomp, en touohkommuk.
 E.Lev.16.21: And Aaron shall lay both his hands upon the head of the live goat, and confess over him all the iniquities of the children of Israel, and all their transgressions in all their sins, putting them upon the head of the goat, and shall send him away by the hand of a fit man into the wilderness:
 
-α.Lev.16.22
+α.Lev.16.22 Kah nomposhimwe goat, pish nayeutam wame ummatcheseongash, en chipohkeit, kah pish moncheáheau nomposhimwe goats, en touohkomukqut.
 E.Lev.16.22: And the goat shall bear upon him all their iniquities unto a land not inhabited: and he shall let go the goat in the wilderness.
 
-α.Lev.16.23
+α.Lev.16.23 Kah Aaron pish peyau en mukkinneae komukqut, kah pish amaunum hàshabponagune hogk8unash, nish agkupash, petutteadt wunnetupanatamwe ayeuonganit, kah na pish wunnukodtumunash.
 E.Lev.16.23: And Aaron shall come into the tabernacle of the congregation, and shall put off the linen garments, which he put on when he went into the holy place, and shall leave them there:
 
-α.Lev.16.24
+α.Lev.16.24 Kah pish kutchissittau 8weyaus nippekontu, ut wunnetupanatmwe ayeuonganit, kah pish hogk8, wuthogk8ongash, kah pish sohham, kah pish ayim wutchikohtae mag8onk, kah wutchikohtae mag8ongan8 missinninnúog, kah pish wunnauwadtuwaheau wuhhogkuh, kah wutch missinninnuog
 E.Lev.16.24: And he shall wash his flesh with water in the holy place, and put on his garments, and come forth, and offer his burnt offering, and the burnt offering of the people, and make an atonement for himself, and for the people.
 
-α.Lev.16.25
+α.Lev.16.25 Kah wees ne matcheseae sephausuonganit pish wutchikossumun ut Altarut.
 E.Lev.16.25: And the fat of the sin offering shall he burn upon the altar.
 
-α.Lev.16.26
+α.Lev.16.26 Kah noh moncheáheont nomposhimwe goatsóh, wutche pohquohamóe goat, pish kutchissittau wuthogk8unash, kah pish kutchissittau 8weyaus nippeit, kah ne mahche, neit pish petutteau tuppuksinn8onganit.
 E.Lev.16.26: And he that let go the goat for the scapegoat shall wash his clothes, and bathe his flesh in water, and afterward come into the camp.
 
-α.Lev.16.27
+α.Lev.16.27 Kah oxen wutch matcheseae sephausuonk, kah nompashimwe goats wutch matcheseae sephausuonk, noh 8sqheonk petukodtomukup, wunnauwadhuónat ut wunnetupanatamwe ayeuonganit, pish wussohh8wunuh en poquadchit tuppuksinn8onganit, kah na pish wuttit chikohsumuneau n8taut, wutushkonáuh, kah 8weyaus8 kah umm8yeu.
 E.Lev.16.27: And the bullock for the sin offering, and the goat for the sin offering, whose blood was brought in to make atonement in the holy place, shall one carry forth without the camp; and they shall burn in the fire their skins, and their flesh, and their dung.
 
-α.Lev.16.28
+α.Lev.16.28 Kah noh nish chagosikish, pish kutchissittau wuthogk8unash, kah pish kutchissittau 8weyaus ut nippeit, kah ompetak pish petutteau tuppuksinnowonganit.
 E.Lev.16.28 And he that burneth them shall wash his clothes, and bathe his flesh in water, and afterward he shall come into the camp.
 
-α.Lev.16.29
+α.Lev.16.29 Kah yeu pish wutche kenaau michemohtag kuhk8waonk: nesausuk adtahs8it nepâuz piogkukqunhog nepauz, pish kutonkapunanomw8 kukketeahogkon8woog, kah matta pish toh kutusseumw8, noh ne adt nekit, asuh pen8wodt noh na adt pen8wohteadt kenugke kenaau.
 E.Lev.16.29: And this shall be a statute for ever unto you: that in the seventh month, on the tenth day of the month, ye shall afflict your souls, and do no work at all, whether it be one of your own country, or a stranger that sojourneth among you:
 
-α.Lev.16.30
+α.Lev.16.30 Newutche yeu kesukok pish k8nauwadtuwahukou, kuppahkhikqunnáout, wutch wame kummatcheseonganóout, ut anaquabit Jehovah, pish kuppahhetteomw8.
 E.Lev.16.30: For on that day shall the priest make an atonement for you, to cleanse you, that ye may be clean from all your sins before the LORD.
 
-α.Lev.16.31
+α.Lev.16.31 Anwohsin8e sabboth ne pish wutch kenaau, kah pish kutonkapunnanomw8 kukketeahogkon8wóog, nashpe michemohtag kuhk8waonk.
 E.Lev.16.31: It shall be a sabbath of rest unto you, and ye shall afflict your souls, by a statute for ever.
 
-α.Lev.16.32
+α.Lev.16.32 Kah sephausuen noh sasequnit, kah noh wunnutcheg nomwohtauut, wutussenat sephausue aninnohsuonk nompenónat 8shoh, noh pish wunnauwadtuwáhuau, kah pish hogk8 hashabponagane hogk8ongash, kah wunnetupanatamwe hogk8ongash.
 E.Lev.16.32: And the priest, whom he shall anoint, and whom he shall consecrate to minister in the priest's office in his father's stead, shall make the atonement, and shall put on the linen clothes, even the holy garments:
 
-α.Lev.16.33
+α.Lev.16.33 Kah pish wunnauwadtuwáhtau wunnetupanatamwe sanctuary, kah mukkinneae kommuk, kah Altar pish wunnauwadtuwohtau: kah sephausuenúog, kah wame moeuw[e]hkomongane miss[í]ñinnuog pish wunnauwadtuwáheuh.
 E.Lev.16.33: And he shall make an atonement for the holy sanctuary, and he shall make an atonement for the tabernacle of the congregation, and for the altar, and he shall make an atonement for the priests, and for all the people of the congregation.
 
-α.Lev.16.34
+α.Lev.16.34 Kah yeu pish kuhk8waonk wutche kenaau micheme, wunnauwadheónat wunnaumonuh Israel, wutche wame ummatcheseongan8oash, pasukqut kodtumwáe, kah wutussen ne anunn8nont Mosesoh.
 E.Lev.16.34: And this shall be an everlasting statute unto you, to make an atonement for the children of Israel for all their sins once a year. And he did as the LORD commanded Moses.
 
-α.Lev.17.1
+α.Lev.17.1 KAh Jehovah unnau Mosesoh, n8wau,
 E.Lev.17.1: And the LORD spake unto Moses, saying,
 
-α.Lev.17.2
+α.Lev.17.2 Ken8s Aaron, kah wunnaumonuh, kah wame wunnaumonuh Israel, kah us; yeu Jehovah an8teamwut, n8wau,
 E.Lev.17.2: Speak unto Aaron, and unto his sons, and unto all the children of Israel, and say unto them; This is the thing which the LORD hath commanded, saying,
 
-α.Lev.17.3
+α.Lev.17.3 Nish$noh wosketomp wekit Israel, noh nashont oxen, asuh lamb, asuh goat, ut tuppuksinn8onganit, asuh noh nashont ut poquadche tuppuksinn8onganit.
 E.Lev.17.3: What man soever there be of the house of Israel, that killeth an ox, or lamb, or goat, in the camp, or that killeth it out of the camp,
 
-α.Lev.17.4
+α.Lev.17.4 Kah matta pas8onk ut mukkinneáe kommukque squontamut, ummagunnaóut sephuasuonk en Jehovah$ut, anaquohtag wut-Tabernakleum Jehovah, wusqueheonk pish ogquontamauau noh wosketomp, noh seahham wusqueheonk, kah noh wosketomp pish tummetahwhau wutch kenugke ummissinninneumut.
 E.Lev.17.4: And bringeth it not unto the door of the tabernacle of the congregation, to offer an offering unto the LORD before the tabernacle of the LORD; blood shall be imputed unto that man; he hath shed blood; and that man shall be cut off from among his people:
 
-α.Lev.17.5
+α.Lev.17.5 Onk woh wunnaumonuh Israel, paudtóog wussephausuonganóash, nish sephaushetticheh, ut woskeche ohteakonit, woh nish uppaudtinnáoash en Jehovahut, en mukkinneáe kommukque squonamut, en sephausuenúut, kah woh wussephausinneaóash wutche wunohteáe mag8ongane sephausuongash, en Jehovahut.
 E.Lev.17.5: To the end that the children of Israel may bring their sacrifices, which they offer in the open field, even that they may bring them unto the LORD, unto the door of the tabernacle of the congregation, unto the priest, and offer them for peace offerings unto the LORD.
 
-α.Lev.17.6
+α.Lev.17.6 Kah sephausuen pish seauhteau wusqueheonk ut wut-Altarumut Jehovah, en mukkinneáe kommukque squontamut kah pish chikkohsum wees, wutch weetemungquok en Jehovahut.
 E.Lev.17.6: And the priest shall sprinkle the blood upon the altar of the LORD at the door of the tabernacle of the congregation, and burn the fat for a sweet savour unto the LORD.
 
-α.Lev.17.7
+α.Lev.17.7 Kah nag matta p[ì]sh wonk sephauseog, wussephamauwaonganòash mattannitt8h, neh nanwun8dsquae asukauáhetticheh: yeu pish nag micheme kuhk8waonk, pannuppe uppometeongan8óut.
 E.Lev.17.7: And they shall no more offer their sacrifices unto devils, after whom they have gone a whoring. This shall be a statute for ever unto them throughout their generations.
 
-α.Lev.17.8
+α.Lev.17.8 Kah pish nag kuttinóog, nish$noh wosketomp ut weekit Israel, asuh pen8wot, noh ne adt penuwohteàit: sephausit chikohtáe mag8onk, asuh sephausuonk,
 E.Lev.17.8 And thou shalt say unto them, Whatsoever man there be of the house of Israel, or of the strangers which sojourn among you, that offereth a burnt offering or sacrifice,
 
-α.Lev.17.9
+α.Lev.17.9 Kah matta padtau8g mukkinneàe kommukque squontamut, ussenat en Jehovahut, noh wosketomp, pish tummetahwhau wutch ummissinninnuhtu.
 E.Lev.17.9: And bringeth it not unto the door of the tabernacle of the congregation, to offer it unto the LORD; even that man shall be cut off from among his people.
 
-α.Lev.17.10
+α.Lev.17.10 Kah nish$noh wosketomp ut wekit Israel, asuh pen8wot: noh pen8wohteait kenugke nahoh, meechit ne teague wusqueheonk: nen pish nutayeukonittue ponamau nuskesuk noh keteahogkou noh mechik wusqueheonk, kah nuttummetah wutch kenugke ummissinninneumut.
 E.Lev.17.10: And whatsoever man there be of the house of Israel, or of the strangers that sojourn among you, that eateth any manner of blood; I will even set my face against that soul that eateth blood, and will cut him off from among his people.
 
-α.Lev.17.11
+α.Lev.17.11 Newutche ukketeaonk weyaus ohteau wusqueheonganit: kah kuttinnumauuûneau ut Altarut, wunnauwadheoneat kukketeahogkon8wóog, newutche ne wusqueheonk wanauwadtuwaheont keteahogkôunoh.
 E.Lev.17.11: For the life of the flesh is in the blood: and I have given it to you upon the altar to make an atonement for your souls: for it is the blood that maketh an atonement for the soul.
 
-α.Lev.17.12
+α.Lev.17.12 Newajeh unog wunnaumonuh Israel, wanne keteahogkou kenugke kenaau, pish meechu wusqueheonk: kah pen8wot noh pen8wohteadt kenugke kenaau, matta pish meechu wusqueheonk.
 E.Lev.17.12: Therefore I said unto the children of Israel, No soul of you shall eat blood, neither shall any stranger that sojourneth among you eat blood.
 
-α.Lev.17.13
+α.Lev.17.13 Kah nish$noh wosketomp wutch wunnaumonat Israel, asuh wutch pen8wahteaut, noh pen8wohteadt kenugke nahoh, adchonont touohkomukque puppinashimwoh, asuh puppinshaas nôh woh m8whut, pish seahham ne wusqueheonk, kah pish wutunkhumun nashpe puppissi.
 E.Lev.17.13: And whatsoever man there be of the children of Israel, or of the strangers that sojourn among you, which hunteth and catcheth any beast or fowl that may be eaten; he shall even pour out the blood thereof, and cover it with dust.
 
-α.Lev.17.14
+α.Lev.17.14 Newutche ne ukketeaonk wame weyaus, ne wusqueheonk ne keteahogkou: kah nuttinnomp wunnaumonuh Israel, matta pish kummeech8mw8, 8sqheonk ne teagwe weyaus, newutche ukketeahogkou wame weyaus, ne ohteau wusqueheonganit, howan meechik pish tummetahwhau.
 E.Lev.17.14: For it is the life of all flesh; the blood of it is for the life thereof: therefore I said unto the children of Israel, Ye shall eat the blood of no manner of flesh: for the life of all flesh is the blood thereof: whosoever eateth it shall be cut off.
 
-α.Lev.17.15
+α.Lev.17.15 Kah nish$noh keteahogkou m8whont nupp8e muhhogkuh, kah s8kuhkausit, uttoh an noh ne adt neekit, asuh pen8wot: noh pish naneeswe kutchissittau wuthogk8unash, kah kutchissumau nippe, káh pish nishkeneunkqussu pajeh wunnonk8ut, kah neit pish pahkesu.
 E.Lev.17.15: And every soul that eateth that which died of itself, or that which was torn with beasts, whether it be one of your own country, or a stranger, he shall both wash his clothes, and bathe himself in water, and be unclean until the even: then shall he be clean.
 
-α.Lev.17.16
+α.Lev.17.16 Kah matta nish kutchissittauug, kah matta kutchissittauug 8weyaus, neit pish naiyeutam ummatcheseonk.
 E.Lev.17.16: But if he wash them not, nor bathe his flesh; then he shall bear his iniquity.
 
-α.Lev.18.1
+α.Lev.18.1 KAh Jehovah ken8nau Mosesoh, n8wau,
 E.Lev.18.1: And the LORD spake unto Moses, saying,
 
-α.Lev.18.2
+α.Lev.18.2 Ken8s wunnaumonuh Israel, kah nag us; Nen Jehovah kum-Manitt8mw8,
 E.Lev.18.2: Speak unto the children of Israel, and say unto them, I am the LORD your God.
 
-α.Lev.18.3
+α.Lev.18.3 Neyaunag usseongash ut Egypt, ne wadohkéog, matta pish kutusseineau, kah neaunag usseongash ut Kanaan, ne pas8unógkup, matta pish kutusseineau: kah ut ukkuhk8waonganoóut matta pish kuppomusháuneau.
 E.Lev.18.3: After the doings of the land of Egypt, wherein ye dwelt, shall ye not do: and after the doings of the land of Canaan, whither I bring you, shall ye not do: neither shall ye walk in their ordinances.
 
-α.Lev.18.4
+α.Lev.18.4 N8sittum8ongash pish kutussemw8, kah nukkuhk8waongash pish kenanawehteomw8, nish kuppomushontamunnaóut: nen Jehovah kum-Manitt8mw8.
 E.Lev.18.4: Ye shall do my judgments, and keep mine ordinances, to walk therein: I am the LORD your God.
 
-α.Lev.18.5
+α.Lev.18.5 Kah pish kenanawehtemw8 nukkuhk8waongash, kah n8sittum8ongash, nish woskeotomp usseit, kah nish pish wunnashpe pomantamunash, nen Jehovah.
 E.Lev.18.5: Ye shall therefore keep my statutes, and my judgments: which if a man do, he shall live in them: I am the LORD.
 
-α.Lev.18.6
+α.Lev.18.6 Wanne howan kenaau pish uppas8sukauoh, 8weyausue pas8tauwomoncheh, 8wohshwunnumauónat ukkôsuonk, nen Jehovah.
 E.Lev.18.6: None of you shall approach to any that is near of kin to him, to uncover their nakedness: I am the LORD.
 
-α.Lev.18.7
+α.Lev.18.7 Ukkôsuonk k8sh, kah ukkôsuonk kokas matta pish k8woshwunnum8un, noh kokas, matta pish k8woshwunnum8 ukkôsuonk.
 E.Lev.18.7: The nakedness of thy father, or the nakedness of thy mother, shalt thou not uncover: she is thy mother; thou shalt not uncover her nakedness.
 
-α.Lev.18.8
+α.Lev.18.8 Ukkôsuonk ummittamwussoh k8sh, matta pish k8woshwunnum8un: ne k8sh ukkôsuonk.
 E.Lev.18.8 The nakedness of thy father's wife shalt thou not uncover: it is thy father's nakedness.
 
-α.Lev.18.9
+α.Lev.18.9 Ukkôsuonk kummissis, wuttaunoh k8sh, asuh wuttaunoh kokas, noh nekit ut weetuomut, asuh neekit ut touwe, matta pish k8woshwunnum8 nag ukkôuss8ongan8.
 E.Lev.18.9: The nakedness of thy sister, the daughter of thy father, or daughter of thy mother, whether she be born at home, or born abroad, even their nakedness thou shalt not uncover.
 
-α.Lev.18.10
+α.Lev.18.10 Ukkôuss8ongan8 kenaumon wuttaunoh, kuttaunog wuttaun8uh, matta pish k8woshwunnum8 nag ukkôuss8ongan8: newutche nag, kukkôussuonk.
 E.Lev.18.10: The nakedness of thy son's daughter, or of thy daughter's daughter, even their nakedness thou shalt not uncover: for theirs is thine own nakedness.
 
-α.Lev.18.11
+α.Lev.18.11 Ukkôussuonk k8sh ummittamwussoh wuttaunoh, neh waneechanutcheh k8sh, noh kummissis, matta k8woshwunnum8 ukkôussuonk.
 E.Lev.18.11: The nakedness of thy father's wife's daughter, begotten of thy father, she is thy sister, thou shalt not uncover her nakedness.
 
-α.Lev.18.12
+α.Lev.18.12 Ukkôussuonk k8sh ummissesoh matta pish k8woshwunnum8un, neh k8sh uppas8tauomuh.
 E.Lev.18.12: Thou shalt not uncover the nakedness of thy father's sister: she is thy father's near kinswoman.
 
-α.Lev.18.13
+α.Lev.18.13 Ukk[ô]ussuonk kokas ummississoh matta pish k8woshwunnum8un, newutche noh kokas uppas8tauomuh.
 E.Lev.18.13: Thou shalt not uncover the nakedness of thy mother's sister: for she is thy mother's near kinswoman.
 
-α.Lev.18.14
+α.Lev.18.14 Ukkôussuonk k8sh wematoh matta k8woshwunum8un, ummittamwussoh matta pish kuppas8sukauoh, noh kokummes.
 E.Lev.18.14: Thou shalt not uncover the nakedness of thy father's brother, thou shalt not approach to his wife: she is thine aunt.
 
-α.Lev.18.15
+α.Lev.18.15 Ukkôussuonk kuṣshim matta pish k8woshwunnum8un: noh kenaumon ummittamwussoh, matta pish k8woshwunnum8 ukkôussuonk.
 E.Lev.18.15: Thou shalt not uncover the nakedness of thy daughter in law: she is thy son's wife; thou shalt not uncover her nakedness.
 
-α.Lev.18.16
+α.Lev.18.16 Ukkôussuonk keemat ummittamwussoh matta pish k8woshwunnum8un: ne kemat ukkôussuonk.
 E.Lev.18.16: Thou shalt not uncover the nakedness of thy brother's wife: it is thy brother's nakedness.
 
-α.Lev.18.17
+α.Lev.18.17 Ukkôussuonk mittamwossis, kah wuttaunoh, matta pish k8woshwunnum8un, wunnaumonuh wuttaunoh, assuh wuttaunoh wuttaunoh, matta pish kenemunóh k8woshwunnumunat ukkôussuonk, nag paswauwátuog, ne matcheseonk.
 E.Lev.18.17: Thou shalt not uncover the nakedness of a woman and her daughter, neither shalt thou take her son's daughter, or her daughter's daughter, to uncover her nakedness; for they are her near kinswomen: it is wickedness.
 
-α.Lev.18.18
+α.Lev.18.18 Kah mittumwossis en ummissesit, matta pish keneemunoh, kumm8sqheónat, k8woshwunnumunat ukkôussuonk, ash pamontog.
 E.Lev.18.18 Neither shalt thou take a wife to her sister, to vex her, to uncover her nakedness, beside the other in her life time.
 
-α.Lev.18.19
+α.Lev.18.19 Kah en mittumwossissut, wutchippitteaonganit wutche wunnishkeneunkqussuonk, matta pish kuppas8sukauoh, k8woshwunnumunat ukk[ô]ussuonk.
 E.Lev.18.19: Also thou shalt not approach unto a woman to uncover her nakedness, as long as she is put apart for her uncleanness.
 
-α.Lev.18.20
+α.Lev.18.20 Kah ketatteamung ummittamwossit, matta pish kumagou k8wepam8áe wuskannem, kenishkheónat kuhhog weeche nagum.
 E.Lev.18.20: Moreover thou shalt not lie carnally with thy neighbour's wife, to defile thyself with her.
 
-α.Lev.18.21
+α.Lev.18.21 Kah k8skannem matta pish kummagou kuppannupwushheaónat en Molech: kah matta pish kenishketeaou 8wesuonk kum-Manitt8m, nen Jehovah.
 E.Lev.18.21: And thou shalt not let any of thy seed pass through the fire to Molech, neither shalt thou profane the name of thy God: I am the LORD.
 
-α.Lev.18.22
+α.Lev.18.22 Weeche wosketomp matta pish keneesinn8un, onatuh weehpamit mittumwossis: ne ûhquanumukquodt.
 E.Lev.18.22: Thou shalt not lie with mankind, as with womankind: it is abomination.
 
-α.Lev.18.23
+α.Lev.18.23 Asuh matta pish kummagou k8wepamuwáonk nashpe howae puppinashim, ne kuttit nishkheonat kuhhog: asuh mittamwossis matta p[ì]sh neepou anaquabit puppinashim ne wussepsinat, ne nanwe kenukkenum8onk.
 E.Lev.18.23: Neither shalt thou lie with any beast to defile thyself therewith: neither shall any woman stand before a beast to lie down thereto: it is confusion.
 
-α.Lev.18.24
+α.Lev.18.24 Ahque nishkhik8k yeush neteag, newutche nashpe wame yeush, wutohtimóineash nishketeauunash, nish pakétamonish ut anaquabeóg.
 E.Lev.18.24: Defile not ye yourselves in any of these things: for in all these the nations are defiled which I cast out before you:
 
-α.Lev.18.25
+α.Lev.18.25 Kah ohke nishketeauun, kah nunnátauwahtoh ne ummatcheseonk, kah ohke menadtam ne ummatcheeonk, kah ohke menadtam neh noh wodohkinutcheh.
 E.Lev.18.25: And the land is defiled: therefore I do visit the iniquity thereof upon it, and the land itself vomiteth out her inhabitants.
 
-α.Lev.18.26
+α.Lev.18.26 Newajeh pish nanauwehteauóg nukkuhk8waongash kah n8sittum8ongash, kah matta pish ne teag kutusseum8 yeush ûhquanumukquokish, asuh noh ne adt neekit, asuh pen8wot ne adt pen8wohteaut kenugke kenaau.
 E.Lev.18.26: Ye shall therefore keep my statutes and my judgments, and shall not commit any of these abominations; neither any of your own nation, nor any stranger that sojourneth among you:
 
-α.Lev.18.27
+α.Lev.18.27 Newutche wame yeush úhquanumukquokish neg apitcheg ohkeit, negonáe kenaau, wutussenáoash, kah ohke nishketeauun.
 E.Lev.18.27: (For all these abominations have the men of the land done, which were before you, and the land is defiled;)
 
-α.Lev.18.28
+α.Lev.18.28 Onk ne ohke matta woh kummenadtam8ónuk8, nishkhetteaóg, neyane munadtog wutohtimóin, ne negonáe onk kenaau.
 E.Lev.18.28 That the land spue not you out also, when ye defile it, as it spued out the nations that were before you.
 
-α.Lev.18.29
+α.Lev.18.29 Newutche howan usseit neteagwu yeush ûhquanumukquokish, keteahogkóunog nish asehettichish, pish tummehtahwhóog wutch kenugke ummissinninnuúnneaóut.
 E.Lev.18.29: For whosoever shall commit any of these abominations, even the souls that commit them shall be cut off from among their people.
 
-α.Lev.18.30
+α.Lev.18.30 Newajeh pish nanauwehteauóg nummeechumúhkaus8wáonk,matta usseunat ne teague kuhk8wae ûhquanumukquokish, nish aunagish negonáe onk kenaau, kah matta pish kenishkhetteomw8 nashpe nish: Nen Jehovah kum-Manitt8mw8.
 E.Lev.18.30: Therefore shall ye keep mine ordinance, that ye commit not any one of these abominable customs, which were committed before you, and that ye defile not yourselves therein: I am the LORD your God.
 
 α.Lev.19.1
