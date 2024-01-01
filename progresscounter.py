@@ -73,7 +73,7 @@ bookAllVerseCount = {
 firstEditionCopyDict = {
     "Genesis": False,
     "Exodus": True,
-    "Leviticus": False,
+    "Leviticus": True,
     "Numbers": False,
     "Deuteronomy": False,
     "Joshua": False,
@@ -287,7 +287,7 @@ allOTBookList = [
 partialVerseCountListFirstEd = { 
     "Genesis": 0,
     "Exodus": 1072,
-    "Leviticus": (64+701),
+    "Leviticus": 859,
     "Numbers": 0,
     "Deuteronomy": 33,
     "Joshua": 0,
