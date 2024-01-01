@@ -288,7 +288,7 @@ partialVerseCountListFirstEd = {
     "Genesis": 0,
     "Exodus": 1072,
     "Leviticus": 859,
-    "Numbers": 0,
+    "Numbers": 30,
     "Deuteronomy": 33,
     "Joshua": 0,
     "Judges": 0,
