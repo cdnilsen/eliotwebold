@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Browse Texts</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+
+</head>
+<body>
+
+    <div class="dropdown" id="chooseBook">
+        Choose a book:
+        <select id="bookSelectionDropdown" name="bookSelectionDropdown">
+        </select>
+
+        Choose a chapter:
+        <select id="chapterSelectionDropdown" name="chapterSelectionDropdown">
+           
+        </select>
+    </div>
+
+    <br>
+    <span id="queryOptions">
+    <div class="checkboxes" id="editionCheckbox">
+        <input type="checkbox" name="include_first_edition" id="include_first_edition" checked>
+            <label for="include_first_edition">First Edition (1661/1663)</label>
+
+        <input type="checkbox" name="include_second_edition" id="include_second_edition" checked>
+            <label for="include_second_edition">Second Edition (1685)</label>
+        
+        <span id="otherEditions">
+        </span>
+
+        <input type="checkbox" name="includeGrebrew" id="includeGrebrew">
+            <label for="includeGrebrew">Show Hebrew/Greek</label>
+    </div>
+
+    <span style="color:red"><b>Highlight</b></span> Differences (only works for 1st vs. 2nd edition for now):
+        <input type="radio" name="show_differences" id="no_show" value = "no" checked>
+            <label for="no_show">No</label>
+
+        <input type="radio" name="show_differences" id="include_casing" value="include_casing">
+            <label for="include_casing">Yes, including letter casing (<i><span style="color:blue"><b>W</b></span>osketomp</i> ≠ <i><span style="color:blue"><b>w</b></span>osketomp</i>) </label>
+
+        <input type="radio" name="show_differences" id="exclude_casing" value = "exclude_casing">
+            <label for="exclude_casing">Yes, ignoring letter casing (<i>Wosketomp</i> = <i>wosketomp</i>)</label>
+
+        <br>
+        <u>Underline</u> Hapaxes (<span style="color: blue"><b>blue</b></span> in Hebrew):
+        <input type="radio" name="show_hapaxes" id="dont_show" value = "no" checked>
+            <label for="dont_show">No</label>
+
+        <input type="radio" name="show_hapaxes" id="hapaxes_strict" value="hapaxes_strict">
+            <label for="hapaxes_strict">Yes, including diacritics (<i><u>mátta</u></i> even if <i>matta</i>)</label>
+
+        <input type="radio" name="show_hapaxes" id="hapaxes_lax" value="hapaxes_lax">
+            <label for="hapaxes_lax">Yes, lax on diacritics (<i>mátta</i> not counted as a hapax if <i>matta</i>)</label>
+        <br>
+
+        <button type="submit" id="submitBookQuery">Submit</button>
+    </span>
+
+    <br>
+    <br>
+        <table class="t" id="verseTable">
+            <colgroup id="colgroup">
+            </colgroup>
+            <thead>
+                <tr id="tableHead">
+                    
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            
+            </tbody>
+        </table>
+</body>
+<script src="./browsetexts.js"></script>
+
+</html>

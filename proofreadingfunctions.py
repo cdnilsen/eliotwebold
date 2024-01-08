@@ -15,7 +15,6 @@ def boldyRed(word):
 allPunctuationMarks =[".", "?", "," ":", ";", "!"]
 
 def compareWordsSameLength(word1, word2, ignoreCasing):
-
     word1Copy = word1
     word2Copy = word2
 
@@ -110,16 +109,19 @@ def compareWords(word1, word2, ignoreCasing, markSpaces = True):
     newWord1 = finalWords[0]
     newWord2 = finalWords[1]
 
-    newWord1 = newWord1.replace('<span style="color: red"><b>·</b></span>', '<span style="color: red"><b>˙</b></span>')
-    newWord2 = newWord2.replace('<span style="color: red"><b>·</b></span>', '<span style="color: red"><b>˙</b></span>')
+    finalList = []
+    for newWord in [newWord1, newWord2]:
+        newWord = newWord.replace('</b></span><span style="color: red"><b>', '')
+        newWord = newWord.replace('<span style="color: red"><b>·</b></span>', '<span style="color: red"><b>˙</b></span>')
+        newWord = newWord.replace('<span style="color: red"><b>$</b></span>', '<span style="color: red"><b>˙</b></span>')
 
-    newWord1 = newWord1.replace('·', ' ')
-    newWord2 = newWord2.replace('·', ' ')
-    newWord1 = newWord1.replace('$', '˙')
-    newWord2 = newWord2.replace('$', '˙')
+        newWord = newWord.replace('·', ' ')
+        newWord = newWord.replace('$', ' ')
 
-    if markSpaces == False:
-        newWord1 = newWord1.replace('˙', ' ')
-        newWord2 = newWord2.replace('˙', ' ')
 
-    return [newWord1, newWord2]
+        if markSpaces == False:
+            newWord = newWord.replace('˙', ' ')
+        
+        finalList.append(newWord)
+
+    return finalList

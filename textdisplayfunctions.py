@@ -75,7 +75,6 @@ def replace_keep_case(match, replacement, text):
         return replacement
     return re.sub(re.escape(match), func, text, flags=re.I)
 
-
 def displayLine(line, strictDiacritics, allVersesList, targetString, versePrintDict, editionLineDict, condition="contains"):
     finalDict = {
         "lineHasWord": False,

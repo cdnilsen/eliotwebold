@@ -1,0 +1,2 @@
+M.5.7: spurious line-break hyphen after <payaonish> in text, as if <payaonishonkatog>
+M.6.37: spurious line-break hyphen after <woh> in text, as if <wohnuppogkenoh>

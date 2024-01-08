@@ -1,0 +1,113 @@
+β.1.5: Higgins has <Obeduh>--from another copy?
+β.2.18: possibly <Wàdtauatonkqussuonk>?
+β.2.23: should <wuttissowesen> be <wuttissoweseu>?
+β.4.16: grave in <wequaì (speem8)> may be spurious
+β.4.19: exact diacritic on what is conjectured as <á> in <kutáyìmauonumw8> is not entirely clear
+β.4.24: second <a> of <aninnanutche> is less than entirely clear; find another copy. (This whole verse needs a third copy...)
+β.5.1: text has <nauout> for emended <nauont>
+β.5.4: circumflex in <muskouantamwâheoog> somewhat conjectural
+α, β.5.8: apparent <pehketeahoncheg> in both manuscript (more clearly in β; α may have a smudged <o>), but <o> is expected etymologically
+β.5.33: text may have <ân8wamukup> for what I have as <an8wamukup>
+α.5.34: text seems to have <ahqne>
+α.5.42: text has <wehquetumukqnean>
+β.5.46: text seems to have <mukk8kiunuaenuog>
+β.6.5: text has <wutronkquatonkan8> for emended <wuttonkquatonkan8>
+β.6.6: text has <keu> for emended <ken>
+β.6.16: there may be an acute over the <a> of <maenonkqussinneat> as in α
+α.6.17: second <s> of <kussequash> is conjectural.
+β.6.17: possible accent (acute? circumflex?) over first <e> of <meetseanish>
+β.6.18: Higgins has <kutonkquátunk> with an acute, which I do not see. Check a third copy?
+β.6.22: acute in <kuhhóg> quite faint; possibly spurious
+β.6.33: acute in <wutass8tamóonk> quite faint and perhaps spurious
+β.7.10: text has <wttinnumauoh> for emended <wuttinnumauoh>
+β.7.15: <ô> in <pâuhônukqueógig> may be <ó>
+α.7.28: emended <missinninnuog> has three <s> in text, as <misssinninnuog>
+β.8.6: Text has <Lotd> for <Lord>
+α.8.13: text has <netskekeoninneuh> for emended <netskeheoninneuh>
+β.8.19: text has <wutttinuh> with three <t>'s for emended <wuttinuh>
+β.8.20: spurious extra full stop at end of verse, as <uppuhkuk..>
+β.8.21: text has <outi> for emended <onti>
+α.9.14: text has <mtt metséog> for emended <mat metséog>
+β.9.15: verse has <amaun||amuaun> over a page break. First <u> of top-page version considered spurious
+α.9.18: text has <pyeau> for emended <peyau>
+α.9.21: text has <...n8wau ut wuttah,ut woh...>
+β.9.28: text has <wurtinóuh> for emended <wuttinóuh>
+α.9.33: text has <mat-|kaket8g> over a line break
+β.9.35: *find a second copy for this whole page*. acute in <8tanemesehtu> as in α?
+β.9.36: accent on the <e> of <wunnanawunnuwomeog>? find another copy
+β.9.38: accent over second <i> of <ummissuminneaonganit>?
+α.10.1: text has <niskkeneungque> for emended <nishkeneungque>
+β.10.6: check penultimate letter of <wanhetcheg> in a second copy
+β.10.7: diacritic in <o> of <aauogk>?
+β.10.14: grave in second token of <matta>, as <mattà>?
+β.10.17: check period vs. comma after <moeonganutu>
+β.10.22: first <e> of <wesketompaog> may be a smudged <o>
+β.10.40: <attumunau> or <attumunàu>?
+β.11.27: diacritic over <o> (circumflex?) possible in second instance of <howan>
+β.12.25: Diacritic over <o> of <nahoh>?
+α.12.29: exact diacritic over first <a> of <kuttámma> unclear, but acute seems most likely
+α.12.39: text has <kukkinneasuouk> for second token of <kukkinneasuonk>
+α.12.50: text appears to have <kesukqnt> for <kesukqut>
+β.13.15: <auwohkonche> probable, but <anwohkonche> seems apparent in at least the JCB copy
+β.13.21: <ahtôou> or <ahtòou>?
+α.13.24: macron in <ogqueneūkqussu> looks more like an inverted breve, but <u> is unusually large; a macron seems very likely but not certain
+β.13.25: check a third manuscript for acute of <kaéhettit>
+13.30: Note <yó/yô pajeh> in both editions for 'until'; <nô/nó pajeh> would be expected. A Moheganism?
+β.13.32: text has <merugk88> for emended <metugk88>
+α.13.33: possible acute over <a> of <tatupiñeonkqussuonk>
+α.13.38: possibly spurious hyphen in text, as <wunnegen-wuskannem>, but difficult to say and may just be an ink splotch
+β.13.42: Higgins has grave on first token of <pish>, as <pìsh>. Check a third copy?
+β.13.45: acute (or other diacritic) over <o> of <natinneohhug>?
+α.13.52: <u> of <wuskéaiash> very faint
+β.14.3: <ummittamwussen>...is <-en> a sign of an obviative possessor? (surely just 'he has her as a wife' as it appears to be in ɛ.14.4)
+β.14.6: <pomugkóoh> may be <pomugkôoh> (but unlikely)--but Higgins has <pomug[kô]oh>--check another edition. Circumflex in <8sekêteaheuh> also missing from Higgins. β.14.6 may also (but probably doesn't) end in a comma rather than a period
+α.14.7: possibly <kodtantámunit>
+β.14.11: possible diacritic over second <a> of <paudtauun>?
+α.14.15: text has <wutttinnóuh>, with three <t>'s, for emended <wuttinnóuh>. Similarly with <attóónat> (text: <atttóónat>)
+β.14.16: text has <monchehetttch> for emended <monchehettich>
+α.14.17: text has <wuntinouh> for emended <wuttinouh>
+α.14.19: spurious line-hyphen in text, as <napanna-|tahshinash>
+α.14.24: should <pannu wuttin> be one word or two? (currently one in backend, as <pannu$wuttin>)
+α.14.28: circumflex of <woskêche> faint, and may be a grave
+β.15.26: <unnohkauonaont> may be <unnohkanonaont>
+β.15.31: spurious extra comma in text, as <pogkenuk naum,,>
+α.16.1: <a> of <kuhkinneasuonk> very faint and somewhat conjectural (find another scan?)
+β.16.2: spurious full stop at a line-end in <newutche>, as <ne.|wutche>
+β.16.17: possible acute over <e> of <Jesus>?
+β.16.23: acute in <wadtaumáagish> may be a grave
+α.17.1: text has <wnnneemunoh> for emended <wunneemunoh>. <ô> in <kussonkôauudt> is very faint, and diacritic is conjectured.
+β.17.25: does text have <Nnx>?
+17.27: which of <woshwunnuman> (α) or <woshwunnumau> (β) is correct?
+β.18.1: possible acute on <e> of <Jesusoh>; possible diacritic (circumflex?) over <a> of <n8waog>
+β.18.2: possible grave/circumflex over second <u> of <wunnashaumꝏ̄óont>
+α.18.15: <a> of <nôaush> extremely faint. Perhaps this is <nô ush>?
+α.18.19: text has <kuttinnnónnumw8> with three <n>'s preceding <ó>; emended here.
+α.18.24: text has <anuntuhqohwonche> with a <u> missing after the <q> (restored in emendation)
+β.18.31: second <n> of <wuttinnoneau> looks like an <ſi> ligature
+α.18.34: some sort of diacritic over the third <a> of <sasamâkuhhuwaenuog>, but I cannot tell which; shape of letter seems most consistent with a circumflex or perhaps a grave. Circumflex in <nô> may be an acute, but is probably not.
+α.20.1: text has <sohbog> for <sohhog>
+α.20.28: first/second-to-last <o> of <8tinneumunneaôont> has some sort of diacritic per its shape, but cannot be pinned down with certainty. A circumflex seems plausible
+α.21.2: first <a> of <otanamesit> extremely faint
+α.21.7: acute in <quenoshóneau> may be a circumflex
+α.21.8: text has <may nt> for first token of <may ut>. Possible diacritic (grave?) over <a> of <onkatogig>, but likely just heavy ink
+α.21.12: first <e> of <kepuhteau> is extremely faint/missing in text
+α.21.15: narrow space between <temple> and <ut> in <templeut>; difficult to tell whether this was intended as a word-space
+α.21.30: first word appears to be <Koh> in text
+α.21.38: faint diacritic (conjectured to be a grave, but perhaps a circumflex) probable over third/final <e> of <ohketeaèninnuog>
+α.21.41: <wutonkquepaguanuh> emended from <wutonkqnepaguanuh>
+α.22.6: possibly <kâh wuttunkquontamhéouh> with circumflex on <kâh> (check a third copy)
+α.22.16: text has <ammay> for emended <ummay>
+α.22.29: apparent <Panue> for <Panne> in text
+α.23.4: acute in <wussauunukqunáoash> may be spurious
+23.18: In both α and β, <Altar ut> without hyphen over line-break, as <Altar|ut>. Treated as having a spurious word-space in both copies here
+α.23.29: <eiantukeiyeuog> emended from text's <eitantukeiyeuog>, with spurious <t>
+α.25.8: circumflex in <ôhtaash> possibly an acute
+α.25.15: apparent spurious macron over <i> of <aninnumauoh>, as <anīnnumauoh>
+α.26.27: possible grave over first <a> of <wuttattamwaitch>
+α.26.29: unclear whether there's a comma after  <n8tattamo>
+α.26.36: <ú> of <kodnetuhtaénúh> strongly resembles a tilde (this is probably nothing)
+α.26.49: possible grave over first <a> of <Kutaaquompsinun>
+α.27.27: <momoeutunk> may be <momoehtunk>
+α.27.60: apparent interpunct or raised dot instead of full stop at end of verse in text
+α.28.5: text has <Augel> for <Angel> and seems to have <abque> for emended <ahque>
+α.28.19: two full stops at end of verse, as <nashauanit..>
