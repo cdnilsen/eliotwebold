@@ -1,168 +1,56 @@
-
-α.Hab.1.1
-E.Hab.1.1 The burden which Habakkuk the prophet did see.
-
-α.Hab.1.2
-E.Hab.1.2 O LORD, how long shall I cry, and thou wilt not hear! even cry out unto thee of violence, and thou wilt not save!
-
-α.Hab.1.3
-E.Hab.1.3 Why dost thou shew me iniquity, and cause me to behold grievance? for spoiling and violence are before me: and there are that raise up strife and contention.
-
-α.Hab.1.4
-E.Hab.1.4 Therefore the law is slacked, and judgment doth never go forth: for the wicked doth compass about the righteous; therefore wrong judgment proceedeth.
-
-α.Hab.1.5
-E.Hab.1.5 Behold ye among the heathen, and regard, and wonder marvelously: for I will work a work in your days which ye will not believe, though it be told you.
-
-α.Hab.1.6
-E.Hab.1.6 For, lo, I raise up the Chaldeans, that bitter and hasty nation, which shall march through the breadth of the land, to possess the dwellingplaces that are not their's.
-
-α.Hab.1.7
-E.Hab.1.7 They are terrible and dreadful: their judgment and their dignity shall proceed of themselves.
-
-α.Hab.1.ɸ:
-E.Hab.1.ɸ: Their horses also are swifter than the leopards, and are more fierce than the evening wolves: and their horsemen shall spread themselves, and their horsemen shall come from far; they shall fly as the eagle that hasteth to eat.
-
-α.Hab.1.9
-E.Hab.1.9 They shall come all for violence: their faces shall sup up as the east wind, and they shall gather the captivity as the sand.
-
-α.Hab.1.10
-E.Hab.1.10 And they shall scoff at the kings, and the princes shall be a scorn unto them: they shall deride every strong hold; for they shall heap dust, and take it.
-
-α.Hab.1.11
-E.Hab.1.11 Then shall his mind change, and he shall pass over, and offend, imputing this his power unto his god.
-
-α.Hab.1.12
-E.Hab.1.12 Art thou not from everlasting, O LORD my God, mine Holy One? we shall not die. O LORD, thou hast ordained them for judgment; and, O mighty God, thou hast established them for correction.
-
-α.Hab.1.13
-E.Hab.1.13 Thou art of purer eyes than to behold evil, and canst not look on iniquity: wherefore lookest thou upon them that deal treacherously, and holdest thy tongue when the wicked devoureth the man that is more righteous than he?
-
-α.Hab.1.14
-E.Hab.1.14 And makest men as the fishes of the sea, as the creeping things, that have no ruler over them?
-
-α.Hab.1.15
-E.Hab.1.15 They take up all of them with the angle, they catch them in their net, and gather them in their drag: therefore they rejoice and are glad.
-
-α.Hab.1.16
-E.Hab.1.16 Therefore they sacrifice unto their net, and burn incense unto their drag; because by them their portion is fat, and their meat plenteous.
-
-α.Hab.1.17
-E.Hab.1.17 Shall they therefore empty their net, and not spare continually to slay the nations?
-
-α.Hab.2.1
-E.Hab.2.1 I will stand upon my watch, and set me upon the tower, and will watch to see what he will say unto me, and what I shall answer when I am reproved.
-
-α.Hab.2.2
-E.Hab.2.2 And the LORD answered me, and said, Write the vision, and make it plain upon tables, that he may run that readeth it.
-
-α.Hab.2.3
-E.Hab.2.3 For the vision is yet for an appointed time, but at the end it shall speak, and not lie: though it tarry, wait for it; because it will surely come, it will not tarry.
-
-α.Hab.2.4
-E.Hab.2.4 Behold, his soul which is lifted up is not upright in him: but the just shall live by his faith.
-
-α.Hab.2.5
-E.Hab.2.5 Yea also, because he transgresseth by wine, he is a proud man, neither keepeth at home, who enlargeth his desire as hell, and is as death, and cannot be satisfied, but gathereth unto him all nations, and heapeth unto him all people:
-
-α.Hab.2.6
-E.Hab.2.6 Shall not all these take up a parable against him, and a taunting proverb against him, and say, Woe to him that increaseth that which is not his! how long? and to him that ladeth himself with thick clay!
-
-α.Hab.2.7
-E.Hab.2.7 Shall they not rise up suddenly that shall bite thee, and awake that shall vex thee, and thou shalt be for booties unto them?
-
-α.Hab.2.ɸ:
-E.Hab.2.ɸ: Because thou hast spoiled many nations, all the remnant of the people shall spoil thee; because of men's blood, and for the violence of the land, of the city, and of all that dwell therein.
-
-α.Hab.2.9
-E.Hab.2.9 Woe to him that coveteth an evil covetousness to his house, that he may set his nest on high, that he may be delivered from the power of evil!
-
-α.Hab.2.10
-E.Hab.2.10 Thou hast consulted shame to thy house by cutting off many people, and hast sinned against thy soul.
-
-α.Hab.2.11
-E.Hab.2.11 For the stone shall cry out of the wall, and the beam out of the timber shall answer it.
-
-α.Hab.2.12
-E.Hab.2.12 Woe to him that buildeth a town with blood, and stablisheth a city by iniquity!
-
-α.Hab.2.13
-E.Hab.2.13 Behold, is it not of the LORD of hosts that the people shall labour in the very fire, and the people shall weary themselves for very vanity?
-
-α.Hab.2.14
-E.Hab.2.14 For the earth shall be filled with the knowledge of the glory of the LORD, as the waters cover the sea.
-
-α.Hab.2.15
-E.Hab.2.15 Woe unto him that giveth his neighbour drink, that puttest thy bottle to him, and makest him drunken also, that thou mayest look on their nakedness!
-
-α.Hab.2.16
-E.Hab.2.16 Thou art filled with shame for glory: drink thou also, and let thy foreskin be uncovered: the cup of the LORD's right hand shall be turned unto thee, and shameful spewing shall be on thy glory.
-
-α.Hab.2.17
-E.Hab.2.17 For the violence of Lebanon shall cover thee, and the spoil of beasts, which made them afraid, because of men's blood, and for the violence of the land, of the city, and of all that dwell therein.
-
-α.Hab.2.1ɸ:
-E.Hab.2.1ɸ: What profiteth the graven image that the maker thereof hath graven it; the molten image, and a teacher of lies, that the maker of his work trusteth therein, to make dumb idols?
-
-α.Hab.2.19
-E.Hab.2.19 Woe unto him that saith to the wood, Awake; to the dumb stone, Arise, it shall teach! Behold, it is laid over with gold and silver, and there is no breath at all in the midst of it.
-
-α.Hab.2.20
-E.Hab.2.20 But the LORD is in his holy temple: let all the earth keep silence before him.
-
-α.Hab.3.1
-E.Hab.3.1 A prayer of Habakkuk the prophet upon Shigionoth.
-
-α.Hab.3.2
-E.Hab.3.2 O LORD, I have heard thy speech, and was afraid: O LORD, revive thy work in the midst of the years, in the midst of the years make known; in wrath remember mercy.
-
-α.Hab.3.3
-E.Hab.3.3 God came from Teman, and the Holy One from mount Paran. Selah. His glory covered the heavens, and the earth was full of his praise.
-
-α.Hab.3.4
-E.Hab.3.4 And his brightness was as the light; he had horns coming out of his hand: and there was the hiding of his power.
-
-α.Hab.3.5
-E.Hab.3.5 Before him went the pestilence, and burning coals went forth at his feet.
-
-α.Hab.3.6
-E.Hab.3.6 He stood, and measured the earth: he beheld, and drove asunder the nations; and the everlasting mountains were scattered, the perpetual hills did bow: his ways are everlasting.
-
-α.Hab.3.7
-E.Hab.3.7 I saw the tents of Cushan in affliction: and the curtains of the land of Midian did tremble.
-
-α.Hab.3.ɸ:
-E.Hab.3.ɸ: Was the LORD displeased against the rivers? was thine anger against the rivers? was thy wrath against the sea, that thou didst ride upon thine horses and thy chariots of salvation?
-
-α.Hab.3.9
-E.Hab.3.9 Thy bow was made quite naked, according to the oaths of the tribes, even thy word. Selah. Thou didst cleave the earth with rivers.
-
-α.Hab.3.10
-E.Hab.3.10 The mountains saw thee, and they trembled: the overflowing of the water passed by: the deep uttered his voice, and lifted up his hands on high.
-
-α.Hab.3.11
-E.Hab.3.11 The sun and moon stood still in their habitation: at the light of thine arrows they went, and at the shining of thy glittering spear.
-
-α.Hab.3.12
-E.Hab.3.12 Thou didst march through the land in indignation, thou didst thresh the heathen in anger.
-
-α.Hab.3.13
-E.Hab.3.13 Thou wentest forth for the salvation of thy people, even for salvation with thine anointed; thou woundedst the head out of the house of the wicked, by discovering the foundation unto the neck. Selah.
-
-α.Hab.3.14
-E.Hab.3.14 Thou didst strike through with his staves the head of his villages: they came out as a whirlwind to scatter me: their rejoicing was as to devour the poor secretly.
-
-α.Hab.3.15
-E.Hab.3.15 Thou didst walk through the sea with thine horses, through the heap of great waters.
-
-α.Hab.3.16
-E.Hab.3.16 When I heard, my belly trembled; my lips quivered at the voice: rottenness entered into my bones, and I trembled in myself, that I might rest in the day of trouble: when he cometh up unto the people, he will invade them with his troops.
-
-α.Hab.3.17
-E.Hab.3.17 Although the fig tree shall not blossom, neither shall fruit be in the vines; the labour of the olive shall fail, and the fields shall yield no meat; the flock shall be cut off from the fold, and there shall be no herd in the stalls:
-
-α.Hab.3.1ɸ:
-E.Hab.3.1ɸ: Yet I will rejoice in the LORD, I will joy in the God of my salvation.
-
-α.Hab.3.19
-E.Hab.3.19 The LORD God is my strength, and he will make my feet like hinds' feet, and he will make me to walk upon mine high places. To the chief singer on my stringed instruments.
+1.1 WEanun ne Habakkuk quoshodtumwáen nagkup.
+1.2 Woi Jehovah, tohutt8che pish nummóh, kah matta ken8tam8h? chek[è]enéhimuk kummauunnitteaush, kah matta k8wadchánuoh?
+1.3 Toh$wutch nahtinéan matcheseonk, kah kenaumwáheh ne neuantamhikque? newutche woskehittuonk, kah chekeenehtuonk ohtaash anaquabeh: kah nawhutch waápinnumwog penuanittuonk kah keketehtôadtuonk.
+1.4 Newaj naumatuonk annishi kah wussittumoonk sasohham8mun8: newutche matchet8og quinnuppekauáog sampweussenitcheh: newaj woonki wussittumoonk monchem8.
+1.5 Kuhkinneam8k ut kenugke penuwohteaog, kah natwontam8k, kah m8cheke monchanatam8k; newutche nutussen anakausuonk ut kukkesukodtum8out, & matta pish wanamptam8óg tôkonogque kuttininnuneau.
+1.6 Newutche kusseh, nuttahshin Caldeansog, ne weesogok kah kenupshae wutohtimoin, neg pish pannupwushacheg ne ne koshkag ohke, wutahtauunnaout ayeuongash nish matta wadt[ì]hehettegish.
+1.7 Nag unkqueneunkqussuog quoshae unneunkqussuog: 8sittum8ongan8 kah ummissugken8ongan8 pish sohham8m8 wutch wuhhogkaout.
+1:8 Wonk wuthorsesumouh anue kenupshaog onk Leopardsog, kah anue unkqueneunkqussuog onk neg wunnunkquae mukquoshimwog: kah wuthorsmenum8uh pish sepageah, kah wuthorsmenum8uh pish noadut 8mwoh, nag pish ogque pt8eog wompisikikquaut kenuppe nonchipwut.
+1.9 Nag pish wame chekee peyaog wuskesukk88ash pish ogque nummuhquaog wutchepwoshinit, kah nag pish mukkinaog missinuh onatuh naguntu.
+1.10 Kah nag pish eiontogkonaog ketass8tamwoh, kah sontimuh pish mishananumaog, nag pish ahanehtamwog nish$noh menuhkohkonous, newutche pish numwonkquottauog puppissi, kah sohkomuneau.
+1.11 Neit pish ôs8wantam, kah pish paumwushau, kah matcheneheau, ogquontog ummenuhkesuonk en um-Manitt8mut.
+1.12 Sun matta k8chiyeu machemeyeu8k woi Jehovah num-Manitt8m, n8neetupanatam8m? matta pish nunnupp8mun woi Jehovah, kukkuhquttumauoog wussittummoonk, kah woi missugkenue God nag kummenuhkeheog wutche sasamatahwhuttuonk.
+1.13 Kuskesukquash anue pahkeyeu8ash onk woh mat monunneaum 8munn8ash machuk, kah matta woh kummonunneaum8 matcheseonk, tohwaj monunneauadt nag wanass8muacheg: kah toh waj chequnappean, matchetou mahchipwut noh anue nehwunneetomukqutcheh?
+1.14 Kah ogquehheadt wosketompaog kehtahhanne namohsut, kah papamompakecheg neg matta wananawunnuom8gig.
+1.15 Nah wuttohqunouh nashpe uhquoan: wuttohqunouh ut wuthashabp8out, kah nah ummukkinouh ut ogquoshkouae hashabput, newaj muskouanatamwohettit, kah weekontamwuhhettit.
+1.16 Newaj sephamauwahettit wuthashabp8oh, kah chikohsumauaog weetemungquok ogquoshkauae hashabpoh: newutche nag nashpe wutchippiyeum8 wunogk8m8 kah ummeechumum8 monat.
+1.17 Newaj sequnahettit wuthashabpouh, kah matta wohquontamoog nagwutteae nushonat wutohtimoneash.
+2.1 NUnneepo nutaskwheteaonganit, kah nukquenap qunuhquikomukqut, kah nutashkum naumunat, uttoh woh ásit, kah uttoh woh an nunnamp8ham, áuskomimuk,
+2.2 Kah Jehovah namp8hamunk, kah n8wau, wussukwhush monomansuonk, kah wunnehteaush ut tablesut, onk ukquogqueeu woh ogkeetamun.
+2.3 Newutche monomansuonk ash ohteau kuhquttumwe ahquompiyeuut, qut adt wohkukquoshik pish kutt8, kah matta pann8wau, tôkonogque sepepahtsúm8, pahtó8k, newutche pish wunnamuhkut peyom8, matta sepohtan8.
+2.4 Kusseh, ukketeahogkôunoh aspunnumauútcheh ut wuhhogkat, matta sampweséoh: qut sampwesecheg pish wunnamptamwe pomantamwog.
+2.5 Nux wonk, newutche pannesu nashpe wine, noh pittuánum8, kah matta appu wekit ogque mishe kishkeheau ukkodtantamoonk chepiohkomuk, ogqueneunkqussu nupp8onganit, kah matta tápunnu, qut miyaéhtunk wame wutohtimoneash, kah nannomunkquodtau wame missinninnúh.
+2.6 Sunnummatta wame yeug pish ayeuhkonittue wunnemunnumauóuh nupwoaonk, kah eiontogkoss8wae nupwoáonk kah n8waog, missi wutonkapunaonk noh peishkohtunk ne matta wadtiheik: toh utt8che? kah noh weasséhheont wuhhogkuh pissogque man8[n]skoh.
+2.7 Sunnummatta woh kenuppe neepau8og neg woh saképukqueaneg? kah t8hkeog neg m8m8sqhikqueaneg? kah ken pish tohqunnumoonk wutche nagoh.
+2.8 Newutche k8wosketeoh monatash wutohtimoneash, wame ashqusháe missinninnúog pish kummatchhukquog, wutche wosketompae wusqueheonk, kah wutche wutchekeéyeum ohke, kah keitotan kah wame neg na wadohkitcheg.
+2.9 Missi wutonkapunáonk noh ahchewontog matche ahchewontamóonk ut wekit, onk woh qunúhquehteau 8wadsh, onk woh pohquohwhunau wutch ummenuhkesuonganit machuk.
+2.10 K8weet8wáem akodchuonk ut kekit, nashpe tummetahwhonat monaog missinninnumog, kah kummatcheenneh kukketeahogkou.
+2.11 Newutche qussuk pish mishont8au wutch hassunnutunkanit, kah beame wutch timberut pish wame namp8hamwóntamun.
+2.12 Missi wutonkapunáonk noh ayik otan nashpe musqueheonk, kah manuhkehteunk keitotan nashpe matcheseonk.
+2.13 Kusseh ne matta wutchiin8 Jehovah ayeuhteaunitt8ut, onk missinninnuog woh anakausuog ut n8taut, kah missinninnuog pish sauunáog wuhhogkauh wutche tahn8cheyeu8uk.
+2.14 Newutche ohke pish numwohteau wahteauonk wussohsumóonk Jehovah, onatuh nippeash nohkukog keitoh.
+2.15 Missi wutonkapunáonk noh wadtattamheont weetatteamungoh; anumauadt k8wisq, kah wonk kukkogkeissippamwah; onk woh kenaum upposkissuonk.
+2.16 Kenumwohtont akodchuonk wutche sohsumóonk: ken wonk wuttattash, káh kenegonúm wadtuhquab poskuhtaj: wuttinnuhkôune Jehovah wuttattamwaitch pish quinnuppem8 en kuhhogkat, kah akodchue menadtamóonk pish ohteau kussohsum8onganit.
+2.17 Newutche Lebanonne chekeyeuuk pish kenuhkuhkunk, kah ummatchhuaongan8 puppinashimwog, neh wabesehikquehetticheh, wutche wosketompaog 8sqheongan8, kah wutch wutchekeiyeum ohke keitotan, kah wame neg na ayitcheg.
+2.18 Teaguas k8chiyimw8 nunnúkontungane Manit, waj noh kezheunt kogkoxwont, sabassumwe nuñúkontunk, kah pann8wae kohk8tomwehteadt, waj noh kezheunt anakausuonk uppabahtantamun, ayeuónat kupputt8nae nunnúkontungoh?
+2.19 Missi wutonkapunnaonk noh adtog mehtug, t8hkish, kah mo kaket8e qussuk, neepaush, pish kuhk8tomwehteau, kusseh, ogquodtause gold kah silver, kah matta nashauonganinn8 ut nashaueu.
+2.20 Qut Lorduh appuoh ut 8neetupanatamwe wut-templumut, wame ohke chequnaphettich ut anaquabhettit.
+3.1 UPpeantamoonk Habbakuk quoshodtumwaen ut Sigionoth.
+3.2 Woi Jehovah nunn8tamup kukkutt8onk & n8wabesip: woi Jehovah, quagquaqueteaush kutanakausuonk ut nashaue kukodtum8mut ut nashaue kodtum8ut wahteauwahuash, ut musquanittuonganit mehquontash monaneteaonk.
+3.3 God w8mup Teman, kah waneetupanatamweyeuit wutch Parane wadchuut, Selah. Wussohsumóonk nuhkuhkom kesukquash, kah ohke numwohteau woweenomáonk.
+3.4 Kah 8wohsumoonk netatuppeyeu8 wequai: wutaskonuh neepouh wunnutcheganit, kah naut adtahtausu ummenuhkesuonk.
+3.5 Ut anaquabit ohteau unninneáonk, kah chikkohtae mokkossaash sohhum8m8ash adt wusseetut.
+3.6 Neepau kah quttuhham ohke: mónunneam, kah chadchabohkon wutohtimóneash, kah micheme wadchuash seahhausuash, michemohtae wadchuemésash nauaemoash, ummayash ne matchemohtag:
+3.7 Nunnaumup Chushanne wetuomash ut unkquanum8onganit: kah Mediane ohkee onkwheganog nunnukshaog.
+3.8 Sun Jehovah musquantamwus sepuash? sun musquantam8onk ayeukontam8us sepuash? sun kumm8squantam8mus keitoh waj nayeumukquean kut-horsesumog, kah wadchanittue kutchariotsumash?
+3.9 Kutohtomp poskisseoh neaunak chippan8ongane chadchekeyeuongash, ne kukkutt8onk, Selah, kuppassissum ohke nashpe sepuash.
+3.10 Wadchuash kenóg, kah nunnukshaog: tomogkonne nippe paumushom8: m8noi mishont8wau, qunuhqui tahshinum wunnutchegash.
+3.11 Nepâuz kah nanepouhshadt neepoog ut wutappuonganit: ut wequae kukkôuhquodtut auog, kah wôsittae woósippae kukqunuhtug.
+3.12 Kummusquanittamwe pannupwushab ohke, kummusquanittamwe poggohwhomp pen8wohteáog.
+3.13 Kussohhamup wutch wadchanaongan8 kummissinninnúmog, wutch wadchanáonk weeche saséqunast, ken8chumwehthamup muhpuhkuk wutch wekit matcheetou, wuhshadtauan quenohtausuonk wehque mussittipukanit. Selah.
+3.14 Kuppannuppetahwhomp nashpe wutanwohh8unash wutotanamese muhpuhkuk: ohque sohhamwog pemsquahut nusseóhukqunnaóut: nag 8wekontam8ongan8 onatuhyeu8 keme mahchipwunneat matcheku.
+3.15 Kuppannupwushop kehtahhannit nashpe kuthorsesumwog, papashpu numwonkquae nippeash.
+3.16 N8tamon, nunnogkus nanukushunk; nussissitt8n nunnuksheae mishont8adt, aninn8onk petutteom8 nuskonit, kah nunnukushomp ut nuhhogkat, onk woh nutanwossum ut onkapunae kesukodtut: kuhkuhquit en missinninnutu, noh pish wuss8kqswoh nashpe wutchippan8ongash.
+3.17 Tohkônogque figsuhtug matta peshauan8, kah wenomwussippogwash matta meechumun8ash: Olive anakausuonk panushunk kah ohteuhkonash matta meechumunog, flok tummetahwhut wutch foldut, kah matta cowashinnin8 ut stalsut.
+3.18 Qut onch n8weekontam8on Jehovah, n8weekontam8on n8wadchanua[e] Manitt8m.
+3.19 Jehovah Manit nummenuhkesuonk, kah pish ogquehteau nusseetash ahtuhkqusseetut, kah pish nuppomushahik nukqunuhqui ayeuonganit, en nehtohumwaenuut ut Neginoth.
