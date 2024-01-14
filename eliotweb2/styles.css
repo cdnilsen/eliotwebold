@@ -29,24 +29,17 @@ tbody {
 
 .navGrid {
     display: grid;
-    width: 100%;
-    grid-template-columns: auto;
+    grid-template-columns: repeat(4, 1fr);
+    
     gap: 10px;
     grid-auto-rows: minmax(50px, auto);
 }
 
-.navButton {
-    text-align: center;
-    vertical-align: top;
-    width: 100%;
-    height: 100%;
-}
 
 .navButton button {
     font-size: 30px;
     height: 50px;
     vertical-align: top;
-    width: 100%;
 }
 
 

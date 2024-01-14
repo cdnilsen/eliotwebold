@@ -412,7 +412,6 @@ function printVerses(JSONBlob, chapter, useFirst, useSecond, useMayhew, useZerot
         var prevChapterButton = document.createElement("span");
     }
 
-    
     if (! isLastChapter) {
         var nextChapterButton = document.createElement("button");
         nextChapterButton.innerHTML = "→";
