@@ -21,11 +21,51 @@ tbody {
     overflow-y: scroll;
 }
 
-.navRow td {
-    width: 50%;
+.mainTextGrid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
     position: sticky;
     top: 0;
+    z-index: 10;
 }
+
+.navButton {
+    text-align: center;
+    vertical-align: top;
+    width:100%;
+    height: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navButton button {
+    font-size: 30px;
+    height: 50px;
+    vertical-align: top;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.textColumns {
+    z-index: 500;
+    background-color: #FFF;
+}
+
+
+
+#stickyButtonBar {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    background-color: #FFF;
+}
+
 
 .t th {
     background-color: rgba(255, 255, 255, 1);

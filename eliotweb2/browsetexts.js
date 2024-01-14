@@ -328,10 +328,6 @@ function printVersesToColumn(myJSON, editionKey, tableRow, hapaxMode="none", isV
         editionCell.style.direction = "rtl";
         editionCell.style.fontSize = "1.4em";
     }
-    /*
-        
-    }
-    */
 
     if (isVerseNumber) {
         editionCell.style.textAlign = "center";
@@ -366,7 +362,7 @@ function printVerses(JSONBlob, chapter, useFirst, useSecond, useMayhew, useZerot
 
     mayhewOnRight = useMayhew && (! mayhewOnLeft);
     zerothOnRight = useZeroth && (! zerothOnLeft);
-
+    
     if (chapter > 1) {
         var prevChapterButton = document.createElement("button");
         prevChapterButton.innerHTML = "←";
@@ -396,6 +392,7 @@ function printVerses(JSONBlob, chapter, useFirst, useSecond, useMayhew, useZerot
     } else {
         document.getElementById("nextChapter").innerHTML = "";
     }
+   
         
 
     for (var i = 0; i < JSONBlob.length; i++) {
