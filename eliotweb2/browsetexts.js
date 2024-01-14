@@ -370,22 +370,22 @@ function printVerses(JSONBlob, chapter, useFirst, useSecond, useMayhew, useZerot
     var firstChapterButtonDiv = document.createElement("div");
     firstChapterButtonDiv.id = "firstChapterButtonDiv";
     firstChapterButtonDiv.style.gridRow = "1";
-    firstChapterButtonDiv.style.gridColumn = "1/4";
+    firstChapterButtonDiv.style.gridColumn = "1";
 
     var prevChapterButtonDiv = document.createElement("div");
     prevChapterButtonDiv.id = "prevChapterButtonDiv";
     prevChapterButtonDiv.style.gridRow = "1";
-    prevChapterButtonDiv.style.gridColumn = "2/4";
+    prevChapterButtonDiv.style.gridColumn = "2";
 
     var nextChapterButtonDiv = document.createElement("div");
     nextChapterButtonDiv.id = "nextChapterButtonDiv";
     nextChapterButtonDiv.style.gridRow = "1";
-    nextChapterButtonDiv.style.gridColumn = "3/4";
+    nextChapterButtonDiv.style.gridColumn = "3";
 
     var lastChapterButtonDiv = document.createElement("div");
     lastChapterButtonDiv.id = "lastChapterButtonDiv";
     lastChapterButtonDiv.style.gridRow = "1";
-    lastChapterButtonDiv.style.gridColumn = "4/4";
+    lastChapterButtonDiv.style.gridColumn = "4";
 
     
     if (chapter > 1) {
