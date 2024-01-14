@@ -60,22 +60,37 @@
 
         <button type="submit" id="submitBookQuery">Submit</button>
     </span>
-
-    <br>
-    <br>
-        <table class="t" id="verseTable">
-            <colgroup id="colgroup">
-            </colgroup>
-            <thead>
-                <tr id="tableHead">
-                    
+        <table>
+                <tr id="navButtons" class="navRow">
+                    <td class="navButton" id="prevChapter"></td>
+                    <td class="navButton" id="nextChapter"></td>
                 </tr>
-            </thead>
-            <tbody id="tableBody">
+            </table>
             
-            </tbody>
+        <table class="t" id="verseTable">    
+                <thead>
+                    
+                    <colgroup id="colgroup">
+                    </colgroup>
+                    
+                    <tr id="tableHead">
+                        
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <colgroup id="colgroup">
+                    </colgroup>
+                
+                </tbody>
         </table>
 </body>
 <script src="./browsetexts.js"></script>
+<script>
+    function closeIt(){
+        window.location.href = window.location.href.split("?")[0];
+    }
+    window.onbeforeunload = closeIt;
+    window.history.pushState({}, '', window.location.href.split("?")[0]);
 
+</script>
 </html>

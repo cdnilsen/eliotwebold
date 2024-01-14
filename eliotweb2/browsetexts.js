@@ -293,6 +293,7 @@ bookDropdown.addEventListener("change", function() {
 function printVersesToColumn(myJSON, editionKey, tableRow, hapaxMode="none", isVerseNumber=false, ignoreCase=false) {
     var editionText = myJSON[editionKey];
     var editionCell = document.createElement("td");
+    editionText = editionText.replaceAll('$', ' ');
     if (ignoreCase) {
         editionText = editionText.replace(/([A-Z])/g, '<span style="color: red;">$1</span>')
     }
@@ -323,7 +324,6 @@ function printVersesToColumn(myJSON, editionKey, tableRow, hapaxMode="none", isV
     }
     
     if (editionText.includes("׃")) {
-        console.log(editionText);
         editionCell.style.textAlign = "right";
         editionCell.style.direction = "rtl";
         editionCell.style.fontSize = "1.4em";
@@ -343,7 +343,7 @@ function printVersesToColumn(myJSON, editionKey, tableRow, hapaxMode="none", isV
     tableRow.appendChild(editionCell);
 }
 
-function printVerses(JSONBlob, chapter, useFirst, useSecond, useMayhew, useZeroth, useGrebrew, markTextDifferences, hapaxMode) {
+function printVerses(JSONBlob, chapter, useFirst, useSecond, useMayhew, useZeroth, useGrebrew, markTextDifferences, hapaxMode, isLastChapter) {
 
     if (markTextDifferences == "none") {
         JSONKeys = ["rawFirstEdition", "rawSecondEdition"];
@@ -366,6 +366,37 @@ function printVerses(JSONBlob, chapter, useFirst, useSecond, useMayhew, useZerot
 
     mayhewOnRight = useMayhew && (! mayhewOnLeft);
     zerothOnRight = useZeroth && (! zerothOnLeft);
+
+    if (chapter > 1) {
+        var prevChapterButton = document.createElement("button");
+        prevChapterButton.innerHTML = "←";
+        prevChapterButton.id = "prevChapterButton";
+        prevChapterButton.width = "50%";
+        prevChapterButton.addEventListener("click", function() {
+            document.getElementById("chapterSelectionDropdown").value = parseInt(chapter) - 1;
+            document.getElementById("submitBookQuery").click();
+        });
+        document.getElementById("prevChapter").innerHTML = "";
+        document.getElementById("prevChapter").appendChild(prevChapterButton);
+    } else {
+        document.getElementById("prevChapter").innerHTML = "";
+    }
+
+    if (! isLastChapter) {
+        var nextChapterButton = document.createElement("button");
+        nextChapterButton.innerHTML = "→";
+        nextChapterButton.id = "nextChapterButton";
+        nextChapterButton.width = "50%";
+        nextChapterButton.addEventListener("click", function() {
+            document.getElementById("chapterSelectionDropdown").value = parseInt(chapter) + 1;
+            document.getElementById("submitBookQuery").click();
+        });
+        document.getElementById("nextChapter").innerHTML = "";
+        document.getElementById("nextChapter").appendChild(nextChapterButton);
+    } else {
+        document.getElementById("nextChapter").innerHTML = "";
+    }
+        
 
     for (var i = 0; i < JSONBlob.length; i++) {
         var thisVerseDict = JSONBlob[i];
@@ -407,17 +438,49 @@ function printVerses(JSONBlob, chapter, useFirst, useSecond, useMayhew, useZerot
 }
 
 document.getElementById("submitBookQuery").addEventListener("click", function() {
+
+    
+    /*if (window.location.href.includes("?")) {
+        var url = window.location.href.split("?")[0];
+    } else {
+        var url = window.location.href;
+    }
+    */
+    var url = window.location.href;
+    
+
     // Clears the columns
+    //document.getElementById("navs").innerHTML = "";
     document.getElementById("tableHead").innerHTML = "";
     document.getElementById("colgroup").innerHTML = "";
     document.getElementById("tableBody").innerHTML = "";
+    
+    //let params = new URLSearchParams(url.search.slice(1));
+    //console.log(params.toString());
 
+    //document.getElementById("navs").appendChild(document.createElement("col")).style.width = "50%";
+    //document.getElementById("navs").appendChild(document.createElement("col")).style.width = "50%";
+    
+
+    let params = new URLSearchParams(url.search);
+
+
+    //params.append("hello", "world");
+    
+    
 
     var myQueryOptions = document.getElementById("queryOptions");
     for (var i = 0; i < myQueryOptions.length; i++) {
         myQueryOptions[i].defaultChecked = myQueryOptions[i].checked; // Does this do anything?
         }
     var myBook = document.getElementById("bookSelectionDropdown").value;
+    params.append("book", myBook);
+
+    var chapterList = document.getElementById("chapterSelectionDropdown");
+    var lastChapter = chapterList[chapterList.length - 1].value; // Needed later for the side buttons
+    
+    var whichChapter = chapterList.value;
+    params.append("chapter", whichChapter);
 
     var leftColumns = 0; 
     var rightColumns = 1; // KJV has to be included
@@ -425,6 +488,16 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
     var useFirstEdition = document.getElementById("include_first_edition").checked;
     var useSecondEdition = document.getElementById("include_second_edition").checked;
     var useGrebrew = document.getElementById("includeGrebrew").checked;
+
+    if (useFirstEdition) {
+        params.append("firstEd", useFirstEdition);
+    }
+    if (useSecondEdition) {
+        params.append("secondEd", useSecondEdition);
+    }
+    if (useGrebrew) {
+        params.append("grebrew", useGrebrew);
+    }
 
     var hapaxMode = "none";
     if (document.getElementById("hapaxes_lax").checked) {
@@ -447,6 +520,7 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
 
     if (myBook == "Psalms (prose)" || myBook == "John") {
         var useMayhew = document.getElementById("mayhewCheckbox").checked;
+        params.append("mayhew", useMayhew);
         if (useMayhew && leftColumns == 2) {
             rightColumns++;
             rightColumnList.push("Mayhew");
@@ -460,6 +534,7 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
 
     if (myBook == "Genesis") {
         var useZerothEdition = document.getElementById("zerothEditionCheckbox").checked;
+        params.append("zerothEd", useZerothEdition);
         if (useZerothEdition && leftColumns == 2) {
             rightColumns++;
             rightColumnList.push("Zeroth Edition");
@@ -483,6 +558,12 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
         rightColumns++;
         rightColumnList.push(nameString);
     }
+
+    if (hapaxMode != "none") {
+        params.append("markHapaxes", hapaxMode);
+    }
+    
+    var onLastChapter = (whichChapter == lastChapter);
 
     var leftColumnMeasure = ""
     var rightColumnMeasure = ""
@@ -536,8 +617,6 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
         rightColumnHeader.innerHTML = "<u>" + rightColumnList[i] + "</u>";
         document.getElementById("tableHead").appendChild(rightColumnHeader);
     }
-
-    var whichChapter = document.getElementById("chapterSelectionDropdown").value;
     
     var markTextDifferences = "none";
     if (document.getElementById("include_casing").checked) {
@@ -546,12 +625,19 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
         markTextDifferences = "excludeCasing";
     }
 
+    if (markTextDifferences != "none") {
+        params.append("markDiffs", markTextDifferences);
+    }
+
+    url = url.split("?")[0] + "?" + params.toString();
+    window.history.replaceState({}, '', url);
 
     fetch('./textJSON/' + myBook + '.json')
         .then(res =>  {
             return res.json();
         })
         .then((data) => {
-            printVerses(data, whichChapter, useFirstEdition, useSecondEdition, useMayhew, useZerothEdition, useGrebrew, markTextDifferences, hapaxMode);
+            printVerses(data, whichChapter, useFirstEdition, useSecondEdition, useMayhew, useZerothEdition, useGrebrew, markTextDifferences, hapaxMode, onLastChapter);
         })
     });
+
