@@ -293,7 +293,7 @@ bookDropdown.addEventListener("change", function() {
 function formatText(editionText, hapaxMode="none", isVerseNumber=false, ignoreCase=false) {
     editionText = editionText.replaceAll('$', ' ');
     if (ignoreCase) {
-        editionText = editionText.replace(/([A-Z])/g, '<span style="color: red;">$1</span>')
+        editionText = editionText.replace('<span style="color: blue">', '');
     }
     if (hapaxMode == "lax") {
         editionText = editionText.replaceAll('‹', '');
@@ -318,27 +318,8 @@ function formatText(editionText, hapaxMode="none", isVerseNumber=false, ignoreCa
         editionText = editionText.replaceAll('</u>', '');
         editionText = editionText.replaceAll('<H>', '');
         editionText = editionText.replaceAll('</H>', '');
-    }  
-    if (editionText.includes("׃")) {
-        editionCell.style.textAlign = "right";
-        editionCell.style.direction = "rtl";
-        editionCell.style.fontSize = "1.4em";
-    }
-    if (isVerseNumber) {
-        editionCell.style.textAlign = "center";
-        editionCell.style.fontWeight = "bold";
-        editionCell.style.fontSize = "1.2em";
-        editionCell.style.verticalAlign = "center";
-    }
+    } 
     return editionText;
-}
-
-function printVersesToColumn(myJSON, editionKey, tableRow, hapaxMode="none", isVerseNumber=false, ignoreCase=false) {
-    var editionText = formatText(myJSON[editionKey], hapaxMode, isVerseNumber, ignoreCase);
-    var editionCell = document.createElement("td");
-    
-    editionCell.innerHTML = editionText;
-    tableRow.appendChild(editionCell);
 }
 
 function populateJSONKeys(markTextDifferences)  {
@@ -358,6 +339,7 @@ function populateJSONKeys(markTextDifferences)  {
 
 function createNavButtons(currentChapter, isLastChapter) {
     document.getElementById("navButtonGrid").innerHTML = "";
+    document.getElementById("navButtonGrid").style.background = "white";
 
     var buttonDivNames = ["firstChapterButtonDiv", "prevChapterButtonDiv", "nextChapterButtonDiv", "lastChapterButtonDiv"];
 
@@ -368,7 +350,7 @@ function createNavButtons(currentChapter, isLastChapter) {
         thisDiv.id = buttonDivNames[i];
         thisDiv.style.gridRow = "1";
         thisDiv.style.gridColumn = (i + 1).toString();
-        buttonDivList.append(thisDiv);
+        buttonDivList.push(thisDiv);
     }
     
     let allButtonList = [];
@@ -397,8 +379,8 @@ function createNavButtons(currentChapter, isLastChapter) {
         var prevChapterButton = document.createElement("span");
     }
 
-    allButtonList.append(firstChapterButton);
-    allButtonList.append(prevChapterButton);
+    allButtonList.push(firstChapterButton);
+    allButtonList.push(prevChapterButton);
 
     if (! isLastChapter) {
         var nextChapterButton = document.createElement("button");
@@ -423,86 +405,91 @@ function createNavButtons(currentChapter, isLastChapter) {
         var lastChapterButton = document.createElement("span");
     }
 
-    allButtonList.append(nextChapterButton);
-    allButtonList.append(lastChapterButton);
+    allButtonList.push(nextChapterButton);
+    allButtonList.push(lastChapterButton);
 
     for (var i = 0; i < allButtonList.length; i++) {
-        buttonDivList[i].classList.add(allButtonList[i]);
+        buttonDivList[i].appendChild(allButtonList[i]);
         document.getElementById("navButtonGrid").appendChild(buttonDivList[i]);
-        
     }
 }
 
-function printVerses(JSONBlob, chapter, useFirst, useSecond, useMayhew, useZeroth, useGrebrew, markTextDifferences, hapaxMode, isLastChapter) {
+function populateVerseRow(verseDict, infoDict, hapaxMode, markTextDiffs) {
+    var myKeys = populateJSONKeys(markTextDiffs);
 
-    var JSONKeys = populateJSONKeys(markTextDifferences);
-    createNavButtons(chapter, isLastChapter);(markTextDifferences, useMayhew, useZeroth);
+    var ignoreCasing = false;
+    if (markTextDiffs == "excludeCasing") {
+        ignoreCasing = true;
+    }
 
-    mayhewOnLeft = useMayhew && useFirst && useSecond;
-    zerothOnLeft = useZeroth && useFirst && useSecond;
+    allTextList = [];
+    whichTextList = [];
+    var hasAltEdition = infoDict["useMayhew"] || infoDict["useZeroth"];
 
-    mayhewOnRight = useMayhew && (! mayhewOnLeft);
-    zerothOnRight = useZeroth && (! zerothOnLeft);
+    var whichAltEdition = "";
 
-    
-    for (var i = 0; i < JSONBlob.length; i++) {
-        var thisVerseDict = JSONBlob[i];
-        if (thisVerseDict["chapter"] == chapter) {
-            var thisVerse = thisVerseDict["verse"];
-            
-            document.getElementById("tableBody").appendChild(document.createElement("tr")).id = "row" + thisVerse;
-
-            thisRow = document.getElementById("row" + thisVerse);
-            
-            if (useFirst) {
-                printVersesToColumn(thisVerseDict, JSONKeys[0], thisRow, hapaxMode);
-            }
-            if (useSecond) {
-                printVersesToColumn(thisVerseDict, JSONKeys[1], thisRow, hapaxMode);
-            }
-            if (mayhewOnRight) {
-                printVersesToColumn(thisVerseDict, "rawMayhew", thisRow, hapaxMode);
-            }
-            if (zerothOnRight) {
-                printVersesToColumn(thisVerseDict, "rawZeroth", thisRow, hapaxMode);
-            }
-
-            printVersesToColumn(thisVerseDict, "fullverse", thisRow, "none", true);
-
-            if (mayhewOnLeft) {
-                printVersesToColumn(thisVerseDict, "rawMayhew", thisRow, hapaxMode);
-            }
-            if (zerothOnLeft) {
-                printVersesToColumn(thisVerseDict, "rawZeroth", thisRow, hapaxMode);
-            }
-            printVersesToColumn(thisVerseDict, "rawKJV", thisRow);
-
-            if (useGrebrew) {
-                printVersesToColumn(thisVerseDict, "grebrew", thisRow, hapaxMode);
-            }
+    //Won't always be raw
+    if (hasAltEdition) {
+        if (infoDict["useMayhew"]) {
+            whichAltEdition = "rawMayhew";
+        } else {
+            whichAltEdition = "rawZeroth";
         }
     }
-}
 
-function populateVerseColumns(bookJSON, myChapter) {
-    for (var i = 0; i < bookJSON.length; i++) {
-        var thisVerseDict = bookJSON[i];
-        if (thisVerseDict["chapter"] == myChapter) {
-            var thisVerse = thisVerseDict["verse"];
+    var altEditionOnRight = hasAltEdition && infoDict["useFirstEdition"] && infoDict["useSecondEdition"];
 
+    if (infoDict["useFirstEdition"]) {
+        var firstEditionText = verseDict[myKeys[0]];
+        allTextList.push(formatText(firstEditionText, hapaxMode, false, ignoreCasing));
+        whichTextList.push("first");
+    }
+    if (infoDict["useSecondEdition"]) {
+        var secondEditionText = verseDict[myKeys[1]];
+        allTextList.push(formatText(secondEditionText, hapaxMode, false, ignoreCasing));
+        whichTextList.push("second");
+    }
+
+    if (altEditionOnRight) {
+        var altEditionText = verseDict[whichAltEdition];
+        allTextList.push(formatText(altEditionText, hapaxMode, false, ignoreCasing));
+        whichTextList.push("alt");
+    }
+
+    allTextList.push(formatText(verseDict["fullverse"], "none", true));
+    whichTextList.push("verse");
+
+    if (hasAltEdition && ! altEditionOnRight) {
+        var altEditionText = verseDict[whichAltEdition];
+        allTextList.push(formatText(altEditionText, hapaxMode, false, ignoreCasing));
+        whichTextList.push("alt");
+    }
+
+    var KJVText = verseDict["rawKJV"];
+    allTextList.push(formatText(KJVText, "none", false, false));
+    whichTextList.push("KJV");
+
+    if (infoDict["useGrebrew"]) {
+        var grebrewText = verseDict["grebrew"];
+        allTextList.push(formatText(grebrewText, hapaxMode, false, ignoreCasing));
+        if (grebrewText.includes("׃")) {
+            whichTextList.push("hebrew");
+        } else {
+            whichTextList.push("greek");
         }
     }
+    return [allTextList, whichTextList];
 }
 
 function populateCell(cellCounter, cellText, parentDiv, isHeader=false, isVerseNumber=false) {
     var cellDiv = document.createElement("div");
     if (cellCounter > 1) {
-        columnHead.classList.add("editionHeader");
+        cellDiv.classList.add("editionHeader");
     } else {
-        columnHead.classList.add("firstColumnHeader");
+        cellDiv.classList.add("firstColumnHeader");
     }
 
-    columnHead.style.gridColumn = cellCounter.toString();
+    cellDiv.style.gridColumn = cellCounter.toString();
     cellCounter++;
 
     if (isHeader) {
@@ -513,10 +500,55 @@ function populateCell(cellCounter, cellText, parentDiv, isHeader=false, isVerseN
         cellDiv.innerHTML = cellText;
     }
     parentDiv.appendChild(cellDiv);
-    //document.getElementById("editionHeaders").appendChild(columnHead);
 
     // An ugly little hack to avoid dealing with global variables
     return cellCounter;
+}
+
+function populateVerseColumns(bookJSON, myChapter, columnMeasureString, searchInfo, hapaxMode, markTextDiffs) {
+    var topDiv = document.getElementById("textColumns");
+    topDiv.innerHTML = "";
+    for (var i = 0; i < bookJSON.length; i++) {
+        var thisVerseDict = bookJSON[i];
+        if (thisVerseDict["chapter"] == myChapter) {
+            var thisVerse = thisVerseDict["verse"];
+            var verseDiv = document.createElement("div");
+            verseDiv.classList.add("verseRow");
+            verseDiv.id = "verse " + thisVerse;
+            verseDiv.style.gridRow = (i + 1).toString();
+            verseDiv.style.gridTemplateColumns = columnMeasureString;
+            var allVerseTexts = populateVerseRow(thisVerseDict, searchInfo, hapaxMode, markTextDiffs);
+            var allVerses = allVerseTexts[0];
+            var allVerseTypes = allVerseTexts[1];
+
+            for (var j = 0; j < allVerses.length; j++) {
+                var verseColumn = document.createElement("div");
+                if (j > 0) {
+                    verseColumn.classList.add("verseColumn");
+                } else {
+                    verseColumn.classList.add("firstVerseColumn");
+                }
+                verseColumn.style.gridColumn = (j + 1).toString();
+                verseColumn.innerHTML = allVerses[j];
+
+                if (allVerseTypes[j] == "verse") {
+                    verseColumn.style.textAlign = "center";
+                    verseColumn.style.fontWeight = "bold";
+                    verseColumn.style.fontSize = "1.2em";
+                    verseColumn.style.verticalAlign = "center";
+                }
+
+                if (allVerseTypes[j] == "hebrew") {
+                    verseColumn.style.textAlign = "right";
+                    verseColumn.style.direction = "rtl";
+                    verseColumn.style.fontSize = "1.4em";
+                }
+
+                verseDiv.appendChild(verseColumn);
+            }
+            topDiv.appendChild(verseDiv);
+        }
+    }
 }
 
 function getHapaxMode(myParams) {
@@ -536,7 +568,6 @@ function useEdition(editionLabel, myParams, paramLabel) {
     if (useEdition) {
         myParams.append(paramLabel, useEdition);
     }
-    
     return useEdition;
 }
 
@@ -573,34 +604,36 @@ function searchInfoGetter(myParams) {
     return searchDict;
 }
 
-function pushEditionToColumn(searchDict, editionLabel, columnList, columnCounter) {
+function pushEditionToColumn(name, searchDict, editionLabel, columnList, columnCounter) {
     let useEdition = searchDict[editionLabel];
     if (useEdition) {
-        columnCounter ++;
-        columnList.push(editionLabel);
+        columnCounter++;
+        columnList.push(name);
     }
-    return useEdition;
+    return columnCounter;
 }
 
 function columnListPopulator(searchDict) {
-    let numLeftColumns = 0;
-    let numRightColumns = 1; // KJV has to be included
+    var numLeftColumns = 0;
+    var numRightColumns = 0;
 
-    let leftColumnList = [];
-    let rightColumnList = [];
+    var leftColumnList = [];
+    var rightColumnList = [];
 
-    let checkFirst = pushEditionToColumn(searchDict, "useFirstEdition", leftColumnList, numLeftColumns);
-    let checkSecond = pushEditionToColumn(searchDict, "useSecondEdition", leftColumnList, numLeftColumns);
+    numLeftColumns = pushEditionToColumn("First Edition", searchDict, "useFirstEdition", leftColumnList, numLeftColumns);
+    numLeftColumns = pushEditionToColumn("Second Edition", searchDict, "useSecondEdition", leftColumnList, numLeftColumns);
 
-    if (checkFirst && checkSecond) {
-        pushEditionToColumn(searchDict, "useMayhew", rightColumnList, numRightColumns);
-        pushEditionToColumn(searchDict, "useZeroth", rightColumnList, numRightColumns);
+
+    if (numLeftColumns > 1) {
+        numRightColumns = pushEditionToColumn("Mayhew", searchDict, "useMayhew", rightColumnList, numRightColumns);
+        numRightColumns = pushEditionToColumn("Zeroth Edition", searchDict, "useZeroth", rightColumnList, numRightColumns);
     } else {
-        pushEditionToColumn(searchDict, "useMayhew", leftColumnList, numLeftColumns);
-        pushEditionToColumn(searchDict, "useZeroth", leftColumnList, numLeftColumns);
+        numLeftColumns = pushEditionToColumn("Mayhew", searchDict, "useMayhew", leftColumnList, numLeftColumns);
+        numLeftColumns = pushEditionToColumn("Zeroth Edition", searchDict, "useZeroth", leftColumnList, numLeftColumns);
     }
 
     rightColumnList.push("KJV");
+    numRightColumns++;
 
     if (searchDict["useGrebrew"]) {
         nameString = ""
@@ -615,7 +648,44 @@ function columnListPopulator(searchDict) {
     return [numLeftColumns, numRightColumns, leftColumnList, rightColumnList];
 }
 
-function populateHeaders(leftColumnList, rightColumnList, allColumnMeasures) {
+function columnMeasurePopulator(numLeftColumns, numRightColumns) {
+    var allColumnMeasures = "";
+    var verseColumnMeasure = "10%"
+    if (numLeftColumns == 1) {
+        allColumnMeasures += "45% ";
+    } else if (numLeftColumns == 2) {
+        allColumnMeasures += "22.5% ";
+        allColumnMeasures += "22.5% ";
+    }
+
+    allColumnMeasures += verseColumnMeasure + " ";
+    
+    if (numRightColumns == 3) {
+        allColumnMeasures += "15% ";
+        allColumnMeasures += "15% ";
+        allColumnMeasures += "15% ";
+    } else if (numRightColumns == 2) {
+        rightColumnMeasure = "22.5%";
+        allColumnMeasures += "22.5% ";
+        allColumnMeasures += "22.5% ";
+    } else {
+        rightColumnMeasure = "45%";
+        allColumnMeasures += "45% ";
+    }
+
+    return allColumnMeasures.trim();
+}
+
+function populateHeaders(mySearchInfo) {
+    let columnInfoList = columnListPopulator(mySearchInfo);
+    let numLeftColumns = columnInfoList[0]; 
+    let numRightColumns = columnInfoList[1];
+
+    let leftColumnList = columnInfoList[2];
+    let rightColumnList = columnInfoList[3];
+
+    let allColumnMeasures = columnMeasurePopulator(numLeftColumns, numRightColumns);
+
     var whichColumnCounter = 1;
     var editionHeaders = document.getElementById("editionHeaders");
     editionHeaders.innerHTML = "";
@@ -630,6 +700,8 @@ function populateHeaders(leftColumnList, rightColumnList, allColumnMeasures) {
     for (var i = 0; i < rightColumnList.length; i++) {
         whichColumnCounter = populateCell(whichColumnCounter, rightColumnList[i], editionHeaders, true, false);
     }
+
+    return allColumnMeasures;
 }
 
 function textDifferenceHandler(myParams) {
@@ -645,14 +717,13 @@ function textDifferenceHandler(myParams) {
 }
 
 document.getElementById("submitBookQuery").addEventListener("click", function() {
-
-    
     /*if (window.location.href.includes("?")) {
         var url = window.location.href.split("?")[0];
     } else {
         var url = window.location.href;
     }
     */
+    window.scrollTo(0, 0);
     var url = window.location.href;
 
     let params = new URLSearchParams(url.search);
@@ -667,51 +738,12 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
     var myChapter = searchInfo["chapter"];
     var lastChapter = searchInfo["lastChapter"];
     
-    var useFirstEdition = searchInfo["useFirstEdition"];
-    var useSecondEdition = searchInfo["useSecondEdition"];
-    var useGrebrew = searchInfo["useGrebrew"];
-    var useMayhew = searchInfo["useMayhew"];
-    var useZerothEdition = searchInfo["useZeroth"];
 
-    let columnInfoList = columnListPopulator(searchInfo);
-    var numLeftColumns = columnInfoList[0]; 
-    var numRightColumns = columnInfoList[1];
-
-    var leftColumnList = columnInfoList[2];
-    var rightColumnList = columnInfoList[3];
-
+    var allColumnMeasures = populateHeaders(searchInfo);
+    
     var hapaxMode = getHapaxMode(params);
     
-    var onLastChapter = (myChapter == lastChapter);
-
-    //Highly inelegant, but works
-
-    var allColumnMeasures = "";
-    var verseColumnMeasure = "10%"
-
-    if (leftColumns == 1) {
-        allColumnMeasures += "45% ";
-    } else if (leftColumns == 2) {
-        allColumnMeasures += "22.5% ";
-        allColumnMeasures += "22.5% ";
-    }
-
-    allColumnMeasures += verseColumnMeasure + " ";
-    
-    if (rightColumns == 3) {
-        allColumnMeasures += "15% ";
-        allColumnMeasures += "15% ";
-        allColumnMeasures += "15% ";
-    } else if (rightColumns == 2) {
-        rightColumnMeasure = "22.5%";
-        allColumnMeasures += "22.5% ";
-        allColumnMeasures += "22.5% ";
-    } else {
-        rightColumnMeasure = "45%";
-        allColumnMeasures += "45% ";
-    }
-
-    populateHeaders(leftColumnList, rightColumnList, allColumnMeasures);
+    var isLastChapter = (myChapter == lastChapter);
     
     var markTextDifferences = textDifferenceHandler(params);
 
@@ -723,7 +755,8 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
             return res.json();
         })
         .then((data) => {
-            printVerses(data, whichChapter, useFirstEdition, useSecondEdition, useMayhew, useZerothEdition, useGrebrew, markTextDifferences, hapaxMode, onLastChapter);
+            createNavButtons(myChapter, isLastChapter);
+            populateVerseColumns(data, myChapter, allColumnMeasures, searchInfo, hapaxMode, markTextDifferences);
         })
     });
 
