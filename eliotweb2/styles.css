@@ -29,12 +29,10 @@ tbody {
 
 .navGrid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    
+    grid-template-columns: 20% 30% 30% 20%;
     gap: 10px;
     grid-auto-rows: minmax(50px, auto);
 }
-
 
 .navButton button {
     font-size: 30px;
@@ -42,22 +40,19 @@ tbody {
     vertical-align: top;
 }
 
-
 .editionHeaderGrid {
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    grid-auto-rows: minmax(50px, auto);
 }
 
-.leftColumnHeader {
+.editionHeader {
     text-align: center;
     width: 100%;
     height: 100%;
+    border-left:2px solid rgba(255, 0, 0, 0.4);
 }
 
-.rightColumnHeader {
+.firstColumnHeader {
     text-align: center;
     width: 100%;
     height: 100%;
