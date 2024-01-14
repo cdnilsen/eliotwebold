@@ -255,34 +255,34 @@ for (var i = 0; i < allBookList.length; i++) {
 bookDropdown.addEventListener("change", function() {
     updateChapterDropdown(bookDropdown.value);
     if (bookDropdown.value == "Psalms (prose)" || bookDropdown.value == "John") {
-        var mayhewCheckbox = document.createElement("input");
+        var useMayhew = document.createElement("input");
         const label = document.createElement("label");
-        label.htmlFor = "mayhewCheckbox";
+        label.htmlFor = "useMayhew";
         label.innerHTML = "Mayhew (1709)";
 
-        mayhewCheckbox.type = "checkbox";
-        mayhewCheckbox.id = "mayhewCheckbox";
-        mayhewCheckbox.value = "mayhewCheckbox";
-        mayhewCheckbox.name = "mayhewCheckbox";
+        useMayhew.type = "checkbox";
+        useMayhew.id = "useMayhew";
+        useMayhew.value = "useMayhew";
+        useMayhew.name = "useMayhew";
 
-        mayhewCheckbox.checked = true;
-        document.getElementById("otherEditions").appendChild(mayhewCheckbox);
+        useMayhew.checked = true;
+        document.getElementById("otherEditions").appendChild(useMayhew);
         document.getElementById("otherEditions").appendChild(label);
     } 
     
     else if (bookDropdown.value == "Genesis") {
-        var zerothEditionCheckbox = document.createElement("input");
+        var useZeroth = document.createElement("input");
         const label = document.createElement("label");
-        label.htmlFor = "zerothEditionCheckbox";
+        label.htmlFor = "useZeroth";
         label.innerHTML = "Zeroth Edition (1655)";
 
-        zerothEditionCheckbox.type = "checkbox";
-        zerothEditionCheckbox.id = "zerothEditionCheckbox";
-        zerothEditionCheckbox.value = "zerothEditionCheckbox";
-        zerothEditionCheckbox.name = "zerothEditionCheckbox";
+        useZeroth.type = "checkbox";
+        useZeroth.id = "useZeroth";
+        useZeroth.value = "useZeroth";
+        useZeroth.name = "useZeroth";
 
-        zerothEditionCheckbox.checked = true;
-        document.getElementById("otherEditions").appendChild(zerothEditionCheckbox);
+        useZeroth.checked = true;
+        document.getElementById("otherEditions").appendChild(useZeroth);
         document.getElementById("otherEditions").appendChild(label);
     }
     else {
@@ -519,9 +519,108 @@ function populateCell(cellCounter, cellText, parentDiv, isHeader=false, isVerseN
     return cellCounter;
 }
 
-function populateHeaders(leftColumnList, rightColumnList) {
+function getHapaxMode(myParams) {
+    if (document.getElementById("hapaxes_lax").checked) {
+        myParams.append("markHapaxes", "lax");
+        return "lax";
+    } else if (document.getElementById("hapaxes_strict").checked) {
+        myParams.append("markHapaxes", "strict");
+        return "strict";
+    } else {
+        return "none";
+    }
+}
+
+function useEdition(editionLabel, myParams, paramLabel) {
+    let useEdition = document.getElementById(editionLabel).checked;
+    if (useEdition) {
+        myParams.append(paramLabel, useEdition);
+    }
+    
+    return useEdition;
+}
+
+function searchInfoGetter(myParams) {
+    let searchDict = {};
+
+    let bookPick = document.getElementById("bookSelectionDropdown").value;
+    searchDict["book"] = bookPick;
+    myParams.append("book", bookPick);
+
+    let chapterList = document.getElementById("chapterSelectionDropdown");
+    let lastChapter = chapterList[chapterList.length - 1].value; // Needed later for the side buttons
+    searchDict["lastChapter"] = lastChapter;
+    let chapterPick = chapterList.value;
+    searchDict["chapter"] = chapterPick;
+    myParams.append("chapter", chapterPick);
+
+    searchDict["useFirstEdition"] = useEdition("useFirstEdition", myParams, "showFirstEd");
+    searchDict["useSecondEdition"] = useEdition("useSecondEdition", myParams, "showSecondEd");
+    searchDict["useGrebrew"] = useEdition("useGrebrew", myParams, "showGrebrew");
+
+    if (bookPick == "Psalms (prose)" || bookPick == "John") {
+        searchDict["useMayhew"] = useEdition(searchDict, "useMayhew", myParams, "showMayhew");
+    } else {
+        searchDict["useMayhew"] = false;
+    }
+
+    if (bookPick == "Genesis") {
+        searchDict["useZeroth"] = useEdition(searchDict, "useZeroth", myParams, "showZerothEd");
+    } else {
+        searchDict["useZeroth"] = false;
+    }
+
+    return searchDict;
+}
+
+function pushEditionToColumn(searchDict, editionLabel, columnList, columnCounter) {
+    let useEdition = searchDict[editionLabel];
+    if (useEdition) {
+        columnCounter ++;
+        columnList.push(editionLabel);
+    }
+    return useEdition;
+}
+
+function columnListPopulator(searchDict) {
+    let numLeftColumns = 0;
+    let numRightColumns = 1; // KJV has to be included
+
+    let leftColumnList = [];
+    let rightColumnList = [];
+
+    let checkFirst = pushEditionToColumn(searchDict, "useFirstEdition", leftColumnList, numLeftColumns);
+    let checkSecond = pushEditionToColumn(searchDict, "useSecondEdition", leftColumnList, numLeftColumns);
+
+    if (checkFirst && checkSecond) {
+        pushEditionToColumn(searchDict, "useMayhew", rightColumnList, numRightColumns);
+        pushEditionToColumn(searchDict, "useZeroth", rightColumnList, numRightColumns);
+    } else {
+        pushEditionToColumn(searchDict, "useMayhew", leftColumnList, numLeftColumns);
+        pushEditionToColumn(searchDict, "useZeroth", leftColumnList, numLeftColumns);
+    }
+
+    rightColumnList.push("KJV");
+
+    if (searchDict["useGrebrew"]) {
+        nameString = ""
+        if (NTBookList.includes(searchDict["book"])) {
+            nameString = "Greek";
+        } else {
+            nameString = "Hebrew";
+        }
+        numRightColumns++;
+        rightColumnList.push(nameString);
+    }
+    return [numLeftColumns, numRightColumns, leftColumnList, rightColumnList];
+}
+
+function populateHeaders(leftColumnList, rightColumnList, allColumnMeasures) {
     var whichColumnCounter = 1;
     var editionHeaders = document.getElementById("editionHeaders");
+    editionHeaders.innerHTML = "";
+    editionHeaders.style.textAlign = "center";
+    editionHeaders.style.gridTemplateColumns = allColumnMeasures;
     for (var i = 0; i < leftColumnList.length; i++) {
         whichColumnCounter = populateCell(whichColumnCounter, leftColumnList[i], editionHeaders, true, false);
     }
@@ -530,6 +629,18 @@ function populateHeaders(leftColumnList, rightColumnList) {
     
     for (var i = 0; i < rightColumnList.length; i++) {
         whichColumnCounter = populateCell(whichColumnCounter, rightColumnList[i], editionHeaders, true, false);
+    }
+}
+
+function textDifferenceHandler(myParams) {
+    if (document.getElementById("include_casing").checked) {
+        myParams.append("markDiffs", "includeCasing");
+        return "includeCasing";
+    } else if (document.getElementById("exclude_casing").checked) {
+        myParams.append("markDiffs", "excludeCasing");
+        return "excludeCasing";
+    } else {
+        return "none";
     }
 }
 
@@ -544,118 +655,43 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
     */
     var url = window.location.href;
 
-
     let params = new URLSearchParams(url.search);
-
 
     var myQueryOptions = document.getElementById("queryOptions");
     for (var i = 0; i < myQueryOptions.length; i++) {
         myQueryOptions[i].defaultChecked = myQueryOptions[i].checked; // Does this do anything?
         }
-    var myBook = document.getElementById("bookSelectionDropdown").value;
-    params.append("book", myBook);
 
-    var chapterList = document.getElementById("chapterSelectionDropdown");
-    var lastChapter = chapterList[chapterList.length - 1].value; // Needed later for the side buttons
+    var searchInfo = searchInfoGetter(params);
+    var myBook = searchInfo["book"];
+    var myChapter = searchInfo["chapter"];
+    var lastChapter = searchInfo["lastChapter"];
     
-    var whichChapter = chapterList.value;
-    params.append("chapter", whichChapter);
+    var useFirstEdition = searchInfo["useFirstEdition"];
+    var useSecondEdition = searchInfo["useSecondEdition"];
+    var useGrebrew = searchInfo["useGrebrew"];
+    var useMayhew = searchInfo["useMayhew"];
+    var useZerothEdition = searchInfo["useZeroth"];
 
-    var leftColumns = 0; 
-    var rightColumns = 1; // KJV has to be included
+    let columnInfoList = columnListPopulator(searchInfo);
+    var numLeftColumns = columnInfoList[0]; 
+    var numRightColumns = columnInfoList[1];
 
-    var useFirstEdition = document.getElementById("include_first_edition").checked;
-    var useSecondEdition = document.getElementById("include_second_edition").checked;
-    var useGrebrew = document.getElementById("includeGrebrew").checked;
+    var leftColumnList = columnInfoList[2];
+    var rightColumnList = columnInfoList[3];
 
-    if (useFirstEdition) {
-        params.append("firstEd", useFirstEdition);
-    }
-    if (useSecondEdition) {
-        params.append("secondEd", useSecondEdition);
-    }
-    if (useGrebrew) {
-        params.append("grebrew", useGrebrew);
-    }
-
-    var hapaxMode = "none";
-    if (document.getElementById("hapaxes_lax").checked) {
-        hapaxMode = "lax";
-    } else if (document.getElementById("hapaxes_strict").checked) {
-        hapaxMode = "strict";
-    }
+    var hapaxMode = getHapaxMode(params);
     
-    var leftColumnList = [];
-    var rightColumnList = [];
-    
-    if (useFirstEdition) {
-        leftColumns++;
-        leftColumnList.push("First Edition");
-    }
-    if (useSecondEdition) {
-        leftColumns++;
-        leftColumnList.push("Second Edition");
-    }
-
-    if (myBook == "Psalms (prose)" || myBook == "John") {
-        var useMayhew = document.getElementById("mayhewCheckbox").checked;
-        params.append("mayhew", useMayhew);
-        if (useMayhew && leftColumns == 2) {
-            rightColumns++;
-            rightColumnList.push("Mayhew");
-        } else if (useMayhew) {
-            leftColumns++;
-            leftColumnList.push("Mayhew");
-        }
-    } else {
-        var useMayhew = false;
-    }
-
-    if (myBook == "Genesis") {
-        var useZerothEdition = document.getElementById("zerothEditionCheckbox").checked;
-        params.append("zerothEd", useZerothEdition);
-        if (useZerothEdition && leftColumns == 2) {
-            rightColumns++;
-            rightColumnList.push("Zeroth Edition");
-        } else if (useZerothEdition) {
-            leftColumns++;
-            leftColumnList.push("Zeroth Edition");
-        }
-    } else {
-        var useZerothEdition = false;
-    }
-
-    rightColumnList.push("KJV");
-
-    if (useGrebrew) {
-        nameString = ""
-        if (NTBookList.includes(myBook)) {
-            nameString = "Greek";
-        } else {
-            nameString = "Hebrew";
-        }
-        rightColumns++;
-        rightColumnList.push(nameString);
-    }
-
-    if (hapaxMode != "none") {
-        params.append("markHapaxes", hapaxMode);
-    }
-    
-    var onLastChapter = (whichChapter == lastChapter);
+    var onLastChapter = (myChapter == lastChapter);
 
     //Highly inelegant, but works
 
     var allColumnMeasures = "";
-    var leftColumnMeasure = ""
-    var rightColumnMeasure = ""
     var verseColumnMeasure = "10%"
 
     if (leftColumns == 1) {
-        leftColumnMeasure = "45%";
         allColumnMeasures += "45% ";
     } else if (leftColumns == 2) {
-        leftColumnMeasure = "22.5%";
         allColumnMeasures += "22.5% ";
         allColumnMeasures += "22.5% ";
     }
@@ -663,7 +699,6 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
     allColumnMeasures += verseColumnMeasure + " ";
     
     if (rightColumns == 3) {
-        rightColumnMeasure = "15%";
         allColumnMeasures += "15% ";
         allColumnMeasures += "15% ";
         allColumnMeasures += "15% ";
@@ -676,23 +711,9 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
         allColumnMeasures += "45% ";
     }
 
-    document.getElementById("editionHeaders").innerHTML = "";
-
-    document.getElementById("editionHeaders").style.gridTemplateColumns = allColumnMeasures;
-
-    document.getElementById("editionHeaders").style.textAlign = "center";
-
+    populateHeaders(leftColumnList, rightColumnList, allColumnMeasures);
     
-    populateHeaders(leftColumnList, rightColumnList);
-    
-    var markTextDifferences = "none";
-    if (document.getElementById("include_casing").checked) {
-        markTextDifferences = "includeCasing";
-        params.append("markDiffs", markTextDifferences);
-    } else if (document.getElementById("exclude_casing").checked) {
-        markTextDifferences = "excludeCasing";
-        params.append("markDiffs", markTextDifferences);
-    }
+    var markTextDifferences = textDifferenceHandler(params);
 
     url = url.split("?")[0] + "?" + params.toString();
     window.history.replaceState({}, '', url);
