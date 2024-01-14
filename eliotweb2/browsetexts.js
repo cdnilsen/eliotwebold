@@ -362,36 +362,93 @@ function printVerses(JSONBlob, chapter, useFirst, useSecond, useMayhew, useZerot
 
     mayhewOnRight = useMayhew && (! mayhewOnLeft);
     zerothOnRight = useZeroth && (! zerothOnLeft);
+
+    document.getElementById("navButtonGrid").innerHTML = "";
+
+    document.getElementById("editionHeaders").innerHTML = "";
+
+    var firstChapterButtonDiv = document.createElement("div");
+    firstChapterButtonDiv.id = "firstChapterButtonDiv";
+    firstChapterButtonDiv.style.gridRow = "1";
+    firstChapterButtonDiv.style.gridColumn = "1/4";
+
+    var prevChapterButtonDiv = document.createElement("div");
+    prevChapterButtonDiv.id = "prevChapterButtonDiv";
+    prevChapterButtonDiv.style.gridRow = "1";
+    prevChapterButtonDiv.style.gridColumn = "2/4";
+
+    var nextChapterButtonDiv = document.createElement("div");
+    nextChapterButtonDiv.id = "nextChapterButtonDiv";
+    nextChapterButtonDiv.style.gridRow = "1";
+    nextChapterButtonDiv.style.gridColumn = "3/4";
+
+    var lastChapterButtonDiv = document.createElement("div");
+    lastChapterButtonDiv.id = "lastChapterButtonDiv";
+    lastChapterButtonDiv.style.gridRow = "1";
+    lastChapterButtonDiv.style.gridColumn = "4/4";
+
     
     if (chapter > 1) {
+        var firstChapterButton = document.createElement("button");
+        firstChapterButton.innerHTML = "↞";
+        firstChapterButton.id = "firstChapterButton";
+
+        firstChapterButton.addEventListener("click", function() {
+            document.getElementById("chapterSelectionDropdown").value = 1;
+            document.getElementById("submitBookQuery").click();
+        });
+
         var prevChapterButton = document.createElement("button");
         prevChapterButton.innerHTML = "←";
         prevChapterButton.id = "prevChapterButton";
-        prevChapterButton.width = "50%";
+
         prevChapterButton.addEventListener("click", function() {
             document.getElementById("chapterSelectionDropdown").value = parseInt(chapter) - 1;
             document.getElementById("submitBookQuery").click();
         });
-        document.getElementById("prevChapter").innerHTML = "";
-        document.getElementById("prevChapter").appendChild(prevChapterButton);
+
     } else {
-        document.getElementById("prevChapter").innerHTML = "";
+        var firstChapterButton = document.createElement("span");
+        var prevChapterButton = document.createElement("span");
     }
 
+    
     if (! isLastChapter) {
         var nextChapterButton = document.createElement("button");
         nextChapterButton.innerHTML = "→";
         nextChapterButton.id = "nextChapterButton";
-        nextChapterButton.width = "50%";
+
         nextChapterButton.addEventListener("click", function() {
             document.getElementById("chapterSelectionDropdown").value = parseInt(chapter) + 1;
             document.getElementById("submitBookQuery").click();
         });
-        document.getElementById("nextChapter").innerHTML = "";
-        document.getElementById("nextChapter").appendChild(nextChapterButton);
+        
+        var lastChapterButton = document.createElement("button");
+        lastChapterButton.innerHTML = "↠";
+        lastChapterButton.id = "lastChapterButton";
+
+        lastChapterButton.addEventListener("click", function() {
+            document.getElementById("chapterSelectionDropdown").value = bookToChapterDict[document.getElementById("bookSelectionDropdown").value];
+            document.getElementById("submitBookQuery").click();
+        });
     } else {
-        document.getElementById("nextChapter").innerHTML = "";
+        var nextChapterButton = document.createElement("span");
+        var lastChapterButton = document.createElement("span");
     }
+
+    firstChapterButtonDiv.appendChild(firstChapterButton);
+    document.getElementById("navButtonGrid").appendChild(firstChapterButtonDiv);
+
+    prevChapterButtonDiv.appendChild(prevChapterButton);
+    document.getElementById("navButtonGrid").appendChild(prevChapterButtonDiv);
+
+    nextChapterButtonDiv.appendChild(nextChapterButton);
+    document.getElementById("navButtonGrid").appendChild(nextChapterButtonDiv);
+
+    lastChapterButtonDiv.appendChild(lastChapterButton);
+    document.getElementById("navButtonGrid").appendChild(lastChapterButtonDiv);
+    /*
+    
    
         
 
@@ -432,6 +489,7 @@ function printVerses(JSONBlob, chapter, useFirst, useSecond, useMayhew, useZerot
             }
         }
     }
+    */
 }
 
 document.getElementById("submitBookQuery").addEventListener("click", function() {
@@ -444,27 +502,10 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
     }
     */
     var url = window.location.href;
-    
 
-    // Clears the columns
-    //document.getElementById("navs").innerHTML = "";
-    document.getElementById("tableHead").innerHTML = "";
-    document.getElementById("colgroup").innerHTML = "";
-    document.getElementById("tableBody").innerHTML = "";
-    
-    //let params = new URLSearchParams(url.search.slice(1));
-    //console.log(params.toString());
-
-    //document.getElementById("navs").appendChild(document.createElement("col")).style.width = "50%";
-    //document.getElementById("navs").appendChild(document.createElement("col")).style.width = "50%";
-    
 
     let params = new URLSearchParams(url.search);
 
-
-    //params.append("hello", "world");
-    
-    
 
     var myQueryOptions = document.getElementById("queryOptions");
     for (var i = 0; i < myQueryOptions.length; i++) {
@@ -584,35 +625,35 @@ document.getElementById("submitBookQuery").addEventListener("click", function() 
         var leftColumn = document.createElement("col");
         leftColumn.style.width = leftColumnMeasure;
         
-        document.getElementById("colgroup").appendChild(leftColumn);
+        //document.getElementById("colgroup").appendChild(leftColumn);
     }
 
-    document.getElementById("colgroup").appendChild(document.createElement("col")).style.width = verseColumnMeasure;
+    //document.getElementById("colgroup").appendChild(document.createElement("col")).style.width = verseColumnMeasure;
     
 
     for (var i = 0; i < rightColumnList.length; i++) {
         var rightColumn = document.createElement("col");
         rightColumn.style.width = rightColumnMeasure;
-        document.getElementById("colgroup").appendChild(rightColumn);
+        //document.getElementById("colgroup").appendChild(rightColumn);
     }
 
     for (var i = 0; i < leftColumnList.length; i++) {
         var leftColumnHeader = document.createElement("th");
         leftColumnHeader.innerHTML = "<u>" + leftColumnList[i] + "</u>";
         leftColumnHeader.style.width = leftColumnMeasure;
-        document.getElementById("tableHead").appendChild(leftColumnHeader);
+        //document.getElementById("tableHead").appendChild(leftColumnHeader);
     }
 
     var verseColumnHeader = document.createElement("th");
     verseColumnHeader.style.width = verseColumnMeasure;
     verseColumnHeader.innerHTML = "<u>Verse</u>";
-    document.getElementById("tableHead").appendChild(verseColumnHeader);
+    //document.getElementById("tableHead").appendChild(verseColumnHeader);
 
     for (var i = 0; i < rightColumnList.length; i++) {
         var rightColumnHeader = document.createElement("th");
         rightColumnHeader.style.width = rightColumnMeasure;
         rightColumnHeader.innerHTML = "<u>" + rightColumnList[i] + "</u>";
-        document.getElementById("tableHead").appendChild(rightColumnHeader);
+        //document.getElementById("tableHead").appendChild(rightColumnHeader);
     }
     
     var markTextDifferences = "none";
