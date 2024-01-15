@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>English Search</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+
+</head>
+<body>
+
+    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center">
+        <label for="searchWordDropdown" style="padding-right:5px">Word</label>
+        <select id="searchWordDropdown" name="searchWordDropdown" style="padding-right:5px">
+            <option id="contains" value="contains">contains: </option>
+            <option id="isExactly" value="exact">is exactly: </option> 
+            <option id="beginsWith" value="starts">begins with: </option>
+            <option id="endsWith" value="ends">ends with: </option>
+        </select>
+
+        <input style="padding-left:5px" type="text" id="search_bar" name="search_query" placeholder="Search...">
+
+    <br>
+    <span id="queryOptions">
+    <div class="checkboxes" id="editionCheckbox">
+        <input type="checkbox" name="useFirstEdition" id="useFirstEdition" checked>
+            <label for="useFirstEdition">First Edition (1661/1663)</label>
+
+        <input type="checkbox" name="useSecondEdition" id="useSecondEdition" checked>
+            <label for="useSecondEdition">Second Edition (1685)</label>
+        
+        <span id="otherEditions">
+        </span>
+
+        <input type="checkbox" name="useGrebrew" id="useGrebrew">
+            <label for="useGrebrew">Show Hebrew/Greek</label>
+    </div>
+
+    <span style="color:red"><b>Highlight</b></span> Differences (only works for 1st vs. 2nd edition for now):
+        <input type="radio" name="show_differences" id="no_show" value = "no" checked>
+            <label for="no_show">No</label>
+
+        <input type="radio" name="show_differences" id="include_casing" value="include_casing">
+            <label for="include_casing">Yes, including letter casing (<i><span style="color:blue"><b>W</b></span>osketomp</i> ≠ <i><span style="color:blue"><b>w</b></span>osketomp</i>) </label>
+
+        <input type="radio" name="show_differences" id="exclude_casing" value = "exclude_casing">
+            <label for="exclude_casing">Yes, ignoring letter casing (<i>Wosketomp</i> = <i>wosketomp</i>)</label>
+
+        <br>
+        <u>Underline</u> Hapaxes (<span style="color: blue"><b>blue</b></span> in Hebrew):
+        <input type="radio" name="show_hapaxes" id="dont_show" value = "no" checked>
+            <label for="dont_show">No</label>
+
+        <input type="radio" name="show_hapaxes" id="hapaxes_strict" value="hapaxes_strict">
+            <label for="hapaxes_strict">Yes, including diacritics (<i><u>mátta</u></i> even if <i>matta</i>)</label>
+
+        <input type="radio" name="show_hapaxes" id="hapaxes_lax" value="hapaxes_lax">
+            <label for="hapaxes_lax">Yes, lax on diacritics (<i>mátta</i> not counted as a hapax if <i>matta</i>)</label>
+        <br>
+
+        <button type="submit" id="submitBookQuery">Submit</button>
+    </span>
+
+    <div class="scrollingGrids">
+        <div class="navGrid" id="navButtonGrid">
+        </div>
+
+        <div class="editionHeaderGrid" id="editionHeaders">
+        </div>
+    </div>
+
+    <div class="verseText" id="textColumns">
+        
+    </div>
+    <br>
+    <br>
+    
+</body>
+<script src="./searchenglish.js"></script>
+<script>
+    function closeIt(){
+        window.location.href = window.location.href.split("?")[0];
+    }
+    window.onbeforeunload = closeIt;
+    window.history.pushState({}, '', window.location.href.split("?")[0]);
+
+</script>
+</html>

@@ -212,11 +212,10 @@ function getInstances(dataJSON, query, searchType, useFirst, useSecond, useMayhe
     let sortedEntries = (result_mode === "frequency") ? dataJSON.toSorted((a, b) => {
         return b["wordCountDiacritics"] - a["wordCountDiacritics"];
     }) : dataJSON.toSorted(Intl.Collator().compare);
-    console.log(result_mode == "frequency");
+
     for (wordDict of sortedEntries) {
         let testWord = wordDict["word"];
         let wordCount = wordDict["wordCountDiacritics"];
-        //console.log(entry);
         if (checkIfWordMatches(testWord, query, searchType, diacritics) && wordCount > 0) {
             matchingWords.push(testWord.replaceAll("8", "ž"));
             matchingWordCounts[testWord] = wordCount;
