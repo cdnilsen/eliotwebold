@@ -82,14 +82,14 @@ function getCiteString(wordVerses, wordCounts) {
     var editionDict = {};
     var allSubCites = [];
     var citeString = "";
-    
+
     var finalDict = {};
     var bookCountDict = {}
     var allBooks = [];
     for (var i = 0; i < wordVerses.length; i++) {
         var cite = wordVerses[i];
         var count = wordCounts[i];
-        
+
         let splitCite = cite.split(".");
         let edition = splitCite[0];
         let book = splitCite[1];
@@ -120,7 +120,7 @@ function getCiteString(wordVerses, wordCounts) {
         var subCiteString = "<sup>";
         var splitCite = subCite.split(".");
         var whichBook = splitCite[0];
-        var verseCite = splitCite[1] + "." + splitCite[2]; 
+        var verseCite = splitCite[1] + "." + splitCite[2];
 
         var threeEditions = (whichBook == "Psalms (prose)" || whichBook == "John" || whichBook == "Genesis");
         var inAllEliot = "α" in subCiteEditions && "β" in subCiteEditions;
@@ -129,7 +129,7 @@ function getCiteString(wordVerses, wordCounts) {
         }
 
         var couldHaveMayhew = (whichBook == "Psalms (prose)" || whichBook == "John");
-        
+
         if (subCiteEditions.includes("α")) {
             subCiteString += "α";
         }
@@ -146,7 +146,7 @@ function getCiteString(wordVerses, wordCounts) {
             subCiteString += "M";
         }
         subCiteString += "</sup>";
-    
+
         if (threeEditions) {
             if (subCiteEditions.length == 3) {
                 subCiteString = "";
@@ -192,7 +192,7 @@ function getCiteString(wordVerses, wordCounts) {
 
     }
     return [finalDict, allBooks, bookCountDict];
-}  
+}
 
 function descendingFrequency(a, b) {
     return b - a;
@@ -207,27 +207,15 @@ function getInstances(dataJSON, query, searchType, useFirst, useSecond, useMayhe
     var bookWordCountDict = {};
 
     var allTokens = 0;
-
     var allKeyList = [];
-    for (entry in dataJSON) {
-        allKeyList.push(entry);
-    }
 
-    if (result_mode == "frequency") {
-        var newList = allKeyList.sort((a, b) => dataJSON[b]["wordCountDiacritics"] - dataJSON[a]["wordCountDiacritics"]);
-    } else {
-        newList = [];
-    }
+    let sortedEntries = (result_mode === "frequency") ? dataJSON.toSorted((a, b) => {
+        return b["wordCountDiacritics"] - a["wordCountDiacritics"];
+    }) : dataJSON.toSorted(Intl.Collator().compare);
     console.log(result_mode == "frequency");
-    for (entry in newList) {
-        var wordCount = dataJSON[entry]["wordCountDiacritics"];
-        //console.log(adtypeof wordCount);
-        //console.log(wordCount);
-    }
-    for (entry in allKeyList) {
-        wordDict = dataJSON[entry];
-        testWord = wordDict["word"];
-        wordCount = wordDict["wordCountDiacritics"];
+    for (wordDict of sortedEntries) {
+        let testWord = wordDict["word"];
+        let wordCount = wordDict["wordCountDiacritics"];
         //console.log(entry);
         if (checkIfWordMatches(testWord, query, searchType, diacritics) && wordCount > 0) {
             matchingWords.push(testWord.replaceAll("8", "ž"));
@@ -245,7 +233,6 @@ function getInstances(dataJSON, query, searchType, useFirst, useSecond, useMayhe
         }
     }
 
-    matchingWords = matchingWords.sort(Intl.Collator().compare);
     document.getElementById("results").innerHTML += "<h2><u>" + matchingWords.length.toString() + "</u> distinct strings found, representing <u>" + allTokens.toString() + "</u> distinct tokens<br>";
 
     for (let i = 0; i < matchingWords.length; i++) {
@@ -253,7 +240,7 @@ function getInstances(dataJSON, query, searchType, useFirst, useSecond, useMayhe
         let count = "";
         try {
             count = " (" + matchingWordCounts[word].toString() + ")";
-        } catch (error){
+        } catch (error) {
             console.log(word);
             count = " (???)";
         }
@@ -270,14 +257,14 @@ function getInstances(dataJSON, query, searchType, useFirst, useSecond, useMayhe
             citeDiv.innerHTML = "\t<b>" + book + "</b> (" + bookWordCount.toString() + "): " + citeString;
             citeDiv.style.textIndent = "1em";
             document.getElementById("results").appendChild(citeDiv);
-            
+
         }
         document.getElementById("results").innerHTML += "<br>";
     }
 }
 
-document.getElementById("submit").addEventListener("click", function() {
-    var searchType= document.getElementById("searchWordDropdown").value;
+document.getElementById("submit").addEventListener("click", function () {
+    var searchType = document.getElementById("searchWordDropdown").value;
 
     var diacriticMode = "";
     if (document.getElementById("diacritics_strict").checked) {
@@ -303,11 +290,11 @@ document.getElementById("submit").addEventListener("click", function() {
     var query = document.getElementById("search_bar").value;
 
     fetch('./wordcounts.json')
-        .then(res =>  {
+        .then(res => {
             return res.json();
         })
         .then((data) => {
             document.getElementById("results").innerHTML = "";
             getInstances(data, query, searchType, useFirst, useSecond, useMayhew, diacriticMode, result_mode);
         })
-    })
+})
