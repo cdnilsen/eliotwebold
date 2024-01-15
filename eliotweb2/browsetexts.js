@@ -717,12 +717,7 @@ function textDifferenceHandler(myParams) {
 }
 
 document.getElementById("submitBookQuery").addEventListener("click", function() {
-    /*if (window.location.href.includes("?")) {
-        var url = window.location.href.split("?")[0];
-    } else {
-        var url = window.location.href;
-    }
-    */
+
     window.scrollTo(0, 0);
     var url = window.location.href;
 
