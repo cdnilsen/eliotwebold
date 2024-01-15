@@ -194,7 +194,11 @@ function getCiteString(wordVerses, wordCounts) {
     return [finalDict, allBooks, bookCountDict];
 }  
 
-function getInstances(dataJSON, query, searchType, useFirst, useSecond, useMayhew, diacritics) {
+function descendingFrequency(a, b) {
+    return b - a;
+}
+
+function getInstances(dataJSON, query, searchType, useFirst, useSecond, useMayhew, diacritics, result_mode) {
     var matchingWords = [];
     var matchingWordCounts = {};
     var wordCiteDict = {};
@@ -203,11 +207,28 @@ function getInstances(dataJSON, query, searchType, useFirst, useSecond, useMayhe
     var bookWordCountDict = {};
 
     var allTokens = 0;
-    //myJSON = JSON.parse(dataJSON);
+
+    var allKeyList = [];
     for (entry in dataJSON) {
+        allKeyList.push(entry);
+    }
+
+    if (result_mode == "frequency") {
+        var newList = allKeyList.sort((a, b) => dataJSON[b]["wordCountDiacritics"] - dataJSON[a]["wordCountDiacritics"]);
+    } else {
+        newList = [];
+    }
+    console.log(result_mode == "frequency");
+    for (entry in newList) {
+        var wordCount = dataJSON[entry]["wordCountDiacritics"];
+        //console.log(adtypeof wordCount);
+        //console.log(wordCount);
+    }
+    for (entry in allKeyList) {
         wordDict = dataJSON[entry];
         testWord = wordDict["word"];
         wordCount = wordDict["wordCountDiacritics"];
+        //console.log(entry);
         if (checkIfWordMatches(testWord, query, searchType, diacritics) && wordCount > 0) {
             matchingWords.push(testWord.replaceAll("8", "ž"));
             matchingWordCounts[testWord] = wordCount;
@@ -226,6 +247,7 @@ function getInstances(dataJSON, query, searchType, useFirst, useSecond, useMayhe
 
     matchingWords = matchingWords.sort(Intl.Collator().compare);
     document.getElementById("results").innerHTML += "<h2><u>" + matchingWords.length.toString() + "</u> distinct strings found, representing <u>" + allTokens.toString() + "</u> distinct tokens<br>";
+
     for (let i = 0; i < matchingWords.length; i++) {
         let word = matchingWords[i].replaceAll("ž", "8");
         let count = "";
@@ -269,6 +291,15 @@ document.getElementById("submit").addEventListener("click", function() {
     var useMayhew = document.getElementById("include_mayhew").checked;
     //var useZeroth = document.getElementById("include_zeroth_edition").checked;
 
+    var result_mode = "";
+    if (document.getElementById("show_verses").checked) {
+        result_mode = "verses";
+    } else if (document.getElementById("alphabetical_list").checked) {
+        result_mode = "alphabetical";
+    } else if (document.getElementById("show_frequency").checked) {
+        result_mode = "frequency";
+    }
+
     var query = document.getElementById("search_bar").value;
 
     fetch('./wordcounts.json')
@@ -277,6 +308,6 @@ document.getElementById("submit").addEventListener("click", function() {
         })
         .then((data) => {
             document.getElementById("results").innerHTML = "";
-            getInstances(data, query, searchType, useFirst, useSecond, useMayhew, diacriticMode);
+            getInstances(data, query, searchType, useFirst, useSecond, useMayhew, diacriticMode, result_mode);
         })
     })
