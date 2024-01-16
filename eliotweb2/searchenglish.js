@@ -73,48 +73,96 @@ const allBookList = [
     "Revelation"
 ];
 
-function readTextFile(book, edition) {
-    var lineArray = [];
-    $.get("./texts/" + book + "." + edition + ".txt", function(data) {
-    }).done(function(data) {
-        console.log("Success");
-        var splitLines = data.split("\n");
-        for (let i = 0; i < splitLines.length; i++) {
-            console.log(typeof splitLines[i]);
-            lineArray.push(splitLines[i]);
+async function textFilePromise(fileName) {
+    return fetch(fileName).then(response => response.text());
+}
+
+async function readTextFile(book, edition) {
+    let fileName = "./texts/" + book + "." + edition + ".txt";
+    let text = await textFilePromise(fileName);
+    let lines = text.split("\n");
+    return lines;
+}
+
+function jsonExists(fileName) {
+    return fetch(fileName).then(response => response.ok);
+}
+
+async function hasJSON(book) {
+    let fileName = "./textJSON/" + book + ".json";
+    return await jsonExists(fileName);
+}
+
+function findWordInKJV(word, lines) {
+    let wordCount = 0;
+    let matchingVerses = [];
+    for (let i = 0; i < lines.length; i++) {
+        let verseWords = lines[i].split(" ");
+        let verseAddress = verseWords[0];
+        for (let j = 1; j < verseWords.length; j++) {
+            if (verseWords[j] == word) {
+                wordCount++;
+                matchingVerses.push(verseAddress);
+            }
         }
-    }).fail(function() {
-        console.log("Error");
-    });
-    return lineArray;
-}
-
-
-function seeIfBookHasJSON(book) {
-    $(document).ready(function(){
-        $.getJSON("./textJSON/" + book + ".json", function(data){
-            console.log(book + ": true");
-        }).fail(function(){
-            console.log(book + ": false");
-        });
-    });
-}
-
-document.getElementById("submitBookQuery").addEventListener("click", function () {
-    
-    //var query = document.getElementById("search_bar").value;
-
-    var exodusKJV = readTextFile("Exodus", "KJV");
-    console.log(exodusKJV instanceof Array);
-
-    exodusKJV = Array.from(exodusKJV);
-    console.log(exodusKJV instanceof Array);
-    
-    console.log(exodusKJV.length)
-    for (let i = 0; i < exodusKJV.length; i++) {
-        console.log(exodusKJV[i]);
     }
+    return matchingVerses;
+}
 
+async function getAllJSONs() {
+    let bookJSONList = [];
+    let bookNameList = [];
+    for (let i = 0; i < allBookList.length; i++) {
+        let hasJSONBool = await hasJSON(allBookList[i]);
+        if (hasJSONBool && allBookList[i] != "Matthew") {
+            console.log(allBookList[i]);
+            bookNameList.push(allBookList[i]);
+            let fileName = "./textJSON/" + allBookList[i] + ".json";
+            let bookJSON = await fetch(fileName).then(response => response.json());
+            if (bookJSON == null) {
+                console.log("null json");
+            } else {
+                bookJSONList.push(bookJSON);
+            }
+        }
+    }
+    console.log(bookNameList);
+    console.log(bookJSONList);
+    return [bookNameList, bookJSONList];
+}
+
+async function findVersesWithWord(word) {
+    let allMatchingBooks = await getAllJSONs();
+    return allMatchingBooks[0];
+    let matchingVerses = [];
+    for (let i = 0; i < allMatchingBooks[0].length; i++) {
+        let bookLines = await readTextFile(allMatchingBooks[0][i], "KJV");
+        let matchingVersesForBook = findWordInKJV(word, bookLines);
+        matchingVerses.push(matchingVersesForBook);
+    }
+    console.log(matchingVerses);
+    
+}
+
+document.getElementById("submitBookQuery").addEventListener("click", async function () {
+    
+    document.getElementById("verseText").innerHTML = "";
+    let searchWord = document.getElementById("search_bar").value;
+    console.log(await findVersesWithWord(searchWord));
+    /*
+    for (i = 0; i < matchingVerses.length; i++) {
+        for (j = 0; j < matchingVerses[i].length; j++) {
+            let verseText = matchingVerses[i][j];
+            let verseTextElement = document.createElement("p");
+            verseTextElement.innerHTML = verseText;
+            document.getElementById("verseText").appendChild(verseTextElement);
+        }
+    }
+    */
+
+
+    
+    /*
     fetch('./wordcounts.json')
         .then(res => {
             return res.json();
@@ -123,4 +171,5 @@ document.getElementById("submitBookQuery").addEventListener("click", function ()
             //document.getElementById("results").innerHTML = "";
             //getInstances(data, query, searchType, useFirst, useSecond, useMayhew, diacriticMode, result_mode);
         })
+        */
 })

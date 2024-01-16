@@ -28,11 +28,11 @@ function cleanDiacritics(word) {
         "ũ": "u",
         "ẽ": "e",
         "ĩ": "i",
-        "ā": "a",
-        "ē": "e",
-        "ī": "i",
-        "ō": "o",
-        "ū": "u"
+        "ā": "an",
+        "ē": "en",
+        "ī": "in",
+        "ō": "on",
+        "ū": "un"
     }
 
     var cleanedWord = "";
